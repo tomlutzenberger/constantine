@@ -1,0 +1,29 @@
+{
+    "name": "tomlutzenberger/constantine",
+    "description": "",
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Lutzenberger",
+            "email": "lutzenbergerthomas@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/tomlutzenberger/constantine",
+        "issues": "https://github.com/tomlutzenberger/constantine/issues"
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TomLutzenberger\\Constantine\\": "src/"
+        }
+    }
+}
