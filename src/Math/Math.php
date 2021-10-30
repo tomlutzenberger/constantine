@@ -8,7 +8,7 @@
 namespace TomLutzenberger\Constantine\Math;
 
 /**
- * Mathematical constants
+ * Collection of Mathematical constants
  *
  * For more basic constants like PI, Euler or SQRT(2):
  *
