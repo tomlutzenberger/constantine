@@ -16,7 +16,7 @@
         "issues": "https://github.com/tomlutzenberger/constantine/issues"
     },
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
