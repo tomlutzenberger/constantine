@@ -8,7 +8,7 @@
 namespace TomLutzenberger\Constantine\I18N;
 
 /**
- * Collection of official ISO4217 currencies
+ * Collection of official ISO 4217 currencies
  *
  * @see https://en.wikipedia.org/wiki/ISO_4217
  *
@@ -18,7 +18,7 @@ namespace TomLutzenberger\Constantine\I18N;
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Currency
+class Iso4217
 {
 
     /**
@@ -27,7 +27,7 @@ class Currency
      * Countries:
      * - United Arab Emirates
      */
-    public const ISO_CODE_UNITED_ARAB_EMIRATES_DIRHAM = 'AED';
+    public const ISO_CODE_AED = 'AED';
 
     /**
      * ISO-4271 Number for the United Arab Emirates dirham
@@ -56,7 +56,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
      * @var string
      */
-    public const NAME_AED = 'Dirham';
+    public const MAJOR_UNIT_NAME_AED = 'Dirham';
 
     /**
      * Short name of minor unit for currency AED
@@ -72,7 +72,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
      * @var string
      */
-    public const SYMBOL_AED = 'د.إ';
+    public const MAJOR_UNIT_SYMBOL_AED = 'د.إ';
 
     /**
      * Symbol of minor unit for currency AED
@@ -88,7 +88,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AED = 1/100;
+    public const MAJOR_MINOR_RATIO_AED = 1/100;
 
 
 
@@ -98,7 +98,7 @@ class Currency
      * Countries:
      * - Afghanistan
      */
-    public const ISO_CODE_AFGHAN_AFGHANI = 'AFN';
+    public const ISO_CODE_AFN = 'AFN';
 
     /**
      * ISO-4271 Number for the Afghan afghani
@@ -127,7 +127,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
      * @var string
      */
-    public const NAME_AFN = 'Afghani';
+    public const MAJOR_UNIT_NAME_AFN = 'Afghani';
 
     /**
      * Short name of minor unit for currency AFN
@@ -144,7 +144,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
      * @var string
      */
-    public const SYMBOL_AFN = '؋';
+    public const MAJOR_UNIT_SYMBOL_AFN = '؋';
 
     /**
      * Symbol of minor unit for currency AFN
@@ -162,7 +162,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AFN = 1/100;
+    public const MAJOR_MINOR_RATIO_AFN = 1/100;
 
 
 
@@ -172,7 +172,7 @@ class Currency
      * Countries:
      * - Albania
      */
-    public const ISO_CODE_ALBANIAN_LEK = 'ALL';
+    public const ISO_CODE_ALL = 'ALL';
 
     /**
      * ISO-4271 Number for the Albanian lek
@@ -201,7 +201,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Albanian_lek
      * @var string
      */
-    public const NAME_ALL = 'lek';
+    public const MAJOR_UNIT_NAME_ALL = 'lek';
 
     /**
      * Short name of minor unit for currency ALL
@@ -217,7 +217,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Albanian_lek
      * @var string
      */
-    public const SYMBOL_ALL = 'L';
+    public const MAJOR_UNIT_SYMBOL_ALL = 'L';
 
     /**
      * Symbol of minor unit for currency ALL
@@ -234,7 +234,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Albanian_lek
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ALL = 1/100;
+    public const MAJOR_MINOR_RATIO_ALL = 1/100;
 
 
 
@@ -244,7 +244,7 @@ class Currency
      * Countries:
      * - Armenia
      */
-    public const ISO_CODE_ARMENIAN_DRAM = 'AMD';
+    public const ISO_CODE_AMD = 'AMD';
 
     /**
      * ISO-4271 Number for the Armenian dram
@@ -273,7 +273,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Armenian_dram
      * @var string
      */
-    public const NAME_AMD = 'dram';
+    public const MAJOR_UNIT_NAME_AMD = 'dram';
 
     /**
      * Short name of minor unit for currency AMD
@@ -289,7 +289,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Armenian_dram
      * @var string
      */
-    public const SYMBOL_AMD = '֏';
+    public const MAJOR_UNIT_SYMBOL_AMD = '֏';
 
     /**
      * Symbol of minor unit for currency AMD
@@ -306,7 +306,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Armenian_dram
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AMD = 1/100;
+    public const MAJOR_MINOR_RATIO_AMD = 1/100;
 
 
 
@@ -317,7 +317,7 @@ class Currency
      * - Curaçao (CW)
      * - Sint Maarten (SX)
      */
-    public const ISO_CODE_NETHERLANDS_ANTILLEAN_GUILDER = 'ANG';
+    public const ISO_CODE_ANG = 'ANG';
 
     /**
      * ISO-4271 Number for the Netherlands Antillean guilder
@@ -346,7 +346,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
      * @var string
      */
-    public const NAME_ANG = 'guilder';
+    public const MAJOR_UNIT_NAME_ANG = 'guilder';
 
     /**
      * Short name of minor unit for currency ANG
@@ -362,7 +362,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
      * @var string
      */
-    public const SYMBOL_ANG = 'ƒ';
+    public const MAJOR_UNIT_SYMBOL_ANG = 'ƒ';
 
     /**
      * Symbol of minor unit for currency ANG
@@ -379,7 +379,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ANG = 1/100;
+    public const MAJOR_MINOR_RATIO_ANG = 1/100;
 
 
 
@@ -389,7 +389,7 @@ class Currency
      * Countries:
      * - Angola
      */
-    public const ISO_CODE_ANGOLAN_KWANZA = 'AOA';
+    public const ISO_CODE_AOA = 'AOA';
 
     /**
      * ISO-4271 Number for the Angolan kwanza
@@ -418,7 +418,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
      * @var string
      */
-    public const NAME_AOA = 'kwanza';
+    public const MAJOR_UNIT_NAME_AOA = 'kwanza';
 
     /**
      * Short name of minor unit for currency AOA
@@ -434,7 +434,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
      * @var string
      */
-    public const SYMBOL_AOA = 'Kz';
+    public const MAJOR_UNIT_SYMBOL_AOA = 'Kz';
 
     /**
      * Symbol of minor unit for currency AOA
@@ -451,7 +451,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AOA = 1/100;
+    public const MAJOR_MINOR_RATIO_AOA = 1/100;
 
 
 
@@ -461,7 +461,7 @@ class Currency
      * Countries:
      * - Argentina
      */
-    public const ISO_CODE_ARGENTINE_PESO = 'ARS';
+    public const ISO_CODE_ARS = 'ARS';
 
     /**
      * ISO-4271 Number for the Argentine peso
@@ -490,7 +490,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Argentine_peso
      * @var string
      */
-    public const NAME_ARS = 'peso';
+    public const MAJOR_UNIT_NAME_ARS = 'peso';
 
     /**
      * Short name of minor unit for currency ARS
@@ -506,7 +506,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Argentine_peso
      * @var string
      */
-    public const SYMBOL_ARS = '$';
+    public const MAJOR_UNIT_SYMBOL_ARS = '$';
 
     /**
      * Symbol of minor unit for currency ARS
@@ -522,7 +522,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Argentine_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ARS = 1/100;
+    public const MAJOR_MINOR_RATIO_ARS = 1/100;
 
 
 
@@ -539,7 +539,7 @@ class Currency
      * - Norfolk Island (NF)
      * - Tuvalu (TV)
      */
-    public const ISO_CODE_AUSTRALIAN_DOLLAR = 'AUD';
+    public const ISO_CODE_AUD = 'AUD';
 
     /**
      * ISO-4271 Number for the Australian dollar
@@ -568,7 +568,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Australian_dollar
      * @var string
      */
-    public const NAME_AUD = 'Australian dollar';
+    public const MAJOR_UNIT_NAME_AUD = 'Australian dollar';
 
     /**
      * Short name of minor unit for currency AUD
@@ -584,7 +584,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Australian_dollar
      * @var string
      */
-    public const SYMBOL_AUD = '$';
+    public const MAJOR_UNIT_SYMBOL_AUD = '$';
 
     /**
      * Symbol of minor unit for currency AUD
@@ -600,7 +600,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Australian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AUD = 1/100;
+    public const MAJOR_MINOR_RATIO_AUD = 1/100;
 
 
 
@@ -610,7 +610,7 @@ class Currency
      * Countries:
      * - Aruba
      */
-    public const ISO_CODE_ARUBAN_FLORIN = 'AWG';
+    public const ISO_CODE_AWG = 'AWG';
 
     /**
      * ISO-4271 Number for the Aruban florin
@@ -639,7 +639,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Aruban_florin
      * @var string
      */
-    public const NAME_AWG = 'florin';
+    public const MAJOR_UNIT_NAME_AWG = 'florin';
 
     /**
      * Short name of minor unit for currency AWG
@@ -655,7 +655,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Aruban_florin
      * @var string
      */
-    public const SYMBOL_AWG = 'ƒ';
+    public const MAJOR_UNIT_SYMBOL_AWG = 'ƒ';
 
     /**
      * Symbol of minor unit for currency AWG
@@ -671,7 +671,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Aruban_florin
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AWG = 1/100;
+    public const MAJOR_MINOR_RATIO_AWG = 1/100;
 
 
 
@@ -681,7 +681,7 @@ class Currency
      * Countries:
      * - Azerbaijan
      */
-    public const ISO_CODE_AZERBAIJANI_MANAT = 'AZN';
+    public const ISO_CODE_AZN = 'AZN';
 
     /**
      * ISO-4271 Number for the Azerbaijani manat
@@ -710,7 +710,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
      * @var string
      */
-    public const NAME_AZN = 'manat';
+    public const MAJOR_UNIT_NAME_AZN = 'manat';
 
     /**
      * Short name of minor unit for currency AZN
@@ -726,7 +726,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
      * @var string
      */
-    public const SYMBOL_AZN = '₼';
+    public const MAJOR_UNIT_SYMBOL_AZN = '₼';
 
     /**
      * Symbol of minor unit for currency AZN
@@ -742,7 +742,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
      * @var float
      */
-    public const MINOR_UNIT_RATIO_AZN = 1/100;
+    public const MAJOR_MINOR_RATIO_AZN = 1/100;
 
 
 
@@ -752,7 +752,7 @@ class Currency
      * Countries:
      * - Bosnia and Herzegovina
      */
-    public const ISO_CODE_BOSNIA_AND_HERZEGOVINA_CONVERTIBLE_MARK = 'BAM';
+    public const ISO_CODE_BAM = 'BAM';
 
     /**
      * ISO-4271 Number for the Bosnia and Herzegovina convertible mark
@@ -781,7 +781,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
      * @var string
      */
-    public const NAME_BAM = 'mark';
+    public const MAJOR_UNIT_NAME_BAM = 'mark';
 
     /**
      * Short name of minor unit for currency BAM
@@ -797,7 +797,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
      * @var string
      */
-    public const SYMBOL_BAM = 'KM';
+    public const MAJOR_UNIT_SYMBOL_BAM = 'KM';
 
     /**
      * Symbol of minor unit for currency BAM
@@ -813,7 +813,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BAM = 1/100;
+    public const MAJOR_MINOR_RATIO_BAM = 1/100;
 
 
 
@@ -823,7 +823,7 @@ class Currency
      * Countries:
      * - Barbados
      */
-    public const ISO_CODE_BARBADOS_DOLLAR = 'BBD';
+    public const ISO_CODE_BBD = 'BBD';
 
     /**
      * ISO-4271 Number for the Barbados dollar
@@ -852,7 +852,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
      * @var string
      */
-    public const NAME_BBD = 'dollar';
+    public const MAJOR_UNIT_NAME_BBD = 'dollar';
 
     /**
      * Short name of minor unit for currency BBD
@@ -868,7 +868,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
      * @var string
      */
-    public const SYMBOL_BBD = '$';
+    public const MAJOR_UNIT_SYMBOL_BBD = '$';
 
     /**
      * Symbol of minor unit for currency BBD
@@ -884,7 +884,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BBD = 1/100;
+    public const MAJOR_MINOR_RATIO_BBD = 1/100;
 
 
 
@@ -894,7 +894,7 @@ class Currency
      * Countries:
      * - Bangladesh
      */
-    public const ISO_CODE_BANGLADESHI_TAKA = 'BDT';
+    public const ISO_CODE_BDT = 'BDT';
 
     /**
      * ISO-4271 Number for the Bangladeshi taka
@@ -923,7 +923,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
      * @var string
      */
-    public const NAME_BDT = 'taka';
+    public const MAJOR_UNIT_NAME_BDT = 'taka';
 
     /**
      * Short name of minor unit for currency BDT
@@ -939,7 +939,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
      * @var string
      */
-    public const SYMBOL_BDT = '৳';
+    public const MAJOR_UNIT_SYMBOL_BDT = '৳';
 
     /**
      * Symbol of minor unit for currency BDT
@@ -955,7 +955,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BDT = 1/100;
+    public const MAJOR_MINOR_RATIO_BDT = 1/100;
 
 
 
@@ -965,7 +965,7 @@ class Currency
      * Countries:
      * - Bulgaria
      */
-    public const ISO_CODE_BULGARIAN_LEV = 'BGN';
+    public const ISO_CODE_BGN = 'BGN';
 
     /**
      * ISO-4271 Number for the Bulgarian lev
@@ -994,7 +994,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
      * @var string
      */
-    public const NAME_BGN = 'lev';
+    public const MAJOR_UNIT_NAME_BGN = 'lev';
 
     /**
      * Short name of minor unit for currency BGN
@@ -1010,7 +1010,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
      * @var string
      */
-    public const SYMBOL_BGN = 'лв';
+    public const MAJOR_UNIT_SYMBOL_BGN = 'лв';
 
     /**
      * Symbol of minor unit for currency BGN
@@ -1026,7 +1026,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BGN = 1/100;
+    public const MAJOR_MINOR_RATIO_BGN = 1/100;
 
 
 
@@ -1036,7 +1036,7 @@ class Currency
      * Countries:
      * - Bahrain
      */
-    public const ISO_CODE_BAHRAINI_DINAR = 'BHD';
+    public const ISO_CODE_BHD = 'BHD';
 
     /**
      * ISO-4271 Number for the Bahraini dinar
@@ -1065,7 +1065,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
      * @var string
      */
-    public const NAME_BHD = 'dinar';
+    public const MAJOR_UNIT_NAME_BHD = 'dinar';
 
     /**
      * Short name of minor unit for currency BHD
@@ -1081,7 +1081,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
      * @var string
      */
-    public const SYMBOL_BHD = '.د.ب';
+    public const MAJOR_UNIT_SYMBOL_BHD = '.د.ب';
 
     /**
      * Symbol of minor unit for currency BHD
@@ -1097,7 +1097,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BHD = 1/1000;
+    public const MAJOR_MINOR_RATIO_BHD = 1/1000;
 
 
 
@@ -1107,7 +1107,7 @@ class Currency
      * Countries:
      * - Burundi
      */
-    public const ISO_CODE_BURUNDIAN_FRANC = 'BIF';
+    public const ISO_CODE_BIF = 'BIF';
 
     /**
      * ISO-4271 Number for the Burundian franc
@@ -1136,7 +1136,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Burundian_franc
      * @var string
      */
-    public const NAME_BIF = 'franc';
+    public const MAJOR_UNIT_NAME_BIF = 'franc';
 
     /**
      * Short name of minor unit for currency BIF
@@ -1152,7 +1152,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Burundian_franc
      * @var string
      */
-    public const SYMBOL_BIF = 'FBu';
+    public const MAJOR_UNIT_SYMBOL_BIF = 'FBu';
 
     /**
      * Symbol of minor unit for currency BIF
@@ -1168,7 +1168,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Burundian_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BIF = 1/100;
+    public const MAJOR_MINOR_RATIO_BIF = 1/100;
 
 
 
@@ -1178,7 +1178,7 @@ class Currency
      * Countries:
      * - Bermuda
      */
-    public const ISO_CODE_BERMUDIAN_DOLLAR = 'BMD';
+    public const ISO_CODE_BMD = 'BMD';
 
     /**
      * ISO-4271 Number for the Bermudian dollar
@@ -1207,7 +1207,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
      * @var string
      */
-    public const NAME_BMD = 'Bermudian dollar';
+    public const MAJOR_UNIT_NAME_BMD = 'Bermudian dollar';
 
     /**
      * Short name of minor unit for currency BMD
@@ -1223,7 +1223,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
      * @var string
      */
-    public const SYMBOL_BMD = '$';
+    public const MAJOR_UNIT_SYMBOL_BMD = '$';
 
     /**
      * Symbol of minor unit for currency BMD
@@ -1239,7 +1239,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BMD = 1/100;
+    public const MAJOR_MINOR_RATIO_BMD = 1/100;
 
 
 
@@ -1249,7 +1249,7 @@ class Currency
      * Countries:
      * - Brunei
      */
-    public const ISO_CODE_BRUNEI_DOLLAR = 'BND';
+    public const ISO_CODE_BND = 'BND';
 
     /**
      * ISO-4271 Number for the Brunei dollar
@@ -1278,7 +1278,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
      * @var string
      */
-    public const NAME_BND = 'Brunei dollar';
+    public const MAJOR_UNIT_NAME_BND = 'Brunei dollar';
 
     /**
      * Short name of minor unit for currency BND
@@ -1294,7 +1294,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
      * @var string
      */
-    public const SYMBOL_BND = 'B$';
+    public const MAJOR_UNIT_SYMBOL_BND = 'B$';
 
     /**
      * Symbol of minor unit for currency BND
@@ -1310,7 +1310,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BND = 1/100;
+    public const MAJOR_MINOR_RATIO_BND = 1/100;
 
 
 
@@ -1320,7 +1320,7 @@ class Currency
      * Countries:
      * - Bolivia
      */
-    public const ISO_CODE_BOLIVIANO = 'BOB';
+    public const ISO_CODE_BOB = 'BOB';
 
     /**
      * ISO-4271 Number for the Boliviano
@@ -1349,7 +1349,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
      * @var string
      */
-    public const NAME_BOB = 'boliviano';
+    public const MAJOR_UNIT_NAME_BOB = 'boliviano';
 
     /**
      * Short name of minor unit for currency BOB
@@ -1365,7 +1365,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
      * @var string
      */
-    public const SYMBOL_BOB = 'Bs';
+    public const MAJOR_UNIT_SYMBOL_BOB = 'Bs';
 
     /**
      * Symbol of minor unit for currency BOB
@@ -1381,7 +1381,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BOB = 1/100;
+    public const MAJOR_MINOR_RATIO_BOB = 1/100;
 
 
 
@@ -1391,7 +1391,7 @@ class Currency
      * Countries:
      * - Brazil
      */
-    public const ISO_CODE_BRAZILIAN_REAL = 'BRL';
+    public const ISO_CODE_BRL = 'BRL';
 
     /**
      * ISO-4271 Number for the Brazilian real
@@ -1420,7 +1420,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Brazilian_real
      * @var string
      */
-    public const NAME_BRL = 'real';
+    public const MAJOR_UNIT_NAME_BRL = 'real';
 
     /**
      * Short name of minor unit for currency BRL
@@ -1436,7 +1436,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Brazilian_real
      * @var string
      */
-    public const SYMBOL_BRL = 'R$';
+    public const MAJOR_UNIT_SYMBOL_BRL = 'R$';
 
     /**
      * Symbol of minor unit for currency BRL
@@ -1452,7 +1452,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Brazilian_real
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BRL = 1/100;
+    public const MAJOR_MINOR_RATIO_BRL = 1/100;
 
 
 
@@ -1462,7 +1462,7 @@ class Currency
      * Countries:
      * - Bahamas
      */
-    public const ISO_CODE_BAHAMIAN_DOLLAR = 'BSD';
+    public const ISO_CODE_BSD = 'BSD';
 
     /**
      * ISO-4271 Number for the Bahamian dollar
@@ -1491,7 +1491,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
      * @var string
      */
-    public const NAME_BSD = 'dollar';
+    public const MAJOR_UNIT_NAME_BSD = 'dollar';
 
     /**
      * Short name of minor unit for currency BSD
@@ -1507,7 +1507,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
      * @var string
      */
-    public const SYMBOL_BSD = 'B$';
+    public const MAJOR_UNIT_SYMBOL_BSD = 'B$';
 
     /**
      * Symbol of minor unit for currency BSD
@@ -1523,7 +1523,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BSD = 1/100;
+    public const MAJOR_MINOR_RATIO_BSD = 1/100;
 
 
 
@@ -1533,7 +1533,7 @@ class Currency
      * Countries:
      * - Bhutan
      */
-    public const ISO_CODE_BHUTANESE_NGULTRUM = 'BTN';
+    public const ISO_CODE_BTN = 'BTN';
 
     /**
      * ISO-4271 Number for the Bhutanese ngultrum
@@ -1562,7 +1562,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
      * @var string
      */
-    public const NAME_BTN = 'ngultrum';
+    public const MAJOR_UNIT_NAME_BTN = 'ngultrum';
 
     /**
      * Short name of minor unit for currency BTN
@@ -1578,7 +1578,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
      * @var string
      */
-    public const SYMBOL_BTN = 'Nu.';
+    public const MAJOR_UNIT_SYMBOL_BTN = 'Nu.';
 
     /**
      * Symbol of minor unit for currency BTN
@@ -1594,7 +1594,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BTN = 1/100;
+    public const MAJOR_MINOR_RATIO_BTN = 1/100;
 
 
 
@@ -1604,7 +1604,7 @@ class Currency
      * Countries:
      * - Botswana
      */
-    public const ISO_CODE_BOTSWANA_PULA = 'BWP';
+    public const ISO_CODE_BWP = 'BWP';
 
     /**
      * ISO-4271 Number for the Botswana pula
@@ -1633,7 +1633,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Botswana_pula
      * @var string
      */
-    public const NAME_BWP = 'pula';
+    public const MAJOR_UNIT_NAME_BWP = 'pula';
 
     /**
      * Short name of minor unit for currency BWP
@@ -1649,7 +1649,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Botswana_pula
      * @var string
      */
-    public const SYMBOL_BWP = 'P';
+    public const MAJOR_UNIT_SYMBOL_BWP = 'P';
 
     /**
      * Symbol of minor unit for currency BWP
@@ -1665,7 +1665,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Botswana_pula
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BWP = 1/100;
+    public const MAJOR_MINOR_RATIO_BWP = 1/100;
 
 
 
@@ -1675,7 +1675,7 @@ class Currency
      * Countries:
      * - Belarus
      */
-    public const ISO_CODE_BELARUSIAN_RUBLE = 'BYN';
+    public const ISO_CODE_BYN = 'BYN';
 
     /**
      * ISO-4271 Number for the Belarusian ruble
@@ -1704,7 +1704,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
      * @var string
      */
-    public const NAME_BYN = 'ruble';
+    public const MAJOR_UNIT_NAME_BYN = 'ruble';
 
     /**
      * Short name of minor unit for currency BYN
@@ -1720,7 +1720,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
      * @var string
      */
-    public const SYMBOL_BYN = 'Br';
+    public const MAJOR_UNIT_SYMBOL_BYN = 'Br';
 
     /**
      * Symbol of minor unit for currency BYN
@@ -1736,7 +1736,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BYN = 1/100;
+    public const MAJOR_MINOR_RATIO_BYN = 1/100;
 
 
 
@@ -1746,7 +1746,7 @@ class Currency
      * Countries:
      * - Belize
      */
-    public const ISO_CODE_BELIZE_DOLLAR = 'BZD';
+    public const ISO_CODE_BZD = 'BZD';
 
     /**
      * ISO-4271 Number for the Belize dollar
@@ -1775,7 +1775,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Belize_dollar
      * @var string
      */
-    public const NAME_BZD = 'Belize dollar';
+    public const MAJOR_UNIT_NAME_BZD = 'Belize dollar';
 
     /**
      * Short name of minor unit for currency BZD
@@ -1791,7 +1791,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Belize_dollar
      * @var string
      */
-    public const SYMBOL_BZD = '$';
+    public const MAJOR_UNIT_SYMBOL_BZD = '$';
 
     /**
      * Symbol of minor unit for currency BZD
@@ -1807,7 +1807,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Belize_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_BZD = 1/100;
+    public const MAJOR_MINOR_RATIO_BZD = 1/100;
 
 
 
@@ -1817,7 +1817,7 @@ class Currency
      * Countries:
      * - Canada
      */
-    public const ISO_CODE_CANADIAN_DOLLAR = 'CAD';
+    public const ISO_CODE_CAD = 'CAD';
 
     /**
      * ISO-4271 Number for the Canadian dollar
@@ -1846,7 +1846,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
      * @var string
      */
-    public const NAME_CAD = 'Canadian dollar';
+    public const MAJOR_UNIT_NAME_CAD = 'Canadian dollar';
 
     /**
      * Short name of minor unit for currency CAD
@@ -1862,7 +1862,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
      * @var string
      */
-    public const SYMBOL_CAD = '$';
+    public const MAJOR_UNIT_SYMBOL_CAD = '$';
 
     /**
      * Symbol of minor unit for currency CAD
@@ -1878,7 +1878,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CAD = 1/100;
+    public const MAJOR_MINOR_RATIO_CAD = 1/100;
 
 
 
@@ -1888,7 +1888,7 @@ class Currency
      * Countries:
      * - Democratic Republic of the Congo
      */
-    public const ISO_CODE_CONGOLESE_FRANC = 'CDF';
+    public const ISO_CODE_CDF = 'CDF';
 
     /**
      * ISO-4271 Number for the Congolese franc
@@ -1917,7 +1917,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Congolese_franc
      * @var string
      */
-    public const NAME_CDF = 'Congolese franc';
+    public const MAJOR_UNIT_NAME_CDF = 'Congolese franc';
 
     /**
      * Short name of minor unit for currency CDF
@@ -1933,7 +1933,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Congolese_franc
      * @var string
      */
-    public const SYMBOL_CDF = 'FC';
+    public const MAJOR_UNIT_SYMBOL_CDF = 'FC';
 
     /**
      * Symbol of minor unit for currency CDF
@@ -1949,7 +1949,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Congolese_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CDF = 1/100;
+    public const MAJOR_MINOR_RATIO_CDF = 1/100;
 
 
 
@@ -1960,7 +1960,7 @@ class Currency
      * - Switzerland
      * - Liechtenstein (LI)
      */
-    public const ISO_CODE_SWISS_FRANC = 'CHF';
+    public const ISO_CODE_CHF = 'CHF';
 
     /**
      * ISO-4271 Number for the Swiss franc
@@ -1989,7 +1989,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swiss_franc
      * @var string
      */
-    public const NAME_CHF = 'Franken';
+    public const MAJOR_UNIT_NAME_CHF = 'Franken';
 
     /**
      * Short name of minor unit for currency CHF
@@ -2005,7 +2005,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swiss_franc
      * @var string
      */
-    public const SYMBOL_CHF = 'Fr.';
+    public const MAJOR_UNIT_SYMBOL_CHF = 'Fr.';
 
     /**
      * Symbol of minor unit for currency CHF
@@ -2021,7 +2021,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swiss_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CHF = 1/100;
+    public const MAJOR_MINOR_RATIO_CHF = 1/100;
 
 
 
@@ -2031,7 +2031,7 @@ class Currency
      * Countries:
      * - Chile
      */
-    public const ISO_CODE_CHILEAN_PESO = 'CLP';
+    public const ISO_CODE_CLP = 'CLP';
 
     /**
      * ISO-4271 Number for the Chilean peso
@@ -2060,7 +2060,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Chilean_peso
      * @var string
      */
-    public const NAME_CLP = 'peso';
+    public const MAJOR_UNIT_NAME_CLP = 'peso';
 
     /**
      * Short name of minor unit for currency CLP
@@ -2076,7 +2076,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Chilean_peso
      * @var string
      */
-    public const SYMBOL_CLP = '$';
+    public const MAJOR_UNIT_SYMBOL_CLP = '$';
 
     /**
      * Symbol of minor unit for currency CLP
@@ -2092,7 +2092,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Chilean_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CLP = 1/100;
+    public const MAJOR_MINOR_RATIO_CLP = 1/100;
 
 
 
@@ -2102,7 +2102,7 @@ class Currency
      * Countries:
      * - China
      */
-    public const ISO_CODE_CHINESE_YUAN = 'CNY';
+    public const ISO_CODE_CNY = 'CNY';
 
     /**
      * ISO-4271 Number for the Chinese yuan
@@ -2131,7 +2131,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Renminbi
      * @var string
      */
-    public const NAME_CNY = 'yuán';
+    public const MAJOR_UNIT_NAME_CNY = 'yuán';
 
     /**
      * Short name of minor unit for currency CNY
@@ -2155,7 +2155,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Renminbi
      * @var string
      */
-    public const SYMBOL_CNY = '元';
+    public const MAJOR_UNIT_SYMBOL_CNY = '元';
 
     /**
      * Symbol of minor unit for currency CNY
@@ -2179,7 +2179,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Renminbi
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CNY = 1/10;
+    public const MAJOR_MINOR_RATIO_CNY = 1/10;
 
     /**
      * Symbol of sub-minor unit for currency CNY
@@ -2197,7 +2197,7 @@ class Currency
      * Countries:
      * - Colombia
      */
-    public const ISO_CODE_COLOMBIAN_PESO = 'COP';
+    public const ISO_CODE_COP = 'COP';
 
     /**
      * ISO-4271 Number for the Colombian peso
@@ -2226,7 +2226,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Colombian_peso
      * @var string
      */
-    public const NAME_COP = 'peso';
+    public const MAJOR_UNIT_NAME_COP = 'peso';
 
     /**
      * Short name of minor unit for currency COP
@@ -2242,7 +2242,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Colombian_peso
      * @var string
      */
-    public const SYMBOL_COP = '$';
+    public const MAJOR_UNIT_SYMBOL_COP = '$';
 
     /**
      * Symbol of minor unit for currency COP
@@ -2258,7 +2258,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Colombian_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_COP = 1/100;
+    public const MAJOR_MINOR_RATIO_COP = 1/100;
 
 
 
@@ -2268,7 +2268,7 @@ class Currency
      * Countries:
      * - Costa Rica
      */
-    public const ISO_CODE_COSTA_RICAN_COLON = 'CRC';
+    public const ISO_CODE_CRC = 'CRC';
 
     /**
      * ISO-4271 Number for the Costa Rican colon
@@ -2297,7 +2297,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
      * @var string
      */
-    public const NAME_CRC = 'colón';
+    public const MAJOR_UNIT_NAME_CRC = 'colón';
 
     /**
      * Short name of minor unit for currency CRC
@@ -2313,7 +2313,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
      * @var string
      */
-    public const SYMBOL_CRC = '₡';
+    public const MAJOR_UNIT_SYMBOL_CRC = '₡';
 
     /**
      * Symbol of minor unit for currency CRC
@@ -2329,7 +2329,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CRC = 1/100;
+    public const MAJOR_MINOR_RATIO_CRC = 1/100;
 
 
 
@@ -2339,7 +2339,7 @@ class Currency
      * Countries:
      * - Cuba
      */
-    public const ISO_CODE_CUBAN_CONVERTIBLE_PESO = 'CUC';
+    public const ISO_CODE_CUC = 'CUC';
 
     /**
      * ISO-4271 Number for the Cuban convertible peso
@@ -2368,7 +2368,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
      * @var string
      */
-    public const NAME_CUC = 'convertible peso';
+    public const MAJOR_UNIT_NAME_CUC = 'convertible peso';
 
     /**
      * Short name of minor unit for currency CUC
@@ -2384,7 +2384,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
      * @var string
      */
-    public const SYMBOL_CUC = '$';
+    public const MAJOR_UNIT_SYMBOL_CUC = '$';
 
     /**
      * Symbol of minor unit for currency CUC
@@ -2400,7 +2400,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CUC = 1/100;
+    public const MAJOR_MINOR_RATIO_CUC = 1/100;
 
 
 
@@ -2410,7 +2410,7 @@ class Currency
      * Countries:
      * - Cuba
      */
-    public const ISO_CODE_CUBAN_PESO = 'CUP';
+    public const ISO_CODE_CUP = 'CUP';
 
     /**
      * ISO-4271 Number for the Cuban peso
@@ -2439,7 +2439,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cuban_peso
      * @var string
      */
-    public const NAME_CUP = 'Cuban Peso';
+    public const MAJOR_UNIT_NAME_CUP = 'Cuban Peso';
 
     /**
      * Short name of minor unit for currency CUP
@@ -2455,7 +2455,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cuban_peso
      * @var string
      */
-    public const SYMBOL_CUP = '₱';
+    public const MAJOR_UNIT_SYMBOL_CUP = '₱';
 
     /**
      * Symbol of minor unit for currency CUP
@@ -2471,7 +2471,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cuban_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CUP = 1/100;
+    public const MAJOR_MINOR_RATIO_CUP = 1/100;
 
 
 
@@ -2481,7 +2481,7 @@ class Currency
      * Countries:
      * - Cabo Verde
      */
-    public const ISO_CODE_CAPE_VERDEAN_ESCUDO = 'CVE';
+    public const ISO_CODE_CVE = 'CVE';
 
     /**
      * ISO-4271 Number for the Cape Verdean escudo
@@ -2510,7 +2510,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
      * @var string
      */
-    public const NAME_CVE = 'escudo';
+    public const MAJOR_UNIT_NAME_CVE = 'escudo';
 
     /**
      * Short name of minor unit for currency CVE
@@ -2526,7 +2526,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
      * @var string
      */
-    public const SYMBOL_CVE = '$';
+    public const MAJOR_UNIT_SYMBOL_CVE = '$';
 
     /**
      * Symbol of minor unit for currency CVE
@@ -2542,7 +2542,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CVE = 1/100;
+    public const MAJOR_MINOR_RATIO_CVE = 1/100;
 
 
 
@@ -2552,7 +2552,7 @@ class Currency
      * Countries:
      * - Czechia
      */
-    public const ISO_CODE_CZECH_KORUNA = 'CZK';
+    public const ISO_CODE_CZK = 'CZK';
 
     /**
      * ISO-4271 Number for the Czech koruna
@@ -2581,7 +2581,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Czech_koruna
      * @var string
      */
-    public const NAME_CZK = 'koruna';
+    public const MAJOR_UNIT_NAME_CZK = 'koruna';
 
     /**
      * Short name of minor unit for currency CZK
@@ -2597,7 +2597,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Czech_koruna
      * @var string
      */
-    public const SYMBOL_CZK = 'Kč';
+    public const MAJOR_UNIT_SYMBOL_CZK = 'Kč';
 
     /**
      * Symbol of minor unit for currency CZK
@@ -2613,7 +2613,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Czech_koruna
      * @var float
      */
-    public const MINOR_UNIT_RATIO_CZK = 1/100;
+    public const MAJOR_MINOR_RATIO_CZK = 1/100;
 
 
 
@@ -2623,7 +2623,7 @@ class Currency
      * Countries:
      * - Djibouti
      */
-    public const ISO_CODE_DJIBOUTIAN_FRANC = 'DJF';
+    public const ISO_CODE_DJF = 'DJF';
 
     /**
      * ISO-4271 Number for the Djiboutian franc
@@ -2652,7 +2652,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
      * @var string
      */
-    public const NAME_DJF = 'Djiboutian franc';
+    public const MAJOR_UNIT_NAME_DJF = 'Djiboutian franc';
 
     /**
      * Short name of minor unit for currency DJF
@@ -2668,7 +2668,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
      * @var string
      */
-    public const SYMBOL_DJF = 'Fdj';
+    public const MAJOR_UNIT_SYMBOL_DJF = 'Fdj';
 
     /**
      * Symbol of minor unit for currency DJF
@@ -2684,7 +2684,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_DJF = 1/100;
+    public const MAJOR_MINOR_RATIO_DJF = 1/100;
 
 
 
@@ -2696,7 +2696,7 @@ class Currency
      * - Faroe Islands (FO)
      * - Greenland (GL)
      */
-    public const ISO_CODE_DANISH_KRONE = 'DKK';
+    public const ISO_CODE_DKK = 'DKK';
 
     /**
      * ISO-4271 Number for the Danish krone
@@ -2725,7 +2725,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Danish_krone
      * @var string
      */
-    public const NAME_DKK = 'krone';
+    public const MAJOR_UNIT_NAME_DKK = 'krone';
 
     /**
      * Short name of minor unit for currency DKK
@@ -2741,7 +2741,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Danish_krone
      * @var string
      */
-    public const SYMBOL_DKK = 'kr.';
+    public const MAJOR_UNIT_SYMBOL_DKK = 'kr.';
 
     /**
      * Symbol of minor unit for currency DKK
@@ -2757,7 +2757,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Danish_krone
      * @var float
      */
-    public const MINOR_UNIT_RATIO_DKK = 1/100;
+    public const MAJOR_MINOR_RATIO_DKK = 1/100;
 
 
 
@@ -2767,7 +2767,7 @@ class Currency
      * Countries:
      * - Dominican Republic
      */
-    public const ISO_CODE_DOMINICAN_PESO = 'DOP';
+    public const ISO_CODE_DOP = 'DOP';
 
     /**
      * ISO-4271 Number for the Dominican peso
@@ -2796,7 +2796,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Dominican_peso
      * @var string
      */
-    public const NAME_DOP = 'Peso dominicano';
+    public const MAJOR_UNIT_NAME_DOP = 'Peso dominicano';
 
     /**
      * Short name of minor unit for currency DOP
@@ -2812,7 +2812,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Dominican_peso
      * @var string
      */
-    public const SYMBOL_DOP = '$';
+    public const MAJOR_UNIT_SYMBOL_DOP = '$';
 
     /**
      * Symbol of minor unit for currency DOP
@@ -2828,7 +2828,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Dominican_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_DOP = 1/100;
+    public const MAJOR_MINOR_RATIO_DOP = 1/100;
 
 
 
@@ -2838,7 +2838,7 @@ class Currency
      * Countries:
      * - Algeria
      */
-    public const ISO_CODE_ALGERIAN_DINAR = 'DZD';
+    public const ISO_CODE_DZD = 'DZD';
 
     /**
      * ISO-4271 Number for the Algerian dinar
@@ -2867,7 +2867,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
      * @var string
      */
-    public const NAME_DZD = 'dinar';
+    public const MAJOR_UNIT_NAME_DZD = 'dinar';
 
     /**
      * Short name of minor unit for currency DZD
@@ -2883,7 +2883,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
      * @var string
      */
-    public const SYMBOL_DZD = 'دج';
+    public const MAJOR_UNIT_SYMBOL_DZD = 'دج';
 
     /**
      * Symbol of minor unit for currency DZD
@@ -2899,7 +2899,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_DZD = 1/100;
+    public const MAJOR_MINOR_RATIO_DZD = 1/100;
 
 
 
@@ -2909,7 +2909,7 @@ class Currency
      * Countries:
      * - Egypt
      */
-    public const ISO_CODE_EGYPTIAN_POUND = 'EGP';
+    public const ISO_CODE_EGP = 'EGP';
 
     /**
      * ISO-4271 Number for the Egyptian pound
@@ -2938,7 +2938,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
      * @var string
      */
-    public const NAME_EGP = 'Pound';
+    public const MAJOR_UNIT_NAME_EGP = 'Pound';
 
     /**
      * Short name of minor unit for currency EGP
@@ -2962,7 +2962,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
      * @var string
      */
-    public const SYMBOL_EGP = '£';
+    public const MAJOR_UNIT_SYMBOL_EGP = '£';
 
     /**
      * Symbol of minor unit for currency EGP
@@ -2986,7 +2986,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_EGP = 1/100;
+    public const MAJOR_MINOR_RATIO_EGP = 1/100;
 
     /**
      * Symbol of sub-minor unit for currency EGP
@@ -3004,7 +3004,7 @@ class Currency
      * Countries:
      * - Eritrea
      */
-    public const ISO_CODE_ERITREAN_NAKFA = 'ERN';
+    public const ISO_CODE_ERN = 'ERN';
 
     /**
      * ISO-4271 Number for the Eritrean nakfa
@@ -3033,7 +3033,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
      * @var string
      */
-    public const NAME_ERN = 'nakfa';
+    public const MAJOR_UNIT_NAME_ERN = 'nakfa';
 
     /**
      * Short name of minor unit for currency ERN
@@ -3049,7 +3049,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
      * @var string
      */
-    public const SYMBOL_ERN = 'Nkf';
+    public const MAJOR_UNIT_SYMBOL_ERN = 'Nkf';
 
     /**
      * Symbol of minor unit for currency ERN
@@ -3065,7 +3065,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ERN = 1/100;
+    public const MAJOR_MINOR_RATIO_ERN = 1/100;
 
 
 
@@ -3075,7 +3075,7 @@ class Currency
      * Countries:
      * - Ethiopia
      */
-    public const ISO_CODE_ETHIOPIAN_BIRR = 'ETB';
+    public const ISO_CODE_ETB = 'ETB';
 
     /**
      * ISO-4271 Number for the Ethiopian birr
@@ -3104,7 +3104,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
      * @var string
      */
-    public const NAME_ETB = 'birr';
+    public const MAJOR_UNIT_NAME_ETB = 'birr';
 
     /**
      * Short name of minor unit for currency ETB
@@ -3120,7 +3120,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
      * @var string
      */
-    public const SYMBOL_ETB = 'Br';
+    public const MAJOR_UNIT_SYMBOL_ETB = 'Br';
 
     /**
      * Symbol of minor unit for currency ETB
@@ -3136,7 +3136,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ETB = 1/100;
+    public const MAJOR_MINOR_RATIO_ETB = 1/100;
 
 
 
@@ -3180,7 +3180,7 @@ class Currency
      * - Spain (ES)
      * - Vatican City (VA)
      */
-    public const ISO_CODE_EURO = 'EUR';
+    public const ISO_CODE_EUR = 'EUR';
 
     /**
      * ISO-4271 Number for the Euro
@@ -3209,7 +3209,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Euro
      * @var string
      */
-    public const NAME_EUR = 'Euro';
+    public const MAJOR_UNIT_NAME_EUR = 'Euro';
 
     /**
      * Short name of minor unit for currency EUR
@@ -3225,7 +3225,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Euro
      * @var string
      */
-    public const SYMBOL_EUR = '€';
+    public const MAJOR_UNIT_SYMBOL_EUR = '€';
 
     /**
      * Symbol of minor unit for currency EUR
@@ -3241,7 +3241,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Euro
      * @var float
      */
-    public const MINOR_UNIT_RATIO_EUR = 1/100;
+    public const MAJOR_MINOR_RATIO_EUR = 1/100;
 
 
 
@@ -3251,7 +3251,7 @@ class Currency
      * Countries:
      * - Fiji
      */
-    public const ISO_CODE_FIJI_DOLLAR = 'FJD';
+    public const ISO_CODE_FJD = 'FJD';
 
     /**
      * ISO-4271 Number for the Fiji dollar
@@ -3280,7 +3280,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
      * @var string
      */
-    public const NAME_FJD = 'Fijian dollar';
+    public const MAJOR_UNIT_NAME_FJD = 'Fijian dollar';
 
     /**
      * Short name of minor unit for currency FJD
@@ -3296,7 +3296,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
      * @var string
      */
-    public const SYMBOL_FJD = 'FJ$';
+    public const MAJOR_UNIT_SYMBOL_FJD = 'FJ$';
 
     /**
      * Symbol of minor unit for currency FJD
@@ -3312,7 +3312,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_FJD = 1/100;
+    public const MAJOR_MINOR_RATIO_FJD = 1/100;
 
 
 
@@ -3322,7 +3322,7 @@ class Currency
      * Countries:
      * - Falkland Islands (pegged to GBP 1:1)
      */
-    public const ISO_CODE_FALKLAND_ISLANDS_POUND = 'FKP';
+    public const ISO_CODE_FKP = 'FKP';
 
     /**
      * ISO-4271 Number for the Falkland Islands pound
@@ -3351,7 +3351,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
      * @var string
      */
-    public const NAME_FKP = 'Pound';
+    public const MAJOR_UNIT_NAME_FKP = 'Pound';
 
     /**
      * Short name of minor unit for currency FKP
@@ -3367,7 +3367,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
      * @var string
      */
-    public const SYMBOL_FKP = '£';
+    public const MAJOR_UNIT_SYMBOL_FKP = '£';
 
     /**
      * Symbol of minor unit for currency FKP
@@ -3383,7 +3383,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_FKP = 1/100;
+    public const MAJOR_MINOR_RATIO_FKP = 1/100;
 
 
 
@@ -3397,7 +3397,7 @@ class Currency
      * - Guernsey (GG, see Guernsey pound)
      * - Tristan da Cunha (SH-TA)
      */
-    public const ISO_CODE_POUND_STERLING = 'GBP';
+    public const ISO_CODE_GBP = 'GBP';
 
     /**
      * ISO-4271 Number for the Pound sterling
@@ -3426,7 +3426,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Pound_sterling
      * @var string
      */
-    public const NAME_GBP = 'Pound';
+    public const MAJOR_UNIT_NAME_GBP = 'Pound';
 
     /**
      * Short name of minor unit for currency GBP
@@ -3442,7 +3442,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Pound_sterling
      * @var string
      */
-    public const SYMBOL_GBP = '£';
+    public const MAJOR_UNIT_SYMBOL_GBP = '£';
 
     /**
      * Symbol of minor unit for currency GBP
@@ -3458,7 +3458,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Pound_sterling
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GBP = 1/100;
+    public const MAJOR_MINOR_RATIO_GBP = 1/100;
 
 
 
@@ -3468,7 +3468,7 @@ class Currency
      * Countries:
      * - Georgia
      */
-    public const ISO_CODE_GEORGIAN_LARI = 'GEL';
+    public const ISO_CODE_GEL = 'GEL';
 
     /**
      * ISO-4271 Number for the Georgian lari
@@ -3497,7 +3497,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Georgian_lari
      * @var string
      */
-    public const NAME_GEL = 'Lari';
+    public const MAJOR_UNIT_NAME_GEL = 'Lari';
 
     /**
      * Short name of minor unit for currency GEL
@@ -3513,7 +3513,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Georgian_lari
      * @var string
      */
-    public const SYMBOL_GEL = '₾';
+    public const MAJOR_UNIT_SYMBOL_GEL = '₾';
 
     /**
      * Symbol of minor unit for currency GEL
@@ -3529,7 +3529,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Georgian_lari
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GEL = 1/100;
+    public const MAJOR_MINOR_RATIO_GEL = 1/100;
 
 
 
@@ -3539,7 +3539,7 @@ class Currency
      * Countries:
      * - Ghana
      */
-    public const ISO_CODE_GHANAIAN_CEDI = 'GHS';
+    public const ISO_CODE_GHS = 'GHS';
 
     /**
      * ISO-4271 Number for the Ghanaian cedi
@@ -3568,7 +3568,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
      * @var string
      */
-    public const NAME_GHS = 'Cedi';
+    public const MAJOR_UNIT_NAME_GHS = 'Cedi';
 
     /**
      * Short name of minor unit for currency GHS
@@ -3584,7 +3584,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
      * @var string
      */
-    public const SYMBOL_GHS = 'GH₵';
+    public const MAJOR_UNIT_SYMBOL_GHS = 'GH₵';
 
     /**
      * Symbol of minor unit for currency GHS
@@ -3600,7 +3600,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GHS = 1/100;
+    public const MAJOR_MINOR_RATIO_GHS = 1/100;
 
 
 
@@ -3610,7 +3610,7 @@ class Currency
      * Countries:
      * - Gibraltar (pegged to GBP 1:1)
      */
-    public const ISO_CODE_GIBRALTAR_POUND = 'GIP';
+    public const ISO_CODE_GIP = 'GIP';
 
     /**
      * ISO-4271 Number for the Gibraltar pound
@@ -3639,7 +3639,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
      * @var string
      */
-    public const NAME_GIP = 'Pound';
+    public const MAJOR_UNIT_NAME_GIP = 'Pound';
 
     /**
      * Short name of minor unit for currency GIP
@@ -3655,7 +3655,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
      * @var string
      */
-    public const SYMBOL_GIP = '£';
+    public const MAJOR_UNIT_SYMBOL_GIP = '£';
 
     /**
      * Symbol of minor unit for currency GIP
@@ -3671,7 +3671,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GIP = 1/100;
+    public const MAJOR_MINOR_RATIO_GIP = 1/100;
 
 
 
@@ -3681,7 +3681,7 @@ class Currency
      * Countries:
      * - Gambia
      */
-    public const ISO_CODE_GAMBIAN_DALASI = 'GMD';
+    public const ISO_CODE_GMD = 'GMD';
 
     /**
      * ISO-4271 Number for the Gambian dalasi
@@ -3710,7 +3710,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
      * @var string
      */
-    public const NAME_GMD = 'Dalasi';
+    public const MAJOR_UNIT_NAME_GMD = 'Dalasi';
 
     /**
      * Short name of minor unit for currency GMD
@@ -3726,7 +3726,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
      * @var string
      */
-    public const SYMBOL_GMD = 'D';
+    public const MAJOR_UNIT_SYMBOL_GMD = 'D';
 
     /**
      * Symbol of minor unit for currency GMD
@@ -3742,7 +3742,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GMD = 1/100;
+    public const MAJOR_MINOR_RATIO_GMD = 1/100;
 
 
 
@@ -3752,7 +3752,7 @@ class Currency
      * Countries:
      * - Guinea
      */
-    public const ISO_CODE_GUINEAN_FRANC = 'GNF';
+    public const ISO_CODE_GNF = 'GNF';
 
     /**
      * ISO-4271 Number for the Guinean franc
@@ -3781,7 +3781,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guinean_franc
      * @var string
      */
-    public const NAME_GNF = 'Franc';
+    public const MAJOR_UNIT_NAME_GNF = 'Franc';
 
     /**
      * Short name of minor unit for currency GNF
@@ -3797,7 +3797,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guinean_franc
      * @var string
      */
-    public const SYMBOL_GNF = 'FG';
+    public const MAJOR_UNIT_SYMBOL_GNF = 'FG';
 
     /**
      * Symbol of minor unit for currency GNF
@@ -3813,7 +3813,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guinean_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GNF = 1/100;
+    public const MAJOR_MINOR_RATIO_GNF = 1/100;
 
 
 
@@ -3823,7 +3823,7 @@ class Currency
      * Countries:
      * - Guatemala
      */
-    public const ISO_CODE_GUATEMALAN_QUETZAL = 'GTQ';
+    public const ISO_CODE_GTQ = 'GTQ';
 
     /**
      * ISO-4271 Number for the Guatemalan quetzal
@@ -3852,7 +3852,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
      * @var string
      */
-    public const NAME_GTQ = 'Quetzal';
+    public const MAJOR_UNIT_NAME_GTQ = 'Quetzal';
 
     /**
      * Short name of minor unit for currency GTQ
@@ -3868,7 +3868,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
      * @var string
      */
-    public const SYMBOL_GTQ = 'Q';
+    public const MAJOR_UNIT_SYMBOL_GTQ = 'Q';
 
     /**
      * Symbol of minor unit for currency GTQ
@@ -3884,7 +3884,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GTQ = 1/100;
+    public const MAJOR_MINOR_RATIO_GTQ = 1/100;
 
 
 
@@ -3894,7 +3894,7 @@ class Currency
      * Countries:
      * - Guyana
      */
-    public const ISO_CODE_GUYANESE_DOLLAR = 'GYD';
+    public const ISO_CODE_GYD = 'GYD';
 
     /**
      * ISO-4271 Number for the Guyanese dollar
@@ -3923,7 +3923,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
      * @var string
      */
-    public const NAME_GYD = 'Dollar';
+    public const MAJOR_UNIT_NAME_GYD = 'Dollar';
 
     /**
      * Short name of minor unit for currency GYD
@@ -3939,7 +3939,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
      * @var string
      */
-    public const SYMBOL_GYD = '$';
+    public const MAJOR_UNIT_SYMBOL_GYD = '$';
 
     /**
      * Symbol of minor unit for currency GYD
@@ -3955,7 +3955,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_GYD = 1/100;
+    public const MAJOR_MINOR_RATIO_GYD = 1/100;
 
 
 
@@ -3965,7 +3965,7 @@ class Currency
      * Countries:
      * - Hong Kong
      */
-    public const ISO_CODE_HONG_KONG_DOLLAR = 'HKD';
+    public const ISO_CODE_HKD = 'HKD';
 
     /**
      * ISO-4271 Number for the Hong Kong dollar
@@ -3994,7 +3994,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
      * @var string
      */
-    public const NAME_HKD = 'Dollar';
+    public const MAJOR_UNIT_NAME_HKD = 'Dollar';
 
     /**
      * Short name of minor unit for currency HKD
@@ -4010,7 +4010,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
      * @var string
      */
-    public const SYMBOL_HKD = '$';
+    public const MAJOR_UNIT_SYMBOL_HKD = '$';
 
     /**
      * Symbol of minor unit for currency HKD
@@ -4026,7 +4026,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_HKD = 1/100;
+    public const MAJOR_MINOR_RATIO_HKD = 1/100;
 
 
 
@@ -4036,7 +4036,7 @@ class Currency
      * Countries:
      * - Honduras
      */
-    public const ISO_CODE_HONDURAN_LEMPIRA = 'HNL';
+    public const ISO_CODE_HNL = 'HNL';
 
     /**
      * ISO-4271 Number for the Honduran lempira
@@ -4065,7 +4065,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
      * @var string
      */
-    public const NAME_HNL = 'Lempira';
+    public const MAJOR_UNIT_NAME_HNL = 'Lempira';
 
     /**
      * Short name of minor unit for currency HNL
@@ -4081,7 +4081,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
      * @var string
      */
-    public const SYMBOL_HNL = 'L';
+    public const MAJOR_UNIT_SYMBOL_HNL = 'L';
 
     /**
      * Symbol of minor unit for currency HNL
@@ -4097,7 +4097,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
      * @var float
      */
-    public const MINOR_UNIT_RATIO_HNL = 1/100;
+    public const MAJOR_MINOR_RATIO_HNL = 1/100;
 
 
 
@@ -4107,7 +4107,7 @@ class Currency
      * Countries:
      * - Croatia
      */
-    public const ISO_CODE_CROATIAN_KUNA = 'HRK';
+    public const ISO_CODE_HRK = 'HRK';
 
     /**
      * ISO-4271 Number for the Croatian kuna
@@ -4136,7 +4136,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
      * @var string
      */
-    public const NAME_HRK = 'Kuna';
+    public const MAJOR_UNIT_NAME_HRK = 'Kuna';
 
     /**
      * Short name of minor unit for currency HRK
@@ -4152,7 +4152,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
      * @var string
      */
-    public const SYMBOL_HRK = 'kn';
+    public const MAJOR_UNIT_SYMBOL_HRK = 'kn';
 
     /**
      * Symbol of minor unit for currency HRK
@@ -4168,7 +4168,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
      * @var float
      */
-    public const MINOR_UNIT_RATIO_HRK = 1/100;
+    public const MAJOR_MINOR_RATIO_HRK = 1/100;
 
 
 
@@ -4178,7 +4178,7 @@ class Currency
      * Countries:
      * - Haiti
      */
-    public const ISO_CODE_HAITIAN_GOURDE = 'HTG';
+    public const ISO_CODE_HTG = 'HTG';
 
     /**
      * ISO-4271 Number for the Haitian gourde
@@ -4207,7 +4207,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
      * @var string
      */
-    public const NAME_HTG = 'Gourde';
+    public const MAJOR_UNIT_NAME_HTG = 'Gourde';
 
     /**
      * Short name of minor unit for currency -HTG
@@ -4223,7 +4223,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
      * @var string
      */
-    public const SYMBOL_HTG = 'G';
+    public const MAJOR_UNIT_SYMBOL_HTG = 'G';
 
     /**
      * Symbol of minor unit for currency -HTG
@@ -4239,7 +4239,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
      * @var float
      */
-    public const MINOR_UNIT_RATIO_HTG = 1/100;
+    public const MAJOR_MINOR_RATIO_HTG = 1/100;
 
 
 
@@ -4249,7 +4249,7 @@ class Currency
      * Countries:
      * - Hungary
      */
-    public const ISO_CODE_HUNGARIAN_FORINT = 'HUF';
+    public const ISO_CODE_HUF = 'HUF';
 
     /**
      * ISO-4271 Number for the Hungarian forint
@@ -4278,7 +4278,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
      * @var string
      */
-    public const NAME_HUF = 'Forint';
+    public const MAJOR_UNIT_NAME_HUF = 'Forint';
 
     /**
      * Short name of minor unit for currency HUF
@@ -4294,7 +4294,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
      * @var string
      */
-    public const SYMBOL_HUF = 'Ft';
+    public const MAJOR_UNIT_SYMBOL_HUF = 'Ft';
 
     /**
      * Symbol of minor unit for currency HUF
@@ -4310,7 +4310,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
      * @var float
      */
-    public const MINOR_UNIT_RATIO_HUF = 1/100;
+    public const MAJOR_MINOR_RATIO_HUF = 1/100;
 
 
 
@@ -4320,7 +4320,7 @@ class Currency
      * Countries:
      * - Indonesia
      */
-    public const ISO_CODE_INDONESIAN_RUPIAH = 'IDR';
+    public const ISO_CODE_IDR = 'IDR';
 
     /**
      * ISO-4271 Number for the Indonesian rupiah
@@ -4349,7 +4349,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
      * @var string
      */
-    public const NAME_IDR = 'Rupiah';
+    public const MAJOR_UNIT_NAME_IDR = 'Rupiah';
 
     /**
      * Short name of minor unit for currency IDR
@@ -4365,7 +4365,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
      * @var string
      */
-    public const SYMBOL_IDR = 'Rp';
+    public const MAJOR_UNIT_SYMBOL_IDR = 'Rp';
 
     /**
      * Symbol of minor unit for currency IDR
@@ -4381,7 +4381,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
      * @var float
      */
-    public const MINOR_UNIT_RATIO_IDR = 1/100;
+    public const MAJOR_MINOR_RATIO_IDR = 1/100;
 
 
 
@@ -4391,7 +4391,7 @@ class Currency
      * Countries:
      * - Israel
      */
-    public const ISO_CODE_ISRAELI_NEW_SHEKEL = 'ILS';
+    public const ISO_CODE_ILS = 'ILS';
 
     /**
      * ISO-4271 Number for the Israeli new shekel
@@ -4420,7 +4420,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
      * @var string
      */
-    public const NAME_ILS = 'Israeli shekel';
+    public const MAJOR_UNIT_NAME_ILS = 'Israeli shekel';
 
     /**
      * Short name of minor unit for currency ILS
@@ -4436,7 +4436,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
      * @var string
      */
-    public const SYMBOL_ILS = '₪';
+    public const MAJOR_UNIT_SYMBOL_ILS = '₪';
 
     /**
      * Symbol of minor unit for currency ILS
@@ -4452,7 +4452,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ILS = 1/100;
+    public const MAJOR_MINOR_RATIO_ILS = 1/100;
 
 
 
@@ -4463,7 +4463,7 @@ class Currency
      * - India
      * - Bhutan
      */
-    public const ISO_CODE_INDIAN_RUPEE = 'INR';
+    public const ISO_CODE_INR = 'INR';
 
     /**
      * ISO-4271 Number for the Indian rupee
@@ -4492,7 +4492,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Indian_rupee
      * @var string
      */
-    public const NAME_INR = 'Rupee';
+    public const MAJOR_UNIT_NAME_INR = 'Rupee';
 
     /**
      * Short name of minor unit for currency INR
@@ -4508,7 +4508,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Indian_rupee
      * @var string
      */
-    public const SYMBOL_INR = '₹';
+    public const MAJOR_UNIT_SYMBOL_INR = '₹';
 
     /**
      * Symbol of minor unit for currency INR
@@ -4524,7 +4524,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Indian_rupee
      * @var float
      */
-    public const MINOR_UNIT_RATIO_INR = 1/100;
+    public const MAJOR_MINOR_RATIO_INR = 1/100;
 
 
 
@@ -4534,7 +4534,7 @@ class Currency
      * Countries:
      * - Iraq
      */
-    public const ISO_CODE_IRAQI_DINAR = 'IQD';
+    public const ISO_CODE_IQD = 'IQD';
 
     /**
      * ISO-4271 Number for the Iraqi dinar
@@ -4563,7 +4563,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
      * @var string
      */
-    public const NAME_IQD = 'Dinar';
+    public const MAJOR_UNIT_NAME_IQD = 'Dinar';
 
     /**
      * Short name of minor unit for currency IQD
@@ -4579,7 +4579,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
      * @var string
      */
-    public const SYMBOL_IQD = 'د.ع';
+    public const MAJOR_UNIT_SYMBOL_IQD = 'د.ع';
 
     /**
      * Symbol of minor unit for currency IQD
@@ -4595,7 +4595,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_IQD = 1/1000;
+    public const MAJOR_MINOR_RATIO_IQD = 1/1000;
 
 
 
@@ -4605,7 +4605,7 @@ class Currency
      * Countries:
      * - Iran
      */
-    public const ISO_CODE_IRANIAN_RIAL = 'IRR';
+    public const ISO_CODE_IRR = 'IRR';
 
     /**
      * ISO-4271 Number for the Iranian rial
@@ -4634,7 +4634,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Iranian_rial
      * @var string
      */
-    public const NAME_IRR = 'Rial';
+    public const MAJOR_UNIT_NAME_IRR = 'Rial';
 
     /**
      * Short name of minor unit for currency IRR
@@ -4650,7 +4650,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Iranian_rial
      * @var string
      */
-    public const SYMBOL_IRR = '﷼';
+    public const MAJOR_UNIT_SYMBOL_IRR = '﷼';
 
     /**
      * Symbol of minor unit for currency IRR
@@ -4666,7 +4666,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Iranian_rial
      * @var float
      */
-    public const MINOR_UNIT_RATIO_IRR = 1;
+    public const MAJOR_MINOR_RATIO_IRR = 1;
 
 
 
@@ -4676,7 +4676,7 @@ class Currency
      * Countries:
      * - Iceland
      */
-    public const ISO_CODE_ICELANDIC_KRONA = 'ISK';
+    public const ISO_CODE_ISK = 'ISK';
 
     /**
      * ISO-4271 Number for the Icelandic króna
@@ -4705,7 +4705,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
      * @var string
      */
-    public const NAME_ISK = 'Króna';
+    public const MAJOR_UNIT_NAME_ISK = 'Króna';
 
     /**
      * Short name of minor unit for currency ISK
@@ -4721,7 +4721,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
      * @var string
      */
-    public const SYMBOL_ISK = 'kr';
+    public const MAJOR_UNIT_SYMBOL_ISK = 'kr';
 
     /**
      * Symbol of minor unit for currency ISK
@@ -4737,7 +4737,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ISK = 1/100;
+    public const MAJOR_MINOR_RATIO_ISK = 1/100;
 
 
 
@@ -4747,7 +4747,7 @@ class Currency
      * Countries:
      * - Jamaica
      */
-    public const ISO_CODE_JAMAICAN_DOLLAR = 'JMD';
+    public const ISO_CODE_JMD = 'JMD';
 
     /**
      * ISO-4271 Number for the Jamaican dollar
@@ -4776,7 +4776,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
      * @var string
      */
-    public const NAME_JMD = 'Dollar';
+    public const MAJOR_UNIT_NAME_JMD = 'Dollar';
 
     /**
      * Short name of minor unit for currency JMD
@@ -4792,7 +4792,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
      * @var string
      */
-    public const SYMBOL_JMD = '$';
+    public const MAJOR_UNIT_SYMBOL_JMD = '$';
 
     /**
      * Symbol of minor unit for currency JMD
@@ -4808,7 +4808,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_JMD = 1/100;
+    public const MAJOR_MINOR_RATIO_JMD = 1/100;
 
 
 
@@ -4818,7 +4818,7 @@ class Currency
      * Countries:
      * - Jordan
      */
-    public const ISO_CODE_JORDANIAN_DINAR = 'JOD';
+    public const ISO_CODE_JOD = 'JOD';
 
     /**
      * ISO-4271 Number for the Jordanian dinar
@@ -4847,7 +4847,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
      * @var string
      */
-    public const NAME_JOD = 'Dinar';
+    public const MAJOR_UNIT_NAME_JOD = 'Dinar';
 
     /**
      * Short name of minor unit for currency JOD
@@ -4863,7 +4863,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
      * @var string
      */
-    public const SYMBOL_JOD = 'د.أ';
+    public const MAJOR_UNIT_SYMBOL_JOD = 'د.أ';
 
     /**
      * Symbol of minor unit for currency JOD
@@ -4879,7 +4879,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_JOD = 1/1000;
+    public const MAJOR_MINOR_RATIO_JOD = 1/1000;
 
 
 
@@ -4889,7 +4889,7 @@ class Currency
      * Countries:
      * - Japan
      */
-    public const ISO_CODE_JAPANESE_YEN = 'JPY';
+    public const ISO_CODE_JPY = 'JPY';
 
     /**
      * ISO-4271 Number for the Japanese yen
@@ -4918,7 +4918,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Japanese_yen
      * @var string
      */
-    public const NAME_JPY = 'Yen';
+    public const MAJOR_UNIT_NAME_JPY = 'Yen';
 
     /**
      * Short name of minor unit for currency JPY
@@ -4934,7 +4934,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Japanese_yen
      * @var string
      */
-    public const SYMBOL_JPY = '¥';
+    public const MAJOR_UNIT_SYMBOL_JPY = '¥';
 
     /**
      * Symbol of minor unit for currency JPY
@@ -4950,7 +4950,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Japanese_yen
      * @var float
      */
-    public const MINOR_UNIT_RATIO_JPY = 1;
+    public const MAJOR_MINOR_RATIO_JPY = 1;
 
 
 
@@ -4960,7 +4960,7 @@ class Currency
      * Countries:
      * - Kenya
      */
-    public const ISO_CODE_KENYAN_SHILLING = 'KES';
+    public const ISO_CODE_KES = 'KES';
 
     /**
      * ISO-4271 Number for the Kenyan shilling
@@ -4989,7 +4989,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
      * @var string
      */
-    public const NAME_KES = 'Shilling';
+    public const MAJOR_UNIT_NAME_KES = 'Shilling';
 
     /**
      * Short name of minor unit for currency KES
@@ -5005,7 +5005,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
      * @var string
      */
-    public const SYMBOL_KES = 'KSh';
+    public const MAJOR_UNIT_SYMBOL_KES = 'KSh';
 
     /**
      * Symbol of minor unit for currency KES
@@ -5021,7 +5021,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KES = 1/100;
+    public const MAJOR_MINOR_RATIO_KES = 1/100;
 
 
 
@@ -5031,7 +5031,7 @@ class Currency
      * Countries:
      * - Kyrgyzstan
      */
-    public const ISO_CODE_KYRGYZSTANI_SOM = 'KGS';
+    public const ISO_CODE_KGS = 'KGS';
 
     /**
      * ISO-4271 Number for the Kyrgyzstani som
@@ -5060,7 +5060,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
      * @var string
      */
-    public const NAME_KGS = 'Som';
+    public const MAJOR_UNIT_NAME_KGS = 'Som';
 
     /**
      * Short name of minor unit for currency KGS
@@ -5076,7 +5076,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
      * @var string
      */
-    public const SYMBOL_KGS = '⃀';
+    public const MAJOR_UNIT_SYMBOL_KGS = '⃀';
 
     /**
      * Symbol of minor unit for currency KGS
@@ -5092,7 +5092,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KGS = 1/100;
+    public const MAJOR_MINOR_RATIO_KGS = 1/100;
 
 
 
@@ -5102,7 +5102,7 @@ class Currency
      * Countries:
      * - Cambodia
      */
-    public const ISO_CODE_CAMBODIAN_RIEL = 'KHR';
+    public const ISO_CODE_KHR = 'KHR';
 
     /**
      * ISO-4271 Number for the Cambodian riel
@@ -5131,7 +5131,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
      * @var string
      */
-    public const NAME_KHR = 'Riel';
+    public const MAJOR_UNIT_NAME_KHR = 'Riel';
 
     /**
      * Short name of minor unit for currency KHR
@@ -5147,7 +5147,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
      * @var string
      */
-    public const SYMBOL_KHR = '៛';
+    public const MAJOR_UNIT_SYMBOL_KHR = '៛';
 
     /**
      * Symbol of minor unit for currency KHR
@@ -5163,7 +5163,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KHR = 1/100;
+    public const MAJOR_MINOR_RATIO_KHR = 1/100;
 
 
 
@@ -5173,7 +5173,7 @@ class Currency
      * Countries:
      * - Comoros
      */
-    public const ISO_CODE_COMORO_FRANC = 'KMF';
+    public const ISO_CODE_KMF = 'KMF';
 
     /**
      * ISO-4271 Number for the Comoro franc
@@ -5202,7 +5202,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Comorian_franc
      * @var string
      */
-    public const NAME_KMF = 'Franc';
+    public const MAJOR_UNIT_NAME_KMF = 'Franc';
 
     /**
      * Short name of minor unit for currency KMF
@@ -5218,7 +5218,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Comorian_franc
      * @var string
      */
-    public const SYMBOL_KMF = 'CF';
+    public const MAJOR_UNIT_SYMBOL_KMF = 'CF';
 
     /**
      * Symbol of minor unit for currency KMF
@@ -5234,7 +5234,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Comorian_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KMF = 1/100;
+    public const MAJOR_MINOR_RATIO_KMF = 1/100;
 
 
 
@@ -5244,7 +5244,7 @@ class Currency
      * Countries:
      * - North Korea
      */
-    public const ISO_CODE_NORTH_KOREAN_WON = 'KPW';
+    public const ISO_CODE_KPW = 'KPW';
 
     /**
      * ISO-4271 Number for the North Korean won
@@ -5273,7 +5273,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/North_Korean_won
      * @var string
      */
-    public const NAME_KPW = 'Won';
+    public const MAJOR_UNIT_NAME_KPW = 'Won';
 
     /**
      * Short name of minor unit for currency KPW
@@ -5289,7 +5289,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/North_Korean_won
      * @var string
      */
-    public const SYMBOL_KPW = '₩';
+    public const MAJOR_UNIT_SYMBOL_KPW = '₩';
 
     /**
      * Symbol of minor unit for currency KPW
@@ -5305,7 +5305,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/North_Korean_won
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KPW = 1/100;
+    public const MAJOR_MINOR_RATIO_KPW = 1/100;
 
 
 
@@ -5315,7 +5315,7 @@ class Currency
      * Countries:
      * - South Korea
      */
-    public const ISO_CODE_SOUTH_KOREAN_WON = 'KRW';
+    public const ISO_CODE_KRW = 'KRW';
 
     /**
      * ISO-4271 Number for the South Korean won
@@ -5344,7 +5344,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_Korean_won
      * @var string
      */
-    public const NAME_KRW = 'Won';
+    public const MAJOR_UNIT_NAME_KRW = 'Won';
 
     /**
      * Short name of minor unit for currency KRW
@@ -5360,7 +5360,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_Korean_won
      * @var string
      */
-    public const SYMBOL_KRW = '₩';
+    public const MAJOR_UNIT_SYMBOL_KRW = '₩';
 
     /**
      * Symbol of minor unit for currency KRW
@@ -5376,7 +5376,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_Korean_won
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KRW = 1/100;
+    public const MAJOR_MINOR_RATIO_KRW = 1/100;
 
 
 
@@ -5386,7 +5386,7 @@ class Currency
      * Countries:
      * - Kuwait
      */
-    public const ISO_CODE_KUWAITI_DINAR = 'KWD';
+    public const ISO_CODE_KWD = 'KWD';
 
     /**
      * ISO-4271 Number for the Kuwaiti dinar
@@ -5415,7 +5415,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
      * @var string
      */
-    public const NAME_KWD = 'Dinar';
+    public const MAJOR_UNIT_NAME_KWD = 'Dinar';
 
     /**
      * Short name of minor unit for currency KWD
@@ -5431,7 +5431,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
      * @var string
      */
-    public const SYMBOL_KWD = 'د.ك';
+    public const MAJOR_UNIT_SYMBOL_KWD = 'د.ك';
 
     /**
      * Symbol of minor unit for currency KWD
@@ -5447,7 +5447,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KWD = 1/1000;
+    public const MAJOR_MINOR_RATIO_KWD = 1/1000;
 
 
 
@@ -5457,7 +5457,7 @@ class Currency
      * Countries:
      * - Cayman Islands
      */
-    public const ISO_CODE_CAYMAN_ISLANDS_DOLLAR = 'KYD';
+    public const ISO_CODE_KYD = 'KYD';
 
     /**
      * ISO-4271 Number for the Cayman Islands dollar
@@ -5486,7 +5486,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
      * @var string
      */
-    public const NAME_KYD = 'Dollar';
+    public const MAJOR_UNIT_NAME_KYD = 'Dollar';
 
     /**
      * Short name of minor unit for currency KYD
@@ -5502,7 +5502,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
      * @var string
      */
-    public const SYMBOL_KYD = '$';
+    public const MAJOR_UNIT_SYMBOL_KYD = '$';
 
     /**
      * Symbol of minor unit for currency KYD
@@ -5518,7 +5518,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KYD = 1/100;
+    public const MAJOR_MINOR_RATIO_KYD = 1/100;
 
 
 
@@ -5528,7 +5528,7 @@ class Currency
      * Countries:
      * - Kazakhstan
      */
-    public const ISO_CODE_KAZAKHSTANI_TENGE = 'KZT';
+    public const ISO_CODE_KZT = 'KZT';
 
     /**
      * ISO-4271 Number for the Kazakhstani tenge
@@ -5557,7 +5557,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
      * @var string
      */
-    public const NAME_KZT = 'Tenge';
+    public const MAJOR_UNIT_NAME_KZT = 'Tenge';
 
     /**
      * Short name of minor unit for currency KZT
@@ -5573,7 +5573,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
      * @var string
      */
-    public const SYMBOL_KZT = '₸';
+    public const MAJOR_UNIT_SYMBOL_KZT = '₸';
 
     /**
      * Symbol of minor unit for currency KZT
@@ -5589,7 +5589,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
      * @var float
      */
-    public const MINOR_UNIT_RATIO_KZT = 1/100;
+    public const MAJOR_MINOR_RATIO_KZT = 1/100;
 
 
 
@@ -5599,7 +5599,7 @@ class Currency
      * Countries:
      * - Laos
      */
-    public const ISO_CODE_LAO_KIP = 'LAK';
+    public const ISO_CODE_LAK = 'LAK';
 
     /**
      * ISO-4271 Number for the Lao kip
@@ -5628,7 +5628,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lao_kip
      * @var string
      */
-    public const NAME_LAK = 'Kip';
+    public const MAJOR_UNIT_NAME_LAK = 'Kip';
 
     /**
      * Short name of minor unit for currency LAK
@@ -5644,7 +5644,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lao_kip
      * @var string
      */
-    public const SYMBOL_LAK = '₭';
+    public const MAJOR_UNIT_SYMBOL_LAK = '₭';
 
     /**
      * Symbol of minor unit for currency LAK
@@ -5660,7 +5660,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lao_kip
      * @var float
      */
-    public const MINOR_UNIT_RATIO_LAK = 1/100;
+    public const MAJOR_MINOR_RATIO_LAK = 1/100;
 
 
 
@@ -5670,7 +5670,7 @@ class Currency
      * Countries:
      * - Lebanon
      */
-    public const ISO_CODE_LEBANESE_POUND = 'LBP';
+    public const ISO_CODE_LBP = 'LBP';
 
     /**
      * ISO-4271 Number for the Lebanese pound
@@ -5699,7 +5699,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
      * @var string
      */
-    public const NAME_LBP = 'Pound';
+    public const MAJOR_UNIT_NAME_LBP = 'Pound';
 
     /**
      * Short name of minor unit for currency LBP
@@ -5715,7 +5715,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
      * @var string
      */
-    public const SYMBOL_LBP = 'ل.ل.';
+    public const MAJOR_UNIT_SYMBOL_LBP = 'ل.ل.';
 
     /**
      * Symbol of minor unit for currency LBP
@@ -5731,7 +5731,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_LBP = 1/100;
+    public const MAJOR_MINOR_RATIO_LBP = 1/100;
 
 
 
@@ -5741,7 +5741,7 @@ class Currency
      * Countries:
      * - Sri Lanka
      */
-    public const ISO_CODE_SRI_LANKAN_RUPEE = 'LKR';
+    public const ISO_CODE_LKR = 'LKR';
 
     /**
      * ISO-4271 Number for the Sri Lankan rupee
@@ -5770,7 +5770,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
      * @var string
      */
-    public const NAME_LKR = 'Rupee';
+    public const MAJOR_UNIT_NAME_LKR = 'Rupee';
 
     /**
      * Short name of minor unit for currency LKR
@@ -5786,7 +5786,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
      * @var string
      */
-    public const SYMBOL_LKR = '₨';
+    public const MAJOR_UNIT_SYMBOL_LKR = '₨';
 
     /**
      * Symbol of minor unit for currency LKR
@@ -5802,7 +5802,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
      * @var float
      */
-    public const MINOR_UNIT_RATIO_LKR = 1/100;
+    public const MAJOR_MINOR_RATIO_LKR = 1/100;
 
 
 
@@ -5812,7 +5812,7 @@ class Currency
      * Countries:
      * - Liberia
      */
-    public const ISO_CODE_LIBERIAN_DOLLAR = 'LRD';
+    public const ISO_CODE_LRD = 'LRD';
 
     /**
      * ISO-4271 Number for the Liberian dollar
@@ -5841,7 +5841,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
      * @var string
      */
-    public const NAME_LRD = 'Dollar';
+    public const MAJOR_UNIT_NAME_LRD = 'Dollar';
 
     /**
      * Short name of minor unit for currency LRD
@@ -5857,7 +5857,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
      * @var string
      */
-    public const SYMBOL_LRD = '$';
+    public const MAJOR_UNIT_SYMBOL_LRD = '$';
 
     /**
      * Symbol of minor unit for currency LRD
@@ -5873,7 +5873,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_LRD = 1/100;
+    public const MAJOR_MINOR_RATIO_LRD = 1/100;
 
 
 
@@ -5883,7 +5883,7 @@ class Currency
      * Countries:
      * - Lesotho
      */
-    public const ISO_CODE_LESOTHO_LOTI = 'LSL';
+    public const ISO_CODE_LSL = 'LSL';
 
     /**
      * ISO-4271 Number for the Lesotho loti
@@ -5912,7 +5912,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
      * @var string
      */
-    public const NAME_LSL = 'Loti';
+    public const MAJOR_UNIT_NAME_LSL = 'Loti';
 
     /**
      * Short name of minor unit for currency LSL
@@ -5928,7 +5928,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
      * @var string
      */
-    public const SYMBOL_LSL = 'L';
+    public const MAJOR_UNIT_SYMBOL_LSL = 'L';
 
     /**
      * Symbol of minor unit for currency LSL
@@ -5944,7 +5944,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
      * @var float
      */
-    public const MINOR_UNIT_RATIO_LSL = 1/100;
+    public const MAJOR_MINOR_RATIO_LSL = 1/100;
 
 
 
@@ -5954,7 +5954,7 @@ class Currency
      * Countries:
      * - Libya
      */
-    public const ISO_CODE_LIBYAN_DINAR = 'LYD';
+    public const ISO_CODE_LYD = 'LYD';
 
     /**
      * ISO-4271 Number for the Libyan dinar
@@ -5983,7 +5983,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
      * @var string
      */
-    public const NAME_LYD = 'Dinar';
+    public const MAJOR_UNIT_NAME_LYD = 'Dinar';
 
     /**
      * Short name of minor unit for currency LYD
@@ -5999,7 +5999,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
      * @var string
      */
-    public const SYMBOL_LYD = 'ل.';
+    public const MAJOR_UNIT_SYMBOL_LYD = 'ل.';
 
     /**
      * Symbol of minor unit for currency LYD
@@ -6015,7 +6015,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_LYD = 1/1000;
+    public const MAJOR_MINOR_RATIO_LYD = 1/1000;
 
 
 
@@ -6026,7 +6026,7 @@ class Currency
      * - Morocco
      * - Western Sahara
      */
-    public const ISO_CODE_MOROCCAN_DIRHAM = 'MAD';
+    public const ISO_CODE_MAD = 'MAD';
 
     /**
      * ISO-4271 Number for the Moroccan dirham
@@ -6055,7 +6055,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
      * @var string
      */
-    public const NAME_MAD = 'Dirham';
+    public const MAJOR_UNIT_NAME_MAD = 'Dirham';
 
     /**
      * Short name of minor unit for currency MAD
@@ -6071,7 +6071,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
      * @var string
      */
-    public const SYMBOL_MAD = 'DH';
+    public const MAJOR_UNIT_SYMBOL_MAD = 'DH';
 
     /**
      * Symbol of minor unit for currency MAD
@@ -6087,7 +6087,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MAD = 1/100;
+    public const MAJOR_MINOR_RATIO_MAD = 1/100;
 
 
 
@@ -6097,7 +6097,7 @@ class Currency
      * Countries:
      * - Moldova
      */
-    public const ISO_CODE_MOLDOVAN_LEU = 'MDL';
+    public const ISO_CODE_MDL = 'MDL';
 
     /**
      * ISO-4271 Number for the Moldovan leu
@@ -6126,7 +6126,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
      * @var string
      */
-    public const NAME_MDL = 'Leu';
+    public const MAJOR_UNIT_NAME_MDL = 'Leu';
 
     /**
      * Short name of minor unit for currency MDL
@@ -6142,7 +6142,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
      * @var string
      */
-    public const SYMBOL_MDL = 'L';
+    public const MAJOR_UNIT_SYMBOL_MDL = 'L';
 
     /**
      * Symbol of minor unit for currency MDL
@@ -6158,7 +6158,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MDL = 1/100;
+    public const MAJOR_MINOR_RATIO_MDL = 1/100;
 
 
 
@@ -6168,7 +6168,7 @@ class Currency
      * Countries:
      * - Madagascar
      */
-    public const ISO_CODE_MALAGASY_ARIARY = 'MGA';
+    public const ISO_CODE_MGA = 'MGA';
 
     /**
      * ISO-4271 Number for the Malagasy ariary
@@ -6197,7 +6197,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
      * @var string
      */
-    public const NAME_MGA = 'Ariary';
+    public const MAJOR_UNIT_NAME_MGA = 'Ariary';
 
     /**
      * Short name of minor unit for currency MGA
@@ -6213,7 +6213,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
      * @var string
      */
-    public const SYMBOL_MGA = 'Ar';
+    public const MAJOR_UNIT_SYMBOL_MGA = 'Ar';
 
     /**
      * Symbol of minor unit for currency MGA
@@ -6229,7 +6229,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MGA = 1/5;
+    public const MAJOR_MINOR_RATIO_MGA = 1/5;
 
 
 
@@ -6239,7 +6239,7 @@ class Currency
      * Countries:
      * - North Macedonia
      */
-    public const ISO_CODE_MACEDONIAN_DENAR = 'MKD';
+    public const ISO_CODE_MKD = 'MKD';
 
     /**
      * ISO-4271 Number for the Macedonian denar
@@ -6268,7 +6268,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
      * @var string
      */
-    public const NAME_MKD = 'Denar';
+    public const MAJOR_UNIT_NAME_MKD = 'Denar';
 
     /**
      * Short name of minor unit for currency MKD
@@ -6284,7 +6284,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
      * @var string
      */
-    public const SYMBOL_MKD = 'den';
+    public const MAJOR_UNIT_SYMBOL_MKD = 'den';
 
     /**
      * Symbol of minor unit for currency MKD
@@ -6300,7 +6300,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MKD = 1/100;
+    public const MAJOR_MINOR_RATIO_MKD = 1/100;
 
 
 
@@ -6310,7 +6310,7 @@ class Currency
      * Countries:
      * - Myanmar
      */
-    public const ISO_CODE_MYANMAR_KYAT = 'MMK';
+    public const ISO_CODE_MMK = 'MMK';
 
     /**
      * ISO-4271 Number for the Myanmar kyat
@@ -6339,7 +6339,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
      * @var string
      */
-    public const NAME_MMK = 'Kyat';
+    public const MAJOR_UNIT_NAME_MMK = 'Kyat';
 
     /**
      * Short name of minor unit for currency MMK
@@ -6355,7 +6355,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
      * @var string
      */
-    public const SYMBOL_MMK = 'K';
+    public const MAJOR_UNIT_SYMBOL_MMK = 'K';
 
     /**
      * Symbol of minor unit for currency MMK
@@ -6371,7 +6371,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MMK = 1/100;
+    public const MAJOR_MINOR_RATIO_MMK = 1/100;
 
 
 
@@ -6381,7 +6381,7 @@ class Currency
      * Countries:
      * - Mongolia
      */
-    public const ISO_CODE_MONGOLIAN_TOGROG = 'MNT';
+    public const ISO_CODE_MNT = 'MNT';
 
     /**
      * ISO-4271 Number for the Mongolian tögrög
@@ -6410,7 +6410,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
      * @var string
      */
-    public const NAME_MNT = 'Tögrög';
+    public const MAJOR_UNIT_NAME_MNT = 'Tögrög';
 
     /**
      * Short name of minor unit for currency MNT
@@ -6426,7 +6426,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
      * @var string
      */
-    public const SYMBOL_MNT = '₮';
+    public const MAJOR_UNIT_SYMBOL_MNT = '₮';
 
     /**
      * Symbol of minor unit for currency MNT
@@ -6442,7 +6442,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MNT = 1/100;
+    public const MAJOR_MINOR_RATIO_MNT = 1/100;
 
 
 
@@ -6452,7 +6452,7 @@ class Currency
      * Countries:
      * - Macau
      */
-    public const ISO_CODE_MACANESE_PATACA = 'MOP';
+    public const ISO_CODE_MOP = 'MOP';
 
     /**
      * ISO-4271 Number for the Macanese pataca
@@ -6481,7 +6481,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
      * @var string
      */
-    public const NAME_MOP = 'Pataca';
+    public const MAJOR_UNIT_NAME_MOP = 'Pataca';
 
     /**
      * Short name of minor unit for currency MOP
@@ -6497,7 +6497,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
      * @var string
      */
-    public const SYMBOL_MOP = 'MOP$';
+    public const MAJOR_UNIT_SYMBOL_MOP = 'MOP$';
 
     /**
      * Symbol of minor unit for currency MOP
@@ -6513,7 +6513,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MOP = 1/100;
+    public const MAJOR_MINOR_RATIO_MOP = 1/100;
 
 
 
@@ -6523,7 +6523,7 @@ class Currency
      * Countries:
      * - Mauritania
      */
-    public const ISO_CODE_MAURITANIAN_OUGUIYA = 'MRU';
+    public const ISO_CODE_MRU = 'MRU';
 
     /**
      * ISO-4271 Number for the Mauritanian ouguiya
@@ -6552,7 +6552,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
      * @var string
      */
-    public const NAME_MRU = 'Ouguiya';
+    public const MAJOR_UNIT_NAME_MRU = 'Ouguiya';
 
     /**
      * Short name of minor unit for currency MRU
@@ -6568,7 +6568,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
      * @var string
      */
-    public const SYMBOL_MRU = 'UM';
+    public const MAJOR_UNIT_SYMBOL_MRU = 'UM';
 
     /**
      * Symbol of minor unit for currency MRU
@@ -6584,7 +6584,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MRU = 1/5;
+    public const MAJOR_MINOR_RATIO_MRU = 1/5;
 
 
 
@@ -6594,7 +6594,7 @@ class Currency
      * Countries:
      * - Mauritius
      */
-    public const ISO_CODE_MAURITIAN_RUPEE = 'MUR';
+    public const ISO_CODE_MUR = 'MUR';
 
     /**
      * ISO-4271 Number for the Mauritian rupee
@@ -6623,7 +6623,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
      * @var string
      */
-    public const NAME_MUR = 'Rupee';
+    public const MAJOR_UNIT_NAME_MUR = 'Rupee';
 
     /**
      * Short name of minor unit for currency MUR
@@ -6639,7 +6639,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
      * @var string
      */
-    public const SYMBOL_MUR = 'Rs';
+    public const MAJOR_UNIT_SYMBOL_MUR = 'Rs';
 
     /**
      * Symbol of minor unit for currency MUR
@@ -6655,7 +6655,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MUR = 1/100;
+    public const MAJOR_MINOR_RATIO_MUR = 1/100;
 
 
 
@@ -6665,7 +6665,7 @@ class Currency
      * Countries:
      * - Maldives
      */
-    public const ISO_CODE_MALDIVIAN_RUFIYAA = 'MVR';
+    public const ISO_CODE_MVR = 'MVR';
 
     /**
      * ISO-4271 Number for the Maldivian rufiyaa
@@ -6694,7 +6694,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
      * @var string
      */
-    public const NAME_MVR = 'Rufiyaa';
+    public const MAJOR_UNIT_NAME_MVR = 'Rufiyaa';
 
     /**
      * Short name of minor unit for currency MVR
@@ -6710,7 +6710,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
      * @var string
      */
-    public const SYMBOL_MVR = 'Rf';
+    public const MAJOR_UNIT_SYMBOL_MVR = 'Rf';
 
     /**
      * Symbol of minor unit for currency MVR
@@ -6726,7 +6726,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MVR = 1/100;
+    public const MAJOR_MINOR_RATIO_MVR = 1/100;
 
 
 
@@ -6736,7 +6736,7 @@ class Currency
      * Countries:
      * - Malawi
      */
-    public const ISO_CODE_MALAWIAN_KWACHA = 'MWK';
+    public const ISO_CODE_MWK = 'MWK';
 
     /**
      * ISO-4271 Number for the Malawian kwacha
@@ -6765,7 +6765,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
      * @var string
      */
-    public const NAME_MWK = 'Kwacha';
+    public const MAJOR_UNIT_NAME_MWK = 'Kwacha';
 
     /**
      * Short name of minor unit for currency MWK
@@ -6781,7 +6781,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
      * @var string
      */
-    public const SYMBOL_MWK = 'K';
+    public const MAJOR_UNIT_SYMBOL_MWK = 'K';
 
     /**
      * Symbol of minor unit for currency MWK
@@ -6797,7 +6797,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MWK = 1/100;
+    public const MAJOR_MINOR_RATIO_MWK = 1/100;
 
 
 
@@ -6807,7 +6807,7 @@ class Currency
      * Countries:
      * - Mexico
      */
-    public const ISO_CODE_MEXICAN_PESO = 'MXN';
+    public const ISO_CODE_MXN = 'MXN';
 
     /**
      * ISO-4271 Number for the Mexican peso
@@ -6836,7 +6836,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mexican_peso
      * @var string
      */
-    public const NAME_MXN = '';
+    public const MAJOR_UNIT_NAME_MXN = '';
 
     /**
      * Short name of minor unit for currency MXN
@@ -6852,7 +6852,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mexican_peso
      * @var string
      */
-    public const SYMBOL_MXN = '$';
+    public const MAJOR_UNIT_SYMBOL_MXN = '$';
 
     /**
      * Symbol of minor unit for currency MXN
@@ -6868,7 +6868,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mexican_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MXN = 1/100;
+    public const MAJOR_MINOR_RATIO_MXN = 1/100;
 
 
 
@@ -6878,7 +6878,7 @@ class Currency
      * Countries:
      * - Malaysia
      */
-    public const ISO_CODE_MALAYSIAN_RINGGIT = 'MYR';
+    public const ISO_CODE_MYR = 'MYR';
 
     /**
      * ISO-4271 Number for the Malaysian ringgit
@@ -6908,7 +6908,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
      * @var string
      */
-    public const NAME_MYR = 'Ringgit';
+    public const MAJOR_UNIT_NAME_MYR = 'Ringgit';
 
     /**
      * Short name of minor unit for currency MYR
@@ -6924,7 +6924,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
      * @var string
      */
-    public const SYMBOL_MYR = 'RM';
+    public const MAJOR_UNIT_SYMBOL_MYR = 'RM';
 
     /**
      * Symbol of minor unit for currency MYR
@@ -6940,7 +6940,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MYR = 1/100;
+    public const MAJOR_MINOR_RATIO_MYR = 1/100;
 
 
 
@@ -6950,7 +6950,7 @@ class Currency
      * Countries:
      * - Mozambique
      */
-    public const ISO_CODE_MOZAMBICAN_METICAL = 'MZN';
+    public const ISO_CODE_MZN = 'MZN';
 
     /**
      * ISO-4271 Number for the Mozambican metical
@@ -6980,7 +6980,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
      * @var string
      */
-    public const NAME_MZN = 'Metical';
+    public const MAJOR_UNIT_NAME_MZN = 'Metical';
 
     /**
      * Short name of minor unit for currency MZN
@@ -6996,7 +6996,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
      * @var string
      */
-    public const SYMBOL_MZN = 'MT';
+    public const MAJOR_UNIT_SYMBOL_MZN = 'MT';
 
     /**
      * Symbol of minor unit for currency MZN
@@ -7012,7 +7012,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
      * @var float
      */
-    public const MINOR_UNIT_RATIO_MZN = 1/100;
+    public const MAJOR_MINOR_RATIO_MZN = 1/100;
 
 
 
@@ -7022,7 +7022,7 @@ class Currency
      * Countries:
      * - Namibia
      */
-    public const ISO_CODE_NAMIBIAN_DOLLAR = 'NAD';
+    public const ISO_CODE_NAD = 'NAD';
 
     /**
      * ISO-4271 Number for the Namibian dollar
@@ -7051,7 +7051,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
      * @var string
      */
-    public const NAME_NAD = 'Dollar';
+    public const MAJOR_UNIT_NAME_NAD = 'Dollar';
 
     /**
      * Short name of minor unit for currency NAD
@@ -7067,7 +7067,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
      * @var string
      */
-    public const SYMBOL_NAD = '$';
+    public const MAJOR_UNIT_SYMBOL_NAD = '$';
 
     /**
      * Symbol of minor unit for currency NAD
@@ -7083,7 +7083,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_NAD = 1/100;
+    public const MAJOR_MINOR_RATIO_NAD = 1/100;
 
 
 
@@ -7093,7 +7093,7 @@ class Currency
      * Countries:
      * - Nigeria
      */
-    public const ISO_CODE_NIGERIAN_NAIRA = 'NGN';
+    public const ISO_CODE_NGN = 'NGN';
 
     /**
      * ISO-4271 Number for the Nigerian naira
@@ -7122,7 +7122,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
      * @var string
      */
-    public const NAME_NGN = 'Naira';
+    public const MAJOR_UNIT_NAME_NGN = 'Naira';
 
     /**
      * Short name of minor unit for currency NGN
@@ -7138,7 +7138,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
      * @var string
      */
-    public const SYMBOL_NGN = '₦';
+    public const MAJOR_UNIT_SYMBOL_NGN = '₦';
 
     /**
      * Symbol of minor unit for currency NGN
@@ -7154,7 +7154,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
      * @var float
      */
-    public const MINOR_UNIT_RATIO_NGN = 1/100;
+    public const MAJOR_MINOR_RATIO_NGN = 1/100;
 
 
 
@@ -7164,7 +7164,7 @@ class Currency
      * Countries:
      * - Nicaragua
      */
-    public const ISO_CODE_NICARAGUAN_CORDOBA = 'NIO';
+    public const ISO_CODE_NIO = 'NIO';
 
     /**
      * ISO-4271 Number for the Nicaraguan córdoba
@@ -7194,7 +7194,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
      * @var string
      */
-    public const NAME_NIO = 'Córdoba';
+    public const MAJOR_UNIT_NAME_NIO = 'Córdoba';
 
     /**
      * Short name of minor unit for currency NIO
@@ -7210,7 +7210,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
      * @var string
      */
-    public const SYMBOL_NIO = 'C$';
+    public const MAJOR_UNIT_SYMBOL_NIO = 'C$';
 
     /**
      * Symbol of minor unit for currency NIO
@@ -7226,7 +7226,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
      * @var float
      */
-    public const MINOR_UNIT_RATIO_NIO = 1/100;
+    public const MAJOR_MINOR_RATIO_NIO = 1/100;
 
 
 
@@ -7238,7 +7238,7 @@ class Currency
      * - Svalbard and  Jan Mayen (SJ)
      * - Bouvet Island (BV)
      */
-    public const ISO_CODE_NORWEGIAN_KRONE = 'NOK';
+    public const ISO_CODE_NOK = 'NOK';
 
     /**
      * ISO-4271 Number for the Norwegian krone
@@ -7268,7 +7268,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
      * @var string
      */
-    public const NAME_NOK = 'Krone';
+    public const MAJOR_UNIT_NAME_NOK = 'Krone';
 
     /**
      * Short name of minor unit for currency NOK
@@ -7284,7 +7284,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
      * @var string
      */
-    public const SYMBOL_NOK = 'kr';
+    public const MAJOR_UNIT_SYMBOL_NOK = 'kr';
 
     /**
      * Symbol of minor unit for currency NOK
@@ -7300,7 +7300,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
      * @var float
      */
-    public const MINOR_UNIT_RATIO_NOK = 1/100;
+    public const MAJOR_MINOR_RATIO_NOK = 1/100;
 
 
 
@@ -7310,7 +7310,7 @@ class Currency
      * Countries:
      * - Nepal
      */
-    public const ISO_CODE_NEPALESE_RUPEE = 'NPR';
+    public const ISO_CODE_NPR = 'NPR';
 
     /**
      * ISO-4271 Number for the Nepalese rupee
@@ -7340,7 +7340,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
      * @var string
      */
-    public const NAME_NPR = 'Rupee';
+    public const MAJOR_UNIT_NAME_NPR = 'Rupee';
 
     /**
      * Short name of minor unit for currency NPR
@@ -7356,7 +7356,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
      * @var string
      */
-    public const SYMBOL_NPR = 'रु';
+    public const MAJOR_UNIT_SYMBOL_NPR = 'रु';
 
     /**
      * Symbol of minor unit for currency NPR
@@ -7372,7 +7372,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
      * @var float
      */
-    public const MINOR_UNIT_RATIO_NPR = 1/100;
+    public const MAJOR_MINOR_RATIO_NPR = 1/100;
 
 
 
@@ -7387,7 +7387,7 @@ class Currency
      * - Tokelau
      * (TK)
      */
-    public const ISO_CODE_NEW_ZEALAND_DOLLAR = 'NZD';
+    public const ISO_CODE_NZD = 'NZD';
 
     /**
      * ISO-4271 Number for the New Zealand dollar
@@ -7417,7 +7417,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
      * @var string
      */
-    public const NAME_NZD = 'Dollar';
+    public const MAJOR_UNIT_NAME_NZD = 'Dollar';
 
     /**
      * Short name of minor unit for currency NZD
@@ -7433,7 +7433,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
      * @var string
      */
-    public const SYMBOL_NZD = '$';
+    public const MAJOR_UNIT_SYMBOL_NZD = '$';
 
     /**
      * Symbol of minor unit for currency NZD
@@ -7449,7 +7449,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_NZD = 1/100;
+    public const MAJOR_MINOR_RATIO_NZD = 1/100;
 
 
 
@@ -7459,7 +7459,7 @@ class Currency
      * Countries:
      * - Oman
      */
-    public const ISO_CODE_OMANI_RIAL = 'OMR';
+    public const ISO_CODE_OMR = 'OMR';
 
     /**
      * ISO-4271 Number for the Omani rial
@@ -7489,7 +7489,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Omani_rial
      * @var string
      */
-    public const NAME_OMR = 'Rial';
+    public const MAJOR_UNIT_NAME_OMR = 'Rial';
 
     /**
      * Short name of minor unit for currency OMR
@@ -7505,7 +7505,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Omani_rial
      * @var string
      */
-    public const SYMBOL_OMR = 'ر.ع.';
+    public const MAJOR_UNIT_SYMBOL_OMR = 'ر.ع.';
 
     /**
      * Symbol of minor unit for currency OMR
@@ -7521,7 +7521,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Omani_rial
      * @var float
      */
-    public const MINOR_UNIT_RATIO_OMR = 1/1000;
+    public const MAJOR_MINOR_RATIO_OMR = 1/1000;
 
 
 
@@ -7531,7 +7531,7 @@ class Currency
      * Countries:
      * - Panama
      */
-    public const ISO_CODE_PANAMANIAN_BALBOA = 'PAB';
+    public const ISO_CODE_PAB = 'PAB';
 
     /**
      * ISO-4271 Number for the Panamanian balboa
@@ -7561,7 +7561,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
      * @var string
      */
-    public const NAME_PAB = 'Balboa';
+    public const MAJOR_UNIT_NAME_PAB = 'Balboa';
 
     /**
      * Short name of minor unit for currency PAB
@@ -7577,7 +7577,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
      * @var string
      */
-    public const SYMBOL_PAB = 'B/.';
+    public const MAJOR_UNIT_SYMBOL_PAB = 'B/.';
 
     /**
      * Symbol of minor unit for currency PAB
@@ -7593,7 +7593,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PAB = 1/100;
+    public const MAJOR_MINOR_RATIO_PAB = 1/100;
 
 
 
@@ -7603,7 +7603,7 @@ class Currency
      * Countries:
      * - Peru
      */
-    public const ISO_CODE_PERUVIAN_SOL = 'PEN';
+    public const ISO_CODE_PEN = 'PEN';
 
     /**
      * ISO-4271 Number for the Peruvian sol
@@ -7633,7 +7633,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
      * @var string
      */
-    public const NAME_PEN = 'Sol';
+    public const MAJOR_UNIT_NAME_PEN = 'Sol';
 
     /**
      * Short name of minor unit for currency PEN
@@ -7649,7 +7649,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
      * @var string
      */
-    public const SYMBOL_PEN = 'S/';
+    public const MAJOR_UNIT_SYMBOL_PEN = 'S/';
 
     /**
      * Symbol of minor unit for currency PEN
@@ -7665,7 +7665,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PEN = 1/100;
+    public const MAJOR_MINOR_RATIO_PEN = 1/100;
 
 
 
@@ -7675,7 +7675,7 @@ class Currency
      * Countries:
      * - Papua New Guinea
      */
-    public const ISO_CODE_PAPUA_NEW_GUINEAN_KINA = 'PGK';
+    public const ISO_CODE_PGK = 'PGK';
 
     /**
      * ISO-4271 Number for the Papua New Guinean kina
@@ -7705,7 +7705,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
      * @var string
      */
-    public const NAME_PGK = 'Kina';
+    public const MAJOR_UNIT_NAME_PGK = 'Kina';
 
     /**
      * Short name of minor unit for currency PGK
@@ -7721,7 +7721,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
      * @var string
      */
-    public const SYMBOL_PGK = 'K';
+    public const MAJOR_UNIT_SYMBOL_PGK = 'K';
 
     /**
      * Symbol of minor unit for currency PGK
@@ -7737,7 +7737,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PGK = 1/100;
+    public const MAJOR_MINOR_RATIO_PGK = 1/100;
 
 
 
@@ -7747,7 +7747,7 @@ class Currency
      * Countries:
      * - Philippines
      */
-    public const ISO_CODE_PHILIPPINE_PESO = 'PHP';
+    public const ISO_CODE_PHP = 'PHP';
 
     /**
      * ISO-4271 Number for the Philippine peso
@@ -7777,7 +7777,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Philippine_peso
      * @var string
      */
-    public const NAME_PHP = 'Peso';
+    public const MAJOR_UNIT_NAME_PHP = 'Peso';
 
     /**
      * Short name of minor unit for currency PHP
@@ -7793,7 +7793,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Philippine_peso
      * @var string
      */
-    public const SYMBOL_PHP = '₱';
+    public const MAJOR_UNIT_SYMBOL_PHP = '₱';
 
     /**
      * Symbol of minor unit for currency PHP
@@ -7809,7 +7809,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Philippine_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PHP = 1/100;
+    public const MAJOR_MINOR_RATIO_PHP = 1/100;
 
 
 
@@ -7819,7 +7819,7 @@ class Currency
      * Countries:
      * - Pakistan
      */
-    public const ISO_CODE_PAKISTANI_RUPEE = 'PKR';
+    public const ISO_CODE_PKR = 'PKR';
 
     /**
      * ISO-4271 Number for the Pakistani rupee
@@ -7849,7 +7849,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
      * @var string
      */
-    public const NAME_PKR = 'Rupee';
+    public const MAJOR_UNIT_NAME_PKR = 'Rupee';
 
     /**
      * Short name of minor unit for currency PKR
@@ -7865,7 +7865,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
      * @var string
      */
-    public const SYMBOL_PKR = '₨.';
+    public const MAJOR_UNIT_SYMBOL_PKR = '₨.';
 
     /**
      * Symbol of minor unit for currency PKR
@@ -7881,7 +7881,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PKR = 1/100;
+    public const MAJOR_MINOR_RATIO_PKR = 1/100;
 
 
 
@@ -7891,7 +7891,7 @@ class Currency
      * Countries:
      * - Poland
      */
-    public const ISO_CODE_POLISH_ZLOTY = 'PLN';
+    public const ISO_CODE_PLN = 'PLN';
 
     /**
      * ISO-4271 Number for the Polish złoty
@@ -7921,7 +7921,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
      * @var string
      */
-    public const NAME_PLN = 'Złoty';
+    public const MAJOR_UNIT_NAME_PLN = 'Złoty';
 
     /**
      * Short name of minor unit for currency PLN
@@ -7937,7 +7937,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
      * @var string
      */
-    public const SYMBOL_PLN = 'zł';
+    public const MAJOR_UNIT_SYMBOL_PLN = 'zł';
 
     /**
      * Symbol of minor unit for currency PLN
@@ -7953,7 +7953,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PLN = 1/100;
+    public const MAJOR_MINOR_RATIO_PLN = 1/100;
 
 
 
@@ -7963,7 +7963,7 @@ class Currency
      * Countries:
      * - Paraguay
      */
-    public const ISO_CODE_PARAGUAYAN_GUARANI = 'PYG';
+    public const ISO_CODE_PYG = 'PYG';
 
     /**
      * ISO-4271 Number for the Paraguayan guaraní
@@ -7993,7 +7993,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
      * @var string
      */
-    public const NAME_PYG = 'Guaraní';
+    public const MAJOR_UNIT_NAME_PYG = 'Guaraní';
 
     /**
      * Short name of minor unit for currency PYG
@@ -8009,7 +8009,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
      * @var string
      */
-    public const SYMBOL_PYG = '₲';
+    public const MAJOR_UNIT_SYMBOL_PYG = '₲';
 
     /**
      * Symbol of minor unit for currency PYG
@@ -8025,7 +8025,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
      * @var float
      */
-    public const MINOR_UNIT_RATIO_PYG = 1/100;
+    public const MAJOR_MINOR_RATIO_PYG = 1/100;
 
 
 
@@ -8035,7 +8035,7 @@ class Currency
      * Countries:
      * - Qatar
      */
-    public const ISO_CODE_QATARI_RIYAL = 'QAR';
+    public const ISO_CODE_QAR = 'QAR';
 
     /**
      * ISO-4271 Number for the Qatari riyal
@@ -8065,7 +8065,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
      * @var string
      */
-    public const NAME_QAR = 'Riyal';
+    public const MAJOR_UNIT_NAME_QAR = 'Riyal';
 
     /**
      * Short name of minor unit for currency QAR
@@ -8081,7 +8081,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
      * @var string
      */
-    public const SYMBOL_QAR = 'ر.ق';
+    public const MAJOR_UNIT_SYMBOL_QAR = 'ر.ق';
 
     /**
      * Symbol of minor unit for currency QAR
@@ -8097,7 +8097,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
      * @var float
      */
-    public const MINOR_UNIT_RATIO_QAR = 1/100;
+    public const MAJOR_MINOR_RATIO_QAR = 1/100;
 
 
 
@@ -8107,7 +8107,7 @@ class Currency
      * Countries:
      * - Romania
      */
-    public const ISO_CODE_ROMANIAN_LEU = 'RON';
+    public const ISO_CODE_RON = 'RON';
 
     /**
      * ISO-4271 Number for the Romanian leu
@@ -8137,7 +8137,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Romanian_leu
      * @var string
      */
-    public const NAME_RON = 'Leu';
+    public const MAJOR_UNIT_NAME_RON = 'Leu';
 
     /**
      * Short name of minor unit for currency RON
@@ -8153,7 +8153,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Romanian_leu
      * @var string
      */
-    public const SYMBOL_RON = 'L';
+    public const MAJOR_UNIT_SYMBOL_RON = 'L';
 
     /**
      * Symbol of minor unit for currency RON
@@ -8169,7 +8169,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Romanian_leu
      * @var float
      */
-    public const MINOR_UNIT_RATIO_RON = 1/100;
+    public const MAJOR_MINOR_RATIO_RON = 1/100;
 
 
 
@@ -8179,7 +8179,7 @@ class Currency
      * Countries:
      * - Serbia
      */
-    public const ISO_CODE_SERBIAN_DINAR = 'RSD';
+    public const ISO_CODE_RSD = 'RSD';
 
     /**
      * ISO-4271 Number for the Serbian dinar
@@ -8209,7 +8209,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
      * @var string
      */
-    public const NAME_RSD = 'Dinar';
+    public const MAJOR_UNIT_NAME_RSD = 'Dinar';
 
     /**
      * Short name of minor unit for currency RSD
@@ -8225,7 +8225,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
      * @var string
      */
-    public const SYMBOL_RSD = 'din';
+    public const MAJOR_UNIT_SYMBOL_RSD = 'din';
 
     /**
      * Symbol of minor unit for currency RSD
@@ -8241,7 +8241,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_RSD = 1/100;
+    public const MAJOR_MINOR_RATIO_RSD = 1/100;
 
 
 
@@ -8251,7 +8251,7 @@ class Currency
      * Countries:
      * - Russia
      */
-    public const ISO_CODE_RUSSIAN_RUBLE = 'RUB';
+    public const ISO_CODE_RUB = 'RUB';
 
     /**
      * ISO-4271 Number for the Russian ruble
@@ -8281,7 +8281,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Russian_ruble
      * @var string
      */
-    public const NAME_RUB = 'Ruble';
+    public const MAJOR_UNIT_NAME_RUB = 'Ruble';
 
     /**
      * Short name of minor unit for currency RUB
@@ -8297,7 +8297,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Russian_ruble
      * @var string
      */
-    public const SYMBOL_RUB = '₽';
+    public const MAJOR_UNIT_SYMBOL_RUB = '₽';
 
     /**
      * Symbol of minor unit for currency RUB
@@ -8313,7 +8313,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Russian_ruble
      * @var float
      */
-    public const MINOR_UNIT_RATIO_RUB = 1/100;
+    public const MAJOR_MINOR_RATIO_RUB = 1/100;
 
 
 
@@ -8323,7 +8323,7 @@ class Currency
      * Countries:
      * - Rwanda
      */
-    public const ISO_CODE_RWANDAN_FRANC = 'RWF';
+    public const ISO_CODE_RWF = 'RWF';
 
     /**
      * ISO-4271 Number for the Rwandan franc
@@ -8353,7 +8353,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
      * @var string
      */
-    public const NAME_RWF = 'Franc';
+    public const MAJOR_UNIT_NAME_RWF = 'Franc';
 
     /**
      * Short name of minor unit for currency RWF
@@ -8369,7 +8369,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
      * @var string
      */
-    public const SYMBOL_RWF = 'FRw';
+    public const MAJOR_UNIT_SYMBOL_RWF = 'FRw';
 
     /**
      * Symbol of minor unit for currency RWF
@@ -8385,7 +8385,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_RWF = 1/100;
+    public const MAJOR_MINOR_RATIO_RWF = 1/100;
 
 
 
@@ -8395,7 +8395,7 @@ class Currency
      * Countries:
      * - Saudi Arabia
      */
-    public const ISO_CODE_SAUDI_RIYAL = 'SAR';
+    public const ISO_CODE_SAR = 'SAR';
 
     /**
      * ISO-4271 Number for the Saudi riyal
@@ -8425,7 +8425,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
      * @var string
      */
-    public const NAME_SAR = 'Riyal';
+    public const MAJOR_UNIT_NAME_SAR = 'Riyal';
 
     /**
      * Short name of minor unit for currency SAR
@@ -8441,7 +8441,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
      * @var string
      */
-    public const SYMBOL_SAR = 'ر.س';
+    public const MAJOR_UNIT_SYMBOL_SAR = 'ر.س';
 
     /**
      * Symbol of minor unit for currency SAR
@@ -8457,7 +8457,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SAR = 1/100;
+    public const MAJOR_MINOR_RATIO_SAR = 1/100;
 
 
 
@@ -8467,7 +8467,7 @@ class Currency
      * Countries:
      * - Solomon Islands
      */
-    public const ISO_CODE_SOLOMON_ISLANDS_DOLLAR = 'SBD';
+    public const ISO_CODE_SBD = 'SBD';
 
     /**
      * ISO-4271 Number for the Solomon Islands dollar
@@ -8497,7 +8497,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
      * @var string
      */
-    public const NAME_SBD = 'Dollar';
+    public const MAJOR_UNIT_NAME_SBD = 'Dollar';
 
     /**
      * Short name of minor unit for currency SBD
@@ -8513,7 +8513,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
      * @var string
      */
-    public const SYMBOL_SBD = '$';
+    public const MAJOR_UNIT_SYMBOL_SBD = '$';
 
     /**
      * Symbol of minor unit for currency SBD
@@ -8529,7 +8529,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SBD = 1/100;
+    public const MAJOR_MINOR_RATIO_SBD = 1/100;
 
 
 
@@ -8539,7 +8539,7 @@ class Currency
      * Countries:
      * - Seychelles
      */
-    public const ISO_CODE_SEYCHELLES_RUPEE = 'SCR';
+    public const ISO_CODE_SCR = 'SCR';
 
     /**
      * ISO-4271 Number for the Seychellois rupee
@@ -8569,7 +8569,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
      * @var string
      */
-    public const NAME_SCR = 'Rupee';
+    public const MAJOR_UNIT_NAME_SCR = 'Rupee';
 
     /**
      * Short name of minor unit for currency SCR
@@ -8585,7 +8585,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
      * @var string
      */
-    public const SYMBOL_SCR = 'Rs';
+    public const MAJOR_UNIT_SYMBOL_SCR = 'Rs';
 
     /**
      * Symbol of minor unit for currency SCR
@@ -8601,7 +8601,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SCR = 1/100;
+    public const MAJOR_MINOR_RATIO_SCR = 1/100;
 
 
 
@@ -8611,7 +8611,7 @@ class Currency
      * Countries:
      * - Sudan
      */
-    public const ISO_CODE_SUDANESE_POUND = 'SDG';
+    public const ISO_CODE_SDG = 'SDG';
 
     /**
      * ISO-4271 Number for the Sudanese pound
@@ -8641,7 +8641,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
      * @var string
      */
-    public const NAME_SDG = 'Pound';
+    public const MAJOR_UNIT_NAME_SDG = 'Pound';
 
     /**
      * Short name of minor unit for currency SDG
@@ -8657,7 +8657,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
      * @var string
      */
-    public const SYMBOL_SDG = 'ج.س';
+    public const MAJOR_UNIT_SYMBOL_SDG = 'ج.س';
 
     /**
      * Symbol of minor unit for currency SDG
@@ -8673,7 +8673,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SDG = 1/100;
+    public const MAJOR_MINOR_RATIO_SDG = 1/100;
 
 
 
@@ -8683,7 +8683,7 @@ class Currency
      * Countries:
      * - Sweden
      */
-    public const ISO_CODE_SWEDISH_KRONA = 'SEK';
+    public const ISO_CODE_SEK = 'SEK';
 
     /**
      * ISO-4271 Number for the Swedish krona
@@ -8713,7 +8713,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swedish_krona
      * @var string
      */
-    public const NAME_SEK = 'Krona';
+    public const MAJOR_UNIT_NAME_SEK = 'Krona';
 
     /**
      * Short name of minor unit for currency SEK
@@ -8729,7 +8729,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swedish_krona
      * @var string
      */
-    public const SYMBOL_SEK = 'kr';
+    public const MAJOR_UNIT_SYMBOL_SEK = 'kr';
 
     /**
      * Symbol of minor unit for currency SEK
@@ -8745,7 +8745,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swedish_krona
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SEK = 1/100;
+    public const MAJOR_MINOR_RATIO_SEK = 1/100;
 
 
 
@@ -8755,7 +8755,7 @@ class Currency
      * Countries:
      * - Singapore
      */
-    public const ISO_CODE_SINGAPORE_DOLLAR = 'SGD';
+    public const ISO_CODE_SGD = 'SGD';
 
     /**
      * ISO-4271 Number for the Singapore dollar
@@ -8785,7 +8785,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
      * @var string
      */
-    public const NAME_SGD = 'Dollar';
+    public const MAJOR_UNIT_NAME_SGD = 'Dollar';
 
     /**
      * Short name of minor unit for currency SGD
@@ -8801,7 +8801,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
      * @var string
      */
-    public const SYMBOL_SGD = '$';
+    public const MAJOR_UNIT_SYMBOL_SGD = '$';
 
     /**
      * Symbol of minor unit for currency SGD
@@ -8817,7 +8817,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SGD = 1/100;
+    public const MAJOR_MINOR_RATIO_SGD = 1/100;
 
 
 
@@ -8828,7 +8828,7 @@ class Currency
      * - Saint Helena (SH-SH)
      * - Ascension Island (SH-AC)
      */
-    public const ISO_CODE_SAINT_HELENA_POUND = 'SHP';
+    public const ISO_CODE_SHP = 'SHP';
 
     /**
      * ISO-4271 Number for the Saint Helena pound
@@ -8858,7 +8858,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
      * @var string
      */
-    public const NAME_SHP = 'Pound';
+    public const MAJOR_UNIT_NAME_SHP = 'Pound';
 
     /**
      * Short name of minor unit for currency SHP
@@ -8874,7 +8874,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
      * @var string
      */
-    public const SYMBOL_SHP = '£';
+    public const MAJOR_UNIT_SYMBOL_SHP = '£';
 
     /**
      * Symbol of minor unit for currency SHP
@@ -8890,7 +8890,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SHP = 1/100;
+    public const MAJOR_MINOR_RATIO_SHP = 1/100;
 
 
 
@@ -8900,7 +8900,7 @@ class Currency
      * Countries:
      * - Sierra Leone
      */
-    public const ISO_CODE_SIERRA_LEONEAN_LEONE = 'SLL';
+    public const ISO_CODE_SLL = 'SLL';
 
     /**
      * ISO-4271 Number for the Sierra Leonean leone
@@ -8930,7 +8930,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
      * @var string
      */
-    public const NAME_SLL = 'Leone';
+    public const MAJOR_UNIT_NAME_SLL = 'Leone';
 
     /**
      * Short name of minor unit for currency SLL
@@ -8946,7 +8946,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
      * @var string
      */
-    public const SYMBOL_SLL = 'Le';
+    public const MAJOR_UNIT_SYMBOL_SLL = 'Le';
 
     /**
      * Symbol of minor unit for currency SLL
@@ -8962,7 +8962,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SLL = 1/100;
+    public const MAJOR_MINOR_RATIO_SLL = 1/100;
 
 
 
@@ -8972,7 +8972,7 @@ class Currency
      * Countries:
      * - Somalia
      */
-    public const ISO_CODE_SOMALI_SHILLING = 'SOS';
+    public const ISO_CODE_SOS = 'SOS';
 
     /**
      * ISO-4271 Number for the Somali shilling
@@ -9001,7 +9001,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Somali_shilling
      * @var string
      */
-    public const NAME_SOS = 'Shilling';
+    public const MAJOR_UNIT_NAME_SOS = 'Shilling';
 
     /**
      * Short name of minor unit for currency SOS
@@ -9017,7 +9017,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Somali_shilling
      * @var string
      */
-    public const SYMBOL_SOS = 'Sh.So.';
+    public const MAJOR_UNIT_SYMBOL_SOS = 'Sh.So.';
 
     /**
      * Symbol of minor unit for currency SOS
@@ -9033,7 +9033,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Somali_shilling
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SOS = 1/100;
+    public const MAJOR_MINOR_RATIO_SOS = 1/100;
 
 
 
@@ -9043,7 +9043,7 @@ class Currency
      * Countries:
      * - Suriname
      */
-    public const ISO_CODE_SURINAMESE_DOLLAR = 'SRD';
+    public const ISO_CODE_SRD = 'SRD';
 
     /**
      * ISO-4271 Number for the Surinamese dollar
@@ -9072,7 +9072,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
      * @var string
      */
-    public const NAME_SRD = 'Dollar';
+    public const MAJOR_UNIT_NAME_SRD = 'Dollar';
 
     /**
      * Short name of minor unit for currency SRD
@@ -9088,7 +9088,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
      * @var string
      */
-    public const SYMBOL_SRD = '$';
+    public const MAJOR_UNIT_SYMBOL_SRD = '$';
 
     /**
      * Symbol of minor unit for currency SRD
@@ -9104,7 +9104,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SRD = 1/100;
+    public const MAJOR_MINOR_RATIO_SRD = 1/100;
 
 
 
@@ -9114,7 +9114,7 @@ class Currency
      * Countries:
      * - South Sudan
      */
-    public const ISO_CODE_SOUTH_SUDANESE_POUND = 'SSP';
+    public const ISO_CODE_SSP = 'SSP';
 
     /**
      * ISO-4271 Number for the South Sudanese pound
@@ -9143,7 +9143,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
      * @var string
      */
-    public const NAME_SSP = 'Pound';
+    public const MAJOR_UNIT_NAME_SSP = 'Pound';
 
     /**
      * Short name of minor unit for currency SSP
@@ -9159,7 +9159,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
      * @var string
      */
-    public const SYMBOL_SSP = 'SS£';
+    public const MAJOR_UNIT_SYMBOL_SSP = 'SS£';
 
     /**
      * Symbol of minor unit for currency SSP
@@ -9175,7 +9175,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SSP = 1/100;
+    public const MAJOR_MINOR_RATIO_SSP = 1/100;
 
 
 
@@ -9185,7 +9185,7 @@ class Currency
      * Countries:
      * - São Tomé and Príncipe
      */
-    public const ISO_CODE_SAO_TOME_AND_PRINCIPE_DOBRA = 'STN';
+    public const ISO_CODE_STN = 'STN';
 
     /**
      * ISO-4271 Number for the São Tomé and Príncipe dobra
@@ -9214,7 +9214,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
      * @var string
      */
-    public const NAME_STN = 'Dobra';
+    public const MAJOR_UNIT_NAME_STN = 'Dobra';
 
     /**
      * Short name of minor unit for currency STN
@@ -9230,7 +9230,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
      * @var string
      */
-    public const SYMBOL_STN = 'Db';
+    public const MAJOR_UNIT_SYMBOL_STN = 'Db';
 
     /**
      * Symbol of minor unit for currency STN
@@ -9246,7 +9246,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
      * @var float
      */
-    public const MINOR_UNIT_RATIO_STN = 1/100;
+    public const MAJOR_MINOR_RATIO_STN = 1/100;
 
 
 
@@ -9256,7 +9256,7 @@ class Currency
      * Countries:
      * - El Salvador
      */
-    public const ISO_CODE_SALVADORAN_COLON = 'SVC';
+    public const ISO_CODE_SVC = 'SVC';
 
     /**
      * ISO-4271 Number for the Salvadoran colón
@@ -9285,7 +9285,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
      * @var string
      */
-    public const NAME_SVC = 'Colón';
+    public const MAJOR_UNIT_NAME_SVC = 'Colón';
 
     /**
      * Short name of minor unit for currency SVC
@@ -9301,7 +9301,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
      * @var string
      */
-    public const SYMBOL_SVC = '₡';
+    public const MAJOR_UNIT_SYMBOL_SVC = '₡';
 
     /**
      * Symbol of minor unit for currency SVC
@@ -9317,7 +9317,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SVC = 1/100;
+    public const MAJOR_MINOR_RATIO_SVC = 1/100;
 
 
 
@@ -9327,7 +9327,7 @@ class Currency
      * Countries:
      * - Syria
      */
-    public const ISO_CODE_SYRIAN_POUND = 'SYP';
+    public const ISO_CODE_SYP = 'SYP';
 
     /**
      * ISO-4271 Number for the Syrian pound
@@ -9356,7 +9356,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Syrian_pound
      * @var string
      */
-    public const NAME_SYP = 'Pound';
+    public const MAJOR_UNIT_NAME_SYP = 'Pound';
 
     /**
      * Short name of minor unit for currency SYP
@@ -9372,7 +9372,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Syrian_pound
      * @var string
      */
-    public const SYMBOL_SYP = '£S';
+    public const MAJOR_UNIT_SYMBOL_SYP = '£S';
 
     /**
      * Symbol of minor unit for currency SYP
@@ -9388,7 +9388,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Syrian_pound
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SYP = 1/100;
+    public const MAJOR_MINOR_RATIO_SYP = 1/100;
 
 
 
@@ -9398,7 +9398,7 @@ class Currency
      * Countries:
      * - Eswatini
      */
-    public const ISO_CODE_SWAZI_LILANGENI = 'SZL';
+    public const ISO_CODE_SZL = 'SZL';
 
     /**
      * ISO-4271 Number for the Swazi lilangeni
@@ -9427,7 +9427,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
      * @var string
      */
-    public const NAME_SZL = 'Lilangeni';
+    public const MAJOR_UNIT_NAME_SZL = 'Lilangeni';
 
     /**
      * Short name of minor unit for currency SZL
@@ -9443,7 +9443,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
      * @var string
      */
-    public const SYMBOL_SZL = 'L';
+    public const MAJOR_UNIT_SYMBOL_SZL = 'L';
 
     /**
      * Symbol of minor unit for currency SZL
@@ -9459,7 +9459,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
      * @var float
      */
-    public const MINOR_UNIT_RATIO_SZL = 1/100;
+    public const MAJOR_MINOR_RATIO_SZL = 1/100;
 
 
 
@@ -9469,7 +9469,7 @@ class Currency
      * Countries:
      * - Thailand
      */
-    public const ISO_CODE_THAI_BAHT = 'THB';
+    public const ISO_CODE_THB = 'THB';
 
     /**
      * ISO-4271 Number for the Thai baht
@@ -9498,7 +9498,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Thai_baht
      * @var string
      */
-    public const NAME_THB = 'Baht';
+    public const MAJOR_UNIT_NAME_THB = 'Baht';
 
     /**
      * Short name of minor unit for currency THB
@@ -9514,7 +9514,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Thai_baht
      * @var string
      */
-    public const SYMBOL_THB = '฿';
+    public const MAJOR_UNIT_SYMBOL_THB = '฿';
 
     /**
      * Symbol of minor unit for currency THB
@@ -9530,7 +9530,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Thai_baht
      * @var float
      */
-    public const MINOR_UNIT_RATIO_THB = 1/100;
+    public const MAJOR_MINOR_RATIO_THB = 1/100;
 
 
 
@@ -9540,7 +9540,7 @@ class Currency
      * Countries:
      * - Tajikistan
      */
-    public const ISO_CODE_TAJIKISTANI_SOMONI = 'TJS';
+    public const ISO_CODE_TJS = 'TJS';
 
     /**
      * ISO-4271 Number for the Tajikistani somoni
@@ -9569,7 +9569,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
      * @var string
      */
-    public const NAME_TJS = 'Somoni';
+    public const MAJOR_UNIT_NAME_TJS = 'Somoni';
 
     /**
      * Short name of minor unit for currency TJS
@@ -9585,7 +9585,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
      * @var string
      */
-    public const SYMBOL_TJS = 'SM';
+    public const MAJOR_UNIT_SYMBOL_TJS = 'SM';
 
     /**
      * Symbol of minor unit for currency TJS
@@ -9601,7 +9601,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TJS = 1/100;
+    public const MAJOR_MINOR_RATIO_TJS = 1/100;
 
 
 
@@ -9611,7 +9611,7 @@ class Currency
      * Countries:
      * - Turkmenistan
      */
-    public const ISO_CODE_TURKMENISTAN_MANAT = 'TMT';
+    public const ISO_CODE_TMT = 'TMT';
 
     /**
      * ISO-4271 Number for the Turkmenistan manat
@@ -9640,7 +9640,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
      * @var string
      */
-    public const NAME_TMT = 'Manat';
+    public const MAJOR_UNIT_NAME_TMT = 'Manat';
 
     /**
      * Short name of minor unit for currency TMT
@@ -9656,7 +9656,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
      * @var string
      */
-    public const SYMBOL_TMT = 'm';
+    public const MAJOR_UNIT_SYMBOL_TMT = 'm';
 
     /**
      * Symbol of minor unit for currency TMT
@@ -9672,7 +9672,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TMT = 1/100;
+    public const MAJOR_MINOR_RATIO_TMT = 1/100;
 
 
 
@@ -9682,7 +9682,7 @@ class Currency
      * Countries:
      * - Tunisia
      */
-    public const ISO_CODE_TUNISIAN_DINAR = 'TND';
+    public const ISO_CODE_TND = 'TND';
 
     /**
      * ISO-4271 Number for the Tunisian dinar
@@ -9711,7 +9711,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
      * @var string
      */
-    public const NAME_TND = 'Dinar';
+    public const MAJOR_UNIT_NAME_TND = 'Dinar';
 
     /**
      * Short name of minor unit for currency TND
@@ -9727,7 +9727,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
      * @var string
      */
-    public const SYMBOL_TND = 'د.ت';
+    public const MAJOR_UNIT_SYMBOL_TND = 'د.ت';
 
     /**
      * Symbol of minor unit for currency TND
@@ -9743,7 +9743,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TND = 1/1000;
+    public const MAJOR_MINOR_RATIO_TND = 1/1000;
 
 
 
@@ -9753,7 +9753,7 @@ class Currency
      * Countries:
      * - Tonga
      */
-    public const ISO_CODE_TONGAN_PAANGA = 'TOP';
+    public const ISO_CODE_TOP = 'TOP';
 
     /**
      * ISO-4271 Number for the Tongan paʻanga
@@ -9782,7 +9782,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
      * @var string
      */
-    public const NAME_TOP = 'Paʻanga';
+    public const MAJOR_UNIT_NAME_TOP = 'Paʻanga';
 
     /**
      * Short name of minor unit for currency TOP
@@ -9798,7 +9798,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
      * @var string
      */
-    public const SYMBOL_TOP = 'T$';
+    public const MAJOR_UNIT_SYMBOL_TOP = 'T$';
 
     /**
      * Symbol of minor unit for currency TOP
@@ -9814,7 +9814,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TOP = 1/100;
+    public const MAJOR_MINOR_RATIO_TOP = 1/100;
 
 
 
@@ -9824,7 +9824,7 @@ class Currency
      * Countries:
      * - Turkey
      */
-    public const ISO_CODE_TURKISH_LIRA = 'TRY';
+    public const ISO_CODE_TRY = 'TRY';
 
     /**
      * ISO-4271 Number for the Turkish lira
@@ -9853,7 +9853,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Turkish_lira
      * @var string
      */
-    public const NAME_TRY = 'Lira';
+    public const MAJOR_UNIT_NAME_TRY = 'Lira';
 
     /**
      * Short name of minor unit for currency TRY
@@ -9869,7 +9869,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Turkish_lira
      * @var string
      */
-    public const SYMBOL_TRY = '₺';
+    public const MAJOR_UNIT_SYMBOL_TRY = '₺';
 
     /**
      * Symbol of minor unit for currency TRY
@@ -9885,7 +9885,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Turkish_lira
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TRY = 1/100;
+    public const MAJOR_MINOR_RATIO_TRY = 1/100;
 
 
 
@@ -9895,7 +9895,7 @@ class Currency
      * Countries:
      * - Trinidad and Tobago
      */
-    public const ISO_CODE_TRINIDAD_AND_TOBAGO_DOLLAR = 'TTD';
+    public const ISO_CODE_TTD = 'TTD';
 
     /**
      * ISO-4271 Number for the Trinidad and Tobago dollar
@@ -9924,7 +9924,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
      * @var string
      */
-    public const NAME_TTD = 'Dollar';
+    public const MAJOR_UNIT_NAME_TTD = 'Dollar';
 
     /**
      * Short name of minor unit for currency TTD
@@ -9940,7 +9940,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
      * @var string
      */
-    public const SYMBOL_TTD = '$';
+    public const MAJOR_UNIT_SYMBOL_TTD = '$';
 
     /**
      * Symbol of minor unit for currency TTD
@@ -9956,7 +9956,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TTD = 1/100;
+    public const MAJOR_MINOR_RATIO_TTD = 1/100;
 
 
 
@@ -9966,7 +9966,7 @@ class Currency
      * Countries:
      * - Taiwan
      */
-    public const ISO_CODE_NEW_TAIWAN_DOLLAR = 'TWD';
+    public const ISO_CODE_TWD = 'TWD';
 
     /**
      * ISO-4271 Number for the New Taiwan dollar
@@ -9995,7 +9995,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
      * @var string
      */
-    public const NAME_TWD = 'Dollar';
+    public const MAJOR_UNIT_NAME_TWD = 'Dollar';
 
     /**
      * Short name of minor unit for currency TWD
@@ -10011,7 +10011,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
      * @var string
      */
-    public const SYMBOL_TWD = '圓';
+    public const MAJOR_UNIT_SYMBOL_TWD = '圓';
 
     /**
      * Symbol of minor unit for currency TWD
@@ -10027,7 +10027,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TWD = 1/10;
+    public const MAJOR_MINOR_RATIO_TWD = 1/10;
 
 
 
@@ -10037,7 +10037,7 @@ class Currency
      * Countries:
      * - Tanzania
      */
-    public const ISO_CODE_TANZANIAN_SHILLING = 'TZS';
+    public const ISO_CODE_TZS = 'TZS';
 
     /**
      * ISO-4271 Number for the Tanzanian shilling
@@ -10066,7 +10066,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
      * @var string
      */
-    public const NAME_TZS = 'Shilingi';
+    public const MAJOR_UNIT_NAME_TZS = 'Shilingi';
 
     /**
      * Short name of minor unit for currency TZS
@@ -10082,7 +10082,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
      * @var string
      */
-    public const SYMBOL_TZS = 'TSh';
+    public const MAJOR_UNIT_SYMBOL_TZS = 'TSh';
 
     /**
      * Symbol of minor unit for currency TZS
@@ -10098,7 +10098,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
      * @var float
      */
-    public const MINOR_UNIT_RATIO_TZS = 1/100;
+    public const MAJOR_MINOR_RATIO_TZS = 1/100;
 
 
 
@@ -10108,7 +10108,7 @@ class Currency
      * Countries:
      * - Ukraine
      */
-    public const ISO_CODE_UKRAINIAN_HRYVNIA = 'UAH';
+    public const ISO_CODE_UAH = 'UAH';
 
     /**
      * ISO-4271 Number for the Ukrainian hryvnia
@@ -10137,7 +10137,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
      * @var string
      */
-    public const NAME_UAH = 'Hryvnia';
+    public const MAJOR_UNIT_NAME_UAH = 'Hryvnia';
 
     /**
      * Short name of minor unit for currency UAH
@@ -10153,7 +10153,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
      * @var string
      */
-    public const SYMBOL_UAH = '₴';
+    public const MAJOR_UNIT_SYMBOL_UAH = '₴';
 
     /**
      * Symbol of minor unit for currency UAH
@@ -10169,7 +10169,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
      * @var float
      */
-    public const MINOR_UNIT_RATIO_UAH = 1/100;
+    public const MAJOR_MINOR_RATIO_UAH = 1/100;
 
 
 
@@ -10179,7 +10179,7 @@ class Currency
      * Countries:
      * - Uganda
      */
-    public const ISO_CODE_UGANDAN_SHILLING = 'UGX';
+    public const ISO_CODE_UGX = 'UGX';
 
     /**
      * ISO-4271 Number for the Ugandan shilling
@@ -10208,7 +10208,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
      * @var string
      */
-    public const NAME_UGX = 'Shilling';
+    public const MAJOR_UNIT_NAME_UGX = 'Shilling';
 
     /**
      * Short name of minor unit for currency UGX
@@ -10224,7 +10224,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
      * @var string
      */
-    public const SYMBOL_UGX = '';
+    public const MAJOR_UNIT_SYMBOL_UGX = '';
 
     /**
      * Symbol of minor unit for currency UGX
@@ -10240,7 +10240,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
      * @var float
      */
-    public const MINOR_UNIT_RATIO_UGX = 1;
+    public const MAJOR_MINOR_RATIO_UGX = 1;
 
 
 
@@ -10267,7 +10267,7 @@ class Currency
      * - U.S. Virgin Islands (VI)
      * - United States Minor Outlying Islands (UM)
      */
-    public const ISO_CODE_UNITED_STATES_DOLLAR = 'USD';
+    public const ISO_CODE_USD = 'USD';
 
     /**
      * ISO-4271 Number for the United States dollar
@@ -10296,7 +10296,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/United_States_dollar
      * @var string
      */
-    public const NAME_USD = 'Dollar';
+    public const MAJOR_UNIT_NAME_USD = 'Dollar';
 
     /**
      * Short name of minor unit for currency USD
@@ -10312,7 +10312,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/United_States_dollar
      * @var string
      */
-    public const SYMBOL_USD = '$';
+    public const MAJOR_UNIT_SYMBOL_USD = '$';
 
     /**
      * Symbol of minor unit for currency USD
@@ -10328,7 +10328,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/United_States_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_USD = 1/100;
+    public const MAJOR_MINOR_RATIO_USD = 1/100;
 
 
 
@@ -10338,7 +10338,7 @@ class Currency
      * Countries:
      * - Uruguay
      */
-    public const ISO_CODE_URUGUAYAN_PESO = 'UYU';
+    public const ISO_CODE_UYU = 'UYU';
 
     /**
      * ISO-4271 Number for the Uruguayan peso
@@ -10367,7 +10367,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
      * @var string
      */
-    public const NAME_UYU = 'Peso';
+    public const MAJOR_UNIT_NAME_UYU = 'Peso';
 
     /**
      * Short name of minor unit for currency UYU
@@ -10383,7 +10383,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
      * @var string
      */
-    public const SYMBOL_UYU = '$';
+    public const MAJOR_UNIT_SYMBOL_UYU = '$';
 
     /**
      * Symbol of minor unit for currency UYU
@@ -10399,7 +10399,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
      * @var float
      */
-    public const MINOR_UNIT_RATIO_UYU = 1/100;
+    public const MAJOR_MINOR_RATIO_UYU = 1/100;
 
 
 
@@ -10409,7 +10409,7 @@ class Currency
      * Countries:
      * - Uzbekistan
      */
-    public const ISO_CODE_UZBEKISTAN_SOM = 'UZS';
+    public const ISO_CODE_UZS = 'UZS';
 
     /**
      * ISO-4271 Number for the Uzbekistan som
@@ -10438,7 +10438,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
      * @var string
      */
-    public const NAME_UZS = 'Soʻm';
+    public const MAJOR_UNIT_NAME_UZS = 'Soʻm';
 
     /**
      * Short name of minor unit for currency UZS
@@ -10454,7 +10454,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
      * @var string
      */
-    public const SYMBOL_UZS = 'сум';
+    public const MAJOR_UNIT_SYMBOL_UZS = 'сум';
 
     /**
      * Symbol of minor unit for currency UZS
@@ -10470,7 +10470,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
      * @var float
      */
-    public const MINOR_UNIT_RATIO_UZS = 1/100;
+    public const MAJOR_MINOR_RATIO_UZS = 1/100;
 
 
 
@@ -10480,7 +10480,7 @@ class Currency
      * Countries:
      * - Venezuela
      */
-    public const ISO_CODE_VENEZUELAN_BOLIVAR_DIGITAL = 'VED';
+    public const ISO_CODE_VED = 'VED';
 
     /**
      * ISO-4271 Number for the Venezuelan bolívar digital
@@ -10509,7 +10509,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var string
      */
-    public const NAME_VED = 'Bolívar digital';
+    public const MAJOR_UNIT_NAME_VED = 'Bolívar digital';
 
     /**
      * Short name of minor unit for currency VED
@@ -10525,7 +10525,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var string
      */
-    public const SYMBOL_VED = 'Bs. D';
+    public const MAJOR_UNIT_SYMBOL_VED = 'Bs. D';
 
     /**
      * Symbol of minor unit for currency VED
@@ -10541,7 +10541,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_VED = 1/100;
+    public const MAJOR_MINOR_RATIO_VED = 1/100;
 
 
 
@@ -10551,7 +10551,7 @@ class Currency
      * Countries:
      * - Venezuela
      */
-    public const ISO_CODE_VENEZUELAN_BOLIVAR_SOBERANO = 'VES';
+    public const ISO_CODE_VES = 'VES';
 
     /**
      * ISO-4271 Number for the Venezuelan bolívar soberano
@@ -10580,7 +10580,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var string
      */
-    public const NAME_VES = 'Bolívar soberano';
+    public const MAJOR_UNIT_NAME_VES = 'Bolívar soberano';
 
     /**
      * Short name of minor unit for currency VES
@@ -10596,7 +10596,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var string
      */
-    public const SYMBOL_VES = 'Bs.';
+    public const MAJOR_UNIT_SYMBOL_VES = 'Bs.';
 
     /**
      * Symbol of minor unit for currency VES
@@ -10612,7 +10612,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_VES = 1/100;
+    public const MAJOR_MINOR_RATIO_VES = 1/100;
 
 
 
@@ -10622,7 +10622,7 @@ class Currency
      * Countries:
      * - Vietnam
      */
-    public const ISO_CODE_VIETNAMESE_DONG = 'VND';
+    public const ISO_CODE_VND = 'VND';
 
     /**
      * ISO-4271 Number for the Vietnamese đồng
@@ -10651,7 +10651,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
      * @var string
      */
-    public const NAME_VND = 'Đồng';
+    public const MAJOR_UNIT_NAME_VND = 'Đồng';
 
     /**
      * Short name of minor unit for currency VND
@@ -10667,7 +10667,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
      * @var string
      */
-    public const SYMBOL_VND = '₫';
+    public const MAJOR_UNIT_SYMBOL_VND = '₫';
 
     /**
      * Symbol of minor unit for currency VND
@@ -10683,7 +10683,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
      * @var float
      */
-    public const MINOR_UNIT_RATIO_VND = 1/10;
+    public const MAJOR_MINOR_RATIO_VND = 1/10;
 
 
 
@@ -10693,7 +10693,7 @@ class Currency
      * Countries:
      * - Vanuatu
      */
-    public const ISO_CODE_VANUATU_VATU = 'VUV';
+    public const ISO_CODE_VUV = 'VUV';
 
     /**
      * ISO-4271 Number for the Vanuatu vatu
@@ -10722,7 +10722,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
      * @var string
      */
-    public const NAME_VUV = 'Vatu';
+    public const MAJOR_UNIT_NAME_VUV = 'Vatu';
 
     /**
      * Short name of minor unit for currency VUV
@@ -10738,7 +10738,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
      * @var string
      */
-    public const SYMBOL_VUV = 'VT';
+    public const MAJOR_UNIT_SYMBOL_VUV = 'VT';
 
     /**
      * Symbol of minor unit for currency VUV
@@ -10754,7 +10754,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
      * @var float
      */
-    public const MINOR_UNIT_RATIO_VUV = 1;
+    public const MAJOR_MINOR_RATIO_VUV = 1;
 
 
 
@@ -10764,7 +10764,7 @@ class Currency
      * Countries:
      * - Samoa
      */
-    public const ISO_CODE_SAMOAN_TALA = 'WST';
+    public const ISO_CODE_WST = 'WST';
 
     /**
      * ISO-4271 Number for the Samoan tala
@@ -10793,7 +10793,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
      * @var string
      */
-    public const NAME_WST = 'Tālā';
+    public const MAJOR_UNIT_NAME_WST = 'Tālā';
 
     /**
      * Short name of minor unit for currency WST
@@ -10809,7 +10809,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
      * @var string
      */
-    public const SYMBOL_WST = '$';
+    public const MAJOR_UNIT_SYMBOL_WST = '$';
 
     /**
      * Symbol of minor unit for currency WST
@@ -10825,7 +10825,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
      * @var float
      */
-    public const MINOR_UNIT_RATIO_WST = 1/100;
+    public const MAJOR_MINOR_RATIO_WST = 1/100;
 
 
 
@@ -10840,7 +10840,7 @@ class Currency
      * - Equatorial Guinea (GQ)
      * - Gabon (GA)
      */
-    public const ISO_CODE_CFA_FRANC_BEAC = 'XAF';
+    public const ISO_CODE_XAF = 'XAF';
 
     /**
      * ISO-4271 Number for the CFA franc BEAC
@@ -10869,7 +10869,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
      * @var string
      */
-    public const NAME_XAF = 'Franc';
+    public const MAJOR_UNIT_NAME_XAF = 'Franc';
 
     /**
      * Short name of minor unit for currency XAF
@@ -10885,7 +10885,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
      * @var string
      */
-    public const SYMBOL_XAF = 'FCFA';
+    public const MAJOR_UNIT_SYMBOL_XAF = 'FCFA';
 
     /**
      * Symbol of minor unit for currency XAF
@@ -10901,7 +10901,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_XAF = 1/100;
+    public const MAJOR_MINOR_RATIO_XAF = 1/100;
 
 
 
@@ -10918,7 +10918,7 @@ class Currency
      * - Saint Lucia (LC)
      * - Saint Vincent and the Grenadines (VC)
      */
-    public const ISO_CODE_EAST_CARIBBEAN_DOLLAR = 'XCD';
+    public const ISO_CODE_XCD = 'XCD';
 
     /**
      * ISO-4271 Number for the East Caribbean dollar
@@ -10947,7 +10947,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
      * @var string
      */
-    public const NAME_XCD = 'Dollar';
+    public const MAJOR_UNIT_NAME_XCD = 'Dollar';
 
     /**
      * Short name of minor unit for currency XCD
@@ -10963,7 +10963,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
      * @var string
      */
-    public const SYMBOL_XCD = 'EC$';
+    public const MAJOR_UNIT_SYMBOL_XCD = 'EC$';
 
     /**
      * Symbol of minor unit for currency XCD
@@ -10979,7 +10979,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_XCD = 1/100;
+    public const MAJOR_MINOR_RATIO_XCD = 1/100;
 
 
 
@@ -10996,7 +10996,7 @@ class Currency
      * - Senegal (SN)
      * - Togo (TG)
      */
-    public const ISO_CODE_CFA_FRANC_BCEAO = 'XOF';
+    public const ISO_CODE_XOF = 'XOF';
 
     /**
      * ISO-4271 Number for the CFA franc BCEAO
@@ -11025,7 +11025,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
      * @var string
      */
-    public const NAME_XOF = 'Franc';
+    public const MAJOR_UNIT_NAME_XOF = 'Franc';
 
     /**
      * Short name of minor unit for currency XOF
@@ -11041,7 +11041,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
      * @var string
      */
-    public const SYMBOL_XOF = 'CFA';
+    public const MAJOR_UNIT_SYMBOL_XOF = 'CFA';
 
     /**
      * Symbol of minor unit for currency XOF
@@ -11057,7 +11057,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_XOF = 1/100;
+    public const MAJOR_MINOR_RATIO_XOF = 1/100;
 
 
 
@@ -11069,7 +11069,7 @@ class Currency
      * - New Caledonia (NC)
      * - Wallis and Futuna (WF)
      */
-    public const ISO_CODE_CFP_FRANC = 'XPF';
+    public const ISO_CODE_XPF = 'XPF';
 
     /**
      * ISO-4271 Number for the CFP franc (franc Pacifique)
@@ -11098,7 +11098,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/CFP_franc
      * @var string
      */
-    public const NAME_XPF = 'Franc';
+    public const MAJOR_UNIT_NAME_XPF = 'Franc';
 
     /**
      * Short name of minor unit for currency XPF
@@ -11114,7 +11114,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/CFP_franc
      * @var string
      */
-    public const SYMBOL_XPF = '₣';
+    public const MAJOR_UNIT_SYMBOL_XPF = '₣';
 
     /**
      * Symbol of minor unit for currency XPF
@@ -11130,7 +11130,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/CFP_franc
      * @var float
      */
-    public const MINOR_UNIT_RATIO_XPF = 1;
+    public const MAJOR_MINOR_RATIO_XPF = 1;
 
 
 
@@ -11140,7 +11140,7 @@ class Currency
      * Countries:
      * - Yemen
      */
-    public const ISO_CODE_YEMENI_RIAL = 'YER';
+    public const ISO_CODE_YER = 'YER';
 
     /**
      * ISO-4271 Number for the Yemeni rial
@@ -11169,7 +11169,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
      * @var string
      */
-    public const NAME_YER = 'Rial';
+    public const MAJOR_UNIT_NAME_YER = 'Rial';
 
     /**
      * Short name of minor unit for currency YER
@@ -11185,7 +11185,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
      * @var string
      */
-    public const SYMBOL_YER = '﷼';
+    public const MAJOR_UNIT_SYMBOL_YER = '﷼';
 
     /**
      * Symbol of minor unit for currency YER
@@ -11201,7 +11201,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
      * @var float
      */
-    public const MINOR_UNIT_RATIO_YER = 1/100;
+    public const MAJOR_MINOR_RATIO_YER = 1/100;
 
 
 
@@ -11214,7 +11214,7 @@ class Currency
      * - Namibia
      * - South Africa
      */
-    public const ISO_CODE_SOUTH_AFRICAN_RAND = 'ZAR';
+    public const ISO_CODE_ZAR = 'ZAR';
 
     /**
      * ISO-4271 Number for the South African rand
@@ -11243,7 +11243,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_African_rand
      * @var string
      */
-    public const NAME_ZAR = 'Rand';
+    public const MAJOR_UNIT_NAME_ZAR = 'Rand';
 
     /**
      * Short name of minor unit for currency ZAR
@@ -11259,7 +11259,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_African_rand
      * @var string
      */
-    public const SYMBOL_ZAR = 'R';
+    public const MAJOR_UNIT_SYMBOL_ZAR = 'R';
 
     /**
      * Symbol of minor unit for currency ZAR
@@ -11275,7 +11275,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/South_African_rand
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ZAR = 1/100;
+    public const MAJOR_MINOR_RATIO_ZAR = 1/100;
 
 
 
@@ -11285,7 +11285,7 @@ class Currency
      * Countries:
      * - Zambia
      */
-    public const ISO_CODE_ZAMBIAN_KWACHA = 'ZMW';
+    public const ISO_CODE_ZMW = 'ZMW';
 
     /**
      * ISO-4271 Number for the Zambian kwacha
@@ -11314,7 +11314,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
      * @var string
      */
-    public const NAME_ZMW = 'Kwacha';
+    public const MAJOR_UNIT_NAME_ZMW = 'Kwacha';
 
     /**
      * Short name of minor unit for currency ZMW
@@ -11330,7 +11330,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
      * @var string
      */
-    public const SYMBOL_ZMW = 'K';
+    public const MAJOR_UNIT_SYMBOL_ZMW = 'K';
 
     /**
      * Symbol of minor unit for currency ZMW
@@ -11346,7 +11346,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ZMW = 1/100;
+    public const MAJOR_MINOR_RATIO_ZMW = 1/100;
 
 
 
@@ -11356,7 +11356,7 @@ class Currency
      * Countries:
      * - Zimbabwe
      */
-    public const ISO_CODE_ZIMBABWEAN_DOLLAR = 'ZWL';
+    public const ISO_CODE_ZWL = 'ZWL';
 
     /**
      * ISO-4271 Number for the Zimbabwean dollar
@@ -11385,7 +11385,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
      * @var string
      */
-    public const NAME_ZWL = 'Dollar';
+    public const MAJOR_UNIT_NAME_ZWL = 'Dollar';
 
     /**
      * Short name of minor unit for currency ZWL
@@ -11401,7 +11401,7 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
      * @var string
      */
-    public const SYMBOL_ZWL = '$';
+    public const MAJOR_UNIT_SYMBOL_ZWL = '$';
 
     /**
      * Symbol of minor unit for currency ZWL
@@ -11417,6 +11417,6 @@ class Currency
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
      * @var float
      */
-    public const MINOR_UNIT_RATIO_ZWL = 1/100;
+    public const MAJOR_MINOR_RATIO_ZWL = 1/100;
 
 }
