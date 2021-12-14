@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\I18N;
 /**
  * Collection of official ISO 4217 currencies
  *
- * @see https://en.wikipedia.org/wiki/ISO_4217
+ * @see       https://en.wikipedia.org/wiki/ISO_4217
  *
  * @package   TomLutzenberger\Constantine\I18N
  * @copyright 2021 Tom Lutzenberger
@@ -26,30 +26,31 @@ class Iso4217
      *
      * Countries:
      * - United Arab Emirates
+     *
+     * @var string
      */
-    public const ISO_CODE_AED = 'AED';
+    public const ALPHA_3_CODE_AED = 'AED';
 
     /**
      * ISO-4271 Number for the United Arab Emirates dirham
      *
      * @var int
      */
-    public const ISO_NUMBER_AED = 784;
+    public const NUMERIC_CODE_AED = 784;
 
     /**
      * ISO-4271 name for currency AED
      *
      * @var string
      */
-    public const ISO_NAME_AED = 'United Arab Emirates dirham';
+    public const NAME_AED = 'United Arab Emirates dirham';
 
     /**
      * The number of digits after the decimal separator for AED
      *
      * @var int
      */
-    public const ISO_DIGITS_AED = 2;
-
+    public const DIGITS_AED = 2;
 
 
     /**
@@ -57,30 +58,31 @@ class Iso4217
      *
      * Countries:
      * - Afghanistan
+     *
+     * @var string
      */
-    public const ISO_CODE_AFN = 'AFN';
+    public const ALPHA_3_CODE_AFN = 'AFN';
 
     /**
      * ISO-4271 Number for the Afghan afghani
      *
      * @var int
      */
-    public const ISO_NUMBER_AFN = 971;
+    public const NUMERIC_CODE_AFN = 971;
 
     /**
      * ISO-4271 name for currency AFN
      *
      * @var string
      */
-    public const ISO_NAME_AFN = 'Afghan afghani';
+    public const NAME_AFN = 'Afghan afghani';
 
     /**
      * The number of digits after the decimal separator for AFN
      *
      * @var int
      */
-    public const ISO_DIGITS_AFN = 2;
-
+    public const DIGITS_AFN = 2;
 
 
     /**
@@ -88,30 +90,31 @@ class Iso4217
      *
      * Countries:
      * - Albania
+     *
+     * @var string
      */
-    public const ISO_CODE_ALL = 'ALL';
+    public const ALPHA_3_CODE_ALL = 'ALL';
 
     /**
      * ISO-4271 Number for the Albanian lek
      *
      * @var int
      */
-    public const ISO_NUMBER_ALL = 8;
+    public const NUMERIC_CODE_ALL = 8;
 
     /**
      * ISO-4271 name for currency ALL
      *
      * @var string
      */
-    public const ISO_NAME_ALL = 'Albanian lek';
+    public const NAME_ALL = 'Albanian lek';
 
     /**
      * The number of digits after the decimal separator for ALL
      *
      * @var int
      */
-    public const ISO_DIGITS_ALL = 2;
-
+    public const DIGITS_ALL = 2;
 
 
     /**
@@ -119,30 +122,31 @@ class Iso4217
      *
      * Countries:
      * - Armenia
+     *
+     * @var string
      */
-    public const ISO_CODE_AMD = 'AMD';
+    public const ALPHA_3_CODE_AMD = 'AMD';
 
     /**
      * ISO-4271 Number for the Armenian dram
      *
      * @var int
      */
-    public const ISO_NUMBER_AMD = 051;
+    public const NUMERIC_CODE_AMD = 051;
 
     /**
      * ISO-4271 name for currency AMD
      *
      * @var string
      */
-    public const ISO_NAME_AMD = 'Armenian dram';
+    public const NAME_AMD = 'Armenian dram';
 
     /**
      * The number of digits after the decimal separator for AMD
      *
      * @var int
      */
-    public const ISO_DIGITS_AMD = 2;
-
+    public const DIGITS_AMD = 2;
 
 
     /**
@@ -151,30 +155,31 @@ class Iso4217
      * Countries:
      * - Curaçao (CW)
      * - Sint Maarten (SX)
+     *
+     * @var string
      */
-    public const ISO_CODE_ANG = 'ANG';
+    public const ALPHA_3_CODE_ANG = 'ANG';
 
     /**
      * ISO-4271 Number for the Netherlands Antillean guilder
      *
      * @var int
      */
-    public const ISO_NUMBER_ANG = 532;
+    public const NUMERIC_CODE_ANG = 532;
 
     /**
      * ISO-4271 name for currency ANG
      *
      * @var string
      */
-    public const ISO_NAME_ANG = 'Netherlands Antillean guilder';
+    public const NAME_ANG = 'Netherlands Antillean guilder';
 
     /**
      * The number of digits after the decimal separator for ANG
      *
      * @var int
      */
-    public const ISO_DIGITS_ANG = 2;
-
+    public const DIGITS_ANG = 2;
 
 
     /**
@@ -182,30 +187,31 @@ class Iso4217
      *
      * Countries:
      * - Angola
+     *
+     * @var string
      */
-    public const ISO_CODE_AOA = 'AOA';
+    public const ALPHA_3_CODE_AOA = 'AOA';
 
     /**
      * ISO-4271 Number for the Angolan kwanza
      *
      * @var int
      */
-    public const ISO_NUMBER_AOA = 973;
+    public const NUMERIC_CODE_AOA = 973;
 
     /**
      * ISO-4271 name for currency AOA
      *
      * @var string
      */
-    public const ISO_NAME_AOA = 'Angolan kwanza';
+    public const NAME_AOA = 'Angolan kwanza';
 
     /**
      * The number of digits after the decimal separator for AOA
      *
      * @var int
      */
-    public const ISO_DIGITS_AOA = 2;
-
+    public const DIGITS_AOA = 2;
 
 
     /**
@@ -213,30 +219,31 @@ class Iso4217
      *
      * Countries:
      * - Argentina
+     *
+     * @var string
      */
-    public const ISO_CODE_ARS = 'ARS';
+    public const ALPHA_3_CODE_ARS = 'ARS';
 
     /**
      * ISO-4271 Number for the Argentine peso
      *
      * @var int
      */
-    public const ISO_NUMBER_ARS = 032;
+    public const NUMERIC_CODE_ARS = 032;
 
     /**
      * ISO-4271 name for currency ARS
      *
      * @var string
      */
-    public const ISO_NAME_ARS = 'Argentine peso';
+    public const NAME_ARS = 'Argentine peso';
 
     /**
      * The number of digits after the decimal separator for ARS
      *
      * @var int
      */
-    public const ISO_DIGITS_ARS = 2;
-
+    public const DIGITS_ARS = 2;
 
 
     /**
@@ -251,30 +258,31 @@ class Iso4217
      * - Nauru (NR)
      * - Norfolk Island (NF)
      * - Tuvalu (TV)
+     *
+     * @var string
      */
-    public const ISO_CODE_AUD = 'AUD';
+    public const ALPHA_3_CODE_AUD = 'AUD';
 
     /**
      * ISO-4271 Number for the Australian dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_AUD = 036;
+    public const NUMERIC_CODE_AUD = 036;
 
     /**
      * ISO-4271 name for currency AUD
      *
      * @var string
      */
-    public const ISO_NAME_AUD = 'Australian dollar';
+    public const NAME_AUD = 'Australian dollar';
 
     /**
      * The number of digits after the decimal separator for AUD
      *
      * @var int
      */
-    public const ISO_DIGITS_AUD = 2;
-
+    public const DIGITS_AUD = 2;
 
 
     /**
@@ -282,30 +290,31 @@ class Iso4217
      *
      * Countries:
      * - Aruba
+     *
+     * @var string
      */
-    public const ISO_CODE_AWG = 'AWG';
+    public const ALPHA_3_CODE_AWG = 'AWG';
 
     /**
      * ISO-4271 Number for the Aruban florin
      *
      * @var int
      */
-    public const ISO_NUMBER_AWG = 533;
+    public const NUMERIC_CODE_AWG = 533;
 
     /**
      * ISO-4271 name for currency AWG
      *
      * @var string
      */
-    public const ISO_NAME_AWG = 'Aruban florin';
+    public const NAME_AWG = 'Aruban florin';
 
     /**
      * The number of digits after the decimal separator for AWG
      *
      * @var int
      */
-    public const ISO_DIGITS_AWG = 2;
-
+    public const DIGITS_AWG = 2;
 
 
     /**
@@ -313,30 +322,31 @@ class Iso4217
      *
      * Countries:
      * - Azerbaijan
+     *
+     * @var string
      */
-    public const ISO_CODE_AZN = 'AZN';
+    public const ALPHA_3_CODE_AZN = 'AZN';
 
     /**
      * ISO-4271 Number for the Azerbaijani manat
      *
      * @var int
      */
-    public const ISO_NUMBER_AZN = 944;
+    public const NUMERIC_CODE_AZN = 944;
 
     /**
      * ISO-4271 name for currency AZN
      *
      * @var string
      */
-    public const ISO_NAME_AZN = 'Azerbaijani manat';
+    public const NAME_AZN = 'Azerbaijani manat';
 
     /**
      * The number of digits after the decimal separator for AZN
      *
      * @var int
      */
-    public const ISO_DIGITS_AZN = 2;
-
+    public const DIGITS_AZN = 2;
 
 
     /**
@@ -344,30 +354,31 @@ class Iso4217
      *
      * Countries:
      * - Bosnia and Herzegovina
+     *
+     * @var string
      */
-    public const ISO_CODE_BAM = 'BAM';
+    public const ALPHA_3_CODE_BAM = 'BAM';
 
     /**
      * ISO-4271 Number for the Bosnia and Herzegovina convertible mark
      *
      * @var int
      */
-    public const ISO_NUMBER_BAM = 977;
+    public const NUMERIC_CODE_BAM = 977;
 
     /**
      * ISO-4271 name for currency BAM
      *
      * @var string
      */
-    public const ISO_NAME_BAM = 'Bosnia and Herzegovina convertible mark';
+    public const NAME_BAM = 'Bosnia and Herzegovina convertible mark';
 
     /**
      * The number of digits after the decimal separator for BAM
      *
      * @var int
      */
-    public const ISO_DIGITS_BAM = 2;
-
+    public const DIGITS_BAM = 2;
 
 
     /**
@@ -375,30 +386,31 @@ class Iso4217
      *
      * Countries:
      * - Barbados
+     *
+     * @var string
      */
-    public const ISO_CODE_BBD = 'BBD';
+    public const ALPHA_3_CODE_BBD = 'BBD';
 
     /**
      * ISO-4271 Number for the Barbados dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_BBD = 052;
+    public const NUMERIC_CODE_BBD = 052;
 
     /**
      * ISO-4271 name for currency BBD
      *
      * @var string
      */
-    public const ISO_NAME_BBD = 'Barbados dollar';
+    public const NAME_BBD = 'Barbados dollar';
 
     /**
      * The number of digits after the decimal separator for BBD
      *
      * @var int
      */
-    public const ISO_DIGITS_BBD = 2;
-
+    public const DIGITS_BBD = 2;
 
 
     /**
@@ -406,30 +418,31 @@ class Iso4217
      *
      * Countries:
      * - Bangladesh
+     *
+     * @var string
      */
-    public const ISO_CODE_BDT = 'BDT';
+    public const ALPHA_3_CODE_BDT = 'BDT';
 
     /**
      * ISO-4271 Number for the Bangladeshi taka
      *
      * @var int
      */
-    public const ISO_NUMBER_BDT = 050;
+    public const NUMERIC_CODE_BDT = 050;
 
     /**
      * ISO-4271 name for currency BDT
      *
      * @var string
      */
-    public const ISO_NAME_BDT = 'Bangladeshi taka';
+    public const NAME_BDT = 'Bangladeshi taka';
 
     /**
      * The number of digits after the decimal separator for BDT
      *
      * @var int
      */
-    public const ISO_DIGITS_BDT = 2;
-
+    public const DIGITS_BDT = 2;
 
 
     /**
@@ -437,30 +450,31 @@ class Iso4217
      *
      * Countries:
      * - Bulgaria
+     *
+     * @var string
      */
-    public const ISO_CODE_BGN = 'BGN';
+    public const ALPHA_3_CODE_BGN = 'BGN';
 
     /**
      * ISO-4271 Number for the Bulgarian lev
      *
      * @var int
      */
-    public const ISO_NUMBER_BGN = 975;
+    public const NUMERIC_CODE_BGN = 975;
 
     /**
      * ISO-4271 name for currency BGN
      *
      * @var string
      */
-    public const ISO_NAME_BGN = 'Bulgarian lev';
+    public const NAME_BGN = 'Bulgarian lev';
 
     /**
      * The number of digits after the decimal separator for BGN
      *
      * @var int
      */
-    public const ISO_DIGITS_BGN = 2;
-
+    public const DIGITS_BGN = 2;
 
 
     /**
@@ -468,30 +482,31 @@ class Iso4217
      *
      * Countries:
      * - Bahrain
+     *
+     * @var string
      */
-    public const ISO_CODE_BHD = 'BHD';
+    public const ALPHA_3_CODE_BHD = 'BHD';
 
     /**
      * ISO-4271 Number for the Bahraini dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_BHD = 48;
+    public const NUMERIC_CODE_BHD = 48;
 
     /**
      * ISO-4271 name for currency BHD
      *
      * @var string
      */
-    public const ISO_NAME_BHD = 'Bahraini dinar';
+    public const NAME_BHD = 'Bahraini dinar';
 
     /**
      * The number of digits after the decimal separator for BHD
      *
      * @var int
      */
-    public const ISO_DIGITS_BHD = 3;
-
+    public const DIGITS_BHD = 3;
 
 
     /**
@@ -499,30 +514,31 @@ class Iso4217
      *
      * Countries:
      * - Burundi
+     *
+     * @var string
      */
-    public const ISO_CODE_BIF = 'BIF';
+    public const ALPHA_3_CODE_BIF = 'BIF';
 
     /**
      * ISO-4271 Number for the Burundian franc
      *
      * @var int
      */
-    public const ISO_NUMBER_BIF = 108;
+    public const NUMERIC_CODE_BIF = 108;
 
     /**
      * ISO-4271 name for currency BIF
      *
      * @var string
      */
-    public const ISO_NAME_BIF = 'Burundian franc';
+    public const NAME_BIF = 'Burundian franc';
 
     /**
      * The number of digits after the decimal separator for BIF
      *
      * @var int
      */
-    public const ISO_DIGITS_BIF = 0;
-
+    public const DIGITS_BIF = 0;
 
 
     /**
@@ -530,30 +546,31 @@ class Iso4217
      *
      * Countries:
      * - Bermuda
+     *
+     * @var string
      */
-    public const ISO_CODE_BMD = 'BMD';
+    public const ALPHA_3_CODE_BMD = 'BMD';
 
     /**
      * ISO-4271 Number for the Bermudian dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_BMD = 060;
+    public const NUMERIC_CODE_BMD = 060;
 
     /**
      * ISO-4271 name for currency BMD
      *
      * @var string
      */
-    public const ISO_NAME_BMD = 'Bermudian dollar';
+    public const NAME_BMD = 'Bermudian dollar';
 
     /**
      * The number of digits after the decimal separator for BMD
      *
      * @var int
      */
-    public const ISO_DIGITS_BMD = 2;
-
+    public const DIGITS_BMD = 2;
 
 
     /**
@@ -561,30 +578,31 @@ class Iso4217
      *
      * Countries:
      * - Brunei
+     *
+     * @var string
      */
-    public const ISO_CODE_BND = 'BND';
+    public const ALPHA_3_CODE_BND = 'BND';
 
     /**
      * ISO-4271 Number for the Brunei dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_BND = 96;
+    public const NUMERIC_CODE_BND = 96;
 
     /**
      * ISO-4271 name for currency BND
      *
      * @var string
      */
-    public const ISO_NAME_BND = 'Brunei dollar';
+    public const NAME_BND = 'Brunei dollar';
 
     /**
      * The number of digits after the decimal separator for BND
      *
      * @var int
      */
-    public const ISO_DIGITS_BND = 2;
-
+    public const DIGITS_BND = 2;
 
 
     /**
@@ -592,30 +610,31 @@ class Iso4217
      *
      * Countries:
      * - Bolivia
+     *
+     * @var string
      */
-    public const ISO_CODE_BOB = 'BOB';
+    public const ALPHA_3_CODE_BOB = 'BOB';
 
     /**
      * ISO-4271 Number for the Boliviano
      *
      * @var int
      */
-    public const ISO_NUMBER_BOB = 68;
+    public const NUMERIC_CODE_BOB = 68;
 
     /**
      * ISO-4271 name for currency BOB
      *
      * @var string
      */
-    public const ISO_NAME_BOB = 'Boliviano';
+    public const NAME_BOB = 'Boliviano';
 
     /**
      * The number of digits after the decimal separator for BOB
      *
      * @var int
      */
-    public const ISO_DIGITS_BOB = 2;
-
+    public const DIGITS_BOB = 2;
 
 
     /**
@@ -623,30 +642,31 @@ class Iso4217
      *
      * Countries:
      * - Brazil
+     *
+     * @var string
      */
-    public const ISO_CODE_BRL = 'BRL';
+    public const ALPHA_3_CODE_BRL = 'BRL';
 
     /**
      * ISO-4271 Number for the Brazilian real
      *
      * @var int
      */
-    public const ISO_NUMBER_BRL = 986;
+    public const NUMERIC_CODE_BRL = 986;
 
     /**
      * ISO-4271 name for currency BRL
      *
      * @var string
      */
-    public const ISO_NAME_BRL = 'Brazilian real';
+    public const NAME_BRL = 'Brazilian real';
 
     /**
      * The number of digits after the decimal separator for BRL
      *
      * @var int
      */
-    public const ISO_DIGITS_BRL = 2;
-
+    public const DIGITS_BRL = 2;
 
 
     /**
@@ -654,30 +674,31 @@ class Iso4217
      *
      * Countries:
      * - Bahamas
+     *
+     * @var string
      */
-    public const ISO_CODE_BSD = 'BSD';
+    public const ALPHA_3_CODE_BSD = 'BSD';
 
     /**
      * ISO-4271 Number for the Bahamian dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_BSD = 044;
+    public const NUMERIC_CODE_BSD = 044;
 
     /**
      * ISO-4271 name for currency BSD
      *
      * @var string
      */
-    public const ISO_NAME_BSD = 'Bahamian dollar';
+    public const NAME_BSD = 'Bahamian dollar';
 
     /**
      * The number of digits after the decimal separator for BSD
      *
      * @var int
      */
-    public const ISO_DIGITS_BSD = 2;
-
+    public const DIGITS_BSD = 2;
 
 
     /**
@@ -685,30 +706,31 @@ class Iso4217
      *
      * Countries:
      * - Bhutan
+     *
+     * @var string
      */
-    public const ISO_CODE_BTN = 'BTN';
+    public const ALPHA_3_CODE_BTN = 'BTN';
 
     /**
      * ISO-4271 Number for the Bhutanese ngultrum
      *
      * @var int
      */
-    public const ISO_NUMBER_BTN = 064;
+    public const NUMERIC_CODE_BTN = 064;
 
     /**
      * ISO-4271 name for currency BTN
      *
      * @var string
      */
-    public const ISO_NAME_BTN = 'Bhutanese ngultrum';
+    public const NAME_BTN = 'Bhutanese ngultrum';
 
     /**
      * The number of digits after the decimal separator for BTN
      *
      * @var int
      */
-    public const ISO_DIGITS_BTN = 2;
-
+    public const DIGITS_BTN = 2;
 
 
     /**
@@ -716,30 +738,31 @@ class Iso4217
      *
      * Countries:
      * - Botswana
+     *
+     * @var string
      */
-    public const ISO_CODE_BWP = 'BWP';
+    public const ALPHA_3_CODE_BWP = 'BWP';
 
     /**
      * ISO-4271 Number for the Botswana pula
      *
      * @var int
      */
-    public const ISO_NUMBER_BWP = 072;
+    public const NUMERIC_CODE_BWP = 072;
 
     /**
      * ISO-4271 name for currency BWP
      *
      * @var string
      */
-    public const ISO_NAME_BWP = 'Botswana pula';
+    public const NAME_BWP = 'Botswana pula';
 
     /**
      * The number of digits after the decimal separator for BWP
      *
      * @var int
      */
-    public const ISO_DIGITS_BWP = 2;
-
+    public const DIGITS_BWP = 2;
 
 
     /**
@@ -747,30 +770,31 @@ class Iso4217
      *
      * Countries:
      * - Belarus
+     *
+     * @var string
      */
-    public const ISO_CODE_BYN = 'BYN';
+    public const ALPHA_3_CODE_BYN = 'BYN';
 
     /**
      * ISO-4271 Number for the Belarusian ruble
      *
      * @var int
      */
-    public const ISO_NUMBER_BYN = 933;
+    public const NUMERIC_CODE_BYN = 933;
 
     /**
      * ISO-4271 name for currency BYN
      *
      * @var string
      */
-    public const ISO_NAME_BYN = 'Belarusian ruble';
+    public const NAME_BYN = 'Belarusian ruble';
 
     /**
      * The number of digits after the decimal separator for BYN
      *
      * @var int
      */
-    public const ISO_DIGITS_BYN = 2;
-
+    public const DIGITS_BYN = 2;
 
 
     /**
@@ -778,30 +802,31 @@ class Iso4217
      *
      * Countries:
      * - Belize
+     *
+     * @var string
      */
-    public const ISO_CODE_BZD = 'BZD';
+    public const ALPHA_3_CODE_BZD = 'BZD';
 
     /**
      * ISO-4271 Number for the Belize dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_BZD = 84;
+    public const NUMERIC_CODE_BZD = 84;
 
     /**
      * ISO-4271 name for currency BZD
      *
      * @var string
      */
-    public const ISO_NAME_BZD = 'Belize dollar';
+    public const NAME_BZD = 'Belize dollar';
 
     /**
      * The number of digits after the decimal separator for BZD
      *
      * @var int
      */
-    public const ISO_DIGITS_BZD = 2;
-
+    public const DIGITS_BZD = 2;
 
 
     /**
@@ -809,30 +834,31 @@ class Iso4217
      *
      * Countries:
      * - Canada
+     *
+     * @var string
      */
-    public const ISO_CODE_CAD = 'CAD';
+    public const ALPHA_3_CODE_CAD = 'CAD';
 
     /**
      * ISO-4271 Number for the Canadian dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_CAD = 124;
+    public const NUMERIC_CODE_CAD = 124;
 
     /**
      * ISO-4271 name for currency CAD
      *
      * @var string
      */
-    public const ISO_NAME_CAD = 'Canadian dollar';
+    public const NAME_CAD = 'Canadian dollar';
 
     /**
      * The number of digits after the decimal separator for CAD
      *
      * @var int
      */
-    public const ISO_DIGITS_CAD = 2;
-
+    public const DIGITS_CAD = 2;
 
 
     /**
@@ -840,30 +866,31 @@ class Iso4217
      *
      * Countries:
      * - Democratic Republic of the Congo
+     *
+     * @var string
      */
-    public const ISO_CODE_CDF = 'CDF';
+    public const ALPHA_3_CODE_CDF = 'CDF';
 
     /**
      * ISO-4271 Number for the Congolese franc
      *
      * @var int
      */
-    public const ISO_NUMBER_CDF = 976;
+    public const NUMERIC_CODE_CDF = 976;
 
     /**
      * ISO-4271 name for currency CDF
      *
      * @var string
      */
-    public const ISO_NAME_CDF = 'Congolese franc';
+    public const NAME_CDF = 'Congolese franc';
 
     /**
      * The number of digits after the decimal separator for CDF
      *
      * @var int
      */
-    public const ISO_DIGITS_CDF = 2;
-
+    public const DIGITS_CDF = 2;
 
 
     /**
@@ -872,30 +899,31 @@ class Iso4217
      * Countries:
      * - Switzerland
      * - Liechtenstein (LI)
+     *
+     * @var string
      */
-    public const ISO_CODE_CHF = 'CHF';
+    public const ALPHA_3_CODE_CHF = 'CHF';
 
     /**
      * ISO-4271 Number for the Swiss franc
      *
      * @var int
      */
-    public const ISO_NUMBER_CHF = 756;
+    public const NUMERIC_CODE_CHF = 756;
 
     /**
      * ISO-4271 name for currency CHF
      *
      * @var string
      */
-    public const ISO_NAME_CHF = 'Swiss franc';
+    public const NAME_CHF = 'Swiss franc';
 
     /**
      * The number of digits after the decimal separator for CHF
      *
      * @var int
      */
-    public const ISO_DIGITS_CHF = 2;
-
+    public const DIGITS_CHF = 2;
 
 
     /**
@@ -903,30 +931,31 @@ class Iso4217
      *
      * Countries:
      * - Chile
+     *
+     * @var string
      */
-    public const ISO_CODE_CLP = 'CLP';
+    public const ALPHA_3_CODE_CLP = 'CLP';
 
     /**
      * ISO-4271 Number for the Chilean peso
      *
      * @var int
      */
-    public const ISO_NUMBER_CLP = 152;
+    public const NUMERIC_CODE_CLP = 152;
 
     /**
      * ISO-4271 name for currency CLP
      *
      * @var string
      */
-    public const ISO_NAME_CLP = 'Chilean peso';
+    public const NAME_CLP = 'Chilean peso';
 
     /**
      * The number of digits after the decimal separator for CLP
      *
      * @var int
      */
-    public const ISO_DIGITS_CLP = 0;
-
+    public const DIGITS_CLP = 0;
 
 
     /**
@@ -934,30 +963,31 @@ class Iso4217
      *
      * Countries:
      * - China
+     *
+     * @var string
      */
-    public const ISO_CODE_CNY = 'CNY';
+    public const ALPHA_3_CODE_CNY = 'CNY';
 
     /**
      * ISO-4271 Number for the Chinese yuan
      *
      * @var int
      */
-    public const ISO_NUMBER_CNY = 156;
+    public const NUMERIC_CODE_CNY = 156;
 
     /**
      * ISO-4271 name for currency CNY
      *
      * @var string
      */
-    public const ISO_NAME_CNY = 'Chinese yuan';
+    public const NAME_CNY = 'Chinese yuan';
 
     /**
      * The number of digits after the decimal separator for CNY
      *
      * @var int
      */
-    public const ISO_DIGITS_CNY = 2;
-
+    public const DIGITS_CNY = 2;
 
 
     /**
@@ -965,30 +995,31 @@ class Iso4217
      *
      * Countries:
      * - Colombia
+     *
+     * @var string
      */
-    public const ISO_CODE_COP = 'COP';
+    public const ALPHA_3_CODE_COP = 'COP';
 
     /**
      * ISO-4271 Number for the Colombian peso
      *
      * @var int
      */
-    public const ISO_NUMBER_COP = 170;
+    public const NUMERIC_CODE_COP = 170;
 
     /**
      * ISO-4271 name for currency COP
      *
      * @var string
      */
-    public const ISO_NAME_COP = 'Colombian peso';
+    public const NAME_COP = 'Colombian peso';
 
     /**
      * The number of digits after the decimal separator for COP
      *
      * @var int
      */
-    public const ISO_DIGITS_COP = 2;
-
+    public const DIGITS_COP = 2;
 
 
     /**
@@ -996,30 +1027,31 @@ class Iso4217
      *
      * Countries:
      * - Costa Rica
+     *
+     * @var string
      */
-    public const ISO_CODE_CRC = 'CRC';
+    public const ALPHA_3_CODE_CRC = 'CRC';
 
     /**
      * ISO-4271 Number for the Costa Rican colon
      *
      * @var int
      */
-    public const ISO_NUMBER_CRC = 188;
+    public const NUMERIC_CODE_CRC = 188;
 
     /**
      * ISO-4271 name for currency CRC
      *
      * @var string
      */
-    public const ISO_NAME_CRC = 'Costa Rican colon';
+    public const NAME_CRC = 'Costa Rican colon';
 
     /**
      * The number of digits after the decimal separator for CRC
      *
      * @var int
      */
-    public const ISO_DIGITS_CRC = 2;
-
+    public const DIGITS_CRC = 2;
 
 
     /**
@@ -1027,30 +1059,31 @@ class Iso4217
      *
      * Countries:
      * - Cuba
+     *
+     * @var string
      */
-    public const ISO_CODE_CUC = 'CUC';
+    public const ALPHA_3_CODE_CUC = 'CUC';
 
     /**
      * ISO-4271 Number for the Cuban convertible peso
      *
      * @var int
      */
-    public const ISO_NUMBER_CUC = 931;
+    public const NUMERIC_CODE_CUC = 931;
 
     /**
      * ISO-4271 name for currency CUC
      *
      * @var string
      */
-    public const ISO_NAME_CUC = 'Cuban convertible peso';
+    public const NAME_CUC = 'Cuban convertible peso';
 
     /**
      * The number of digits after the decimal separator for CUC
      *
      * @var int
      */
-    public const ISO_DIGITS_CUC = 2;
-
+    public const DIGITS_CUC = 2;
 
 
     /**
@@ -1058,30 +1091,31 @@ class Iso4217
      *
      * Countries:
      * - Cuba
+     *
+     * @var string
      */
-    public const ISO_CODE_CUP = 'CUP';
+    public const ALPHA_3_CODE_CUP = 'CUP';
 
     /**
      * ISO-4271 Number for the Cuban peso
      *
      * @var int
      */
-    public const ISO_NUMBER_CUP = 192;
+    public const NUMERIC_CODE_CUP = 192;
 
     /**
      * ISO-4271 name for currency CUP
      *
      * @var string
      */
-    public const ISO_NAME_CUP = 'Cuban peso';
+    public const NAME_CUP = 'Cuban peso';
 
     /**
      * The number of digits after the decimal separator for CUP
      *
      * @var int
      */
-    public const ISO_DIGITS_CUP = 2;
-
+    public const DIGITS_CUP = 2;
 
 
     /**
@@ -1089,30 +1123,31 @@ class Iso4217
      *
      * Countries:
      * - Cabo Verde
+     *
+     * @var string
      */
-    public const ISO_CODE_CVE = 'CVE';
+    public const ALPHA_3_CODE_CVE = 'CVE';
 
     /**
      * ISO-4271 Number for the Cape Verdean escudo
      *
      * @var int
      */
-    public const ISO_NUMBER_CVE = 132;
+    public const NUMERIC_CODE_CVE = 132;
 
     /**
      * ISO-4271 name for currency CVE
      *
      * @var string
      */
-    public const ISO_NAME_CVE = 'Cape Verdean escudo';
+    public const NAME_CVE = 'Cape Verdean escudo';
 
     /**
      * The number of digits after the decimal separator for CVE
      *
      * @var int
      */
-    public const ISO_DIGITS_CVE = 2;
-
+    public const DIGITS_CVE = 2;
 
 
     /**
@@ -1120,30 +1155,31 @@ class Iso4217
      *
      * Countries:
      * - Czechia
+     *
+     * @var string
      */
-    public const ISO_CODE_CZK = 'CZK';
+    public const ALPHA_3_CODE_CZK = 'CZK';
 
     /**
      * ISO-4271 Number for the Czech koruna
      *
      * @var int
      */
-    public const ISO_NUMBER_CZK = 203;
+    public const NUMERIC_CODE_CZK = 203;
 
     /**
      * ISO-4271 name for currency CZK
      *
      * @var string
      */
-    public const ISO_NAME_CZK = 'Czech koruna';
+    public const NAME_CZK = 'Czech koruna';
 
     /**
      * The number of digits after the decimal separator for CZK
      *
      * @var int
      */
-    public const ISO_DIGITS_CZK = 2;
-
+    public const DIGITS_CZK = 2;
 
 
     /**
@@ -1151,30 +1187,31 @@ class Iso4217
      *
      * Countries:
      * - Djibouti
+     *
+     * @var string
      */
-    public const ISO_CODE_DJF = 'DJF';
+    public const ALPHA_3_CODE_DJF = 'DJF';
 
     /**
      * ISO-4271 Number for the Djiboutian franc
      *
      * @var int
      */
-    public const ISO_NUMBER_DJF = 262;
+    public const NUMERIC_CODE_DJF = 262;
 
     /**
      * ISO-4271 name for currency DJF
      *
      * @var string
      */
-    public const ISO_NAME_DJF = 'Djiboutian franc';
+    public const NAME_DJF = 'Djiboutian franc';
 
     /**
      * The number of digits after the decimal separator for DJF
      *
      * @var int
      */
-    public const ISO_DIGITS_DJF = 0;
-
+    public const DIGITS_DJF = 0;
 
 
     /**
@@ -1184,30 +1221,31 @@ class Iso4217
      * - Denmark
      * - Faroe Islands (FO)
      * - Greenland (GL)
+     *
+     * @var string
      */
-    public const ISO_CODE_DKK = 'DKK';
+    public const ALPHA_3_CODE_DKK = 'DKK';
 
     /**
      * ISO-4271 Number for the Danish krone
      *
      * @var int
      */
-    public const ISO_NUMBER_DKK = 208;
+    public const NUMERIC_CODE_DKK = 208;
 
     /**
      * ISO-4271 name for currency DKK
      *
      * @var string
      */
-    public const ISO_NAME_DKK = 'Danish krone';
+    public const NAME_DKK = 'Danish krone';
 
     /**
      * The number of digits after the decimal separator for DKK
      *
      * @var int
      */
-    public const ISO_DIGITS_DKK = 2;
-
+    public const DIGITS_DKK = 2;
 
 
     /**
@@ -1215,30 +1253,31 @@ class Iso4217
      *
      * Countries:
      * - Dominican Republic
+     *
+     * @var string
      */
-    public const ISO_CODE_DOP = 'DOP';
+    public const ALPHA_3_CODE_DOP = 'DOP';
 
     /**
      * ISO-4271 Number for the Dominican peso
      *
      * @var int
      */
-    public const ISO_NUMBER_DOP = 214;
+    public const NUMERIC_CODE_DOP = 214;
 
     /**
      * ISO-4271 name for currency DOP
      *
      * @var string
      */
-    public const ISO_NAME_DOP = 'Dominican peso';
+    public const NAME_DOP = 'Dominican peso';
 
     /**
      * The number of digits after the decimal separator for DOP
      *
      * @var int
      */
-    public const ISO_DIGITS_DOP = 2;
-
+    public const DIGITS_DOP = 2;
 
 
     /**
@@ -1246,30 +1285,31 @@ class Iso4217
      *
      * Countries:
      * - Algeria
+     *
+     * @var string
      */
-    public const ISO_CODE_DZD = 'DZD';
+    public const ALPHA_3_CODE_DZD = 'DZD';
 
     /**
      * ISO-4271 Number for the Algerian dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_DZD = 012;
+    public const NUMERIC_CODE_DZD = 012;
 
     /**
      * ISO-4271 name for currency DZD
      *
      * @var string
      */
-    public const ISO_NAME_DZD = 'Algerian dinar';
+    public const NAME_DZD = 'Algerian dinar';
 
     /**
      * The number of digits after the decimal separator for DZD
      *
      * @var int
      */
-    public const ISO_DIGITS_DZD = 2;
-
+    public const DIGITS_DZD = 2;
 
 
     /**
@@ -1277,30 +1317,31 @@ class Iso4217
      *
      * Countries:
      * - Egypt
+     *
+     * @var string
      */
-    public const ISO_CODE_EGP = 'EGP';
+    public const ALPHA_3_CODE_EGP = 'EGP';
 
     /**
      * ISO-4271 Number for the Egyptian pound
      *
      * @var int
      */
-    public const ISO_NUMBER_EGP = 818;
+    public const NUMERIC_CODE_EGP = 818;
 
     /**
      * ISO-4271 name for currency EGP
      *
      * @var string
      */
-    public const ISO_NAME_EGP = 'Egyptian pound';
+    public const NAME_EGP = 'Egyptian pound';
 
     /**
      * The number of digits after the decimal separator for EGP
      *
      * @var int
      */
-    public const ISO_DIGITS_EGP = 2;
-
+    public const DIGITS_EGP = 2;
 
 
     /**
@@ -1308,30 +1349,31 @@ class Iso4217
      *
      * Countries:
      * - Eritrea
+     *
+     * @var string
      */
-    public const ISO_CODE_ERN = 'ERN';
+    public const ALPHA_3_CODE_ERN = 'ERN';
 
     /**
      * ISO-4271 Number for the Eritrean nakfa
      *
      * @var int
      */
-    public const ISO_NUMBER_ERN = 232;
+    public const NUMERIC_CODE_ERN = 232;
 
     /**
      * ISO-4271 name for currency ERN
      *
      * @var string
      */
-    public const ISO_NAME_ERN = 'Eritrean nakfa';
+    public const NAME_ERN = 'Eritrean nakfa';
 
     /**
      * The number of digits after the decimal separator for ERN
      *
      * @var int
      */
-    public const ISO_DIGITS_ERN = 2;
-
+    public const DIGITS_ERN = 2;
 
 
     /**
@@ -1339,30 +1381,31 @@ class Iso4217
      *
      * Countries:
      * - Ethiopia
+     *
+     * @var string
      */
-    public const ISO_CODE_ETB = 'ETB';
+    public const ALPHA_3_CODE_ETB = 'ETB';
 
     /**
      * ISO-4271 Number for the Ethiopian birr
      *
      * @var int
      */
-    public const ISO_NUMBER_ETB = 230;
+    public const NUMERIC_CODE_ETB = 230;
 
     /**
      * ISO-4271 name for currency ETB
      *
      * @var string
      */
-    public const ISO_NAME_ETB = 'Ethiopian birr';
+    public const NAME_ETB = 'Ethiopian birr';
 
     /**
      * The number of digits after the decimal separator for ETB
      *
      * @var int
      */
-    public const ISO_DIGITS_ETB = 2;
-
+    public const DIGITS_ETB = 2;
 
 
     /**
@@ -1404,30 +1447,31 @@ class Iso4217
      * - Slovenia (SI)
      * - Spain (ES)
      * - Vatican City (VA)
+     *
+     * @var string
      */
-    public const ISO_CODE_EUR = 'EUR';
+    public const ALPHA_3_CODE_EUR = 'EUR';
 
     /**
      * ISO-4271 Number for the Euro
      *
      * @var int
      */
-    public const ISO_NUMBER_EUR = 978;
+    public const NUMERIC_CODE_EUR = 978;
 
     /**
      * ISO-4271 name for currency EUR
      *
      * @var string
      */
-    public const ISO_NAME_EUR = 'Euro';
+    public const NAME_EUR = 'Euro';
 
     /**
      * The number of digits after the decimal separator for EUR
      *
      * @var int
      */
-    public const ISO_DIGITS_EUR = 2;
-
+    public const DIGITS_EUR = 2;
 
 
     /**
@@ -1435,30 +1479,31 @@ class Iso4217
      *
      * Countries:
      * - Fiji
+     *
+     * @var string
      */
-    public const ISO_CODE_FJD = 'FJD';
+    public const ALPHA_3_CODE_FJD = 'FJD';
 
     /**
      * ISO-4271 Number for the Fiji dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_FJD = 242;
+    public const NUMERIC_CODE_FJD = 242;
 
     /**
      * ISO-4271 name for currency FJD
      *
      * @var string
      */
-    public const ISO_NAME_FJD = 'Fiji dollar';
+    public const NAME_FJD = 'Fiji dollar';
 
     /**
      * The number of digits after the decimal separator for FJD
      *
      * @var int
      */
-    public const ISO_DIGITS_FJD = 2;
-
+    public const DIGITS_FJD = 2;
 
 
     /**
@@ -1466,30 +1511,31 @@ class Iso4217
      *
      * Countries:
      * - Falkland Islands (pegged to GBP 1:1)
+     *
+     * @var string
      */
-    public const ISO_CODE_FKP = 'FKP';
+    public const ALPHA_3_CODE_FKP = 'FKP';
 
     /**
      * ISO-4271 Number for the Falkland Islands pound
      *
      * @var int
      */
-    public const ISO_NUMBER_FKP = 238;
+    public const NUMERIC_CODE_FKP = 238;
 
     /**
      * ISO-4271 name for currency FKP
      *
      * @var string
      */
-    public const ISO_NAME_FKP = 'Falkland Islands pound';
+    public const NAME_FKP = 'Falkland Islands pound';
 
     /**
      * The number of digits after the decimal separator for FKP
      *
      * @var int
      */
-    public const ISO_DIGITS_FKP = 2;
-
+    public const DIGITS_FKP = 2;
 
 
     /**
@@ -1501,30 +1547,31 @@ class Iso4217
      * - Jersey (JE, see Jersey pound)
      * - Guernsey (GG, see Guernsey pound)
      * - Tristan da Cunha (SH-TA)
+     *
+     * @var string
      */
-    public const ISO_CODE_GBP = 'GBP';
+    public const ALPHA_3_CODE_GBP = 'GBP';
 
     /**
      * ISO-4271 Number for the Pound sterling
      *
      * @var int
      */
-    public const ISO_NUMBER_GBP = 826;
+    public const NUMERIC_CODE_GBP = 826;
 
     /**
      * ISO-4271 name for currency GBP
      *
      * @var string
      */
-    public const ISO_NAME_GBP = 'Pound sterling';
+    public const NAME_GBP = 'Pound sterling';
 
     /**
      * The number of digits after the decimal separator for GBP
      *
      * @var int
      */
-    public const ISO_DIGITS_GBP = 2;
-
+    public const DIGITS_GBP = 2;
 
 
     /**
@@ -1532,30 +1579,31 @@ class Iso4217
      *
      * Countries:
      * - Georgia
+     *
+     * @var string
      */
-    public const ISO_CODE_GEL = 'GEL';
+    public const ALPHA_3_CODE_GEL = 'GEL';
 
     /**
      * ISO-4271 Number for the Georgian lari
      *
      * @var int
      */
-    public const ISO_NUMBER_GEL = 981;
+    public const NUMERIC_CODE_GEL = 981;
 
     /**
      * ISO-4271 name for currency GEL
      *
      * @var string
      */
-    public const ISO_NAME_GEL = 'Georgian lari';
+    public const NAME_GEL = 'Georgian lari';
 
     /**
      * The number of digits after the decimal separator for GEL
      *
      * @var int
      */
-    public const ISO_DIGITS_GEL = 2;
-
+    public const DIGITS_GEL = 2;
 
 
     /**
@@ -1563,30 +1611,31 @@ class Iso4217
      *
      * Countries:
      * - Ghana
+     *
+     * @var string
      */
-    public const ISO_CODE_GHS = 'GHS';
+    public const ALPHA_3_CODE_GHS = 'GHS';
 
     /**
      * ISO-4271 Number for the Ghanaian cedi
      *
      * @var int
      */
-    public const ISO_NUMBER_GHS = 936;
+    public const NUMERIC_CODE_GHS = 936;
 
     /**
      * ISO-4271 name for currency GHS
      *
      * @var string
      */
-    public const ISO_NAME_GHS = 'Ghanaian cedi';
+    public const NAME_GHS = 'Ghanaian cedi';
 
     /**
      * The number of digits after the decimal separator for GHS
      *
      * @var int
      */
-    public const ISO_DIGITS_GHS = 2;
-
+    public const DIGITS_GHS = 2;
 
 
     /**
@@ -1594,30 +1643,31 @@ class Iso4217
      *
      * Countries:
      * - Gibraltar (pegged to GBP 1:1)
+     *
+     * @var string
      */
-    public const ISO_CODE_GIP = 'GIP';
+    public const ALPHA_3_CODE_GIP = 'GIP';
 
     /**
      * ISO-4271 Number for the Gibraltar pound
      *
      * @var int
      */
-    public const ISO_NUMBER_GIP = 292;
+    public const NUMERIC_CODE_GIP = 292;
 
     /**
      * ISO-4271 name for currency GIP
      *
      * @var string
      */
-    public const ISO_NAME_GIP = 'Gibraltar pound';
+    public const NAME_GIP = 'Gibraltar pound';
 
     /**
      * The number of digits after the decimal separator for GIP
      *
      * @var int
      */
-    public const ISO_DIGITS_GIP = 2;
-
+    public const DIGITS_GIP = 2;
 
 
     /**
@@ -1625,30 +1675,31 @@ class Iso4217
      *
      * Countries:
      * - Gambia
+     *
+     * @var string
      */
-    public const ISO_CODE_GMD = 'GMD';
+    public const ALPHA_3_CODE_GMD = 'GMD';
 
     /**
      * ISO-4271 Number for the Gambian dalasi
      *
      * @var int
      */
-    public const ISO_NUMBER_GMD = 270;
+    public const NUMERIC_CODE_GMD = 270;
 
     /**
      * ISO-4271 name for currency GMD
      *
      * @var string
      */
-    public const ISO_NAME_GMD = 'Gambian dalasi';
+    public const NAME_GMD = 'Gambian dalasi';
 
     /**
      * The number of digits after the decimal separator for GMD
      *
      * @var int
      */
-    public const ISO_DIGITS_GMD = 2;
-
+    public const DIGITS_GMD = 2;
 
 
     /**
@@ -1656,30 +1707,31 @@ class Iso4217
      *
      * Countries:
      * - Guinea
+     *
+     * @var string
      */
-    public const ISO_CODE_GNF = 'GNF';
+    public const ALPHA_3_CODE_GNF = 'GNF';
 
     /**
      * ISO-4271 Number for the Guinean franc
      *
      * @var int
      */
-    public const ISO_NUMBER_GNF = 324;
+    public const NUMERIC_CODE_GNF = 324;
 
     /**
      * ISO-4271 name for currency GNF
      *
      * @var string
      */
-    public const ISO_NAME_GNF = 'Guinean franc';
+    public const NAME_GNF = 'Guinean franc';
 
     /**
      * The number of digits after the decimal separator for GNF
      *
      * @var int
      */
-    public const ISO_DIGITS_GNF = 0;
-
+    public const DIGITS_GNF = 0;
 
 
     /**
@@ -1687,30 +1739,31 @@ class Iso4217
      *
      * Countries:
      * - Guatemala
+     *
+     * @var string
      */
-    public const ISO_CODE_GTQ = 'GTQ';
+    public const ALPHA_3_CODE_GTQ = 'GTQ';
 
     /**
      * ISO-4271 Number for the Guatemalan quetzal
      *
      * @var int
      */
-    public const ISO_NUMBER_GTQ = 320;
+    public const NUMERIC_CODE_GTQ = 320;
 
     /**
      * ISO-4271 name for currency GTQ
      *
      * @var string
      */
-    public const ISO_NAME_GTQ = 'Guatemalan quetzal';
+    public const NAME_GTQ = 'Guatemalan quetzal';
 
     /**
      * The number of digits after the decimal separator for GTQ
      *
      * @var int
      */
-    public const ISO_DIGITS_GTQ = 2;
-
+    public const DIGITS_GTQ = 2;
 
 
     /**
@@ -1718,30 +1771,31 @@ class Iso4217
      *
      * Countries:
      * - Guyana
+     *
+     * @var string
      */
-    public const ISO_CODE_GYD = 'GYD';
+    public const ALPHA_3_CODE_GYD = 'GYD';
 
     /**
      * ISO-4271 Number for the Guyanese dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_GYD = 328;
+    public const NUMERIC_CODE_GYD = 328;
 
     /**
      * ISO-4271 name for currency GYD
      *
      * @var string
      */
-    public const ISO_NAME_GYD = 'Guyanese dollar';
+    public const NAME_GYD = 'Guyanese dollar';
 
     /**
      * The number of digits after the decimal separator for GYD
      *
      * @var int
      */
-    public const ISO_DIGITS_GYD = 2;
-
+    public const DIGITS_GYD = 2;
 
 
     /**
@@ -1749,30 +1803,31 @@ class Iso4217
      *
      * Countries:
      * - Hong Kong
+     *
+     * @var string
      */
-    public const ISO_CODE_HKD = 'HKD';
+    public const ALPHA_3_CODE_HKD = 'HKD';
 
     /**
      * ISO-4271 Number for the Hong Kong dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_HKD = 344;
+    public const NUMERIC_CODE_HKD = 344;
 
     /**
      * ISO-4271 name for currency HKD
      *
      * @var string
      */
-    public const ISO_NAME_HKD = 'Hong Kong dollar';
+    public const NAME_HKD = 'Hong Kong dollar';
 
     /**
      * The number of digits after the decimal separator for HKD
      *
      * @var int
      */
-    public const ISO_DIGITS_HKD = 2;
-
+    public const DIGITS_HKD = 2;
 
 
     /**
@@ -1780,30 +1835,31 @@ class Iso4217
      *
      * Countries:
      * - Honduras
+     *
+     * @var string
      */
-    public const ISO_CODE_HNL = 'HNL';
+    public const ALPHA_3_CODE_HNL = 'HNL';
 
     /**
      * ISO-4271 Number for the Honduran lempira
      *
      * @var int
      */
-    public const ISO_NUMBER_HNL = 340;
+    public const NUMERIC_CODE_HNL = 340;
 
     /**
      * ISO-4271 name for currency HNL
      *
      * @var string
      */
-    public const ISO_NAME_HNL = 'Honduran lempira';
+    public const NAME_HNL = 'Honduran lempira';
 
     /**
      * The number of digits after the decimal separator for HNL
      *
      * @var int
      */
-    public const ISO_DIGITS_HNL = 2;
-
+    public const DIGITS_HNL = 2;
 
 
     /**
@@ -1811,30 +1867,31 @@ class Iso4217
      *
      * Countries:
      * - Croatia
+     *
+     * @var string
      */
-    public const ISO_CODE_HRK = 'HRK';
+    public const ALPHA_3_CODE_HRK = 'HRK';
 
     /**
      * ISO-4271 Number for the Croatian kuna
      *
      * @var int
      */
-    public const ISO_NUMBER_HRK = 191;
+    public const NUMERIC_CODE_HRK = 191;
 
     /**
      * ISO-4271 name for currency HRK
      *
      * @var string
      */
-    public const ISO_NAME_HRK = 'Croatian kuna';
+    public const NAME_HRK = 'Croatian kuna';
 
     /**
      * The number of digits after the decimal separator for HRK
      *
      * @var int
      */
-    public const ISO_DIGITS_HRK = 2;
-
+    public const DIGITS_HRK = 2;
 
 
     /**
@@ -1842,30 +1899,31 @@ class Iso4217
      *
      * Countries:
      * - Haiti
+     *
+     * @var string
      */
-    public const ISO_CODE_HTG = 'HTG';
+    public const ALPHA_3_CODE_HTG = 'HTG';
 
     /**
      * ISO-4271 Number for the Haitian gourde
      *
      * @var int
      */
-    public const ISO_NUMBER_HTG = 332;
+    public const NUMERIC_CODE_HTG = 332;
 
     /**
      * ISO-4271 name for currency HTG
      *
      * @var string
      */
-    public const ISO_NAME_HTG = 'Haitian gourde';
+    public const NAME_HTG = 'Haitian gourde';
 
     /**
      * The number of digits after the decimal separator for HTG
      *
      * @var int
      */
-    public const ISO_DIGITS_HTG = 2;
-
+    public const DIGITS_HTG = 2;
 
 
     /**
@@ -1873,30 +1931,31 @@ class Iso4217
      *
      * Countries:
      * - Hungary
+     *
+     * @var string
      */
-    public const ISO_CODE_HUF = 'HUF';
+    public const ALPHA_3_CODE_HUF = 'HUF';
 
     /**
      * ISO-4271 Number for the Hungarian forint
      *
      * @var int
      */
-    public const ISO_NUMBER_HUF = 348;
+    public const NUMERIC_CODE_HUF = 348;
 
     /**
      * ISO-4271 name for currency HUF
      *
      * @var string
      */
-    public const ISO_NAME_HUF = 'Hungarian forint';
+    public const NAME_HUF = 'Hungarian forint';
 
     /**
      * The number of digits after the decimal separator for HUF
      *
      * @var int
      */
-    public const ISO_DIGITS_HUF = 2;
-
+    public const DIGITS_HUF = 2;
 
 
     /**
@@ -1904,30 +1963,31 @@ class Iso4217
      *
      * Countries:
      * - Indonesia
+     *
+     * @var string
      */
-    public const ISO_CODE_IDR = 'IDR';
+    public const ALPHA_3_CODE_IDR = 'IDR';
 
     /**
      * ISO-4271 Number for the Indonesian rupiah
      *
      * @var int
      */
-    public const ISO_NUMBER_IDR = 360;
+    public const NUMERIC_CODE_IDR = 360;
 
     /**
      * ISO-4271 name for currency IDR
      *
      * @var string
      */
-    public const ISO_NAME_IDR = 'Indonesian rupiah';
+    public const NAME_IDR = 'Indonesian rupiah';
 
     /**
      * The number of digits after the decimal separator for IDR
      *
      * @var int
      */
-    public const ISO_DIGITS_IDR = 2;
-
+    public const DIGITS_IDR = 2;
 
 
     /**
@@ -1935,30 +1995,31 @@ class Iso4217
      *
      * Countries:
      * - Israel
+     *
+     * @var string
      */
-    public const ISO_CODE_ILS = 'ILS';
+    public const ALPHA_3_CODE_ILS = 'ILS';
 
     /**
      * ISO-4271 Number for the Israeli new shekel
      *
      * @var int
      */
-    public const ISO_NUMBER_ILS = 376;
+    public const NUMERIC_CODE_ILS = 376;
 
     /**
      * ISO-4271 name for currency ILS
      *
      * @var string
      */
-    public const ISO_NAME_ILS = 'Israeli new shekel';
+    public const NAME_ILS = 'Israeli new shekel';
 
     /**
      * The number of digits after the decimal separator for ILS
      *
      * @var int
      */
-    public const ISO_DIGITS_ILS = 2;
-
+    public const DIGITS_ILS = 2;
 
 
     /**
@@ -1967,30 +2028,31 @@ class Iso4217
      * Countries:
      * - India
      * - Bhutan
+     *
+     * @var string
      */
-    public const ISO_CODE_INR = 'INR';
+    public const ALPHA_3_CODE_INR = 'INR';
 
     /**
      * ISO-4271 Number for the Indian rupee
      *
      * @var int
      */
-    public const ISO_NUMBER_INR = 356;
+    public const NUMERIC_CODE_INR = 356;
 
     /**
      * ISO-4271 name for currency INR
      *
      * @var string
      */
-    public const ISO_NAME_INR = 'Indian rupee';
+    public const NAME_INR = 'Indian rupee';
 
     /**
      * The number of digits after the decimal separator for INR
      *
      * @var int
      */
-    public const ISO_DIGITS_INR = 2;
-
+    public const DIGITS_INR = 2;
 
 
     /**
@@ -1998,30 +2060,31 @@ class Iso4217
      *
      * Countries:
      * - Iraq
+     *
+     * @var string
      */
-    public const ISO_CODE_IQD = 'IQD';
+    public const ALPHA_3_CODE_IQD = 'IQD';
 
     /**
      * ISO-4271 Number for the Iraqi dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_IQD = 368;
+    public const NUMERIC_CODE_IQD = 368;
 
     /**
      * ISO-4271 name for currency IQD
      *
      * @var string
      */
-    public const ISO_NAME_IQD = 'Iraqi dinar';
+    public const NAME_IQD = 'Iraqi dinar';
 
     /**
      * The number of digits after the decimal separator for IQD
      *
      * @var int
      */
-    public const ISO_DIGITS_IQD = 3;
-
+    public const DIGITS_IQD = 3;
 
 
     /**
@@ -2029,30 +2092,31 @@ class Iso4217
      *
      * Countries:
      * - Iran
+     *
+     * @var string
      */
-    public const ISO_CODE_IRR = 'IRR';
+    public const ALPHA_3_CODE_IRR = 'IRR';
 
     /**
      * ISO-4271 Number for the Iranian rial
      *
      * @var int
      */
-    public const ISO_NUMBER_IRR = 364;
+    public const NUMERIC_CODE_IRR = 364;
 
     /**
      * ISO-4271 name for currency IRR
      *
      * @var string
      */
-    public const ISO_NAME_IRR = 'Iranian rial';
+    public const NAME_IRR = 'Iranian rial';
 
     /**
      * The number of digits after the decimal separator for IRR
      *
      * @var int
      */
-    public const ISO_DIGITS_IRR = 2;
-
+    public const DIGITS_IRR = 2;
 
 
     /**
@@ -2060,30 +2124,31 @@ class Iso4217
      *
      * Countries:
      * - Iceland
+     *
+     * @var string
      */
-    public const ISO_CODE_ISK = 'ISK';
+    public const ALPHA_3_CODE_ISK = 'ISK';
 
     /**
      * ISO-4271 Number for the Icelandic króna
      *
      * @var int
      */
-    public const ISO_NUMBER_ISK = 352;
+    public const NUMERIC_CODE_ISK = 352;
 
     /**
      * ISO-4271 name for currency ISK
      *
      * @var string
      */
-    public const ISO_NAME_ISK = 'Icelandic króna';
+    public const NAME_ISK = 'Icelandic króna';
 
     /**
      * The number of digits after the decimal separator for ISK
      *
      * @var int
      */
-    public const ISO_DIGITS_ISK = 0;
-
+    public const DIGITS_ISK = 0;
 
 
     /**
@@ -2091,30 +2156,31 @@ class Iso4217
      *
      * Countries:
      * - Jamaica
+     *
+     * @var string
      */
-    public const ISO_CODE_JMD = 'JMD';
+    public const ALPHA_3_CODE_JMD = 'JMD';
 
     /**
      * ISO-4271 Number for the Jamaican dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_JMD = 388;
+    public const NUMERIC_CODE_JMD = 388;
 
     /**
      * ISO-4271 name for currency JMD
      *
      * @var string
      */
-    public const ISO_NAME_JMD = 'Jamaican dollar';
+    public const NAME_JMD = 'Jamaican dollar';
 
     /**
      * The number of digits after the decimal separator for JMD
      *
      * @var int
      */
-    public const ISO_DIGITS_JMD = 2;
-
+    public const DIGITS_JMD = 2;
 
 
     /**
@@ -2122,30 +2188,31 @@ class Iso4217
      *
      * Countries:
      * - Jordan
+     *
+     * @var string
      */
-    public const ISO_CODE_JOD = 'JOD';
+    public const ALPHA_3_CODE_JOD = 'JOD';
 
     /**
      * ISO-4271 Number for the Jordanian dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_JOD = 400;
+    public const NUMERIC_CODE_JOD = 400;
 
     /**
      * ISO-4271 name for currency JOD
      *
      * @var string
      */
-    public const ISO_NAME_JOD = 'Jordanian dinar';
+    public const NAME_JOD = 'Jordanian dinar';
 
     /**
      * The number of digits after the decimal separator for JOD
      *
      * @var int
      */
-    public const ISO_DIGITS_JOD = 3;
-
+    public const DIGITS_JOD = 3;
 
 
     /**
@@ -2153,30 +2220,31 @@ class Iso4217
      *
      * Countries:
      * - Japan
+     *
+     * @var string
      */
-    public const ISO_CODE_JPY = 'JPY';
+    public const ALPHA_3_CODE_JPY = 'JPY';
 
     /**
      * ISO-4271 Number for the Japanese yen
      *
      * @var int
      */
-    public const ISO_NUMBER_JPY = 392;
+    public const NUMERIC_CODE_JPY = 392;
 
     /**
      * ISO-4271 name for currency JPY
      *
      * @var string
      */
-    public const ISO_NAME_JPY = 'Japanese yen';
+    public const NAME_JPY = 'Japanese yen';
 
     /**
      * The number of digits after the decimal separator for JPY
      *
      * @var int
      */
-    public const ISO_DIGITS_JPY = 0;
-
+    public const DIGITS_JPY = 0;
 
 
     /**
@@ -2184,30 +2252,31 @@ class Iso4217
      *
      * Countries:
      * - Kenya
+     *
+     * @var string
      */
-    public const ISO_CODE_KES = 'KES';
+    public const ALPHA_3_CODE_KES = 'KES';
 
     /**
      * ISO-4271 Number for the Kenyan shilling
      *
      * @var int
      */
-    public const ISO_NUMBER_KES = 404;
+    public const NUMERIC_CODE_KES = 404;
 
     /**
      * ISO-4271 name for currency KES
      *
      * @var string
      */
-    public const ISO_NAME_KES = 'Kenyan shilling';
+    public const NAME_KES = 'Kenyan shilling';
 
     /**
      * The number of digits after the decimal separator for KES
      *
      * @var int
      */
-    public const ISO_DIGITS_KES = 2;
-
+    public const DIGITS_KES = 2;
 
 
     /**
@@ -2215,30 +2284,31 @@ class Iso4217
      *
      * Countries:
      * - Kyrgyzstan
+     *
+     * @var string
      */
-    public const ISO_CODE_KGS = 'KGS';
+    public const ALPHA_3_CODE_KGS = 'KGS';
 
     /**
      * ISO-4271 Number for the Kyrgyzstani som
      *
      * @var int
      */
-    public const ISO_NUMBER_KGS = 417;
+    public const NUMERIC_CODE_KGS = 417;
 
     /**
      * ISO-4271 name for currency KGS
      *
      * @var string
      */
-    public const ISO_NAME_KGS = 'Kyrgyzstani som';
+    public const NAME_KGS = 'Kyrgyzstani som';
 
     /**
      * The number of digits after the decimal separator for KGS
      *
      * @var int
      */
-    public const ISO_DIGITS_KGS = 2;
-
+    public const DIGITS_KGS = 2;
 
 
     /**
@@ -2246,30 +2316,31 @@ class Iso4217
      *
      * Countries:
      * - Cambodia
+     *
+     * @var string
      */
-    public const ISO_CODE_KHR = 'KHR';
+    public const ALPHA_3_CODE_KHR = 'KHR';
 
     /**
      * ISO-4271 Number for the Cambodian riel
      *
      * @var int
      */
-    public const ISO_NUMBER_KHR = 116;
+    public const NUMERIC_CODE_KHR = 116;
 
     /**
      * ISO-4271 name for currency KHR
      *
      * @var string
      */
-    public const ISO_NAME_KHR = 'Cambodian riel';
+    public const NAME_KHR = 'Cambodian riel';
 
     /**
      * The number of digits after the decimal separator for KHR
      *
      * @var int
      */
-    public const ISO_DIGITS_KHR = 2;
-
+    public const DIGITS_KHR = 2;
 
 
     /**
@@ -2277,30 +2348,31 @@ class Iso4217
      *
      * Countries:
      * - Comoros
+     *
+     * @var string
      */
-    public const ISO_CODE_KMF = 'KMF';
+    public const ALPHA_3_CODE_KMF = 'KMF';
 
     /**
      * ISO-4271 Number for the Comoro franc
      *
      * @var int
      */
-    public const ISO_NUMBER_KMF = 174;
+    public const NUMERIC_CODE_KMF = 174;
 
     /**
      * ISO-4271 name for currency KMF
      *
      * @var string
      */
-    public const ISO_NAME_KMF = 'Comoro franc';
+    public const NAME_KMF = 'Comoro franc';
 
     /**
      * The number of digits after the decimal separator for KMF
      *
      * @var int
      */
-    public const ISO_DIGITS_KMF = 0;
-
+    public const DIGITS_KMF = 0;
 
 
     /**
@@ -2308,30 +2380,31 @@ class Iso4217
      *
      * Countries:
      * - North Korea
+     *
+     * @var string
      */
-    public const ISO_CODE_KPW = 'KPW';
+    public const ALPHA_3_CODE_KPW = 'KPW';
 
     /**
      * ISO-4271 Number for the North Korean won
      *
      * @var int
      */
-    public const ISO_NUMBER_KPW = 408;
+    public const NUMERIC_CODE_KPW = 408;
 
     /**
      * ISO-4271 name for currency KPW
      *
      * @var string
      */
-    public const ISO_NAME_KPW = 'North Korean won';
+    public const NAME_KPW = 'North Korean won';
 
     /**
      * The number of digits after the decimal separator for KPW
      *
      * @var int
      */
-    public const ISO_DIGITS_KPW = 2;
-
+    public const DIGITS_KPW = 2;
 
 
     /**
@@ -2339,30 +2412,31 @@ class Iso4217
      *
      * Countries:
      * - South Korea
+     *
+     * @var string
      */
-    public const ISO_CODE_KRW = 'KRW';
+    public const ALPHA_3_CODE_KRW = 'KRW';
 
     /**
      * ISO-4271 Number for the South Korean won
      *
      * @var int
      */
-    public const ISO_NUMBER_KRW = 410;
+    public const NUMERIC_CODE_KRW = 410;
 
     /**
      * ISO-4271 name for currency KRW
      *
      * @var string
      */
-    public const ISO_NAME_KRW = 'South Korean won';
+    public const NAME_KRW = 'South Korean won';
 
     /**
      * The number of digits after the decimal separator for KRW
      *
      * @var int
      */
-    public const ISO_DIGITS_KRW = 0;
-
+    public const DIGITS_KRW = 0;
 
 
     /**
@@ -2370,30 +2444,31 @@ class Iso4217
      *
      * Countries:
      * - Kuwait
+     *
+     * @var string
      */
-    public const ISO_CODE_KWD = 'KWD';
+    public const ALPHA_3_CODE_KWD = 'KWD';
 
     /**
      * ISO-4271 Number for the Kuwaiti dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_KWD = 414;
+    public const NUMERIC_CODE_KWD = 414;
 
     /**
      * ISO-4271 name for currency KWD
      *
      * @var string
      */
-    public const ISO_NAME_KWD = 'Kuwaiti dinar';
+    public const NAME_KWD = 'Kuwaiti dinar';
 
     /**
      * The number of digits after the decimal separator for KWD
      *
      * @var int
      */
-    public const ISO_DIGITS_KWD = 3;
-
+    public const DIGITS_KWD = 3;
 
 
     /**
@@ -2401,30 +2476,31 @@ class Iso4217
      *
      * Countries:
      * - Cayman Islands
+     *
+     * @var string
      */
-    public const ISO_CODE_KYD = 'KYD';
+    public const ALPHA_3_CODE_KYD = 'KYD';
 
     /**
      * ISO-4271 Number for the Cayman Islands dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_KYD = 136;
+    public const NUMERIC_CODE_KYD = 136;
 
     /**
      * ISO-4271 name for currency KYD
      *
      * @var string
      */
-    public const ISO_NAME_KYD = 'Cayman Islands dollar';
+    public const NAME_KYD = 'Cayman Islands dollar';
 
     /**
      * The number of digits after the decimal separator for KYD
      *
      * @var int
      */
-    public const ISO_DIGITS_KYD = 2;
-
+    public const DIGITS_KYD = 2;
 
 
     /**
@@ -2432,30 +2508,31 @@ class Iso4217
      *
      * Countries:
      * - Kazakhstan
+     *
+     * @var string
      */
-    public const ISO_CODE_KZT = 'KZT';
+    public const ALPHA_3_CODE_KZT = 'KZT';
 
     /**
      * ISO-4271 Number for the Kazakhstani tenge
      *
      * @var int
      */
-    public const ISO_NUMBER_KZT = 398;
+    public const NUMERIC_CODE_KZT = 398;
 
     /**
      * ISO-4271 name for currency KZT
      *
      * @var string
      */
-    public const ISO_NAME_KZT = 'Kazakhstani tenge';
+    public const NAME_KZT = 'Kazakhstani tenge';
 
     /**
      * The number of digits after the decimal separator for KZT
      *
      * @var int
      */
-    public const ISO_DIGITS_KZT = 2;
-
+    public const DIGITS_KZT = 2;
 
 
     /**
@@ -2463,30 +2540,31 @@ class Iso4217
      *
      * Countries:
      * - Laos
+     *
+     * @var string
      */
-    public const ISO_CODE_LAK = 'LAK';
+    public const ALPHA_3_CODE_LAK = 'LAK';
 
     /**
      * ISO-4271 Number for the Lao kip
      *
      * @var int
      */
-    public const ISO_NUMBER_LAK = 418;
+    public const NUMERIC_CODE_LAK = 418;
 
     /**
      * ISO-4271 name for currency LAK
      *
      * @var string
      */
-    public const ISO_NAME_LAK = 'Lao kip';
+    public const NAME_LAK = 'Lao kip';
 
     /**
      * The number of digits after the decimal separator for LAK
      *
      * @var int
      */
-    public const ISO_DIGITS_LAK = 2;
-
+    public const DIGITS_LAK = 2;
 
 
     /**
@@ -2494,30 +2572,31 @@ class Iso4217
      *
      * Countries:
      * - Lebanon
+     *
+     * @var string
      */
-    public const ISO_CODE_LBP = 'LBP';
+    public const ALPHA_3_CODE_LBP = 'LBP';
 
     /**
      * ISO-4271 Number for the Lebanese pound
      *
      * @var int
      */
-    public const ISO_NUMBER_LBP = 422;
+    public const NUMERIC_CODE_LBP = 422;
 
     /**
      * ISO-4271 name for currency LBP
      *
      * @var string
      */
-    public const ISO_NAME_LBP = 'Lebanese pound';
+    public const NAME_LBP = 'Lebanese pound';
 
     /**
      * The number of digits after the decimal separator for LBP
      *
      * @var int
      */
-    public const ISO_DIGITS_LBP = 2;
-
+    public const DIGITS_LBP = 2;
 
 
     /**
@@ -2525,30 +2604,31 @@ class Iso4217
      *
      * Countries:
      * - Sri Lanka
+     *
+     * @var string
      */
-    public const ISO_CODE_LKR = 'LKR';
+    public const ALPHA_3_CODE_LKR = 'LKR';
 
     /**
      * ISO-4271 Number for the Sri Lankan rupee
      *
      * @var int
      */
-    public const ISO_NUMBER_LKR = 144;
+    public const NUMERIC_CODE_LKR = 144;
 
     /**
      * ISO-4271 name for currency LKR
      *
      * @var string
      */
-    public const ISO_NAME_LKR = 'Sri Lankan rupee';
+    public const NAME_LKR = 'Sri Lankan rupee';
 
     /**
      * The number of digits after the decimal separator for LKR
      *
      * @var int
      */
-    public const ISO_DIGITS_LKR = 2;
-
+    public const DIGITS_LKR = 2;
 
 
     /**
@@ -2556,30 +2636,31 @@ class Iso4217
      *
      * Countries:
      * - Liberia
+     *
+     * @var string
      */
-    public const ISO_CODE_LRD = 'LRD';
+    public const ALPHA_3_CODE_LRD = 'LRD';
 
     /**
      * ISO-4271 Number for the Liberian dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_LRD = 430;
+    public const NUMERIC_CODE_LRD = 430;
 
     /**
      * ISO-4271 name for currency LRD
      *
      * @var string
      */
-    public const ISO_NAME_LRD = 'Liberian dollar';
+    public const NAME_LRD = 'Liberian dollar';
 
     /**
      * The number of digits after the decimal separator for LRD
      *
      * @var int
      */
-    public const ISO_DIGITS_LRD = 2;
-
+    public const DIGITS_LRD = 2;
 
 
     /**
@@ -2587,30 +2668,31 @@ class Iso4217
      *
      * Countries:
      * - Lesotho
+     *
+     * @var string
      */
-    public const ISO_CODE_LSL = 'LSL';
+    public const ALPHA_3_CODE_LSL = 'LSL';
 
     /**
      * ISO-4271 Number for the Lesotho loti
      *
      * @var int
      */
-    public const ISO_NUMBER_LSL = 426;
+    public const NUMERIC_CODE_LSL = 426;
 
     /**
      * ISO-4271 name for currency LSL
      *
      * @var string
      */
-    public const ISO_NAME_LSL = 'Lesotho loti';
+    public const NAME_LSL = 'Lesotho loti';
 
     /**
      * The number of digits after the decimal separator for LSL
      *
      * @var int
      */
-    public const ISO_DIGITS_LSL = 2;
-
+    public const DIGITS_LSL = 2;
 
 
     /**
@@ -2618,30 +2700,31 @@ class Iso4217
      *
      * Countries:
      * - Libya
+     *
+     * @var string
      */
-    public const ISO_CODE_LYD = 'LYD';
+    public const ALPHA_3_CODE_LYD = 'LYD';
 
     /**
      * ISO-4271 Number for the Libyan dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_LYD = 434;
+    public const NUMERIC_CODE_LYD = 434;
 
     /**
      * ISO-4271 name for currency LYD
      *
      * @var string
      */
-    public const ISO_NAME_LYD = 'Libyan dinar';
+    public const NAME_LYD = 'Libyan dinar';
 
     /**
      * The number of digits after the decimal separator for LYD
      *
      * @var int
      */
-    public const ISO_DIGITS_LYD = 3;
-
+    public const DIGITS_LYD = 3;
 
 
     /**
@@ -2650,30 +2733,31 @@ class Iso4217
      * Countries:
      * - Morocco
      * - Western Sahara
+     *
+     * @var string
      */
-    public const ISO_CODE_MAD = 'MAD';
+    public const ALPHA_3_CODE_MAD = 'MAD';
 
     /**
      * ISO-4271 Number for the Moroccan dirham
      *
      * @var int
      */
-    public const ISO_NUMBER_MAD = 504;
+    public const NUMERIC_CODE_MAD = 504;
 
     /**
      * ISO-4271 name for currency MAD
      *
      * @var string
      */
-    public const ISO_NAME_MAD = 'Moroccan dirham';
+    public const NAME_MAD = 'Moroccan dirham';
 
     /**
      * The number of digits after the decimal separator for MAD
      *
      * @var int
      */
-    public const ISO_DIGITS_MAD = 2;
-
+    public const DIGITS_MAD = 2;
 
 
     /**
@@ -2681,30 +2765,31 @@ class Iso4217
      *
      * Countries:
      * - Moldova
+     *
+     * @var string
      */
-    public const ISO_CODE_MDL = 'MDL';
+    public const ALPHA_3_CODE_MDL = 'MDL';
 
     /**
      * ISO-4271 Number for the Moldovan leu
      *
      * @var int
      */
-    public const ISO_NUMBER_MDL = 498;
+    public const NUMERIC_CODE_MDL = 498;
 
     /**
      * ISO-4271 name for currency MDL
      *
      * @var string
      */
-    public const ISO_NAME_MDL = 'Moldovan leu';
+    public const NAME_MDL = 'Moldovan leu';
 
     /**
      * The number of digits after the decimal separator for MDL
      *
      * @var int
      */
-    public const ISO_DIGITS_MDL = 2;
-
+    public const DIGITS_MDL = 2;
 
 
     /**
@@ -2712,30 +2797,31 @@ class Iso4217
      *
      * Countries:
      * - Madagascar
+     *
+     * @var string
      */
-    public const ISO_CODE_MGA = 'MGA';
+    public const ALPHA_3_CODE_MGA = 'MGA';
 
     /**
      * ISO-4271 Number for the Malagasy ariary
      *
      * @var int
      */
-    public const ISO_NUMBER_MGA = 969;
+    public const NUMERIC_CODE_MGA = 969;
 
     /**
      * ISO-4271 name for currency MGA
      *
      * @var string
      */
-    public const ISO_NAME_MGA = 'Malagasy ariary';
+    public const NAME_MGA = 'Malagasy ariary';
 
     /**
      * The number of digits after the decimal separator for MGA
      *
      * @var int
      */
-    public const ISO_DIGITS_MGA = 2;
-
+    public const DIGITS_MGA = 2;
 
 
     /**
@@ -2743,30 +2829,31 @@ class Iso4217
      *
      * Countries:
      * - North Macedonia
+     *
+     * @var string
      */
-    public const ISO_CODE_MKD = 'MKD';
+    public const ALPHA_3_CODE_MKD = 'MKD';
 
     /**
      * ISO-4271 Number for the Macedonian denar
      *
      * @var int
      */
-    public const ISO_NUMBER_MKD = 807;
+    public const NUMERIC_CODE_MKD = 807;
 
     /**
      * ISO-4271 name for currency MKD
      *
      * @var string
      */
-    public const ISO_NAME_MKD = 'Macedonian denar';
+    public const NAME_MKD = 'Macedonian denar';
 
     /**
      * The number of digits after the decimal separator for MKD
      *
      * @var int
      */
-    public const ISO_DIGITS_MKD = 2;
-
+    public const DIGITS_MKD = 2;
 
 
     /**
@@ -2774,30 +2861,31 @@ class Iso4217
      *
      * Countries:
      * - Myanmar
+     *
+     * @var string
      */
-    public const ISO_CODE_MMK = 'MMK';
+    public const ALPHA_3_CODE_MMK = 'MMK';
 
     /**
      * ISO-4271 Number for the Myanmar kyat
      *
      * @var int
      */
-    public const ISO_NUMBER_MMK = 104;
+    public const NUMERIC_CODE_MMK = 104;
 
     /**
      * ISO-4271 name for currency MMK
      *
      * @var string
      */
-    public const ISO_NAME_MMK = 'Myanmar kyat';
+    public const NAME_MMK = 'Myanmar kyat';
 
     /**
      * The number of digits after the decimal separator for MMK
      *
      * @var int
      */
-    public const ISO_DIGITS_MMK = 2;
-
+    public const DIGITS_MMK = 2;
 
 
     /**
@@ -2805,30 +2893,31 @@ class Iso4217
      *
      * Countries:
      * - Mongolia
+     *
+     * @var string
      */
-    public const ISO_CODE_MNT = 'MNT';
+    public const ALPHA_3_CODE_MNT = 'MNT';
 
     /**
      * ISO-4271 Number for the Mongolian tögrög
      *
      * @var int
      */
-    public const ISO_NUMBER_MNT = 496;
+    public const NUMERIC_CODE_MNT = 496;
 
     /**
      * ISO-4271 name for currency MNT
      *
      * @var string
      */
-    public const ISO_NAME_MNT = 'Mongolian tögrög';
+    public const NAME_MNT = 'Mongolian tögrög';
 
     /**
      * The number of digits after the decimal separator for MNT
      *
      * @var int
      */
-    public const ISO_DIGITS_MNT = 2;
-
+    public const DIGITS_MNT = 2;
 
 
     /**
@@ -2836,30 +2925,31 @@ class Iso4217
      *
      * Countries:
      * - Macau
+     *
+     * @var string
      */
-    public const ISO_CODE_MOP = 'MOP';
+    public const ALPHA_3_CODE_MOP = 'MOP';
 
     /**
      * ISO-4271 Number for the Macanese pataca
      *
      * @var int
      */
-    public const ISO_NUMBER_MOP = 446;
+    public const NUMERIC_CODE_MOP = 446;
 
     /**
      * ISO-4271 name for currency MOP
      *
      * @var string
      */
-    public const ISO_NAME_MOP = 'Macanese pataca';
+    public const NAME_MOP = 'Macanese pataca';
 
     /**
      * The number of digits after the decimal separator for MOP
      *
      * @var int
      */
-    public const ISO_DIGITS_MOP = 2;
-
+    public const DIGITS_MOP = 2;
 
 
     /**
@@ -2867,30 +2957,31 @@ class Iso4217
      *
      * Countries:
      * - Mauritania
+     *
+     * @var string
      */
-    public const ISO_CODE_MRU = 'MRU';
+    public const ALPHA_3_CODE_MRU = 'MRU';
 
     /**
      * ISO-4271 Number for the Mauritanian ouguiya
      *
      * @var int
      */
-    public const ISO_NUMBER_MRU = 929;
+    public const NUMERIC_CODE_MRU = 929;
 
     /**
      * ISO-4271 name for currency MRU
      *
      * @var string
      */
-    public const ISO_NAME_MRU = 'Mauritanian ouguiya';
+    public const NAME_MRU = 'Mauritanian ouguiya';
 
     /**
      * The number of digits after the decimal separator for MRU
      *
      * @var int
      */
-    public const ISO_DIGITS_MRU = 2;
-
+    public const DIGITS_MRU = 2;
 
 
     /**
@@ -2898,30 +2989,31 @@ class Iso4217
      *
      * Countries:
      * - Mauritius
+     *
+     * @var string
      */
-    public const ISO_CODE_MUR = 'MUR';
+    public const ALPHA_3_CODE_MUR = 'MUR';
 
     /**
      * ISO-4271 Number for the Mauritian rupee
      *
      * @var int
      */
-    public const ISO_NUMBER_MUR = 480;
+    public const NUMERIC_CODE_MUR = 480;
 
     /**
      * ISO-4271 name for currency MUR
      *
      * @var string
      */
-    public const ISO_NAME_MUR = 'Mauritian rupee';
+    public const NAME_MUR = 'Mauritian rupee';
 
     /**
      * The number of digits after the decimal separator for MUR
      *
      * @var int
      */
-    public const ISO_DIGITS_MUR = 2;
-
+    public const DIGITS_MUR = 2;
 
 
     /**
@@ -2929,30 +3021,31 @@ class Iso4217
      *
      * Countries:
      * - Maldives
+     *
+     * @var string
      */
-    public const ISO_CODE_MVR = 'MVR';
+    public const ALPHA_3_CODE_MVR = 'MVR';
 
     /**
      * ISO-4271 Number for the Maldivian rufiyaa
      *
      * @var int
      */
-    public const ISO_NUMBER_MVR = 462;
+    public const NUMERIC_CODE_MVR = 462;
 
     /**
      * ISO-4271 name for currency MVR
      *
      * @var string
      */
-    public const ISO_NAME_MVR = 'Maldivian rufiyaa';
+    public const NAME_MVR = 'Maldivian rufiyaa';
 
     /**
      * The number of digits after the decimal separator for MVR
      *
      * @var int
      */
-    public const ISO_DIGITS_MVR = 2;
-
+    public const DIGITS_MVR = 2;
 
 
     /**
@@ -2960,30 +3053,31 @@ class Iso4217
      *
      * Countries:
      * - Malawi
+     *
+     * @var string
      */
-    public const ISO_CODE_MWK = 'MWK';
+    public const ALPHA_3_CODE_MWK = 'MWK';
 
     /**
      * ISO-4271 Number for the Malawian kwacha
      *
      * @var int
      */
-    public const ISO_NUMBER_MWK = 454;
+    public const NUMERIC_CODE_MWK = 454;
 
     /**
      * ISO-4271 name for currency MWK
      *
      * @var string
      */
-    public const ISO_NAME_MWK = 'Malawian kwacha';
+    public const NAME_MWK = 'Malawian kwacha';
 
     /**
      * The number of digits after the decimal separator for MWK
      *
      * @var int
      */
-    public const ISO_DIGITS_MWK = 2;
-
+    public const DIGITS_MWK = 2;
 
 
     /**
@@ -2991,30 +3085,31 @@ class Iso4217
      *
      * Countries:
      * - Mexico
+     *
+     * @var string
      */
-    public const ISO_CODE_MXN = 'MXN';
+    public const ALPHA_3_CODE_MXN = 'MXN';
 
     /**
      * ISO-4271 Number for the Mexican peso
      *
      * @var int
      */
-    public const ISO_NUMBER_MXN = 484;
+    public const NUMERIC_CODE_MXN = 484;
 
     /**
      * ISO-4271 name for currency MXN
      *
      * @var string
      */
-    public const ISO_NAME_MXN = 'Mexican peso';
+    public const NAME_MXN = 'Mexican peso';
 
     /**
      * The number of digits after the decimal separator for MXN
      *
      * @var int
      */
-    public const ISO_DIGITS_MXN = 2;
-
+    public const DIGITS_MXN = 2;
 
 
     /**
@@ -3022,30 +3117,31 @@ class Iso4217
      *
      * Countries:
      * - Malaysia
+     *
+     * @var string
      */
-    public const ISO_CODE_MYR = 'MYR';
+    public const ALPHA_3_CODE_MYR = 'MYR';
 
     /**
      * ISO-4271 Number for the Malaysian ringgit
      *
      * @var int
      */
-    public const ISO_NUMBER_MYR = 458;
+    public const NUMERIC_CODE_MYR = 458;
 
     /**
      * ISO-4271 name for currency MYR
      *
      * @var string
      */
-    public const ISO_NAME_MYR = 'Malaysian ringgit';
+    public const NAME_MYR = 'Malaysian ringgit';
 
     /**
      * The number of digits after the decimal separator for MYR
      *
      * @var int
      */
-    public const ISO_DIGITS_MYR = 2;
-
+    public const DIGITS_MYR = 2;
 
 
     /**
@@ -3053,30 +3149,31 @@ class Iso4217
      *
      * Countries:
      * - Mozambique
+     *
+     * @var string
      */
-    public const ISO_CODE_MZN = 'MZN';
+    public const ALPHA_3_CODE_MZN = 'MZN';
 
     /**
      * ISO-4271 Number for the Mozambican metical
      *
      * @var int
      */
-    public const ISO_NUMBER_MZN = 943;
+    public const NUMERIC_CODE_MZN = 943;
 
     /**
      * ISO-4271 name for currency MZN
      *
      * @var string
      */
-    public const ISO_NAME_MZN = 'Mozambican metical';
+    public const NAME_MZN = 'Mozambican metical';
 
     /**
      * The number of digits after the decimal separator for MZN
      *
      * @var int
      */
-    public const ISO_DIGITS_MZN = 2;
-
+    public const DIGITS_MZN = 2;
 
 
     /**
@@ -3084,30 +3181,31 @@ class Iso4217
      *
      * Countries:
      * - Namibia
+     *
+     * @var string
      */
-    public const ISO_CODE_NAD = 'NAD';
+    public const ALPHA_3_CODE_NAD = 'NAD';
 
     /**
      * ISO-4271 Number for the Namibian dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_NAD = 516;
+    public const NUMERIC_CODE_NAD = 516;
 
     /**
      * ISO-4271 name for currency NAD
      *
      * @var string
      */
-    public const ISO_NAME_NAD = 'Namibian dollar';
+    public const NAME_NAD = 'Namibian dollar';
 
     /**
      * The number of digits after the decimal separator for NAD
      *
      * @var int
      */
-    public const ISO_DIGITS_NAD = 2;
-
+    public const DIGITS_NAD = 2;
 
 
     /**
@@ -3115,30 +3213,31 @@ class Iso4217
      *
      * Countries:
      * - Nigeria
+     *
+     * @var string
      */
-    public const ISO_CODE_NGN = 'NGN';
+    public const ALPHA_3_CODE_NGN = 'NGN';
 
     /**
      * ISO-4271 Number for the Nigerian naira
      *
      * @var int
      */
-    public const ISO_NUMBER_NGN = 566;
+    public const NUMERIC_CODE_NGN = 566;
 
     /**
      * ISO-4271 name for currency NGN
      *
      * @var string
      */
-    public const ISO_NAME_NGN = 'Nigerian naira';
+    public const NAME_NGN = 'Nigerian naira';
 
     /**
      * The number of digits after the decimal separator for NGN
      *
      * @var int
      */
-    public const ISO_DIGITS_NGN = 2;
-
+    public const DIGITS_NGN = 2;
 
 
     /**
@@ -3146,30 +3245,31 @@ class Iso4217
      *
      * Countries:
      * - Nicaragua
+     *
+     * @var string
      */
-    public const ISO_CODE_NIO = 'NIO';
+    public const ALPHA_3_CODE_NIO = 'NIO';
 
     /**
      * ISO-4271 Number for the Nicaraguan córdoba
      *
      * @var int
      */
-    public const ISO_NUMBER_NIO = 558;
+    public const NUMERIC_CODE_NIO = 558;
 
     /**
      * ISO-4271 name for currency NIO
      *
      * @var string
      */
-    public const ISO_NAME_NIO = 'Nicaraguan córdoba';
+    public const NAME_NIO = 'Nicaraguan córdoba';
 
     /**
      * The number of digits after the decimal separator for NIO
      *
      * @var int
      */
-    public const ISO_DIGITS_NIO = 2;
-
+    public const DIGITS_NIO = 2;
 
 
     /**
@@ -3179,30 +3279,31 @@ class Iso4217
      * - Norway
      * - Svalbard and  Jan Mayen (SJ)
      * - Bouvet Island (BV)
+     *
+     * @var string
      */
-    public const ISO_CODE_NOK = 'NOK';
+    public const ALPHA_3_CODE_NOK = 'NOK';
 
     /**
      * ISO-4271 Number for the Norwegian krone
      *
      * @var int
      */
-    public const ISO_NUMBER_NOK = 578;
+    public const NUMERIC_CODE_NOK = 578;
 
     /**
      * ISO-4271 name for currency NOK
      *
      * @var string
      */
-    public const ISO_NAME_NOK = 'Norwegian krone';
+    public const NAME_NOK = 'Norwegian krone';
 
     /**
      * The number of digits after the decimal separator for NOK
      *
      * @var int
      */
-    public const ISO_DIGITS_NOK = 2;
-
+    public const DIGITS_NOK = 2;
 
 
     /**
@@ -3210,30 +3311,31 @@ class Iso4217
      *
      * Countries:
      * - Nepal
+     *
+     * @var string
      */
-    public const ISO_CODE_NPR = 'NPR';
+    public const ALPHA_3_CODE_NPR = 'NPR';
 
     /**
      * ISO-4271 Number for the Nepalese rupee
      *
      * @var int
      */
-    public const ISO_NUMBER_NPR = 524;
+    public const NUMERIC_CODE_NPR = 524;
 
     /**
      * ISO-4271 name for currency NPR
      *
      * @var string
      */
-    public const ISO_NAME_NPR = 'Nepalese rupee';
+    public const NAME_NPR = 'Nepalese rupee';
 
     /**
      * The number of digits after the decimal separator for NPR
      *
      * @var int
      */
-    public const ISO_DIGITS_NPR = 2;
-
+    public const DIGITS_NPR = 2;
 
 
     /**
@@ -3246,30 +3348,31 @@ class Iso4217
      * - Pitcairn Islands (PN; see also Pitcairn Islands dollar)
      * - Tokelau
      * (TK)
+     *
+     * @var string
      */
-    public const ISO_CODE_NZD = 'NZD';
+    public const ALPHA_3_CODE_NZD = 'NZD';
 
     /**
      * ISO-4271 Number for the New Zealand dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_NZD = 554;
+    public const NUMERIC_CODE_NZD = 554;
 
     /**
      * ISO-4271 name for currency NZD
      *
      * @var string
      */
-    public const ISO_NAME_NZD = 'New Zealand dollar';
+    public const NAME_NZD = 'New Zealand dollar';
 
     /**
      * The number of digits after the decimal separator for NZD
      *
      * @var int
      */
-    public const ISO_DIGITS_NZD = 2;
-
+    public const DIGITS_NZD = 2;
 
 
     /**
@@ -3277,30 +3380,31 @@ class Iso4217
      *
      * Countries:
      * - Oman
+     *
+     * @var string
      */
-    public const ISO_CODE_OMR = 'OMR';
+    public const ALPHA_3_CODE_OMR = 'OMR';
 
     /**
      * ISO-4271 Number for the Omani rial
      *
      * @var int
      */
-    public const ISO_NUMBER_OMR = 512;
+    public const NUMERIC_CODE_OMR = 512;
 
     /**
      * ISO-4271 name for currency OMR
      *
      * @var string
      */
-    public const ISO_NAME_OMR = 'Omani rial';
+    public const NAME_OMR = 'Omani rial';
 
     /**
      * The number of digits after the decimal separator for OMR
      *
      * @var int
      */
-    public const ISO_DIGITS_OMR = 3;
-
+    public const DIGITS_OMR = 3;
 
 
     /**
@@ -3308,30 +3412,31 @@ class Iso4217
      *
      * Countries:
      * - Panama
+     *
+     * @var string
      */
-    public const ISO_CODE_PAB = 'PAB';
+    public const ALPHA_3_CODE_PAB = 'PAB';
 
     /**
      * ISO-4271 Number for the Panamanian balboa
      *
      * @var int
      */
-    public const ISO_NUMBER_PAB = 590;
+    public const NUMERIC_CODE_PAB = 590;
 
     /**
      * ISO-4271 name for currency PAB
      *
      * @var string
      */
-    public const ISO_NAME_PAB = 'Panamanian balboa';
+    public const NAME_PAB = 'Panamanian balboa';
 
     /**
      * The number of digits after the decimal separator for PAB
      *
      * @var int
      */
-    public const ISO_DIGITS_PAB = 2;
-
+    public const DIGITS_PAB = 2;
 
 
     /**
@@ -3339,30 +3444,31 @@ class Iso4217
      *
      * Countries:
      * - Peru
+     *
+     * @var string
      */
-    public const ISO_CODE_PEN = 'PEN';
+    public const ALPHA_3_CODE_PEN = 'PEN';
 
     /**
      * ISO-4271 Number for the Peruvian sol
      *
      * @var int
      */
-    public const ISO_NUMBER_PEN = 604;
+    public const NUMERIC_CODE_PEN = 604;
 
     /**
      * ISO-4271 name for currency PEN
      *
      * @var string
      */
-    public const ISO_NAME_PEN = 'Peruvian sol';
+    public const NAME_PEN = 'Peruvian sol';
 
     /**
      * The number of digits after the decimal separator for PEN
      *
      * @var int
      */
-    public const ISO_DIGITS_PEN = 2;
-
+    public const DIGITS_PEN = 2;
 
 
     /**
@@ -3370,30 +3476,31 @@ class Iso4217
      *
      * Countries:
      * - Papua New Guinea
+     *
+     * @var string
      */
-    public const ISO_CODE_PGK = 'PGK';
+    public const ALPHA_3_CODE_PGK = 'PGK';
 
     /**
      * ISO-4271 Number for the Papua New Guinean kina
      *
      * @var int
      */
-    public const ISO_NUMBER_PGK = 598;
+    public const NUMERIC_CODE_PGK = 598;
 
     /**
      * ISO-4271 name for currency PGK
      *
      * @var string
      */
-    public const ISO_NAME_PGK = 'Papua New Guinean kina';
+    public const NAME_PGK = 'Papua New Guinean kina';
 
     /**
      * The number of digits after the decimal separator for PGK
      *
      * @var int
      */
-    public const ISO_DIGITS_PGK = 2;
-
+    public const DIGITS_PGK = 2;
 
 
     /**
@@ -3401,30 +3508,31 @@ class Iso4217
      *
      * Countries:
      * - Philippines
+     *
+     * @var string
      */
-    public const ISO_CODE_PHP = 'PHP';
+    public const ALPHA_3_CODE_PHP = 'PHP';
 
     /**
      * ISO-4271 Number for the Philippine peso
      *
      * @var int
      */
-    public const ISO_NUMBER_PHP = 608;
+    public const NUMERIC_CODE_PHP = 608;
 
     /**
      * ISO-4271 name for currency PHP
      *
      * @var string
      */
-    public const ISO_NAME_PHP = 'Philippine peso';
+    public const NAME_PHP = 'Philippine peso';
 
     /**
      * The number of digits after the decimal separator for PHP
      *
      * @var int
      */
-    public const ISO_DIGITS_PHP = 2;
-
+    public const DIGITS_PHP = 2;
 
 
     /**
@@ -3432,30 +3540,31 @@ class Iso4217
      *
      * Countries:
      * - Pakistan
+     *
+     * @var string
      */
-    public const ISO_CODE_PKR = 'PKR';
+    public const ALPHA_3_CODE_PKR = 'PKR';
 
     /**
      * ISO-4271 Number for the Pakistani rupee
      *
      * @var int
      */
-    public const ISO_NUMBER_PKR = 586;
+    public const NUMERIC_CODE_PKR = 586;
 
     /**
      * ISO-4271 name for currency PKR
      *
      * @var string
      */
-    public const ISO_NAME_PKR = 'Pakistani rupee';
+    public const NAME_PKR = 'Pakistani rupee';
 
     /**
      * The number of digits after the decimal separator for PKR
      *
      * @var int
      */
-    public const ISO_DIGITS_PKR = 2;
-
+    public const DIGITS_PKR = 2;
 
 
     /**
@@ -3463,30 +3572,31 @@ class Iso4217
      *
      * Countries:
      * - Poland
+     *
+     * @var string
      */
-    public const ISO_CODE_PLN = 'PLN';
+    public const ALPHA_3_CODE_PLN = 'PLN';
 
     /**
      * ISO-4271 Number for the Polish złoty
      *
      * @var int
      */
-    public const ISO_NUMBER_PLN = 985;
+    public const NUMERIC_CODE_PLN = 985;
 
     /**
      * ISO-4271 name for currency PLN
      *
      * @var string
      */
-    public const ISO_NAME_PLN = 'Polish złoty';
+    public const NAME_PLN = 'Polish złoty';
 
     /**
      * The number of digits after the decimal separator for PLN
      *
      * @var int
      */
-    public const ISO_DIGITS_PLN = 2;
-
+    public const DIGITS_PLN = 2;
 
 
     /**
@@ -3494,30 +3604,31 @@ class Iso4217
      *
      * Countries:
      * - Paraguay
+     *
+     * @var string
      */
-    public const ISO_CODE_PYG = 'PYG';
+    public const ALPHA_3_CODE_PYG = 'PYG';
 
     /**
      * ISO-4271 Number for the Paraguayan guaraní
      *
      * @var int
      */
-    public const ISO_NUMBER_PYG = 600;
+    public const NUMERIC_CODE_PYG = 600;
 
     /**
      * ISO-4271 name for currency PYG
      *
      * @var string
      */
-    public const ISO_NAME_PYG = 'Paraguayan guaraní';
+    public const NAME_PYG = 'Paraguayan guaraní';
 
     /**
      * The number of digits after the decimal separator for PYG
      *
      * @var int
      */
-    public const ISO_DIGITS_PYG = 0;
-
+    public const DIGITS_PYG = 0;
 
 
     /**
@@ -3525,30 +3636,31 @@ class Iso4217
      *
      * Countries:
      * - Qatar
+     *
+     * @var string
      */
-    public const ISO_CODE_QAR = 'QAR';
+    public const ALPHA_3_CODE_QAR = 'QAR';
 
     /**
      * ISO-4271 Number for the Qatari riyal
      *
      * @var int
      */
-    public const ISO_NUMBER_QAR = 634;
+    public const NUMERIC_CODE_QAR = 634;
 
     /**
      * ISO-4271 name for currency QAR
      *
      * @var string
      */
-    public const ISO_NAME_QAR = 'Qatari riyal';
+    public const NAME_QAR = 'Qatari riyal';
 
     /**
      * The number of digits after the decimal separator for QAR
      *
      * @var int
      */
-    public const ISO_DIGITS_QAR = 2;
-
+    public const DIGITS_QAR = 2;
 
 
     /**
@@ -3556,30 +3668,31 @@ class Iso4217
      *
      * Countries:
      * - Romania
+     *
+     * @var string
      */
-    public const ISO_CODE_RON = 'RON';
+    public const ALPHA_3_CODE_RON = 'RON';
 
     /**
      * ISO-4271 Number for the Romanian leu
      *
      * @var int
      */
-    public const ISO_NUMBER_RON = 946;
+    public const NUMERIC_CODE_RON = 946;
 
     /**
      * ISO-4271 name for currency RON
      *
      * @var string
      */
-    public const ISO_NAME_RON = 'Romanian leu';
+    public const NAME_RON = 'Romanian leu';
 
     /**
      * The number of digits after the decimal separator for RON
      *
      * @var int
      */
-    public const ISO_DIGITS_RON = 2;
-
+    public const DIGITS_RON = 2;
 
 
     /**
@@ -3587,30 +3700,31 @@ class Iso4217
      *
      * Countries:
      * - Serbia
+     *
+     * @var string
      */
-    public const ISO_CODE_RSD = 'RSD';
+    public const ALPHA_3_CODE_RSD = 'RSD';
 
     /**
      * ISO-4271 Number for the Serbian dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_RSD = 941;
+    public const NUMERIC_CODE_RSD = 941;
 
     /**
      * ISO-4271 name for currency RSD
      *
      * @var string
      */
-    public const ISO_NAME_RSD = 'Serbian dinar';
+    public const NAME_RSD = 'Serbian dinar';
 
     /**
      * The number of digits after the decimal separator for RSD
      *
      * @var int
      */
-    public const ISO_DIGITS_RSD = 2;
-
+    public const DIGITS_RSD = 2;
 
 
     /**
@@ -3618,30 +3732,31 @@ class Iso4217
      *
      * Countries:
      * - Russia
+     *
+     * @var string
      */
-    public const ISO_CODE_RUB = 'RUB';
+    public const ALPHA_3_CODE_RUB = 'RUB';
 
     /**
      * ISO-4271 Number for the Russian ruble
      *
      * @var int
      */
-    public const ISO_NUMBER_RUB = 643;
+    public const NUMERIC_CODE_RUB = 643;
 
     /**
      * ISO-4271 name for currency RUB
      *
      * @var string
      */
-    public const ISO_NAME_RUB = 'Russian ruble';
+    public const NAME_RUB = 'Russian ruble';
 
     /**
      * The number of digits after the decimal separator for RUB
      *
      * @var int
      */
-    public const ISO_DIGITS_RUB = 2;
-
+    public const DIGITS_RUB = 2;
 
 
     /**
@@ -3649,30 +3764,31 @@ class Iso4217
      *
      * Countries:
      * - Rwanda
+     *
+     * @var string
      */
-    public const ISO_CODE_RWF = 'RWF';
+    public const ALPHA_3_CODE_RWF = 'RWF';
 
     /**
      * ISO-4271 Number for the Rwandan franc
      *
      * @var int
      */
-    public const ISO_NUMBER_RWF = 646;
+    public const NUMERIC_CODE_RWF = 646;
 
     /**
      * ISO-4271 name for currency RWF
      *
      * @var string
      */
-    public const ISO_NAME_RWF = 'Rwandan franc';
+    public const NAME_RWF = 'Rwandan franc';
 
     /**
      * The number of digits after the decimal separator for RWF
      *
      * @var int
      */
-    public const ISO_DIGITS_RWF = 0;
-
+    public const DIGITS_RWF = 0;
 
 
     /**
@@ -3680,30 +3796,31 @@ class Iso4217
      *
      * Countries:
      * - Saudi Arabia
+     *
+     * @var string
      */
-    public const ISO_CODE_SAR = 'SAR';
+    public const ALPHA_3_CODE_SAR = 'SAR';
 
     /**
      * ISO-4271 Number for the Saudi riyal
      *
      * @var int
      */
-    public const ISO_NUMBER_SAR = 682;
+    public const NUMERIC_CODE_SAR = 682;
 
     /**
      * ISO-4271 name for currency SAR
      *
      * @var string
      */
-    public const ISO_NAME_SAR = 'Saudi riyal';
+    public const NAME_SAR = 'Saudi riyal';
 
     /**
      * The number of digits after the decimal separator for SAR
      *
      * @var int
      */
-    public const ISO_DIGITS_SAR = 2;
-
+    public const DIGITS_SAR = 2;
 
 
     /**
@@ -3711,30 +3828,31 @@ class Iso4217
      *
      * Countries:
      * - Solomon Islands
+     *
+     * @var string
      */
-    public const ISO_CODE_SBD = 'SBD';
+    public const ALPHA_3_CODE_SBD = 'SBD';
 
     /**
      * ISO-4271 Number for the Solomon Islands dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_SBD = 90;
+    public const NUMERIC_CODE_SBD = 90;
 
     /**
      * ISO-4271 name for currency SBD
      *
      * @var string
      */
-    public const ISO_NAME_SBD = 'Solomon Islands dollar';
+    public const NAME_SBD = 'Solomon Islands dollar';
 
     /**
      * The number of digits after the decimal separator for SBD
      *
      * @var int
      */
-    public const ISO_DIGITS_SBD = 2;
-
+    public const DIGITS_SBD = 2;
 
 
     /**
@@ -3742,30 +3860,31 @@ class Iso4217
      *
      * Countries:
      * - Seychelles
+     *
+     * @var string
      */
-    public const ISO_CODE_SCR = 'SCR';
+    public const ALPHA_3_CODE_SCR = 'SCR';
 
     /**
      * ISO-4271 Number for the Seychellois rupee
      *
      * @var int
      */
-    public const ISO_NUMBER_SCR = 690;
+    public const NUMERIC_CODE_SCR = 690;
 
     /**
      * ISO-4271 name for currency SCR
      *
      * @var string
      */
-    public const ISO_NAME_SCR = 'Seychellois rupee';
+    public const NAME_SCR = 'Seychellois rupee';
 
     /**
      * The number of digits after the decimal separator for SCR
      *
      * @var int
      */
-    public const ISO_DIGITS_SCR = 2;
-
+    public const DIGITS_SCR = 2;
 
 
     /**
@@ -3773,30 +3892,31 @@ class Iso4217
      *
      * Countries:
      * - Sudan
+     *
+     * @var string
      */
-    public const ISO_CODE_SDG = 'SDG';
+    public const ALPHA_3_CODE_SDG = 'SDG';
 
     /**
      * ISO-4271 Number for the Sudanese pound
      *
      * @var int
      */
-    public const ISO_NUMBER_SDG = 938;
+    public const NUMERIC_CODE_SDG = 938;
 
     /**
      * ISO-4271 name for currency SDG
      *
      * @var string
      */
-    public const ISO_NAME_SDG = 'Sudanese pound';
+    public const NAME_SDG = 'Sudanese pound';
 
     /**
      * The number of digits after the decimal separator for SDG
      *
      * @var int
      */
-    public const ISO_DIGITS_SDG = 2;
-
+    public const DIGITS_SDG = 2;
 
 
     /**
@@ -3804,30 +3924,31 @@ class Iso4217
      *
      * Countries:
      * - Sweden
+     *
+     * @var string
      */
-    public const ISO_CODE_SEK = 'SEK';
+    public const ALPHA_3_CODE_SEK = 'SEK';
 
     /**
      * ISO-4271 Number for the Swedish krona
      *
      * @var int
      */
-    public const ISO_NUMBER_SEK = 752;
+    public const NUMERIC_CODE_SEK = 752;
 
     /**
      * ISO-4271 name for currency SEK
      *
      * @var string
      */
-    public const ISO_NAME_SEK = 'Swedish krona';
+    public const NAME_SEK = 'Swedish krona';
 
     /**
      * The number of digits after the decimal separator for SEK
      *
      * @var int
      */
-    public const ISO_DIGITS_SEK = 2;
-
+    public const DIGITS_SEK = 2;
 
 
     /**
@@ -3835,30 +3956,31 @@ class Iso4217
      *
      * Countries:
      * - Singapore
+     *
+     * @var string
      */
-    public const ISO_CODE_SGD = 'SGD';
+    public const ALPHA_3_CODE_SGD = 'SGD';
 
     /**
      * ISO-4271 Number for the Singapore dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_SGD = 702;
+    public const NUMERIC_CODE_SGD = 702;
 
     /**
      * ISO-4271 name for currency SGD
      *
      * @var string
      */
-    public const ISO_NAME_SGD = 'Singapore dollar';
+    public const NAME_SGD = 'Singapore dollar';
 
     /**
      * The number of digits after the decimal separator for SGD
      *
      * @var int
      */
-    public const ISO_DIGITS_SGD = 2;
-
+    public const DIGITS_SGD = 2;
 
 
     /**
@@ -3867,30 +3989,31 @@ class Iso4217
      * Countries:
      * - Saint Helena (SH-SH)
      * - Ascension Island (SH-AC)
+     *
+     * @var string
      */
-    public const ISO_CODE_SHP = 'SHP';
+    public const ALPHA_3_CODE_SHP = 'SHP';
 
     /**
      * ISO-4271 Number for the Saint Helena pound
      *
      * @var int
      */
-    public const ISO_NUMBER_SHP = 654;
+    public const NUMERIC_CODE_SHP = 654;
 
     /**
      * ISO-4271 name for currency SHP
      *
      * @var string
      */
-    public const ISO_NAME_SHP = 'Saint Helena pound';
+    public const NAME_SHP = 'Saint Helena pound';
 
     /**
      * The number of digits after the decimal separator for SHP
      *
      * @var int
      */
-    public const ISO_DIGITS_SHP = 2;
-
+    public const DIGITS_SHP = 2;
 
 
     /**
@@ -3898,30 +4021,31 @@ class Iso4217
      *
      * Countries:
      * - Sierra Leone
+     *
+     * @var string
      */
-    public const ISO_CODE_SLL = 'SLL';
+    public const ALPHA_3_CODE_SLL = 'SLL';
 
     /**
      * ISO-4271 Number for the Sierra Leonean leone
      *
      * @var int
      */
-    public const ISO_NUMBER_SLL = 694;
+    public const NUMERIC_CODE_SLL = 694;
 
     /**
      * ISO-4271 name for currency SLL
      *
      * @var string
      */
-    public const ISO_NAME_SLL = 'Sierra Leonean leone';
+    public const NAME_SLL = 'Sierra Leonean leone';
 
     /**
      * The number of digits after the decimal separator for SLL
      *
      * @var int
      */
-    public const ISO_DIGITS_SLL = 2;
-
+    public const DIGITS_SLL = 2;
 
 
     /**
@@ -3929,30 +4053,31 @@ class Iso4217
      *
      * Countries:
      * - Somalia
+     *
+     * @var string
      */
-    public const ISO_CODE_SOS = 'SOS';
+    public const ALPHA_3_CODE_SOS = 'SOS';
 
     /**
      * ISO-4271 Number for the Somali shilling
      *
      * @var int
      */
-    public const ISO_NUMBER_SOS = 706;
+    public const NUMERIC_CODE_SOS = 706;
 
     /**
      * ISO-4271 name for currency SOS
      *
      * @var string
      */
-    public const ISO_NAME_SOS = 'Somali shilling';
+    public const NAME_SOS = 'Somali shilling';
 
     /**
      * The number of digits after the decimal separator for SOS
      *
      * @var int
      */
-    public const ISO_DIGITS_SOS = 2;
-
+    public const DIGITS_SOS = 2;
 
 
     /**
@@ -3960,30 +4085,31 @@ class Iso4217
      *
      * Countries:
      * - Suriname
+     *
+     * @var string
      */
-    public const ISO_CODE_SRD = 'SRD';
+    public const ALPHA_3_CODE_SRD = 'SRD';
 
     /**
      * ISO-4271 Number for the Surinamese dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_SRD = 968;
+    public const NUMERIC_CODE_SRD = 968;
 
     /**
      * ISO-4271 name for currency SRD
      *
      * @var string
      */
-    public const ISO_NAME_SRD = 'Surinamese dollar';
+    public const NAME_SRD = 'Surinamese dollar';
 
     /**
      * The number of digits after the decimal separator for SRD
      *
      * @var int
      */
-    public const ISO_DIGITS_SRD = 2;
-
+    public const DIGITS_SRD = 2;
 
 
     /**
@@ -3991,30 +4117,31 @@ class Iso4217
      *
      * Countries:
      * - South Sudan
+     *
+     * @var string
      */
-    public const ISO_CODE_SSP = 'SSP';
+    public const ALPHA_3_CODE_SSP = 'SSP';
 
     /**
      * ISO-4271 Number for the South Sudanese pound
      *
      * @var int
      */
-    public const ISO_NUMBER_SSP = 728;
+    public const NUMERIC_CODE_SSP = 728;
 
     /**
      * ISO-4271 name for currency SSP
      *
      * @var string
      */
-    public const ISO_NAME_SSP = 'South Sudanese pound';
+    public const NAME_SSP = 'South Sudanese pound';
 
     /**
      * The number of digits after the decimal separator for SSP
      *
      * @var int
      */
-    public const ISO_DIGITS_SSP = 2;
-
+    public const DIGITS_SSP = 2;
 
 
     /**
@@ -4022,30 +4149,31 @@ class Iso4217
      *
      * Countries:
      * - São Tomé and Príncipe
+     *
+     * @var string
      */
-    public const ISO_CODE_STN = 'STN';
+    public const ALPHA_3_CODE_STN = 'STN';
 
     /**
      * ISO-4271 Number for the São Tomé and Príncipe dobra
      *
      * @var int
      */
-    public const ISO_NUMBER_STN = 930;
+    public const NUMERIC_CODE_STN = 930;
 
     /**
      * ISO-4271 name for currency STN
      *
      * @var string
      */
-    public const ISO_NAME_STN = 'São Tomé and Príncipe dobra';
+    public const NAME_STN = 'São Tomé and Príncipe dobra';
 
     /**
      * The number of digits after the decimal separator for STN
      *
      * @var int
      */
-    public const ISO_DIGITS_STN = 2;
-
+    public const DIGITS_STN = 2;
 
 
     /**
@@ -4053,30 +4181,31 @@ class Iso4217
      *
      * Countries:
      * - El Salvador
+     *
+     * @var string
      */
-    public const ISO_CODE_SVC = 'SVC';
+    public const ALPHA_3_CODE_SVC = 'SVC';
 
     /**
      * ISO-4271 Number for the Salvadoran colón
      *
      * @var int
      */
-    public const ISO_NUMBER_SVC = 222;
+    public const NUMERIC_CODE_SVC = 222;
 
     /**
      * ISO-4271 name for currency SVC
      *
      * @var string
      */
-    public const ISO_NAME_SVC = 'Salvadoran colón';
+    public const NAME_SVC = 'Salvadoran colón';
 
     /**
      * The number of digits after the decimal separator for SVC
      *
      * @var int
      */
-    public const ISO_DIGITS_SVC = 2;
-
+    public const DIGITS_SVC = 2;
 
 
     /**
@@ -4084,30 +4213,31 @@ class Iso4217
      *
      * Countries:
      * - Syria
+     *
+     * @var string
      */
-    public const ISO_CODE_SYP = 'SYP';
+    public const ALPHA_3_CODE_SYP = 'SYP';
 
     /**
      * ISO-4271 Number for the Syrian pound
      *
      * @var int
      */
-    public const ISO_NUMBER_SYP = 760;
+    public const NUMERIC_CODE_SYP = 760;
 
     /**
      * ISO-4271 name for currency SYP
      *
      * @var string
      */
-    public const ISO_NAME_SYP = 'Syrian pound';
+    public const NAME_SYP = 'Syrian pound';
 
     /**
      * The number of digits after the decimal separator for SYP
      *
      * @var int
      */
-    public const ISO_DIGITS_SYP = 2;
-
+    public const DIGITS_SYP = 2;
 
 
     /**
@@ -4115,30 +4245,31 @@ class Iso4217
      *
      * Countries:
      * - Eswatini
+     *
+     * @var string
      */
-    public const ISO_CODE_SZL = 'SZL';
+    public const ALPHA_3_CODE_SZL = 'SZL';
 
     /**
      * ISO-4271 Number for the Swazi lilangeni
      *
      * @var int
      */
-    public const ISO_NUMBER_SZL = 748;
+    public const NUMERIC_CODE_SZL = 748;
 
     /**
      * ISO-4271 name for currency SZL
      *
      * @var string
      */
-    public const ISO_NAME_SZL = 'Swazi lilangeni';
+    public const NAME_SZL = 'Swazi lilangeni';
 
     /**
      * The number of digits after the decimal separator for SZL
      *
      * @var int
      */
-    public const ISO_DIGITS_SZL = 2;
-
+    public const DIGITS_SZL = 2;
 
 
     /**
@@ -4146,30 +4277,31 @@ class Iso4217
      *
      * Countries:
      * - Thailand
+     *
+     * @var string
      */
-    public const ISO_CODE_THB = 'THB';
+    public const ALPHA_3_CODE_THB = 'THB';
 
     /**
      * ISO-4271 Number for the Thai baht
      *
      * @var int
      */
-    public const ISO_NUMBER_THB = 764;
+    public const NUMERIC_CODE_THB = 764;
 
     /**
      * ISO-4271 name for currency THB
      *
      * @var string
      */
-    public const ISO_NAME_THB = 'Thai baht';
+    public const NAME_THB = 'Thai baht';
 
     /**
      * The number of digits after the decimal separator for THB
      *
      * @var int
      */
-    public const ISO_DIGITS_THB = 2;
-
+    public const DIGITS_THB = 2;
 
 
     /**
@@ -4177,30 +4309,31 @@ class Iso4217
      *
      * Countries:
      * - Tajikistan
+     *
+     * @var string
      */
-    public const ISO_CODE_TJS = 'TJS';
+    public const ALPHA_3_CODE_TJS = 'TJS';
 
     /**
      * ISO-4271 Number for the Tajikistani somoni
      *
      * @var int
      */
-    public const ISO_NUMBER_TJS = 972;
+    public const NUMERIC_CODE_TJS = 972;
 
     /**
      * ISO-4271 name for currency TJS
      *
      * @var string
      */
-    public const ISO_NAME_TJS = 'Tajikistani somoni';
+    public const NAME_TJS = 'Tajikistani somoni';
 
     /**
      * The number of digits after the decimal separator for TJS
      *
      * @var int
      */
-    public const ISO_DIGITS_TJS = 2;
-
+    public const DIGITS_TJS = 2;
 
 
     /**
@@ -4208,30 +4341,31 @@ class Iso4217
      *
      * Countries:
      * - Turkmenistan
+     *
+     * @var string
      */
-    public const ISO_CODE_TMT = 'TMT';
+    public const ALPHA_3_CODE_TMT = 'TMT';
 
     /**
      * ISO-4271 Number for the Turkmenistan manat
      *
      * @var int
      */
-    public const ISO_NUMBER_TMT = 934;
+    public const NUMERIC_CODE_TMT = 934;
 
     /**
      * ISO-4271 name for currency TMT
      *
      * @var string
      */
-    public const ISO_NAME_TMT = 'Turkmenistan manat';
+    public const NAME_TMT = 'Turkmenistan manat';
 
     /**
      * The number of digits after the decimal separator for TMT
      *
      * @var int
      */
-    public const ISO_DIGITS_TMT = 2;
-
+    public const DIGITS_TMT = 2;
 
 
     /**
@@ -4239,30 +4373,31 @@ class Iso4217
      *
      * Countries:
      * - Tunisia
+     *
+     * @var string
      */
-    public const ISO_CODE_TND = 'TND';
+    public const ALPHA_3_CODE_TND = 'TND';
 
     /**
      * ISO-4271 Number for the Tunisian dinar
      *
      * @var int
      */
-    public const ISO_NUMBER_TND = 788;
+    public const NUMERIC_CODE_TND = 788;
 
     /**
      * ISO-4271 name for currency TND
      *
      * @var string
      */
-    public const ISO_NAME_TND = 'Tunisian dinar';
+    public const NAME_TND = 'Tunisian dinar';
 
     /**
      * The number of digits after the decimal separator for TND
      *
      * @var int
      */
-    public const ISO_DIGITS_TND = 3;
-
+    public const DIGITS_TND = 3;
 
 
     /**
@@ -4270,30 +4405,31 @@ class Iso4217
      *
      * Countries:
      * - Tonga
+     *
+     * @var string
      */
-    public const ISO_CODE_TOP = 'TOP';
+    public const ALPHA_3_CODE_TOP = 'TOP';
 
     /**
      * ISO-4271 Number for the Tongan paʻanga
      *
      * @var int
      */
-    public const ISO_NUMBER_TOP = 776;
+    public const NUMERIC_CODE_TOP = 776;
 
     /**
      * ISO-4271 name for currency TOP
      *
      * @var string
      */
-    public const ISO_NAME_TOP = 'Tongan paʻanga';
+    public const NAME_TOP = 'Tongan paʻanga';
 
     /**
      * The number of digits after the decimal separator for TOP
      *
      * @var int
      */
-    public const ISO_DIGITS_TOP = 2;
-
+    public const DIGITS_TOP = 2;
 
 
     /**
@@ -4301,30 +4437,31 @@ class Iso4217
      *
      * Countries:
      * - Turkey
+     *
+     * @var string
      */
-    public const ISO_CODE_TRY = 'TRY';
+    public const ALPHA_3_CODE_TRY = 'TRY';
 
     /**
      * ISO-4271 Number for the Turkish lira
      *
      * @var int
      */
-    public const ISO_NUMBER_TRY = 949;
+    public const NUMERIC_CODE_TRY = 949;
 
     /**
      * ISO-4271 name for currency TRY
      *
      * @var string
      */
-    public const ISO_NAME_TRY = 'Turkish lira';
+    public const NAME_TRY = 'Turkish lira';
 
     /**
      * The number of digits after the decimal separator for TRY
      *
      * @var int
      */
-    public const ISO_DIGITS_TRY = 2;
-
+    public const DIGITS_TRY = 2;
 
 
     /**
@@ -4332,30 +4469,31 @@ class Iso4217
      *
      * Countries:
      * - Trinidad and Tobago
+     *
+     * @var string
      */
-    public const ISO_CODE_TTD = 'TTD';
+    public const ALPHA_3_CODE_TTD = 'TTD';
 
     /**
      * ISO-4271 Number for the Trinidad and Tobago dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_TTD = 780;
+    public const NUMERIC_CODE_TTD = 780;
 
     /**
      * ISO-4271 name for currency TTD
      *
      * @var string
      */
-    public const ISO_NAME_TTD = 'Trinidad and Tobago dollar';
+    public const NAME_TTD = 'Trinidad and Tobago dollar';
 
     /**
      * The number of digits after the decimal separator for TTD
      *
      * @var int
      */
-    public const ISO_DIGITS_TTD = 2;
-
+    public const DIGITS_TTD = 2;
 
 
     /**
@@ -4363,30 +4501,31 @@ class Iso4217
      *
      * Countries:
      * - Taiwan
+     *
+     * @var string
      */
-    public const ISO_CODE_TWD = 'TWD';
+    public const ALPHA_3_CODE_TWD = 'TWD';
 
     /**
      * ISO-4271 Number for the New Taiwan dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_TWD = 901;
+    public const NUMERIC_CODE_TWD = 901;
 
     /**
      * ISO-4271 name for currency TWD
      *
      * @var string
      */
-    public const ISO_NAME_TWD = 'New Taiwan dollar';
+    public const NAME_TWD = 'New Taiwan dollar';
 
     /**
      * The number of digits after the decimal separator for TWD
      *
      * @var int
      */
-    public const ISO_DIGITS_TWD = 2;
-
+    public const DIGITS_TWD = 2;
 
 
     /**
@@ -4394,30 +4533,31 @@ class Iso4217
      *
      * Countries:
      * - Tanzania
+     *
+     * @var string
      */
-    public const ISO_CODE_TZS = 'TZS';
+    public const ALPHA_3_CODE_TZS = 'TZS';
 
     /**
      * ISO-4271 Number for the Tanzanian shilling
      *
      * @var int
      */
-    public const ISO_NUMBER_TZS = 834;
+    public const NUMERIC_CODE_TZS = 834;
 
     /**
      * ISO-4271 name for currency TZS
      *
      * @var string
      */
-    public const ISO_NAME_TZS = 'Tanzanian shilling';
+    public const NAME_TZS = 'Tanzanian shilling';
 
     /**
      * The number of digits after the decimal separator for TZS
      *
      * @var int
      */
-    public const ISO_DIGITS_TZS = 2;
-
+    public const DIGITS_TZS = 2;
 
 
     /**
@@ -4425,30 +4565,31 @@ class Iso4217
      *
      * Countries:
      * - Ukraine
+     *
+     * @var string
      */
-    public const ISO_CODE_UAH = 'UAH';
+    public const ALPHA_3_CODE_UAH = 'UAH';
 
     /**
      * ISO-4271 Number for the Ukrainian hryvnia
      *
      * @var int
      */
-    public const ISO_NUMBER_UAH = 980;
+    public const NUMERIC_CODE_UAH = 980;
 
     /**
      * ISO-4271 name for currency UAH
      *
      * @var string
      */
-    public const ISO_NAME_UAH = 'Ukrainian hryvnia';
+    public const NAME_UAH = 'Ukrainian hryvnia';
 
     /**
      * The number of digits after the decimal separator for UAH
      *
      * @var int
      */
-    public const ISO_DIGITS_UAH = 2;
-
+    public const DIGITS_UAH = 2;
 
 
     /**
@@ -4456,30 +4597,31 @@ class Iso4217
      *
      * Countries:
      * - Uganda
+     *
+     * @var string
      */
-    public const ISO_CODE_UGX = 'UGX';
+    public const ALPHA_3_CODE_UGX = 'UGX';
 
     /**
      * ISO-4271 Number for the Ugandan shilling
      *
      * @var int
      */
-    public const ISO_NUMBER_UGX = 800;
+    public const NUMERIC_CODE_UGX = 800;
 
     /**
      * ISO-4271 name for currency UGX
      *
      * @var string
      */
-    public const ISO_NAME_UGX = 'Ugandan shilling';
+    public const NAME_UGX = 'Ugandan shilling';
 
     /**
      * The number of digits after the decimal separator for UGX
      *
      * @var int
      */
-    public const ISO_DIGITS_UGX = 0;
-
+    public const DIGITS_UGX = 0;
 
 
     /**
@@ -4504,30 +4646,31 @@ class Iso4217
      * - Turks and Caicos Islands (TC)
      * - U.S. Virgin Islands (VI)
      * - United States Minor Outlying Islands (UM)
+     *
+     * @var string
      */
-    public const ISO_CODE_USD = 'USD';
+    public const ALPHA_3_CODE_USD = 'USD';
 
     /**
      * ISO-4271 Number for the United States dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_USD = 840;
+    public const NUMERIC_CODE_USD = 840;
 
     /**
      * ISO-4271 name for currency USD
      *
      * @var string
      */
-    public const ISO_NAME_USD = 'United States dollar';
+    public const NAME_USD = 'United States dollar';
 
     /**
      * The number of digits after the decimal separator for USD
      *
      * @var int
      */
-    public const ISO_DIGITS_USD = 2;
-
+    public const DIGITS_USD = 2;
 
 
     /**
@@ -4535,30 +4678,31 @@ class Iso4217
      *
      * Countries:
      * - Uruguay
+     *
+     * @var string
      */
-    public const ISO_CODE_UYU = 'UYU';
+    public const ALPHA_3_CODE_UYU = 'UYU';
 
     /**
      * ISO-4271 Number for the Uruguayan peso
      *
      * @var int
      */
-    public const ISO_NUMBER_UYU = 858;
+    public const NUMERIC_CODE_UYU = 858;
 
     /**
      * ISO-4271 name for currency UYU
      *
      * @var string
      */
-    public const ISO_NAME_UYU = 'Uruguayan peso';
+    public const NAME_UYU = 'Uruguayan peso';
 
     /**
      * The number of digits after the decimal separator for UYU
      *
      * @var int
      */
-    public const ISO_DIGITS_UYU = 2;
-
+    public const DIGITS_UYU = 2;
 
 
     /**
@@ -4566,30 +4710,31 @@ class Iso4217
      *
      * Countries:
      * - Uzbekistan
+     *
+     * @var string
      */
-    public const ISO_CODE_UZS = 'UZS';
+    public const ALPHA_3_CODE_UZS = 'UZS';
 
     /**
      * ISO-4271 Number for the Uzbekistan som
      *
      * @var int
      */
-    public const ISO_NUMBER_UZS = 860;
+    public const NUMERIC_CODE_UZS = 860;
 
     /**
      * ISO-4271 name for currency UZS
      *
      * @var string
      */
-    public const ISO_NAME_UZS = 'Uzbekistan som';
+    public const NAME_UZS = 'Uzbekistan som';
 
     /**
      * The number of digits after the decimal separator for UZS
      *
      * @var int
      */
-    public const ISO_DIGITS_UZS = 2;
-
+    public const DIGITS_UZS = 2;
 
 
     /**
@@ -4597,30 +4742,31 @@ class Iso4217
      *
      * Countries:
      * - Venezuela
+     *
+     * @var string
      */
-    public const ISO_CODE_VED = 'VED';
+    public const ALPHA_3_CODE_VED = 'VED';
 
     /**
      * ISO-4271 Number for the Venezuelan bolívar digital
      *
      * @var int
      */
-    public const ISO_NUMBER_VED = 926;
+    public const NUMERIC_CODE_VED = 926;
 
     /**
      * ISO-4271 name for currency VED
      *
      * @var string
      */
-    public const ISO_NAME_VED = 'Venezuelan bolívar digital';
+    public const NAME_VED = 'Venezuelan bolívar digital';
 
     /**
      * The number of digits after the decimal separator for VED
      *
      * @var int
      */
-    public const ISO_DIGITS_VED = 2;
-
+    public const DIGITS_VED = 2;
 
 
     /**
@@ -4628,30 +4774,31 @@ class Iso4217
      *
      * Countries:
      * - Venezuela
+     *
+     * @var string
      */
-    public const ISO_CODE_VES = 'VES';
+    public const ALPHA_3_CODE_VES = 'VES';
 
     /**
      * ISO-4271 Number for the Venezuelan bolívar soberano
      *
      * @var int
      */
-    public const ISO_NUMBER_VES = 928;
+    public const NUMERIC_CODE_VES = 928;
 
     /**
      * ISO-4271 name for currency VES
      *
      * @var string
      */
-    public const ISO_NAME_VES = 'Venezuelan bolívar soberano';
+    public const NAME_VES = 'Venezuelan bolívar soberano';
 
     /**
      * The number of digits after the decimal separator for VES
      *
      * @var int
      */
-    public const ISO_DIGITS_VES = 2;
-
+    public const DIGITS_VES = 2;
 
 
     /**
@@ -4659,30 +4806,31 @@ class Iso4217
      *
      * Countries:
      * - Vietnam
+     *
+     * @var string
      */
-    public const ISO_CODE_VND = 'VND';
+    public const ALPHA_3_CODE_VND = 'VND';
 
     /**
      * ISO-4271 Number for the Vietnamese đồng
      *
      * @var int
      */
-    public const ISO_NUMBER_VND = 704;
+    public const NUMERIC_CODE_VND = 704;
 
     /**
      * ISO-4271 name for currency VND
      *
      * @var string
      */
-    public const ISO_NAME_VND = 'Vietnamese đồng';
+    public const NAME_VND = 'Vietnamese đồng';
 
     /**
      * The number of digits after the decimal separator for VND
      *
      * @var int
      */
-    public const ISO_DIGITS_VND = 0;
-
+    public const DIGITS_VND = 0;
 
 
     /**
@@ -4690,30 +4838,31 @@ class Iso4217
      *
      * Countries:
      * - Vanuatu
+     *
+     * @var string
      */
-    public const ISO_CODE_VUV = 'VUV';
+    public const ALPHA_3_CODE_VUV = 'VUV';
 
     /**
      * ISO-4271 Number for the Vanuatu vatu
      *
      * @var int
      */
-    public const ISO_NUMBER_VUV = 548;
+    public const NUMERIC_CODE_VUV = 548;
 
     /**
      * ISO-4271 name for currency VUV
      *
      * @var string
      */
-    public const ISO_NAME_VUV = 'Vanuatu vatu';
+    public const NAME_VUV = 'Vanuatu vatu';
 
     /**
      * The number of digits after the decimal separator for VUV
      *
      * @var int
      */
-    public const ISO_DIGITS_VUV = 0;
-
+    public const DIGITS_VUV = 0;
 
 
     /**
@@ -4721,30 +4870,31 @@ class Iso4217
      *
      * Countries:
      * - Samoa
+     *
+     * @var string
      */
-    public const ISO_CODE_WST = 'WST';
+    public const ALPHA_3_CODE_WST = 'WST';
 
     /**
      * ISO-4271 Number for the Samoan tala
      *
      * @var int
      */
-    public const ISO_NUMBER_WST = 882;
+    public const NUMERIC_CODE_WST = 882;
 
     /**
      * ISO-4271 name for currency WST
      *
      * @var string
      */
-    public const ISO_NAME_WST = 'Samoan tala';
+    public const NAME_WST = 'Samoan tala';
 
     /**
      * The number of digits after the decimal separator for WST
      *
      * @var int
      */
-    public const ISO_DIGITS_WST = 2;
-
+    public const DIGITS_WST = 2;
 
 
     /**
@@ -4757,30 +4907,31 @@ class Iso4217
      * - Chad (TD)
      * - Equatorial Guinea (GQ)
      * - Gabon (GA)
+     *
+     * @var string
      */
-    public const ISO_CODE_XAF = 'XAF';
+    public const ALPHA_3_CODE_XAF = 'XAF';
 
     /**
      * ISO-4271 Number for the CFA franc BEAC
      *
      * @var int
      */
-    public const ISO_NUMBER_XAF = 950;
+    public const NUMERIC_CODE_XAF = 950;
 
     /**
      * ISO-4271 name for currency XAF
      *
      * @var string
      */
-    public const ISO_NAME_XAF = 'CFA franc BEAC';
+    public const NAME_XAF = 'CFA franc BEAC';
 
     /**
      * The number of digits after the decimal separator for XAF
      *
      * @var int
      */
-    public const ISO_DIGITS_XAF = 0;
-
+    public const DIGITS_XAF = 0;
 
 
     /**
@@ -4795,30 +4946,31 @@ class Iso4217
      * - Saint Kitts and Nevis (KN)
      * - Saint Lucia (LC)
      * - Saint Vincent and the Grenadines (VC)
+     *
+     * @var string
      */
-    public const ISO_CODE_XCD = 'XCD';
+    public const ALPHA_3_CODE_XCD = 'XCD';
 
     /**
      * ISO-4271 Number for the East Caribbean dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_XCD = 951;
+    public const NUMERIC_CODE_XCD = 951;
 
     /**
      * ISO-4271 name for currency XCD
      *
      * @var string
      */
-    public const ISO_NAME_XCD = 'East Caribbean dollar';
+    public const NAME_XCD = 'East Caribbean dollar';
 
     /**
      * The number of digits after the decimal separator for XCD
      *
      * @var int
      */
-    public const ISO_DIGITS_XCD = 2;
-
+    public const DIGITS_XCD = 2;
 
 
     /**
@@ -4833,30 +4985,31 @@ class Iso4217
      * - Niger (NE)
      * - Senegal (SN)
      * - Togo (TG)
+     *
+     * @var string
      */
-    public const ISO_CODE_XOF = 'XOF';
+    public const ALPHA_3_CODE_XOF = 'XOF';
 
     /**
      * ISO-4271 Number for the CFA franc BCEAO
      *
      * @var int
      */
-    public const ISO_NUMBER_XOF = 952;
+    public const NUMERIC_CODE_XOF = 952;
 
     /**
      * ISO-4271 name for currency XOF
      *
      * @var string
      */
-    public const ISO_NAME_XOF = 'CFA franc BCEAO';
+    public const NAME_XOF = 'CFA franc BCEAO';
 
     /**
      * The number of digits after the decimal separator for XOF
      *
      * @var int
      */
-    public const ISO_DIGITS_XOF = 0;
-
+    public const DIGITS_XOF = 0;
 
 
     /**
@@ -4866,30 +5019,31 @@ class Iso4217
      * - French Polynesia (PF)
      * - New Caledonia (NC)
      * - Wallis and Futuna (WF)
+     *
+     * @var string
      */
-    public const ISO_CODE_XPF = 'XPF';
+    public const ALPHA_3_CODE_XPF = 'XPF';
 
     /**
      * ISO-4271 Number for the CFP franc (franc Pacifique)
      *
      * @var int
      */
-    public const ISO_NUMBER_XPF = 953;
+    public const NUMERIC_CODE_XPF = 953;
 
     /**
      * ISO-4271 name for currency XPF
      *
      * @var string
      */
-    public const ISO_NAME_XPF = 'CFP franc (franc Pacifique)';
+    public const NAME_XPF = 'CFP franc (franc Pacifique)';
 
     /**
      * The number of digits after the decimal separator for XPF
      *
      * @var int
      */
-    public const ISO_DIGITS_XPF = 0;
-
+    public const DIGITS_XPF = 0;
 
 
     /**
@@ -4897,30 +5051,31 @@ class Iso4217
      *
      * Countries:
      * - Yemen
+     *
+     * @var string
      */
-    public const ISO_CODE_YER = 'YER';
+    public const ALPHA_3_CODE_YER = 'YER';
 
     /**
      * ISO-4271 Number for the Yemeni rial
      *
      * @var int
      */
-    public const ISO_NUMBER_YER = 886;
+    public const NUMERIC_CODE_YER = 886;
 
     /**
      * ISO-4271 name for currency YER
      *
      * @var string
      */
-    public const ISO_NAME_YER = 'Yemeni rial';
+    public const NAME_YER = 'Yemeni rial';
 
     /**
      * The number of digits after the decimal separator for YER
      *
      * @var int
      */
-    public const ISO_DIGITS_YER = 2;
-
+    public const DIGITS_YER = 2;
 
 
     /**
@@ -4931,30 +5086,31 @@ class Iso4217
      * - Lesotho
      * - Namibia
      * - South Africa
+     *
+     * @var string
      */
-    public const ISO_CODE_ZAR = 'ZAR';
+    public const ALPHA_3_CODE_ZAR = 'ZAR';
 
     /**
      * ISO-4271 Number for the South African rand
      *
      * @var int
      */
-    public const ISO_NUMBER_ZAR = 710;
+    public const NUMERIC_CODE_ZAR = 710;
 
     /**
      * ISO-4271 name for currency ZAR
      *
      * @var string
      */
-    public const ISO_NAME_ZAR = 'South African rand';
+    public const NAME_ZAR = 'South African rand';
 
     /**
      * The number of digits after the decimal separator for ZAR
      *
      * @var int
      */
-    public const ISO_DIGITS_ZAR = 2;
-
+    public const DIGITS_ZAR = 2;
 
 
     /**
@@ -4962,30 +5118,31 @@ class Iso4217
      *
      * Countries:
      * - Zambia
+     *
+     * @var string
      */
-    public const ISO_CODE_ZMW = 'ZMW';
+    public const ALPHA_3_CODE_ZMW = 'ZMW';
 
     /**
      * ISO-4271 Number for the Zambian kwacha
      *
      * @var int
      */
-    public const ISO_NUMBER_ZMW = 967;
+    public const NUMERIC_CODE_ZMW = 967;
 
     /**
      * ISO-4271 name for currency ZMW
      *
      * @var string
      */
-    public const ISO_NAME_ZMW = 'Zambian kwacha';
+    public const NAME_ZMW = 'Zambian kwacha';
 
     /**
      * The number of digits after the decimal separator for ZMW
      *
      * @var int
      */
-    public const ISO_DIGITS_ZMW = 2;
-
+    public const DIGITS_ZMW = 2;
 
 
     /**
@@ -4993,28 +5150,30 @@ class Iso4217
      *
      * Countries:
      * - Zimbabwe
+     *
+     * @var string
      */
-    public const ISO_CODE_ZWL = 'ZWL';
+    public const ALPHA_3_CODE_ZWL = 'ZWL';
 
     /**
      * ISO-4271 Number for the Zimbabwean dollar
      *
      * @var int
      */
-    public const ISO_NUMBER_ZWL = 932;
+    public const NUMERIC_CODE_ZWL = 932;
 
     /**
      * ISO-4271 name for currency ZWL
      *
      * @var string
      */
-    public const ISO_NAME_ZWL = 'Zimbabwean dollar';
+    public const NAME_ZWL = 'Zimbabwean dollar';
 
     /**
      * The number of digits after the decimal separator for ZWL
      *
      * @var int
      */
-    public const ISO_DIGITS_ZWL = 2;
+    public const DIGITS_ZWL = 2;
 
 }

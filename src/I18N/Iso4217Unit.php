@@ -59,8 +59,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AED = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AED = 1 / 100;
 
 
     /**
@@ -104,8 +103,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AFN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AFN = 1 / 100;
 
 
     /**
@@ -147,8 +145,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Albanian_lek
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ALL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ALL = 1 / 100;
 
 
     /**
@@ -190,8 +187,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Armenian_dram
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AMD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AMD = 1 / 100;
 
 
     /**
@@ -233,8 +229,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ANG = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ANG = 1 / 100;
 
 
     /**
@@ -276,8 +271,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AOA = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AOA = 1 / 100;
 
 
     /**
@@ -318,8 +312,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Argentine_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ARS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ARS = 1 / 100;
 
 
     /**
@@ -360,8 +353,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Australian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AUD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AUD = 1 / 100;
 
 
     /**
@@ -402,8 +394,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Aruban_florin
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AWG = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AWG = 1 / 100;
 
 
     /**
@@ -444,8 +435,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_AZN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_AZN = 1 / 100;
 
 
     /**
@@ -486,8 +476,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BAM = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BAM = 1 / 100;
 
 
     /**
@@ -528,8 +517,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BBD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BBD = 1 / 100;
 
 
     /**
@@ -570,8 +558,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BDT = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BDT = 1 / 100;
 
 
     /**
@@ -612,8 +599,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BGN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BGN = 1 / 100;
 
 
     /**
@@ -654,8 +640,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BHD = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_BHD = 1 / 1000;
 
 
     /**
@@ -696,8 +681,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Burundian_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BIF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BIF = 1 / 100;
 
 
     /**
@@ -738,8 +722,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BMD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BMD = 1 / 100;
 
 
     /**
@@ -780,8 +763,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BND = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BND = 1 / 100;
 
 
     /**
@@ -822,8 +804,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BOB = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BOB = 1 / 100;
 
 
     /**
@@ -864,8 +845,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Brazilian_real
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BRL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BRL = 1 / 100;
 
 
     /**
@@ -906,8 +886,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BSD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BSD = 1 / 100;
 
 
     /**
@@ -948,8 +927,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BTN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BTN = 1 / 100;
 
 
     /**
@@ -990,8 +968,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Botswana_pula
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BWP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BWP = 1 / 100;
 
 
     /**
@@ -1032,8 +1009,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BYN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BYN = 1 / 100;
 
 
     /**
@@ -1074,8 +1050,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Belize_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_BZD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_BZD = 1 / 100;
 
 
     /**
@@ -1116,8 +1091,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CAD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CAD = 1 / 100;
 
 
     /**
@@ -1158,8 +1132,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Congolese_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CDF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CDF = 1 / 100;
 
 
     /**
@@ -1200,8 +1173,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Swiss_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CHF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CHF = 1 / 100;
 
 
     /**
@@ -1242,8 +1214,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Chilean_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CLP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CLP = 1 / 100;
 
 
     /**
@@ -1300,7 +1271,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Renminbi
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CNY = 1/10;
+    public const MAJOR_MINOR_RATIO_CNY = 1 / 10;
 
     /**
      * Symbol of sub-minor unit for currency CNY
@@ -1308,8 +1279,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Renminbi
      * @var float
      */
-    public const SUB_MINOR_UNIT_RATIO_CNY = 1/100;
-
+    public const SUB_MINOR_UNIT_RATIO_CNY = 1 / 100;
 
 
     /**
@@ -1350,8 +1320,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Colombian_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_COP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_COP = 1 / 100;
 
 
     /**
@@ -1392,8 +1361,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CRC = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CRC = 1 / 100;
 
 
     /**
@@ -1434,8 +1402,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CUC = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CUC = 1 / 100;
 
 
     /**
@@ -1476,8 +1443,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Cuban_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CUP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CUP = 1 / 100;
 
 
     /**
@@ -1518,8 +1484,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CVE = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CVE = 1 / 100;
 
 
     /**
@@ -1560,8 +1525,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Czech_koruna
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_CZK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_CZK = 1 / 100;
 
 
     /**
@@ -1602,8 +1566,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_DJF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_DJF = 1 / 100;
 
 
     /**
@@ -1644,8 +1607,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Danish_krone
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_DKK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_DKK = 1 / 100;
 
 
     /**
@@ -1686,8 +1648,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Dominican_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_DOP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_DOP = 1 / 100;
 
 
     /**
@@ -1728,8 +1689,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_DZD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_DZD = 1 / 100;
 
 
     /**
@@ -1786,7 +1746,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_EGP = 1/100;
+    public const MAJOR_MINOR_RATIO_EGP = 1 / 100;
 
     /**
      * Symbol of sub-minor unit for currency EGP
@@ -1794,8 +1754,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
      * @var float
      */
-    public const SUB_MINOR_UNIT_RATIO_EGP = 1/1000;
-
+    public const SUB_MINOR_UNIT_RATIO_EGP = 1 / 1000;
 
 
     /**
@@ -1836,8 +1795,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ERN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ERN = 1 / 100;
 
 
     /**
@@ -1878,8 +1836,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ETB = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ETB = 1 / 100;
 
 
     /**
@@ -1920,8 +1877,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Euro
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_EUR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_EUR = 1 / 100;
 
 
     /**
@@ -1962,8 +1918,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_FJD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_FJD = 1 / 100;
 
 
     /**
@@ -2004,8 +1959,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_FKP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_FKP = 1 / 100;
 
 
     /**
@@ -2046,8 +2000,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Pound_sterling
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GBP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GBP = 1 / 100;
 
 
     /**
@@ -2088,8 +2041,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Georgian_lari
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GEL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GEL = 1 / 100;
 
 
     /**
@@ -2130,8 +2082,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GHS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GHS = 1 / 100;
 
 
     /**
@@ -2172,8 +2123,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GIP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GIP = 1 / 100;
 
 
     /**
@@ -2214,8 +2164,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GMD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GMD = 1 / 100;
 
 
     /**
@@ -2256,8 +2205,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Guinean_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GNF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GNF = 1 / 100;
 
 
     /**
@@ -2298,8 +2246,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GTQ = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GTQ = 1 / 100;
 
 
     /**
@@ -2340,8 +2287,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_GYD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_GYD = 1 / 100;
 
 
     /**
@@ -2382,8 +2328,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_HKD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_HKD = 1 / 100;
 
 
     /**
@@ -2424,8 +2369,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_HNL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_HNL = 1 / 100;
 
 
     /**
@@ -2466,8 +2410,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_HRK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_HRK = 1 / 100;
 
 
     /**
@@ -2508,8 +2451,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_HTG = 1/100;
-
+    public const MAJOR_MINOR_RATIO_HTG = 1 / 100;
 
 
     /**
@@ -2550,8 +2492,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_HUF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_HUF = 1 / 100;
 
 
     /**
@@ -2592,8 +2533,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_IDR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_IDR = 1 / 100;
 
 
     /**
@@ -2634,7 +2574,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ILS = 1/100;
+    public const MAJOR_MINOR_RATIO_ILS = 1 / 100;
 
 
     /**
@@ -2675,8 +2615,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Indian_rupee
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_INR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_INR = 1 / 100;
 
 
     /**
@@ -2717,8 +2656,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_IQD = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_IQD = 1 / 1000;
 
 
     /**
@@ -2762,7 +2700,6 @@ class Iso4217Unit
     public const MAJOR_MINOR_RATIO_IRR = 1;
 
 
-
     /**
      * Short name for currency ISK
      *
@@ -2801,8 +2738,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ISK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ISK = 1 / 100;
 
 
     /**
@@ -2843,8 +2779,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_JMD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_JMD = 1 / 100;
 
 
     /**
@@ -2885,8 +2820,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_JOD = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_JOD = 1 / 1000;
 
 
     /**
@@ -2930,7 +2864,6 @@ class Iso4217Unit
     public const MAJOR_MINOR_RATIO_JPY = 1;
 
 
-
     /**
      * Short name for currency KES
      *
@@ -2969,8 +2902,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KES = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KES = 1 / 100;
 
 
     /**
@@ -3011,8 +2943,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KGS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KGS = 1 / 100;
 
 
     /**
@@ -3053,8 +2984,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KHR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KHR = 1 / 100;
 
 
     /**
@@ -3095,8 +3025,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Comorian_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KMF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KMF = 1 / 100;
 
 
     /**
@@ -3137,8 +3066,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/North_Korean_won
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KPW = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KPW = 1 / 100;
 
 
     /**
@@ -3179,8 +3107,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/South_Korean_won
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KRW = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KRW = 1 / 100;
 
 
     /**
@@ -3221,8 +3148,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KWD = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_KWD = 1 / 1000;
 
 
     /**
@@ -3263,8 +3189,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KYD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KYD = 1 / 100;
 
 
     /**
@@ -3305,8 +3230,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_KZT = 1/100;
-
+    public const MAJOR_MINOR_RATIO_KZT = 1 / 100;
 
 
     /**
@@ -3347,8 +3271,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Lao_kip
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_LAK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_LAK = 1 / 100;
 
 
     /**
@@ -3389,8 +3312,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_LBP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_LBP = 1 / 100;
 
 
     /**
@@ -3431,8 +3353,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_LKR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_LKR = 1 / 100;
 
 
     /**
@@ -3473,8 +3394,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_LRD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_LRD = 1 / 100;
 
 
     /**
@@ -3515,8 +3435,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_LSL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_LSL = 1 / 100;
 
 
     /**
@@ -3557,8 +3476,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_LYD = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_LYD = 1 / 1000;
 
 
     /**
@@ -3599,8 +3517,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MAD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MAD = 1 / 100;
 
 
     /**
@@ -3641,8 +3558,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MDL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MDL = 1 / 100;
 
 
     /**
@@ -3683,8 +3599,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MGA = 1/5;
-
+    public const MAJOR_MINOR_RATIO_MGA = 1 / 5;
 
 
     /**
@@ -3725,8 +3640,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MKD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MKD = 1 / 100;
 
 
     /**
@@ -3767,8 +3681,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MMK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MMK = 1 / 100;
 
 
     /**
@@ -3809,8 +3722,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MNT = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MNT = 1 / 100;
 
 
     /**
@@ -3851,8 +3763,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MOP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MOP = 1 / 100;
 
 
     /**
@@ -3893,8 +3804,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MRU = 1/5;
-
+    public const MAJOR_MINOR_RATIO_MRU = 1 / 5;
 
 
     /**
@@ -3935,8 +3845,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MUR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MUR = 1 / 100;
 
 
     /**
@@ -3977,8 +3886,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MVR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MVR = 1 / 100;
 
 
     /**
@@ -4019,8 +3927,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MWK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MWK = 1 / 100;
 
 
     /**
@@ -4061,8 +3968,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Mexican_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MXN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MXN = 1 / 100;
 
 
     /**
@@ -4103,8 +4009,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MYR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MYR = 1 / 100;
 
 
     /**
@@ -4145,8 +4050,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_MZN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_MZN = 1 / 100;
 
 
     /**
@@ -4187,8 +4091,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_NAD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_NAD = 1 / 100;
 
 
     /**
@@ -4229,8 +4132,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_NGN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_NGN = 1 / 100;
 
 
     /**
@@ -4271,8 +4173,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_NIO = 1/100;
-
+    public const MAJOR_MINOR_RATIO_NIO = 1 / 100;
 
 
     /**
@@ -4313,8 +4214,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_NOK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_NOK = 1 / 100;
 
 
     /**
@@ -4355,8 +4255,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_NPR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_NPR = 1 / 100;
 
 
     /**
@@ -4397,8 +4296,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_NZD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_NZD = 1 / 100;
 
 
     /**
@@ -4439,8 +4337,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Omani_rial
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_OMR = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_OMR = 1 / 1000;
 
 
     /**
@@ -4481,8 +4378,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PAB = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PAB = 1 / 100;
 
 
     /**
@@ -4523,8 +4419,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PEN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PEN = 1 / 100;
 
 
     /**
@@ -4565,8 +4460,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PGK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PGK = 1 / 100;
 
 
     /**
@@ -4607,8 +4501,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Philippine_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PHP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PHP = 1 / 100;
 
 
     /**
@@ -4649,8 +4542,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PKR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PKR = 1 / 100;
 
 
     /**
@@ -4691,8 +4583,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PLN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PLN = 1 / 100;
 
 
     /**
@@ -4733,8 +4624,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_PYG = 1/100;
-
+    public const MAJOR_MINOR_RATIO_PYG = 1 / 100;
 
 
     /**
@@ -4775,8 +4665,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_QAR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_QAR = 1 / 100;
 
 
     /**
@@ -4817,8 +4706,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Romanian_leu
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_RON = 1/100;
-
+    public const MAJOR_MINOR_RATIO_RON = 1 / 100;
 
 
     /**
@@ -4859,8 +4747,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_RSD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_RSD = 1 / 100;
 
 
     /**
@@ -4901,8 +4788,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Russian_ruble
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_RUB = 1/100;
-
+    public const MAJOR_MINOR_RATIO_RUB = 1 / 100;
 
 
     /**
@@ -4943,8 +4829,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_RWF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_RWF = 1 / 100;
 
 
     /**
@@ -4985,8 +4870,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SAR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SAR = 1 / 100;
 
 
     /**
@@ -5027,8 +4911,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SBD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SBD = 1 / 100;
 
 
     /**
@@ -5069,8 +4952,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SCR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SCR = 1 / 100;
 
 
     /**
@@ -5111,8 +4993,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SDG = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SDG = 1 / 100;
 
 
     /**
@@ -5153,8 +5034,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Swedish_krona
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SEK = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SEK = 1 / 100;
 
 
     /**
@@ -5195,8 +5075,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SGD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SGD = 1 / 100;
 
 
     /**
@@ -5237,8 +5116,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SHP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SHP = 1 / 100;
 
 
     /**
@@ -5279,8 +5157,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SLL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SLL = 1 / 100;
 
 
     /**
@@ -5321,8 +5198,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Somali_shilling
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SOS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SOS = 1 / 100;
 
 
     /**
@@ -5363,8 +5239,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SRD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SRD = 1 / 100;
 
 
     /**
@@ -5405,8 +5280,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SSP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SSP = 1 / 100;
 
 
     /**
@@ -5447,8 +5321,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_STN = 1/100;
-
+    public const MAJOR_MINOR_RATIO_STN = 1 / 100;
 
 
     /**
@@ -5489,8 +5362,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SVC = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SVC = 1 / 100;
 
 
     /**
@@ -5531,8 +5403,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Syrian_pound
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SYP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SYP = 1 / 100;
 
 
     /**
@@ -5573,8 +5444,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_SZL = 1/100;
-
+    public const MAJOR_MINOR_RATIO_SZL = 1 / 100;
 
 
     /**
@@ -5615,8 +5485,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Thai_baht
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_THB = 1/100;
-
+    public const MAJOR_MINOR_RATIO_THB = 1 / 100;
 
 
     /**
@@ -5657,8 +5526,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TJS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_TJS = 1 / 100;
 
 
     /**
@@ -5699,8 +5567,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TMT = 1/100;
-
+    public const MAJOR_MINOR_RATIO_TMT = 1 / 100;
 
 
     /**
@@ -5741,8 +5608,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TND = 1/1000;
-
+    public const MAJOR_MINOR_RATIO_TND = 1 / 1000;
 
 
     /**
@@ -5783,8 +5649,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TOP = 1/100;
-
+    public const MAJOR_MINOR_RATIO_TOP = 1 / 100;
 
 
     /**
@@ -5825,8 +5690,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Turkish_lira
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TRY = 1/100;
-
+    public const MAJOR_MINOR_RATIO_TRY = 1 / 100;
 
 
     /**
@@ -5867,8 +5731,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TTD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_TTD = 1 / 100;
 
 
     /**
@@ -5909,8 +5772,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TWD = 1/10;
-
+    public const MAJOR_MINOR_RATIO_TWD = 1 / 10;
 
 
     /**
@@ -5951,8 +5813,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_TZS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_TZS = 1 / 100;
 
 
     /**
@@ -5993,8 +5854,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_UAH = 1/100;
-
+    public const MAJOR_MINOR_RATIO_UAH = 1 / 100;
 
 
     /**
@@ -6038,7 +5898,6 @@ class Iso4217Unit
     public const MAJOR_MINOR_RATIO_UGX = 1;
 
 
-
     /**
      * Short name for currency USD
      *
@@ -6077,8 +5936,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/United_States_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_USD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_USD = 1 / 100;
 
 
     /**
@@ -6119,8 +5977,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_UYU = 1/100;
-
+    public const MAJOR_MINOR_RATIO_UYU = 1 / 100;
 
 
     /**
@@ -6161,8 +6018,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_UZS = 1/100;
-
+    public const MAJOR_MINOR_RATIO_UZS = 1 / 100;
 
 
     /**
@@ -6203,8 +6059,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_VED = 1/100;
-
+    public const MAJOR_MINOR_RATIO_VED = 1 / 100;
 
 
     /**
@@ -6245,8 +6100,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_VES = 1/100;
-
+    public const MAJOR_MINOR_RATIO_VES = 1 / 100;
 
 
     /**
@@ -6287,8 +6141,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_VND = 1/10;
-
+    public const MAJOR_MINOR_RATIO_VND = 1 / 10;
 
 
     /**
@@ -6332,7 +6185,6 @@ class Iso4217Unit
     public const MAJOR_MINOR_RATIO_VUV = 1;
 
 
-
     /**
      * Short name for currency WST
      *
@@ -6371,8 +6223,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_WST = 1/100;
-
+    public const MAJOR_MINOR_RATIO_WST = 1 / 100;
 
 
     /**
@@ -6413,8 +6264,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_XAF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_XAF = 1 / 100;
 
 
     /**
@@ -6455,8 +6305,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_XCD = 1/100;
-
+    public const MAJOR_MINOR_RATIO_XCD = 1 / 100;
 
 
     /**
@@ -6497,8 +6346,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_XOF = 1/100;
-
+    public const MAJOR_MINOR_RATIO_XOF = 1 / 100;
 
 
     /**
@@ -6542,7 +6390,6 @@ class Iso4217Unit
     public const MAJOR_MINOR_RATIO_XPF = 1;
 
 
-
     /**
      * Short name for currency YER
      *
@@ -6581,8 +6428,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_YER = 1/100;
-
+    public const MAJOR_MINOR_RATIO_YER = 1 / 100;
 
 
     /**
@@ -6623,8 +6469,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/South_African_rand
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ZAR = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ZAR = 1 / 100;
 
 
     /**
@@ -6665,8 +6510,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ZMW = 1/100;
-
+    public const MAJOR_MINOR_RATIO_ZMW = 1 / 100;
 
 
     /**
@@ -6707,6 +6551,6 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_ZWL = 1/100;
+    public const MAJOR_MINOR_RATIO_ZWL = 1 / 100;
 
 }
