@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\Geography;
 /**
  * Collection of Geodetic constants (currently WGS84)
  *
- * @see       https://en.wikipedia.org/wiki/World_Geodetic_System#WGS84
+ * @see       https://en.wikipedia.org/wiki/World_Geodetic_System
  * @see       https://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf
  *
  * @package   TomLutzenberger\Constantine\Geography
