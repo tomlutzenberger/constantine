@@ -20,7 +20,6 @@ namespace TomLutzenberger\Constantine\Geography;
  */
 class WorldGeodeticSystem
 {
-
     /**
      * Semi-major Axis
      *

@@ -20,7 +20,6 @@ namespace TomLutzenberger\Constantine\Temporal;
  */
 class Calendar
 {
-
     /**
      * Number of days in month January
      *
@@ -303,5 +302,4 @@ class Calendar
      * @var int
      */
     public const INDEX_DECEMBER = 12;
-
 }

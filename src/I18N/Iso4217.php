@@ -20,7 +20,6 @@ namespace TomLutzenberger\Constantine\I18N;
  */
 class Iso4217
 {
-
     /**
      * ISO-4217 Code for the United Arab Emirates dirham
      *
@@ -5175,5 +5174,4 @@ class Iso4217
      * @var int
      */
     public const DIGITS_ZWL = 2;
-
 }

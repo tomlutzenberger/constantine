@@ -17,9 +17,10 @@ namespace TomLutzenberger\Constantine\I18N;
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */
+// phpcs:disable
 class Iso639_1
+// phpcs:enable
 {
-
     /**
      * ISO-639-1 Code of Abkhazian
      *
@@ -1300,5 +1301,4 @@ class Iso639_1
      * @var string
      */
     public const ALPHA_2_CODE_ZU = 'zu';
-
 }

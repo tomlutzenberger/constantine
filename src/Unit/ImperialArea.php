@@ -20,7 +20,6 @@ namespace TomLutzenberger\Constantine\Unit;
  */
 class ImperialArea
 {
-
     /**
      * Square Meter to Square Foot ratio
      *

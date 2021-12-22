@@ -17,9 +17,10 @@ namespace TomLutzenberger\Constantine\I18N;
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */
+// phpcs:disable
 class Iso639_5
+// phpcs:enable
 {
-
     /**
      * ISO-639-5 Code for AAV
      *
@@ -1743,5 +1744,4 @@ class Iso639_5
      * @var string
      */
     public const HIERARCHY_ZND = 'nic:alv:znd';
-
 }

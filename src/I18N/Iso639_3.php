@@ -17,9 +17,10 @@ namespace TomLutzenberger\Constantine\I18N;
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */
+// phpcs:disable
 class Iso639_3
+// phpcs:enable
 {
-
     /**
      * ISO-639-3 Code of Ghotuo
      *
@@ -55032,5 +55033,4 @@ class Iso639_3
      * @var string
      */
     public const ALPHA_3_CODE_ZZJ = 'zzj';
-
 }

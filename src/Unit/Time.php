@@ -21,7 +21,6 @@ namespace TomLutzenberger\Constantine\Unit;
  */
 class Time
 {
-
     /**
      * Second unit symbol
      *
@@ -39,7 +38,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_DECISECOND = 10e-1;
+    public const SECOND_PER_DECISECOND = 10E-1;
 
     /**
      * Decisecond unit symbol
@@ -58,7 +57,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_CENTISECOND = 10e-2;
+    public const SECOND_PER_CENTISECOND = 10E-2;
 
     /**
      * Centisecond unit symbol
@@ -77,7 +76,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_MILLISECOND = 10e-3;
+    public const SECOND_PER_MILLISECOND = 10E-3;
 
     /**
      * Millisecond unit symbol
@@ -96,7 +95,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_MICROSECOND = 10e-6;
+    public const SECOND_PER_MICROSECOND = 10E-6;
 
     /**
      * Microsecond unit symbol
@@ -115,7 +114,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_NANOSECOND = 10e-9;
+    public const SECOND_PER_NANOSECOND = 10E-9;
 
     /**
      * Nanosecond unit symbol
@@ -134,7 +133,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_PICOSECOND = 10e-12;
+    public const SECOND_PER_PICOSECOND = 10E-12;
 
     /**
      * Picosecond unit symbol
@@ -153,7 +152,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_FEMTOSECOND = 10e-15;
+    public const SECOND_PER_FEMTOSECOND = 10E-15;
 
     /**
      * Femtosecond unit symbol
@@ -172,7 +171,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_ATTOSECOND = 10e-18;
+    public const SECOND_PER_ATTOSECOND = 10E-18;
 
     /**
      * Attosecond unit symbol
@@ -191,7 +190,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_ZEPTOSECOND = 10e-21;
+    public const SECOND_PER_ZEPTOSECOND = 10E-21;
 
     /**
      * Zeptosecond unit symbol
@@ -210,7 +209,7 @@ class Time
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
      * @var float
      */
-    public const SECOND_PER_YOCTOSECOND = 10e-24;
+    public const SECOND_PER_YOCTOSECOND = 10E-24;
 
     /**
      * Yoctosecond unit symbol
@@ -227,9 +226,9 @@ class Time
      * Symbol: das
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_DECASECOND = 10e1;
+    public const SECOND_PER_DECASECOND = 10E1;
 
     /**
      * Decasecond unit symbol
@@ -246,9 +245,9 @@ class Time
      * Symbol: hs
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_HECTOSECOND = 10e2;
+    public const SECOND_PER_HECTOSECOND = 10E2;
 
     /**
      * Hectosecond unit symbol
@@ -265,9 +264,9 @@ class Time
      * Symbol: ks
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_KILOSECOND = 10e3;
+    public const SECOND_PER_KILOSECOND = 10E3;
 
     /**
      * Kilosecond unit symbol
@@ -284,9 +283,9 @@ class Time
      * Symbol: Ms
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_MEGASECOND = 10e6;
+    public const SECOND_PER_MEGASECOND = 10E6;
 
     /**
      * Megasecond unit symbol
@@ -303,9 +302,9 @@ class Time
      * Symbol: Gs
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_GIGASECOND = 10e9;
+    public const SECOND_PER_GIGASECOND = 10E9;
 
     /**
      * Gigasecond unit symbol
@@ -322,9 +321,9 @@ class Time
      * Symbol: Ts
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_TERASECOND = 10e12;
+    public const SECOND_PER_TERASECOND = 10E12;
 
     /**
      * Terasecond unit symbol
@@ -341,9 +340,9 @@ class Time
      * Symbol: Ps
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_PETASECOND = 10e15;
+    public const SECOND_PER_PETASECOND = 10E15;
 
     /**
      * Petasecond unit symbol
@@ -360,9 +359,9 @@ class Time
      * Symbol: Es
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_EXASECOND = 10e18;
+    public const SECOND_PER_EXASECOND = 10E18;
 
     /**
      * Exasecond unit symbol
@@ -379,9 +378,9 @@ class Time
      * Symbol: Zs
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_ZETTASECOND = 10e21;
+    public const SECOND_PER_ZETTASECOND = 10E21;
 
     /**
      * Zettasecond unit symbol
@@ -398,9 +397,9 @@ class Time
      * Symbol: Ys
      *
      * @see https://en.wikipedia.org/wiki/Second#SI_multiples
-     * @var int
+     * @var float
      */
-    public const SECOND_PER_YOTTASECOND = 10e24;
+    public const SECOND_PER_YOTTASECOND = 10E24;
 
     /**
      * Yottasecond unit symbol

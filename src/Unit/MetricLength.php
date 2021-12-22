@@ -21,7 +21,6 @@ namespace TomLutzenberger\Constantine\Unit;
  */
 class MetricLength
 {
-
     /**
      * Meter unit symbol
      *
@@ -39,7 +38,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Decimetre
      * @var float
      */
-    public const METER_PER_DECIMETER = 10e-1;
+    public const METER_PER_DECIMETER = 10E-1;
 
     /**
      * Decimeter unit symbol
@@ -58,7 +57,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Centimetre
      * @var float
      */
-    public const METER_PER_CENTIMETER = 10e-2;
+    public const METER_PER_CENTIMETER = 10E-2;
 
     /**
      * Centimeter unit symbol
@@ -77,7 +76,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Millimetre
      * @var float
      */
-    public const METER_PER_MILLIMETER = 10e-3;
+    public const METER_PER_MILLIMETER = 10E-3;
 
     /**
      * Millimeter unit symbol
@@ -96,7 +95,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Micrometre
      * @var float
      */
-    public const METER_PER_MICROMETER = 10e-6;
+    public const METER_PER_MICROMETER = 10E-6;
 
     /**
      * Micrometer unit symbol
@@ -115,7 +114,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Nanometre
      * @var float
      */
-    public const METER_PER_NANOMETER = 10e-9;
+    public const METER_PER_NANOMETER = 10E-9;
 
     /**
      * Nanometer unit symbol
@@ -134,7 +133,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Picometre
      * @var float
      */
-    public const METER_PER_PICOMETER = 10e-12;
+    public const METER_PER_PICOMETER = 10E-12;
 
     /**
      * Picometer unit symbol
@@ -153,7 +152,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Femtometre
      * @var float
      */
-    public const METER_PER_FEMTOMETER = 10e-15;
+    public const METER_PER_FEMTOMETER = 10E-15;
 
     /**
      * Femtometer unit symbol
@@ -172,7 +171,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_attometre
      * @var float
      */
-    public const METER_PER_ATTOMETER = 10e-18;
+    public const METER_PER_ATTOMETER = 10E-18;
 
     /**
      * Attometer unit symbol
@@ -191,7 +190,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_zeptometre
      * @var float
      */
-    public const METER_PER_ZEPTOMETER = 10e-21;
+    public const METER_PER_ZEPTOMETER = 10E-21;
 
     /**
      * Zeptometer unit symbol
@@ -210,7 +209,7 @@ class MetricLength
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#Less_than_1_zeptometre
      * @var float
      */
-    public const METER_PER_YOCTOMETER = 10e-24;
+    public const METER_PER_YOCTOMETER = 10E-24;
 
     /**
      * Yoctometer unit symbol
@@ -227,9 +226,9 @@ class MetricLength
      * Symbol: dam
      *
      * @see https://en.wikipedia.org/wiki/Decametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_DECAMETER = 10e1;
+    public const METER_PER_DECAMETER = 10E1;
 
     /**
      * Decameter unit symbol
@@ -246,9 +245,9 @@ class MetricLength
      * Symbol: hm
      *
      * @see https://en.wikipedia.org/wiki/Hectometre
-     * @var int
+     * @var float
      */
-    public const METER_PER_HECTOMETER = 10e2;
+    public const METER_PER_HECTOMETER = 10E2;
 
     /**
      * Hectometer unit symbol
@@ -265,9 +264,9 @@ class MetricLength
      * Symbol: km
      *
      * @see https://en.wikipedia.org/wiki/Kilometre
-     * @var int
+     * @var float
      */
-    public const METER_PER_KILOMETER = 10e3;
+    public const METER_PER_KILOMETER = 10E3;
 
     /**
      * Kilometer unit symbol
@@ -284,9 +283,9 @@ class MetricLength
      * Symbol: Mm
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_megametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_MEGAMETER = 10e6;
+    public const METER_PER_MEGAMETER = 10E6;
 
     /**
      * Megameter unit symbol
@@ -303,9 +302,9 @@ class MetricLength
      * Symbol: Gm
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_gigametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_GIGAMETER = 10e9;
+    public const METER_PER_GIGAMETER = 10E9;
 
     /**
      * Gigameter unit symbol
@@ -322,9 +321,9 @@ class MetricLength
      * Symbol: Tm
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_terametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_TERAMETER = 10e12;
+    public const METER_PER_TERAMETER = 10E12;
 
     /**
      * Terameter unit symbol
@@ -341,9 +340,9 @@ class MetricLength
      * Symbol: Pm
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_petametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_PETAMETER = 10e15;
+    public const METER_PER_PETAMETER = 10E15;
 
     /**
      * Petameter unit symbol
@@ -360,9 +359,9 @@ class MetricLength
      * Symbol: Em
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_exametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_EXAMETER = 10e18;
+    public const METER_PER_EXAMETER = 10E18;
 
     /**
      * Exameter unit symbol
@@ -379,9 +378,9 @@ class MetricLength
      * Symbol: Zm
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_zettametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_ZETTAMETER = 10e21;
+    public const METER_PER_ZETTAMETER = 10E21;
 
     /**
      * Zettameter unit symbol
@@ -398,9 +397,9 @@ class MetricLength
      * Symbol: Ym
      *
      * @see https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)#1_yottametre
-     * @var int
+     * @var float
      */
-    public const METER_PER_YOTTAMETER = 10e24;
+    public const METER_PER_YOTTAMETER = 10E24;
 
     /**
      * Yottameter unit symbol
@@ -409,5 +408,4 @@ class MetricLength
      * @var string
      */
     public const SYMBOL_YOTTAMETER = 'Ym';
-
 }

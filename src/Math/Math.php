@@ -22,7 +22,6 @@ namespace TomLutzenberger\Constantine\Math;
  */
 class Math
 {
-
     /**
      * Apéry's constant
      *

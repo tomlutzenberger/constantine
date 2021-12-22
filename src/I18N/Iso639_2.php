@@ -17,9 +17,10 @@ namespace TomLutzenberger\Constantine\I18N;
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */
+// phpcs:disable
 class Iso639_2
+// phpcs:enable
 {
-
     /**
      * ISO-639-2 Code of Afar
      *
@@ -4074,5 +4075,4 @@ class Iso639_2
      * @var string
      */
     public const ALPHA_3_CODE_ZZA = 'zza';
-
 }

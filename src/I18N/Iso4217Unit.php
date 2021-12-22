@@ -20,7 +20,6 @@ namespace TomLutzenberger\Constantine\I18N;
  */
 class Iso4217Unit
 {
-
     /**
      * Short name for currency AED
      *
@@ -1337,7 +1336,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
      * @var string
      */
-    public const MINOR_UNIT_NAME_CRC = 'céntimo';
+    public const MINOR_UNIT_NAME_CRC = 'céntimo'; // NOSONAR - php:S1192
 
     /**
      * Symbol for currency CRC
@@ -2697,7 +2696,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Iranian_rial
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_IRR = 1;
+    public const MAJOR_MINOR_RATIO_IRR = 1.0;
 
 
     /**
@@ -2861,7 +2860,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Japanese_yen
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_JPY = 1;
+    public const MAJOR_MINOR_RATIO_JPY = 1.0;
 
 
     /**
@@ -5895,7 +5894,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_UGX = 1;
+    public const MAJOR_MINOR_RATIO_UGX = 1.0;
 
 
     /**
@@ -6182,7 +6181,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_VUV = 1;
+    public const MAJOR_MINOR_RATIO_VUV = 1.0;
 
 
     /**
@@ -6387,7 +6386,7 @@ class Iso4217Unit
      * @see https://en.wikipedia.org/wiki/CFP_franc
      * @var float
      */
-    public const MAJOR_MINOR_RATIO_XPF = 1;
+    public const MAJOR_MINOR_RATIO_XPF = 1.0;
 
 
     /**
@@ -6552,5 +6551,4 @@ class Iso4217Unit
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ZWL = 1 / 100;
-
 }

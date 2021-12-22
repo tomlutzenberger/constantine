@@ -20,7 +20,6 @@ namespace TomLutzenberger\Constantine\Unit;
  */
 class ImperialLength
 {
-
     /**
      * Meter to Foot ratio
      *
