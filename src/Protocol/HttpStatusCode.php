@@ -5,7 +5,7 @@
  * @noinspection UnknownInspectionInspection
  */
 
-namespace TomLutzenberger\Constantine\Protocol\Http;
+namespace TomLutzenberger\Constantine\Protocol;
 
 /**
  * Collection of HTTP status codes
@@ -14,13 +14,13 @@ namespace TomLutzenberger\Constantine\Protocol\Http;
  * @see       https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
  * @see       https://httpstatuses.com/
  *
- * @package   TomLutzenberger\Constantine\Protocol\Http
+ * @package   TomLutzenberger\Constantine\Protocol
  * @copyright 2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class StatusCode
+class HttpStatusCode
 {
     /**
      * Status Code: Continue

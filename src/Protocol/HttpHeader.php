@@ -5,7 +5,7 @@
  * @noinspection UnknownInspectionInspection
  */
 
-namespace TomLutzenberger\Constantine\Protocol\Http;
+namespace TomLutzenberger\Constantine\Protocol;
 
 /**
  * Collection of HTTP Request/Response headers
@@ -13,13 +13,13 @@ namespace TomLutzenberger\Constantine\Protocol\Http;
  * @see       https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
  * @see       https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
  *
- * @package   TomLutzenberger\Constantine\Protocol\Http
+ * @package   TomLutzenberger\Constantine\Protocol
  * @copyright 2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Header
+class HttpHeader
 {
     /**
      * HTTP header 'WWW-Authenticate'

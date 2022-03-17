@@ -6,20 +6,20 @@
  * @noinspection PhpConstantNamingConventionInspection
  */
 
-namespace TomLutzenberger\Constantine\Web\Html;
+namespace TomLutzenberger\Constantine\Web;
 
 /**
  * Collection of HTML aria attributes
  *
  * @see       https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes
  *
- * @package   TomLutzenberger\Constantine\Web\Html
+ * @package   TomLutzenberger\Constantine\Web
  * @copyright 2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Aria
+class HtmlAriaAttribute
 {
     /**
      * HTML aria attribute 'aria-autocomplete'

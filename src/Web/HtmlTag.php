@@ -7,20 +7,20 @@
  * @noinspection PhpClassNamingConventionInspection
  */
 
-namespace TomLutzenberger\Constantine\Web\Html;
+namespace TomLutzenberger\Constantine\Web;
 
 /**
  * Collection of HTML tags
  *
  * @see       https://developer.mozilla.org/en-US/docs/Web/HTML/Element
  *
- * @package   TomLutzenberger\Constantine\Web\Html
+ * @package   TomLutzenberger\Constantine\Web
  * @copyright 2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Tag
+class HtmlTag
 {
     /**
      * HTML Tag <html>

@@ -6,20 +6,20 @@
  * @noinspection PhpConstantNamingConventionInspection
  */
 
-namespace TomLutzenberger\Constantine\Web\Html;
+namespace TomLutzenberger\Constantine\Web;
 
 /**
  * Collection of HTML tag attributes
  *
  * @see       https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
  *
- * @package   TomLutzenberger\Constantine\Web\Html
+ * @package   TomLutzenberger\Constantine\Web
  * @copyright 2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Attribute
+class HtmlAttribute
 {
     /**
      * HTML tag attribute 'accept'
