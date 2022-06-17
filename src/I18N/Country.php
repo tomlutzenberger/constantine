@@ -17,9 +17,7 @@ namespace TomLutzenberger\Constantine\I18N;
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */
-// phpcs:disable
-class Iso3166_1
-// phpcs:enable
+class Country
 {
     /**
      * ISO 3166-1 Alpha-2 code of Afghanistan

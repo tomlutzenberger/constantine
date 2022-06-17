@@ -18,7 +18,7 @@ namespace TomLutzenberger\Constantine\I18N;
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Iso4217Unit
+class CurrencyUnit
 {
     /**
      * Short name for currency AED

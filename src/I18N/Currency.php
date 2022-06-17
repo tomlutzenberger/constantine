@@ -18,7 +18,7 @@ namespace TomLutzenberger\Constantine\I18N;
  * @license   MIT
  * @link      https://tomlutzenberger.de
  */
-class Iso4217
+class Currency
 {
     /**
      * ISO-4217 Code for the United Arab Emirates dirham
