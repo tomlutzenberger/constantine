@@ -1439,6 +1439,13 @@ class Language
     public const ALPHA_3_CODE_AAU = 'aau';
 
     /**
+     * ISO-639-5 Code for Austro-Asiatic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_AAV = 'aav';
+
+    /**
      * ISO-639-3 Code of Solong
      *
      * @var string
@@ -2056,7 +2063,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Afro-Asiatic languages
+     * ISO-639-2/-5 Code of Afro-Asiatic languages
      *
      * @var string
      */
@@ -2875,7 +2882,7 @@ class Language
     public const ALPHA_3_CODE_ALF = 'alf';
 
     /**
-     * ISO-639-2 Code of Algonquian languages
+     * ISO-639-2/-5 Code of Algonquian languages
      *
      * @var string
      */
@@ -2978,6 +2985,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_ALU = 'alu';
+
+    /**
+     * ISO-639-5 Code for Atlantic-Congo languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ALV = 'alv';
 
     /**
      * ISO-639-3 Code of Alaba-K’abeena/Wanbasana
@@ -3505,7 +3519,7 @@ class Language
     public const ALPHA_3_CODE_AOZ = 'aoz';
 
     /**
-     * ISO-639-2 Code of Apache languages
+     * ISO-639-2/-5 Code of Apache languages
      *
      * @var string
      */
@@ -3687,6 +3701,13 @@ class Language
     public const ALPHA_3_CODE_APZ = 'apz';
 
     /**
+     * ISO-639-5 Code for Alacalufan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_AQA = 'aqa';
+
+    /**
      * ISO-639-3 Code of Archi
      *
      * @var string
@@ -3706,6 +3727,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_AQG = 'aqg';
+
+    /**
+     * ISO-639-5 Code for Algic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_AQL = 'aql';
 
     /**
      * ISO-639-3 Code of Atohwaim
@@ -3869,7 +3897,7 @@ class Language
     public const ALPHA_3_CODE_ARS = 'ars';
 
     /**
-     * ISO-639-2 Code of Artificial languages
+     * ISO-639-2/-5 Code of Artificial languages
      *
      * @var string
      */
@@ -4142,7 +4170,7 @@ class Language
     public const ALPHA_3_CODE_ATG = 'atg';
 
     /**
-     * ISO-639-2 Code of Athapascan languages
+     * ISO-639-2/-5 Code of Athapascan languages
      *
      * @var string
      */
@@ -4303,6 +4331,13 @@ class Language
     public const ALPHA_3_CODE_AUD = 'aud';
 
     /**
+     * ISO-639-5 Code for Arauan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_AUF = 'auf';
+
+    /**
      * ISO-639-3 Code of Aguna
      *
      * @var string
@@ -4387,7 +4422,7 @@ class Language
     public const ALPHA_3_CODE_AUR = 'aur';
 
     /**
-     * ISO-639-2 Code of Australian languages
+     * ISO-639-2/-5 Code of Australian languages
      *
      * @var string
      */
@@ -4553,6 +4588,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_AWC = 'awc';
+
+    /**
+     * ISO-639-5 Code for Arawakan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_AWD = 'awd';
 
     /**
      * ISO-639-3 Code of Awetí
@@ -4877,6 +4919,13 @@ class Language
     public const ALPHA_3_CODE_AZB = 'azb';
 
     /**
+     * ISO-639-5 Code for Uto-Aztecan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_AZC = 'azc';
+
+    /**
      * ISO-639-3 Code of Eastern Durango Nahuatl
      *
      * @var string
@@ -4961,7 +5010,7 @@ class Language
     public const ALPHA_3_CODE_BAC = 'bac';
 
     /**
-     * ISO-639-2 Code of Banda languages
+     * ISO-639-2/-5 Code of Banda languages
      *
      * @var string
      */
@@ -4996,7 +5045,7 @@ class Language
     public const ALPHA_3_CODE_BAH = 'bah';
 
     /**
-     * ISO-639-2 Code of Bamileke languages
+     * ISO-639-2/-5 Code of Bamileke languages
      *
      * @var string
      */
@@ -5066,7 +5115,7 @@ class Language
     public const ALPHA_3_CODE_BAS = 'bas';
 
     /**
-     * ISO-639-2 Code of Baltic languages
+     * ISO-639-2/-5 Code of Baltic languages
      *
      * @var string
      */
@@ -5766,7 +5815,7 @@ class Language
     public const ALPHA_3_CODE_BEQ = 'beq';
 
     /**
-     * ISO-639-2 Code of Berber languages
+     * ISO-639-2/-5 Code of Berber languages
      *
      * @var string
      */
@@ -6396,7 +6445,7 @@ class Language
     public const ALPHA_3_CODE_BIG = 'big';
 
     /**
-     * ISO-639-2 Code of Bihari languages
+     * ISO-639-2/-5 Code of Bihari languages
      *
      * @var string
      */
@@ -7334,7 +7383,7 @@ class Language
     public const ALPHA_3_CODE_BNS = 'bns';
 
     /**
-     * ISO-639-2 Code of Bantu languages
+     * ISO-639-2/-5 Code of Bantu languages
      *
      * @var string
      */
@@ -8315,7 +8364,7 @@ class Language
     public const ALPHA_3_CODE_BTJ = 'btj';
 
     /**
-     * ISO-639-2 Code of Batak languages
+     * ISO-639-2/-5 Code of Batak languages
      *
      * @var string
      */
@@ -9512,7 +9561,7 @@ class Language
     public const ALPHA_3_CODE_CAH = 'cah';
 
     /**
-     * ISO-639-2 Code of Central American Indian languages
+     * ISO-639-2/-5 Code of Central American Indian languages
      *
      * @var string
      */
@@ -9596,7 +9645,7 @@ class Language
     public const ALPHA_3_CODE_CAT = 'cat';
 
     /**
-     * ISO-639-2 Code of Caucasian languages
+     * ISO-639-2/-5 Code of Caucasian languages
      *
      * @var string
      */
@@ -9636,6 +9685,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_CAZ = 'caz';
+
+    /**
+     * ISO-639-5 Code for Chibchan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CBA = 'cba';
 
     /**
      * ISO-639-3 Code of Cabiyarí
@@ -9827,6 +9883,13 @@ class Language
     public const ALPHA_3_CODE_CCM = 'ccm';
 
     /**
+     * ISO-639-5 Code for North Caucasian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CCN = 'ccn';
+
+    /**
      * ISO-639-3 Code of Comaltepec Chinantec
      *
      * @var string
@@ -9848,11 +9911,32 @@ class Language
     public const ALPHA_3_CODE_CCR = 'ccr';
 
     /**
+     * ISO-639-5 Code for South Caucasian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CCS = 'ccs';
+
+    /**
      * ISO-639-3 Code of Choni
      *
      * @var string
      */
     public const ALPHA_3_CODE_CDA = 'cda';
+
+    /**
+     * ISO-639-5 Code for Chadic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CDC = 'cdc';
+
+    /**
+     * ISO-639-5 Code for Caddoan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CDD = 'cdd';
 
     /**
      * ISO-639-3 Code of Chenchu
@@ -9972,6 +10056,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_CEK = 'cek';
+
+    /**
+     * ISO-639-5 Code for Celtic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CEL = 'cel';
 
     /**
      * ISO-639-3 Code of Cen
@@ -10612,7 +10703,7 @@ class Language
     public const ALPHA_3_CODE_CMA = 'cma';
 
     /**
-     * ISO-639-2 Code of Chamic languages
+     * ISO-639-2/-5 Code of Chamic languages
      *
      * @var string
      */
@@ -10983,14 +11074,14 @@ class Language
     public const ALPHA_3_CODE_CPC = 'cpc';
 
     /**
-     * ISO-639-2 Code of Creoles and pidgins, English based
+     * ISO-639-2/-5 Code of Creoles and pidgins, English based
      *
      * @var string
      */
     public const ALPHA_3_CODE_CPE = 'cpe';
 
     /**
-     * ISO-639-2 Code of Creoles and pidgins, French-based
+     * ISO-639-2/-5 Code of Creoles and pidgins, French-based
      *
      * @var string
      */
@@ -11025,7 +11116,7 @@ class Language
     public const ALPHA_3_CODE_CPO = 'cpo';
 
     /**
-     * ISO-639-2 Code of Creoles and pidgins, Portuguese-based
+     * ISO-639-2/-5 Code of Creoles and pidgins, Portuguese-based
      *
      * @var string
      */
@@ -11172,7 +11263,7 @@ class Language
     public const ALPHA_3_CODE_CRO = 'cro';
 
     /**
-     * ISO-639-2 Code of Creoles and pidgins
+     * ISO-639-2/-5 Code of Creoles and pidgins
      *
      * @var string
      */
@@ -11373,6 +11464,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_CST = 'cst';
+
+    /**
+     * ISO-639-5 Code for Central Sudanic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_CSU = 'csu';
 
     /**
      * ISO-639-3 Code of Sumtu Chin
@@ -11599,7 +11697,7 @@ class Language
     public const ALPHA_3_CODE_CUR = 'cur';
 
     /**
-     * ISO-639-2 Code of Cushitic languages
+     * ISO-639-2/-5 Code of Cushitic languages
      *
      * @var string
      */
@@ -11916,7 +12014,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Land Dayak languages
+     * ISO-639-2/-5 Code of Land Dayak languages
      *
      * @var string
      */
@@ -12925,6 +13023,13 @@ class Language
     public const ALPHA_3_CODE_DMM = 'dmm';
 
     /**
+     * ISO-639-5 Code for Mande languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_DMN = 'dmn';
+
+    /**
      * ISO-639-3 Code of Kemedzung
      *
      * @var string
@@ -13241,7 +13346,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Dravidian languages
+     * ISO-639-2/-5 Code of Dravidian languages
      *
      * @var string
      */
@@ -13962,6 +14067,13 @@ class Language
     public const ALPHA_3_CODE_EGO = 'ego';
 
     /**
+     * ISO-639-5 Code for Egyptian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_EGX = 'egx';
+
+    /**
      * ISO-639-2/-3 Code of Egyptian (Ancient)
      *
      * @var string
@@ -14558,6 +14670,13 @@ class Language
     public const ALPHA_3_CODE_ESU = 'esu';
 
     /**
+     * ISO-639-5 Code for Eskimo-Aleut languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ESX = 'esx';
+
+    /**
      * ISO-639-3 Code of Eskayan
      *
      * @var string
@@ -14640,6 +14759,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_ETZ = 'etz';
+
+    /**
+     * ISO-639-5 Code for Basque (family)
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_EUQ = 'euq';
 
     /**
      * ISO-639-2/-3 Code of Basque
@@ -14980,7 +15106,7 @@ class Language
     public const ALPHA_3_CODE_FIT = 'fit';
 
     /**
-     * ISO-639-2 Code of Finno-Ugrian languages
+     * ISO-639-2/-5 Code of Finno-Ugrian languages
      *
      * @var string
      */
@@ -15132,6 +15258,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_FOS = 'fos';
+
+    /**
+     * ISO-639-5 Code for Formosan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_FOX = 'fox';
 
     /**
      * ISO-639-3 Code of Fernando Po Creole English
@@ -16017,7 +16150,7 @@ class Language
     public const ALPHA_3_CODE_GEL = 'gel';
 
     /**
-     * ISO-639-2 Code of Germanic languages
+     * ISO-639-2/-5 Code of Germanic languages
      *
      * @var string
      */
@@ -16598,6 +16731,13 @@ class Language
     public const ALPHA_3_CODE_GMD = 'gmd';
 
     /**
+     * ISO-639-5 Code for East Germanic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_GME = 'gme';
+
+    /**
      * ISO-639-3 Code of Magɨyi
      *
      * @var string
@@ -16633,6 +16773,13 @@ class Language
     public const ALPHA_3_CODE_GMN = 'gmn';
 
     /**
+     * ISO-639-5 Code for North Germanic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_GMQ = 'gmq';
+
+    /**
      * ISO-639-3 Code of Gumalu
      *
      * @var string
@@ -16645,6 +16792,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_GMV = 'gmv';
+
+    /**
+     * ISO-639-5 Code for West Germanic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_GMW = 'gmw';
 
     /**
      * ISO-639-3 Code of Magoma
@@ -17093,6 +17247,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_GRJ = 'grj';
+
+    /**
+     * ISO-639-5 Code for Greek languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_GRK = 'grk';
 
     /**
      * ISO-639-3 Code of Kota Marudu Talantang
@@ -18467,6 +18628,13 @@ class Language
     public const ALPHA_3_CODE_HMW = 'hmw';
 
     /**
+     * ISO-639-5 Code for Hmong-Mien languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_HMX = 'hmx';
+
+    /**
      * ISO-639-3 Code of Southern Guiyang Hmong/Southern Guiyang Miao
      *
      * @var string
@@ -18605,6 +18773,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_HOJ = 'hoj';
+
+    /**
+     * ISO-639-5 Code for Hokan languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_HOK = 'hok';
 
     /**
      * ISO-639-3 Code of Holu
@@ -19119,6 +19294,13 @@ class Language
     public const ALPHA_3_CODE_HYW = 'hyw';
 
     /**
+     * ISO-639-5 Code for Armenian (family)
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_HYX = 'hyx';
+
+    /**
      * ISO-639-3 Code of Iaai
      *
      * @var string
@@ -19497,6 +19679,13 @@ class Language
     public const ALPHA_3_CODE_IIN = 'iin';
 
     /**
+     * ISO-639-5 Code for Indo-Iranian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_IIR = 'iir';
+
+    /**
      * ISO-639-3 Code of Izon
      *
      * @var string
@@ -19525,7 +19714,7 @@ class Language
     public const ALPHA_3_CODE_IJN = 'ijn';
 
     /**
-     * ISO-639-2 Code of Ijo languages
+     * ISO-639-2/-5 Code of Ijo languages
      *
      * @var string
      */
@@ -19791,7 +19980,7 @@ class Language
     public const ALPHA_3_CODE_INB = 'inb';
 
     /**
-     * ISO-639-2 Code of Indo-Aryan languages
+     * ISO-639-2/-5 Code of Indo-Aryan languages
      *
      * @var string
      */
@@ -19805,7 +19994,7 @@ class Language
     public const ALPHA_3_CODE_IND = 'ind';
 
     /**
-     * ISO-639-2 Code of Indo-European languages
+     * ISO-639-2/-5 Code of Indo-European languages
      *
      * @var string
      */
@@ -19945,7 +20134,7 @@ class Language
     public const ALPHA_3_CODE_IQW = 'iqw';
 
     /**
-     * ISO-639-2 Code of Iranian languages
+     * ISO-639-2/-5 Code of Iranian languages
      *
      * @var string
      */
@@ -19987,7 +20176,7 @@ class Language
     public const ALPHA_3_CODE_IRN = 'irn';
 
     /**
-     * ISO-639-2 Code of Iroquoian languages
+     * ISO-639-2/-5 Code of Iroquoian languages
      *
      * @var string
      */
@@ -20147,6 +20336,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_ITB = 'itb';
+
+    /**
+     * ISO-639-5 Code for Italic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ITC = 'itc';
 
     /**
      * ISO-639-3 Code of Southern Tidung
@@ -21094,6 +21290,13 @@ class Language
     public const ALPHA_3_CODE_JPR = 'jpr';
 
     /**
+     * ISO-639-5 Code for Japanese (family)
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_JPX = 'jpx';
+
+    /**
      * ISO-639-3 Code of Jaqaru
      *
      * @var string
@@ -21430,7 +21633,7 @@ class Language
     public const ALPHA_3_CODE_KAQ = 'kaq';
 
     /**
-     * ISO-639-2 Code of Karen languages
+     * ISO-639-2/-5 Code of Karen languages
      *
      * @var string
      */
@@ -21947,6 +22150,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_KDN = 'kdn';
+
+    /**
+     * ISO-639-5 Code for Kordofanian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_KDO = 'kdo';
 
     /**
      * ISO-639-3 Code of Kaningdon-Nindem
@@ -22586,7 +22796,7 @@ class Language
     public const ALPHA_3_CODE_KHH = 'khh';
 
     /**
-     * ISO-639-2 Code of Khoisan languages
+     * ISO-639-2/-5 Code of Khoisan languages
      *
      * @var string
      */
@@ -24392,7 +24602,7 @@ class Language
     public const ALPHA_3_CODE_KRN = 'krn';
 
     /**
-     * ISO-639-2 Code of Kru languages
+     * ISO-639-2/-5 Code of Kru languages
      *
      * @var string
      */
@@ -28362,7 +28572,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Austronesian languages
+     * ISO-639-2/-5 Code of Austronesian languages
      *
      * @var string
      */
@@ -30057,7 +30267,7 @@ class Language
     public const ALPHA_3_CODE_MKG = 'mkg';
 
     /**
-     * ISO-639-2 Code of Mon-Khmer languages
+     * ISO-639-2/-5 Code of Mon-Khmer languages
      *
      * @var string
      */
@@ -30632,7 +30842,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Manobo languages
+     * ISO-639-2/-5 Code of Manobo languages
      *
      * @var string
      */
@@ -31852,7 +32062,7 @@ class Language
     public const ALPHA_3_CODE_MUM = 'mum';
 
     /**
-     * ISO-639-2 Code of Munda languages
+     * ISO-639-2/-5 Code of Munda languages
      *
      * @var string
      */
@@ -32540,7 +32750,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Mayan languages
+     * ISO-639-2/-5 Code of Mayan languages
      *
      * @var string
      */
@@ -32835,7 +33045,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of Nahuatl languages
+     * ISO-639-2/-5 Code of Nahuatl languages
      *
      * @var string
      */
@@ -32843,7 +33053,7 @@ class Language
 
 
     /**
-     * ISO-639-2 Code of North American Indian languages
+     * ISO-639-2/-5 Code of North American Indian languages
      *
      * @var string
      */
@@ -33711,6 +33921,13 @@ class Language
     public const ALPHA_3_CODE_NGE = 'nge';
 
     /**
+     * ISO-639-5 Code for Trans-New Guinea languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_NGF = 'ngf';
+
+    /**
      * ISO-639-3 Code of Ngbaka Manza
      *
      * @var string
@@ -34026,7 +34243,7 @@ class Language
     public const ALPHA_3_CODE_NIB = 'nib';
 
     /**
-     * ISO-639-2 Code of Niger-Kordofanian languages
+     * ISO-639-2/-5 Code of Niger-Kordofanian languages
      *
      * @var string
      */
@@ -35672,7 +35889,7 @@ class Language
     public const ALPHA_3_CODE_NUA = 'nua';
 
     /**
-     * ISO-639-2 Code of Nubian languages
+     * ISO-639-2/-5 Code of Nubian languages
      *
      * @var string
      */
@@ -36841,6 +37058,13 @@ class Language
     public const ALPHA_3_CODE_OMP = 'omp';
 
     /**
+     * ISO-639-5 Code for Oto-Manguean languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_OMQ = 'omq';
+
+    /**
      * ISO-639-3 Code of Old Marathi
      *
      * @var string
@@ -36860,6 +37084,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_OMU = 'omu';
+
+    /**
+     * ISO-639-5 Code for Omotic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_OMV = 'omv';
 
     /**
      * ISO-639-3 Code of South Tairora
@@ -37317,7 +37548,7 @@ class Language
     public const ALPHA_3_CODE_OTN = 'otn';
 
     /**
-     * ISO-639-2 Code of Otomian languages
+     * ISO-639-2/-5 Code of Otomian languages
      *
      * @var string
      */
@@ -37478,7 +37709,7 @@ class Language
     public const ALPHA_3_CODE_OZM = 'ozm';
 
     /**
-     * ISO-639-2 Code of Papuan languages
+     * ISO-639-2/-5 Code of Papuan languages
      *
      * @var string
      */
@@ -38199,7 +38430,7 @@ class Language
     public const ALPHA_3_CODE_PHH = 'phh';
 
     /**
-     * ISO-639-2 Code of Philippine languages
+     * ISO-639-2/-5 Code of Philippine languages
      *
      * @var string
      */
@@ -38575,6 +38806,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_PLE = 'ple';
+
+    /**
+     * ISO-639-5 Code for Central Malayo-Polynesian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_PLF = 'plf';
 
     /**
      * ISO-639-3 Code of Pilagá
@@ -39158,6 +39396,13 @@ class Language
     public const ALPHA_3_CODE_POY = 'poy';
 
     /**
+     * ISO-639-5 Code for Malayo-Polynesian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_POZ = 'poz';
+
+    /**
      * ISO-639-3 Code of Papi
      *
      * @var string
@@ -39249,6 +39494,13 @@ class Language
     public const ALPHA_3_CODE_PQA = 'pqa';
 
     /**
+     * ISO-639-5 Code for Eastern Malayo-Polynesian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_PQE = 'pqe';
+
+    /**
      * ISO-639-3 Code of Malecite-Passamaquoddy
      *
      * @var string
@@ -39256,7 +39508,14 @@ class Language
     public const ALPHA_3_CODE_PQM = 'pqm';
 
     /**
-     * ISO-639-2 Code of Prakrit languages
+     * ISO-639-5 Code for Western Malayo-Polynesian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_PQW = 'pqw';
+
+    /**
+     * ISO-639-2/-5 Code of Prakrit languages
      *
      * @var string
      */
@@ -40173,6 +40432,13 @@ class Language
     public const ALPHA_3_CODE_QWC = 'qwc';
 
     /**
+     * ISO-639-5 Code for Quechuan (family)
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_QWE = 'qwe';
+
+    /**
      * ISO-639-3 Code of Huaylas Ancash Quechua
      *
      * @var string
@@ -41020,7 +41286,7 @@ class Language
     public const ALPHA_3_CODE_RNW = 'rnw';
 
     /**
-     * ISO-639-2 Code of Romance languages
+     * ISO-639-2/-5 Code of Romance languages
      *
      * @var string
      */
@@ -41483,7 +41749,7 @@ class Language
     public const ALPHA_3_CODE_SAH = 'sah';
 
     /**
-     * ISO-639-2 Code of South American Indian languages
+     * ISO-639-2/-5 Code of South American Indian languages
      *
      * @var string
      */
@@ -41504,7 +41770,7 @@ class Language
     public const ALPHA_3_CODE_SAK = 'sak';
 
     /**
-     * ISO-639-2 Code of Salishan languages
+     * ISO-639-2/-5 Code of Salishan languages
      *
      * @var string
      */
@@ -42036,6 +42302,13 @@ class Language
     public const ALPHA_3_CODE_SDU = 'sdu';
 
     /**
+     * ISO-639-5 Code for Eastern Sudanic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_SDV = 'sdv';
+
+    /**
      * ISO-639-3 Code of Sibu Melanau
      *
      * @var string
@@ -42134,7 +42407,7 @@ class Language
     public const ALPHA_3_CODE_SEL = 'sel';
 
     /**
-     * ISO-639-2 Code of Semitic languages
+     * ISO-639-2/-5 Code of Semitic languages
      *
      * @var string
      */
@@ -42337,7 +42610,7 @@ class Language
     public const ALPHA_3_CODE_SGM = 'sgm';
 
     /**
-     * ISO-639-2 Code of Sign Languages
+     * ISO-639-2/-5 Code of Sign Languages
      *
      * @var string
      */
@@ -42673,7 +42946,7 @@ class Language
     public const ALPHA_3_CODE_SIN = 'sin';
 
     /**
-     * ISO-639-2 Code of Siouan languages
+     * ISO-639-2/-5 Code of Siouan languages
      *
      * @var string
      */
@@ -42708,7 +42981,7 @@ class Language
     public const ALPHA_3_CODE_SIS = 'sis';
 
     /**
-     * ISO-639-2 Code of Sino-Tibetan languages
+     * ISO-639-2/-5 Code of Sino-Tibetan languages
      *
      * @var string
      */
@@ -43037,7 +43310,7 @@ class Language
     public const ALPHA_3_CODE_SKZ = 'skz';
 
     /**
-     * ISO-639-2 Code of Slavic languages
+     * ISO-639-2/-5 Code of Slavic languages
      *
      * @var string
      */
@@ -43269,7 +43542,7 @@ class Language
     public const ALPHA_3_CODE_SMH = 'smh';
 
     /**
-     * ISO-639-2 Code of Sami languages
+     * ISO-639-2/-5 Code of Sami languages
      *
      * @var string
      */
@@ -43647,7 +43920,7 @@ class Language
     public const ALPHA_3_CODE_SOM = 'som';
 
     /**
-     * ISO-639-2 Code of Songhai languages
+     * ISO-639-2/-5 Code of Songhai languages
      *
      * @var string
      */
@@ -43906,6 +44179,13 @@ class Language
     public const ALPHA_3_CODE_SQI = 'sqi';
 
     /**
+     * ISO-639-5 Code for Albanian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_SQJ = 'sqj';
+
+    /**
      * ISO-639-2/B Code of Albanian
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
@@ -44152,7 +44432,7 @@ class Language
     public const ALPHA_3_CODE_SRZ = 'srz';
 
     /**
-     * ISO-639-2 Code of Nilo-Saharan languages
+     * ISO-639-2/-5 Code of Nilo-Saharan languages
      *
      * @var string
      */
@@ -44957,6 +45237,13 @@ class Language
     public const ALPHA_3_CODE_SYC = 'syc';
 
     /**
+     * ISO-639-5 Code for Samoyedic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_SYD = 'syd';
+
+    /**
      * ISO-639-3 Code of Seki
      *
      * @var string
@@ -45174,7 +45461,7 @@ class Language
     public const ALPHA_3_CODE_TAH = 'tah';
 
     /**
-     * ISO-639-2 Code of Tai languages
+     * ISO-639-2/-5 Code of Tai languages
      *
      * @var string
      */
@@ -45410,6 +45697,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_TBP = 'tbp';
+
+    /**
+     * ISO-639-5 Code for Tibeto-Burman languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_TBQ = 'tbq';
 
     /**
      * ISO-639-3 Code of Tumtum
@@ -47617,6 +47911,13 @@ class Language
     public const ALPHA_3_CODE_TRJ = 'trj';
 
     /**
+     * ISO-639-5 Code for Turkic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_TRK = 'trk';
+
+    /**
      * ISO-639-3 Code of Traveller Scottish
      *
      * @var string
@@ -48177,7 +48478,7 @@ class Language
     public const ALPHA_3_CODE_TUO = 'tuo';
 
     /**
-     * ISO-639-2 Code of Tupi languages
+     * ISO-639-2/-5 Code of Tupi languages
      *
      * @var string
      */
@@ -48205,7 +48506,7 @@ class Language
     public const ALPHA_3_CODE_TUS = 'tus';
 
     /**
-     * ISO-639-2 Code of Altaic languages
+     * ISO-639-2/-5 Code of Altaic languages
      *
      * @var string
      */
@@ -48224,6 +48525,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_TUV = 'tuv';
+
+    /**
+     * ISO-639-5 Code for Tungus languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_TUW = 'tuw';
 
     /**
      * ISO-639-3 Code of Tuxináwa
@@ -49402,6 +49710,13 @@ class Language
     public const ALPHA_3_CODE_URI = 'uri';
 
     /**
+     * ISO-639-5 Code for Uralic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_URJ = 'urj';
+
+    /**
      * ISO-639-3 Code of Urak Lawoi'
      *
      * @var string
@@ -50375,7 +50690,7 @@ class Language
     public const ALPHA_3_CODE_WAJ = 'waj';
 
     /**
-     * ISO-639-2 Code of Wakashan languages
+     * ISO-639-2/-5 Code of Wakashan languages
      *
      * @var string
      */
@@ -50711,7 +51026,7 @@ class Language
     public const ALPHA_3_CODE_WEM = 'wem';
 
     /**
-     * ISO-639-2 Code of Sorbian languages
+     * ISO-639-2/-5 Code of Sorbian languages
      *
      * @var string
      */
@@ -52419,6 +52734,13 @@ class Language
     public const ALPHA_3_CODE_XGM = 'xgm';
 
     /**
+     * ISO-639-5 Code for Mongolian languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_XGN = 'xgn';
+
+    /**
      * ISO-639-3 Code of Garza
      *
      * @var string
@@ -53019,6 +53341,13 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_XNB = 'xnb';
+
+    /**
+     * ISO-639-5 Code for Na-Dene languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_XND = 'xnd';
 
     /**
      * ISO-639-3 Code of Middle Mongolian
@@ -55135,7 +55464,7 @@ class Language
     public const ALPHA_3_CODE_YPH = 'yph';
 
     /**
-     * ISO-639-2 Code of Yupik languages
+     * ISO-639-2/-5 Code of Yupik languages
      *
      * @var string
      */
@@ -56018,6 +56347,13 @@ class Language
     public const ALPHA_3_CODE_ZHW = 'zhw';
 
     /**
+     * ISO-639-5 Code for Chinese (family)
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ZHX = 'zhx';
+
+    /**
      * ISO-639-3 Code of Zia
      *
      * @var string
@@ -56179,6 +56515,13 @@ class Language
     public const ALPHA_3_CODE_ZKZ = 'zkz';
 
     /**
+     * ISO-639-5 Code for East Slavic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ZLE = 'zle';
+
+    /**
      * ISO-639-3 Code of Liujiang Zhuang
      *
      * @var string
@@ -56205,6 +56548,20 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_ZLQ = 'zlq';
+
+    /**
+     * ISO-639-5 Code for South Slavic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ZLS = 'zls';
+
+    /**
+     * ISO-639-5 Code for West Slavic languages
+     *
+     * @var string
+     */
+    public const ALPHA_3_CODE_ZLW = 'zlw';
 
     /**
      * ISO-639-3 Code of Manda (Australia)
@@ -56396,7 +56753,7 @@ class Language
     public const ALPHA_3_CODE_ZNA = 'zna';
 
     /**
-     * ISO-639-2 Code of Zande languages
+     * ISO-639-2/-5 Code of Zande languages
      *
      * @var string
      */
@@ -56944,809 +57301,812 @@ class Language
 
 
     /**
-     * ISO-639-5 Hierarchy for code Austro-Asiatic languages
+     * ISO-639-5 Hierarchy code for Austro-Asiatic languages
      *
      * @var string
      */
     public const HIERARCHY_AAV = 'aav';
 
     /**
-     * ISO-639-5 Hierarchy for code Afro-Asiatic languages
+     * ISO-639-5 Hierarchy code for Afro-Asiatic languages
      *
      * @var string
      */
     public const HIERARCHY_AFA = 'afa';
 
     /**
-     * ISO-639-5 Hierarchy for code Algonquian languages
+     * ISO-639-5 Hierarchy code for Algonquian languages
      *
      * @var string
      */
     public const HIERARCHY_ALG = 'nai:aql:alg';
 
     /**
-     * ISO-639-5 Hierarchy for code Atlantic-Congo languages
+     * ISO-639-5 Hierarchy code for Atlantic-Congo languages
      *
      * @var string
      */
     public const HIERARCHY_ALV = 'nic:alv';
 
     /**
-     * ISO-639-5 Hierarchy for code Apache languages
+     * ISO-639-5 Hierarchy code for Apache languages
      *
      * @var string
      */
     public const HIERARCHY_APA = 'nai:xnd:ath:apa';
 
     /**
-     * ISO-639-5 Hierarchy for code Alacalufan languages
+     * ISO-639-5 Hierarchy code for Alacalufan languages
      *
      * @var string
      */
     public const HIERARCHY_AQA = 'sai:aqa';
 
     /**
-     * ISO-639-5 Hierarchy for code Algic languages
+     * ISO-639-5 Hierarchy code for Algic languages
      *
      * @var string
      */
     public const HIERARCHY_AQL = 'nai:aql';
 
     /**
-     * ISO-639-5 Hierarchy for code Artificial languages
+     * ISO-639-5 Hierarchy code for Artificial languages
      *
      * @var string
      */
     public const HIERARCHY_ART = 'art';
 
     /**
-     * ISO-639-5 Hierarchy for code Athapascan languages
+     * ISO-639-5 Hierarchy code for Athapascan languages
      *
      * @var string
      */
     public const HIERARCHY_ATH = 'nai:xnd:ath';
 
     /**
-     * ISO-639-5 Hierarchy for code Arauan languages
+     * ISO-639-5 Hierarchy code for Arauan languages
      *
      * @var string
      */
     public const HIERARCHY_AUF = 'sai:awd:auf';
 
     /**
-     * ISO-639-5 Hierarchy for code Australian languages
+     * ISO-639-5 Hierarchy code for Australian languages
      *
      * @var string
      */
     public const HIERARCHY_AUS = 'aus';
 
     /**
-     * ISO-639-5 Hierarchy for code Arawakan languages
+     * ISO-639-5 Hierarchy code for Arawakan languages
      *
      * @var string
      */
     public const HIERARCHY_AWD = 'sai:awd';
 
     /**
-     * ISO-639-5 Hierarchy for code Uto-Aztecan languages
+     * ISO-639-5 Hierarchy code for Uto-Aztecan languages
      *
      * @var string
      */
     public const HIERARCHY_AZC = 'nai:azc';
 
     /**
-     * ISO-639-5 Hierarchy for code Banda languages
+     * ISO-639-5 Hierarchy code for Banda languages
      *
      * @var string
      */
     public const HIERARCHY_BAD = 'nic:alv:bad';
 
     /**
-     * ISO-639-5 Hierarchy for code Bamileke languages
+     * ISO-639-5 Hierarchy code for Bamileke languages
      *
      * @var string
      */
     public const HIERARCHY_BAI = 'nic:alv:bai';
 
     /**
-     * ISO-639-5 Hierarchy for code Baltic languages
+     * ISO-639-5 Hierarchy code for Baltic languages
      *
      * @var string
      */
     public const HIERARCHY_BAT = 'ine:bat';
 
     /**
-     * ISO-639-5 Hierarchy for code Berber languages
+     * ISO-639-5 Hierarchy code for Berber languages
      *
      * @var string
      */
     public const HIERARCHY_BER = 'afa:ber';
 
     /**
-     * ISO-639-5 Hierarchy for code Bihari languages
+     * ISO-639-5 Hierarchy code for Bihari languages
      *
      * @var string
      */
     public const HIERARCHY_BIH = 'ine:iir:bih';
 
     /**
-     * ISO-639-5 Hierarchy for code Bantu languages
+     * ISO-639-5 Hierarchy code for Bantu languages
      *
      * @var string
      */
     public const HIERARCHY_BNT = 'nic:alv:bnt';
 
     /**
-     * ISO-639-5 Hierarchy for code Batak languages
+     * ISO-639-5 Hierarchy code for Batak languages
      *
      * @var string
      */
     public const HIERARCHY_BTK = 'map:poz:pqw:btk';
 
     /**
-     * ISO-639-5 Hierarchy for code Central American Indian languages
+     * ISO-639-5 Hierarchy code for Central American Indian languages
      *
      * @var string
      */
     public const HIERARCHY_CAI = 'cai';
 
     /**
-     * ISO-639-5 Hierarchy for code Caucasian languages
+     * ISO-639-5 Hierarchy code for Caucasian languages
      *
      * @var string
      */
     public const HIERARCHY_CAU = 'cau';
 
     /**
-     * ISO-639-5 Hierarchy for code Chibchan languages
+     * ISO-639-5 Hierarchy code for Chibchan languages
      *
      * @var string
      */
     public const HIERARCHY_CBA = 'sai:cba';
 
     /**
-     * ISO-639-5 Hierarchy for code North Caucasian languages
+     * ISO-639-5 Hierarchy code for North Caucasian languages
      *
      * @var string
      */
     public const HIERARCHY_CCN = 'cau:ccn';
 
     /**
-     * ISO-639-5 Hierarchy for code South Caucasian languages
+     * ISO-639-5 Hierarchy code for South Caucasian languages
      *
      * @var string
      */
     public const HIERARCHY_CCS = 'cau:ccs';
 
     /**
-     * ISO-639-5 Hierarchy for code Chadic languages
+     * ISO-639-5 Hierarchy code for Chadic languages
      *
      * @var string
      */
     public const HIERARCHY_CDC = 'afa:cdc';
 
     /**
-     * ISO-639-5 Hierarchy for code Caddoan languages
+     * ISO-639-5 Hierarchy code for Caddoan languages
      *
      * @var string
      */
     public const HIERARCHY_CDD = 'nai:cdd';
 
     /**
-     * ISO-639-5 Hierarchy for code Celtic languages
+     * ISO-639-5 Hierarchy code for Celtic languages
      *
      * @var string
      */
     public const HIERARCHY_CEL = 'ine:cel';
 
     /**
-     * ISO-639-5 Hierarchy for code Chamic languages
+     * ISO-639-5 Hierarchy code for Chamic languages
      *
      * @var string
      */
     public const HIERARCHY_CMC = 'map:poz:pqw:cmc';
 
     /**
-     * ISO-639-5 Hierarchy for code creoles and pidgins, English-based
+     * ISO-639-5 Hierarchy code for creoles and pidgins, English-based
      *
      * @var string
      */
     public const HIERARCHY_CPE = 'crp:cpe';
 
     /**
-     * ISO-639-5 Hierarchy for code creoles and pidgins, French-based
+     * ISO-639-5 Hierarchy code for creoles and pidgins, French-based
      *
      * @var string
      */
     public const HIERARCHY_CPF = 'crp:cpf';
 
     /**
-     * ISO-639-5 Hierarchy for code creoles and pidgins, Portuguese-based
+     * ISO-639-5 Hierarchy code for creoles and pidgins, Portuguese-based
      *
      * @var string
      */
     public const HIERARCHY_CPP = 'crp:cpp';
 
     /**
-     * ISO-639-5 Hierarchy for code creoles and pidgins
+     * ISO-639-5 Hierarchy code for creoles and pidgins
      *
      * @var string
      */
     public const HIERARCHY_CRP = 'crp';
 
     /**
-     * ISO-639-5 Hierarchy for code Central Sudanic languages
+     * ISO-639-5 Hierarchy code for Central Sudanic languages
      *
      * @var string
      */
     public const HIERARCHY_CSU = 'ssa:csu';
 
     /**
-     * ISO-639-5 Hierarchy for code Cushitic languages
+     * ISO-639-5 Hierarchy code for Cushitic languages
      *
      * @var string
      */
     public const HIERARCHY_CUS = 'afa:cus';
 
     /**
-     * ISO-639-5 Hierarchy for code Land Dayak languages
+     * ISO-639-5 Hierarchy code for Land Dayak languages
      *
      * @var string
      */
     public const HIERARCHY_DAY = 'day';
 
     /**
-     * ISO-639-5 Hierarchy for code Mande languages
+     * ISO-639-5 Hierarchy code for Mande languages
      *
      * @var string
      */
     public const HIERARCHY_DMN = 'nic:dmn';
 
     /**
-     * ISO-639-5 Hierarchy for code Dravidian languages
+     * ISO-639-5 Hierarchy code for Dravidian languages
      *
      * @var string
      */
     public const HIERARCHY_DRA = 'dra';
 
     /**
-     * ISO-639-5 Hierarchy for code Egyptian languages
+     * ISO-639-5 Hierarchy code for Egyptian languages
      *
      * @var string
      */
     public const HIERARCHY_EGX = 'afa:egx';
 
     /**
-     * ISO-639-5 Hierarchy for code Eskimo-Aleut languages
+     * ISO-639-5 Hierarchy code for Eskimo-Aleut languages
      *
      * @var string
      */
     public const HIERARCHY_ESX = 'esx';
 
     /**
-     * ISO-639-5 Hierarchy for code Basque (family)
+     * ISO-639-5 Hierarchy code for Basque (family)
      *
      * @var string
      */
     public const HIERARCHY_EUQ = 'euq';
 
     /**
-     * ISO-639-5 Hierarchy for code Finno-Ugrian languages
+     * ISO-639-5 Hierarchy code for Finno-Ugrian languages
      *
      * @var string
      */
     public const HIERARCHY_FIU = 'urj:fiu';
 
     /**
-     * ISO-639-5 Hierarchy for code Formosan languages
+     * ISO-639-5 Hierarchy code for Formosan languages
      *
      * @var string
      */
     public const HIERARCHY_FOX = 'map:fox';
 
     /**
-     * ISO-639-5 Hierarchy for code Germanic languages
+     * ISO-639-5 Hierarchy code for Germanic languages
      *
      * @var string
      */
     public const HIERARCHY_GEM = 'ine:gem';
 
     /**
-     * ISO-639-5 Hierarchy for code East Germanic languages
+     * ISO-639-5 Hierarchy code for East Germanic languages
      *
      * @var string
      */
     public const HIERARCHY_GME = 'ine:gem:gme';
 
     /**
-     * ISO-639-5 Hierarchy for code North Germanic languages
+     * ISO-639-5 Hierarchy code for North Germanic languages
      *
      * @var string
      */
     public const HIERARCHY_GMQ = 'ine:gem:gmq';
 
     /**
-     * ISO-639-5 Hierarchy for code West Germanic languages
+     * ISO-639-5 Hierarchy code for West Germanic languages
      *
      * @var string
      */
     public const HIERARCHY_GMW = 'ine:gem:gmw';
 
     /**
-     * ISO-639-5 Hierarchy for code Greek languages
+     * ISO-639-5 Hierarchy code for Greek languages
      *
      * @var string
      */
     public const HIERARCHY_GRK = 'ine:grk';
 
     /**
-     * ISO-639-5 Hierarchy for code Hmong-Mien languages
+     * ISO-639-5 Hierarchy code for Hmong-Mien languages
      *
      * @var string
      */
     public const HIERARCHY_HMX = 'hmx';
 
     /**
-     * ISO-639-5 Hierarchy for code Hokan languages
+     * ISO-639-5 Hierarchy code for Hokan languages
      *
      * @var string
      */
     public const HIERARCHY_HOK = 'nai:hok';
 
     /**
-     * ISO-639-5 Hierarchy for code Armenian (family)
+     * ISO-639-5 Hierarchy code for Armenian (family)
      *
      * @var string
      */
     public const HIERARCHY_HYX = 'ine:hyx';
 
     /**
-     * ISO-639-5 Hierarchy for code Indo-Iranian languages
+     * ISO-639-5 Hierarchy code for Indo-Iranian languages
      *
      * @var string
      */
     public const HIERARCHY_IIR = 'ine:iir';
 
     /**
-     * ISO-639-5 Hierarchy for code Ijo languages
+     * ISO-639-5 Hierarchy code for Ijo languages
      *
      * @var string
      */
     public const HIERARCHY_IJO = 'nic:alv:ijo';
 
     /**
-     * ISO-639-5 Hierarchy for code Indic languages
+     * ISO-639-5 Hierarchy code for Indic languages
      *
      * @var string
      */
     public const HIERARCHY_INC = 'ine:iir:inc';
 
     /**
-     * ISO-639-5 Hierarchy for code Indo-European languages
+     * ISO-639-5 Hierarchy code for Indo-European languages
      *
      * @var string
      */
     public const HIERARCHY_INE = 'ine';
 
     /**
-     * ISO-639-5 Hierarchy for code Iranian languages
+     * ISO-639-5 Hierarchy code for Iranian languages
      *
      * @var string
      */
     public const HIERARCHY_IRA = 'ine:iir:ira';
 
     /**
-     * ISO-639-5 Hierarchy for code Iroquoian languages
+     * ISO-639-5 Hierarchy code for Iroquoian languages
      *
      * @var string
      */
     public const HIERARCHY_IRO = 'nai:iro';
 
     /**
-     * ISO-639-5 Hierarchy for code Italic languages
+     * ISO-639-5 Hierarchy code for Italic languages
      *
      * @var string
      */
     public const HIERARCHY_ITC = 'ine:itc';
 
     /**
-     * ISO-639-5 Hierarchy for code Japanese (family)
+     * ISO-639-5 Hierarchy code for Japanese (family)
      *
      * @var string
      */
     public const HIERARCHY_JPX = 'jpx';
 
     /**
-     * ISO-639-5 Hierarchy for code Karen languages
+     * ISO-639-5 Hierarchy code for Karen languages
      *
      * @var string
      */
     public const HIERARCHY_KAR = 'sit:tbq:kar';
 
     /**
-     * ISO-639-5 Hierarchy for code Kordofanian languages
+     * ISO-639-5 Hierarchy code for Kordofanian languages
      *
      * @var string
      */
     public const HIERARCHY_KDO = 'nic:kdo';
 
     /**
-     * ISO-639-5 Hierarchy for code Khoisan languages
+     * ISO-639-5 Hierarchy code for Khoisan languages
      *
      * @var string
      */
     public const HIERARCHY_KHI = 'khi';
 
     /**
-     * ISO-639-5 Hierarchy for code Kru languages
+     * ISO-639-5 Hierarchy code for Kru languages
      *
      * @var string
      */
     public const HIERARCHY_KRO = 'nic:alv:kro';
 
     /**
-     * ISO-639-5 Hierarchy for code Austronesian languages
+     * ISO-639-5 Hierarchy code for Austronesian languages
      *
      * @var string
      */
     public const HIERARCHY_MAP = 'map';
 
     /**
-     * ISO-639-5 Hierarchy for code Mon-Khmer languages
+     * ISO-639-5 Hierarchy code for Mon-Khmer languages
      *
      * @var string
      */
     public const HIERARCHY_MKH = 'aav:mkh';
 
     /**
-     * ISO-639-5 Hierarchy for code Manobo languages
+     * ISO-639-5 Hierarchy code for Manobo languages
      *
      * @var string
      */
     public const HIERARCHY_MNO = 'map:poz:pqw:phi:mno';
 
     /**
-     * ISO-639-5 Hierarchy for code Munda languages
+     * ISO-639-5 Hierarchy code for Munda languages
      *
      * @var string
      */
     public const HIERARCHY_MUN = 'aav:mun';
 
     /**
-     * ISO-639-5 Hierarchy for code Mayan languages
+     * ISO-639-5 Hierarchy code for Mayan languages
      *
      * @var string
      */
     public const HIERARCHY_MYN = 'cai:myn';
 
     /**
-     * ISO-639-5 Hierarchy for code Nahuatl languages
+     * ISO-639-5 Hierarchy code for Nahuatl languages
      *
      * @var string
      */
     public const HIERARCHY_NAH = 'nai:azc:nah';
 
     /**
-     * ISO-639-5 Hierarchy for code North American Indian languages
+     * ISO-639-5 Hierarchy code for North American Indian languages
      *
      * @var string
      */
     public const HIERARCHY_NAI = 'nai';
 
     /**
-     * ISO-639-5 Hierarchy for code Trans-New Guinea languages
+     * ISO-639-5 Hierarchy code for Trans-New Guinea languages
      *
      * @var string
      */
     public const HIERARCHY_NGF = 'paa:ngf';
 
     /**
-     * ISO-639-5 Hierarchy for code Niger-Kordofanian languages
+     * ISO-639-5 Hierarchy code for Niger-Kordofanian languages
      *
      * @var string
      */
     public const HIERARCHY_NIC = 'nic';
 
     /**
-     * ISO-639-5 Hierarchy for code Nubian languages
+     * ISO-639-5 Hierarchy code for Nubian languages
      *
      * @var string
      */
     public const HIERARCHY_NUB = 'ssa:sdv:nub';
 
     /**
-     * ISO-639-5 Hierarchy for code Oto-Manguean languages
+     * ISO-639-5 Hierarchy code for Oto-Manguean languages
      *
      * @var string
      */
     public const HIERARCHY_OMQ = 'cai:omq';
 
     /**
-     * ISO-639-5 Hierarchy for code Omotic languages
+     * ISO-639-5 Hierarchy code for Omotic languages
      *
      * @var string
      */
     public const HIERARCHY_OMV = 'afa:omv';
 
     /**
-     * ISO-639-5 Hierarchy for code Otomian languages
+     * ISO-639-5 Hierarchy code for Otomian languages
      *
      * @var string
      */
     public const HIERARCHY_OTO = 'cai:omq:oto';
 
     /**
-     * ISO-639-5 Hierarchy for code Papuan languages
+     * ISO-639-5 Hierarchy code for Papuan languages
      *
      * @var string
      */
     public const HIERARCHY_PAA = 'paa';
 
     /**
-     * ISO-639-5 Hierarchy for code Philippine languages
+     * ISO-639-5 Hierarchy code for Philippine languages
      *
      * @var string
      */
     public const HIERARCHY_PHI = 'map:poz:pqw:phi';
 
     /**
-     * ISO-639-5 Hierarchy for code Central Malayo-Polynesian languages
+     * ISO-639-5 Hierarchy code for Central Malayo-Polynesian languages
      *
      * @var string
      */
     public const HIERARCHY_PLF = 'map:poz:plf';
 
     /**
-     * ISO-639-5 Hierarchy for code Malayo-Polynesian languages
+     * ISO-639-5 Hierarchy code for Malayo-Polynesian languages
      *
      * @var string
      */
     public const HIERARCHY_POZ = 'map:poz';
 
     /**
-     * ISO-639-5 Hierarchy for code Eastern Malayo-Polynesian languages
+     * ISO-639-5 Hierarchy code for Eastern Malayo-Polynesian languages
      *
      * @var string
      */
     public const HIERARCHY_PQE = 'map:poz:pqe';
 
     /**
-     * ISO-639-5 Hierarchy for code Western Malayo-Polynesian languages
+     * ISO-639-5 Hierarchy code for Western Malayo-Polynesian languages
      *
      * @var string
      */
     public const HIERARCHY_PQW = 'map:poz:pqw';
 
     /**
-     * ISO-639-5 Hierarchy for code Prakrit languages
+     * ISO-639-5 Hierarchy code for Prakrit languages
      *
      * @var string
      */
     public const HIERARCHY_PRA = 'ine:iir:inc:pra';
 
     /**
-     * ISO-639-5 Hierarchy for code Quechuan (family)
+     * ISO-639-5 Hierarchy code for Quechuan (family)
      *
      * @var string
      */
     public const HIERARCHY_QWE = 'sai:qwe';
 
     /**
-     * ISO-639-5 Hierarchy for code Romance languages
+     * ISO-639-5 Hierarchy code for Romance languages
      *
      * @var string
      */
     public const HIERARCHY_ROA = 'ine:itc:roa';
 
     /**
-     * ISO-639-5 Hierarchy for code South American Indian languages
+     * ISO-639-5 Hierarchy code for South American Indian languages
      *
      * @var string
      */
     public const HIERARCHY_SAI = 'sai';
 
     /**
-     * ISO-639-5 Hierarchy for code Salishan languages
+     * ISO-639-5 Hierarchy code for Salishan languages
      *
      * @var string
      */
     public const HIERARCHY_SAL = 'nai:sal';
 
     /**
-     * ISO-639-5 Hierarchy for code Eastern Sudanic languages
+     * ISO-639-5 Hierarchy code for Eastern Sudanic languages
      *
      * @var string
      */
     public const HIERARCHY_SDV = 'ssa:sdv';
 
     /**
-     * ISO-639-5 Hierarchy for code Semitic languages
+     * ISO-639-5 Hierarchy code for Semitic languages
      *
      * @var string
      */
     public const HIERARCHY_SEM = 'afa:sem';
 
     /**
-     * ISO-639-5 Hierarchy for code sign languages
+     * ISO-639-5 Hierarchy code for sign languages
      *
      * @var string
      */
     public const HIERARCHY_SGN = 'sgn';
 
     /**
-     * ISO-639-5 Hierarchy for code Siouan languages
+     * ISO-639-5 Hierarchy code for Siouan languages
      *
      * @var string
      */
     public const HIERARCHY_SIO = 'nai:sio';
 
     /**
-     * ISO-639-5 Hierarchy for code Sino-Tibetan languages
+     * ISO-639-5 Hierarchy code for Sino-Tibetan languages
      *
      * @var string
      */
     public const HIERARCHY_SIT = 'sit';
 
     /**
-     * ISO-639-5 Hierarchy for code Slavic languages
+     * ISO-639-5 Hierarchy code for Slavic languages
      *
      * @var string
      */
     public const HIERARCHY_SLA = 'ine:sla';
 
     /**
-     * ISO-639-5 Hierarchy for code Sami languages
+     * ISO-639-5 Hierarchy code for Sami languages
      *
      * @var string
      */
     public const HIERARCHY_SMI = 'urj:fiu:smi';
 
     /**
-     * ISO-639-5 Hierarchy for code Songhai languages
+     * ISO-639-5 Hierarchy code for Songhai languages
      *
      * @var string
      */
     public const HIERARCHY_SON = 'ssa:son';
 
     /**
-     * ISO-639-5 Hierarchy for code Albanian languages
+     * ISO-639-5 Hierarchy code for Albanian languages
      *
      * @var string
      */
     public const HIERARCHY_SQJ = 'ine:sqj';
 
     /**
-     * ISO-639-5 Hierarchy for code Nilo-Saharan languages
+     * ISO-639-5 Hierarchy code for Nilo-Saharan languages
      *
      * @var string
      */
     public const HIERARCHY_SSA = 'ssa';
 
     /**
-     * ISO-639-5 Hierarchy for code Samoyedic languages
+     * ISO-639-5 Hierarchy code for Samoyedic languages
      *
      * @var string
      */
     public const HIERARCHY_SYD = 'urj:syd';
 
     /**
-     * ISO-639-5 Hierarchy for code Tai languages
+     * ISO-639-5 Hierarchy code for Tai languages
      *
      * @var string
      */
     public const HIERARCHY_TAI = 'tai';
 
     /**
-     * ISO-639-5 Hierarchy for code Tibeto-Burman languages
+     * ISO-639-5 Hierarchy code for Tibeto-Burman languages
      *
      * @var string
      */
     public const HIERARCHY_TBQ = 'sit:tbq';
 
     /**
-     * ISO-639-5 Hierarchy for code Turkic languages
+     * ISO-639-5 Hierarchy code for Turkic languages
      *
      * @var string
      */
     public const HIERARCHY_TRK = 'tut:trk';
 
     /**
-     * ISO-639-5 Hierarchy for code Tupi languages
+     * ISO-639-5 Hierarchy code for Tupi languages
      *
      * @var string
      */
     public const HIERARCHY_TUP = 'sai:tup';
 
     /**
-     * ISO-639-5 Hierarchy for code Altaic languages
+     * ISO-639-5 Hierarchy code for Altaic languages
      *
      * @var string
      */
     public const HIERARCHY_TUT = 'tut';
 
     /**
-     * ISO-639-5 Hierarchy for code Tungus languages
+     * ISO-639-5 Hierarchy code for Tungus languages
      *
      * @var string
      */
     public const HIERARCHY_TUW = 'tut:tuw';
 
     /**
-     * ISO-639-5 Hierarchy for code Uralic languages
+     * ISO-639-5 Hierarchy code for Uralic languages
      *
      * @var string
      */
     public const HIERARCHY_URJ = 'urj';
 
     /**
-     * ISO-639-5 Hierarchy for code Wakashan languages
+     * ISO-639-5 Hierarchy code for Wakashan languages
      *
      * @var string
      */
     public const HIERARCHY_WAK = 'nai:wak';
 
     /**
-     * ISO-639-5 Hierarchy for code Sorbian languages
+     * ISO-639-5 Hierarchy code for Sorbian languages
      *
      * @var string
      */
     public const HIERARCHY_WEN = 'ine:sla:zlw:wen';
 
     /**
-     * ISO-639-5 Hierarchy for code Mongolian languages
+     * ISO-639-5 Hierarchy code for Mongolian languages
      *
      * @var string
      */
     public const HIERARCHY_XGN = 'tut:xgn';
 
     /**
-     * ISO-639-5 Hierarchy for code Na-Dene languages
+     * ISO-639-5 Hierarchy code for Na-Dene languages
      *
      * @var string
      */
     public const HIERARCHY_XND = 'nai:xnd';
 
     /**
-     * ISO-639-5 Hierarchy for code Yupik languages
+     * ISO-639-5 Hierarchy code for Yupik languages
      *
      * @var string
      */
     public const HIERARCHY_YPK = 'esx:ypk';
 
     /**
-     * ISO-639-5 Hierarchy for code Chinese (family)
+     * ISO-639-5 Hierarchy code for Chinese (family)
      *
      * @var string
      */
     public const HIERARCHY_ZHX = 'sit:zhx';
 
     /**
-     * ISO-639-5 Hierarchy for code East Slavic languages
+     * ISO-639-5 Hierarchy code for East Slavic languages
      *
      * @var string
      */
     public const HIERARCHY_ZLE = 'ine:sla:zle';
 
     /**
-     * ISO-639-5 Hierarchy for code South Slavic languages
+     * ISO-639-5 Hierarchy code for South Slavic languages
      *
      * @var string
      */
     public const HIERARCHY_ZLS = 'ine:sla:zls';
 
     /**
-     * ISO-639-5 Hierarchy for code West Slavic languages
+     * ISO-639-5 Hierarchy code for West Slavic languages
      *
      * @var string
      */
     public const HIERARCHY_ZLW = 'ine:sla:zlw';
 
     /**
-     * ISO-639-5 Hierarchy for code Zande languages
+     * ISO-639-5 Hierarchy code for Zande languages
      *
      * @var string
      */
     public const HIERARCHY_ZND = 'nic:alv:znd';
+
+
+
 
 
 }
