@@ -1,12 +1,15 @@
 ![Constantine](logo.png)
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tomlutzenberger/constantine?maxAge=600)
-![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/tomlutzenberger/constantine?maxAge=600)
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/tomlutzenberger/constantine?maxAge=600)
-![Packagist Downloads](https://img.shields.io/packagist/dt/tomlutzenberger/constantine?maxAge=600)
-![Lines of code](https://img.shields.io/tokei/lines/github/tomlutzenberger/constantine?maxAge=600)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?maxAge=600&project=tomlutzenberger_constantine&metric=alert_status)](https://sonarcloud.io/dashboard?id=tomlutzenberger_constantine)
-![Maintenance](https://img.shields.io/maintenance/yes/2022)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tomlutzenberger/constantine?cacheSeconds=600)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/tomlutzenberger/constantine?cacheSeconds=600)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/tomlutzenberger/constantine?cacheSeconds=600)
+![Packagist Downloads](https://img.shields.io/packagist/dt/tomlutzenberger/constantine?cacheSeconds=600)
+![Maintenance](https://img.shields.io/maintenance/yes/2022)\
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?cacheSeconds=600&project=tomlutzenberger_constantine&metric=alert_status)](https://sonarcloud.io/dashboard?id=tomlutzenberger_constantine)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=tomlutzenberger_constantine&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=tomlutzenberger_constantine)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=tomlutzenberger_constantine&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=tomlutzenberger_constantine)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=tomlutzenberger_constantine&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=tomlutzenberger_constantine)
+![GitHub](https://img.shields.io/github/license/tomlutzenberger/constantine)
 
 CONSTANTINE
 =====================
