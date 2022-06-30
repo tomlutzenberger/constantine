@@ -2219,7 +2219,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const MBMS_ASSOCIATED_PROCEDURE_DESCRIPTION_XML = 'application/mbms-associated-procedure-description+xml';
+    public const MBMS_ASSOCIATED_PROC_DESC_XML = 'application/mbms-associated-procedure-description+xml';
 
 
     /**
@@ -2269,7 +2269,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const MBMS_PROTECTION_DESCRIPTION_XML = 'application/mbms-protection-description+xml';
+    public const MBMS_PROTECTION_DESC_XML = 'application/mbms-protection-description+xml';
 
 
     /**
@@ -2319,7 +2319,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const MBMS_USER_SERVICE_DESCRIPTION_XML = 'application/mbms-user-service-description+xml';
+    public const MBMS_USER_SERVICE_DESC_XML = 'application/mbms-user-service-description+xml';
 
 
     /**
@@ -4708,7 +4708,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_3GPP_MCDATA_AFFILIATION_COMMAND_XML = 'application/vnd.3gpp.mcdata-affiliation-command+xml';
+    public const VND_3GPP_MCDATA_AFFILIATION_CMD_XML = 'application/vnd.3gpp.mcdata-affiliation-command+xml';
 
 
     /**
@@ -4778,7 +4778,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_3GPP_MCPTT_AFFILIATION_COMMAND_XML = 'application/vnd.3gpp.mcptt-affiliation-command+xml';
+    public const VND_3GPP_MCPTT_AFFILIATION_CMD_XML = 'application/vnd.3gpp.mcptt-affiliation-command+xml';
 
 
     /**
@@ -4878,7 +4878,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_3GPP_MCVIDEO_AFFILIATION_COMMAND_XML = 'application/vnd.3gpp.mcvideo-affiliation-command+xml';
+    public const VND_3GPP_MCVIDEO_AFFILIATION_CMD_XML = 'application/vnd.3gpp.mcvideo-affiliation-command+xml';
 
 
     /**
@@ -5101,7 +5101,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_3GPP_STATE_AND_EVENT_INFO_XML = 'application/vnd.3gpp.state-and-event-info+xml';
+    public const VND_3GPP_STATE_EVENT_INFO_XML = 'application/vnd.3gpp.state-and-event-info+xml';
 
 
     /**
@@ -5121,7 +5121,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_3GPP_V2X_LOCAL_SERVICE_INFORMATION = 'application/vnd.3gpp-v2x-local-service-information';
+    public const VND_3GPP_V2X_LOCAL_SERVICE_INFO = 'application/vnd.3gpp-v2x-local-service-information';
 
 
     /**
@@ -5391,7 +5391,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_AFPC_MODCA_OBJECTCONTAINER = 'application/vnd.afpc.modca-objectcontainer';
+    public const VND_AFPC_MODCA_OBJCONTAINER = 'application/vnd.afpc.modca-objectcontainer';
 
 
     /**
@@ -5541,7 +5541,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_ANSER_WEB_CERTIFICATE_ISSUE_INITIATION = 'application/vnd.anser-web-certificate-issue-initiation';
+    public const VND_ANSER_WEB_CERT_ISSUE_INIT = 'application/vnd.anser-web-certificate-issue-initiation';
 
 
     /**
@@ -5581,7 +5581,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_APACHE_THRIFT_BINARY = 'application/vnd.apache.thrift.binary';
+    public const VND_APACHE_THRIFT_BIN = 'application/vnd.apache.thrift.binary';
 
 
     /**
@@ -6155,7 +6155,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_COLLABIO_XODOCUMENTS_DOCUMENT = 'application/vnd.collabio.xodocuments.document';
+    public const VND_COLLABIO_XODOCS_DOC = 'application/vnd.collabio.xodocuments.document';
 
 
     /**
@@ -6165,7 +6165,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_COLLABIO_XODOCUMENTS_DOCUMENT_TEMPLATE = 'application/vnd.collabio.xodocuments.document-template';
+    public const VND_COLLABIO_XODOCS_DOC_TPL = 'application/vnd.collabio.xodocuments.document-template';
 
 
     /**
@@ -6175,7 +6175,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_COLLABIO_XODOCUMENTS_PRESENTATION = 'application/vnd.collabio.xodocuments.presentation';
+    public const VND_COLLABIO_XODOCS_PRESENTATION = 'application/vnd.collabio.xodocuments.presentation';
 
 
     /**
@@ -6185,7 +6185,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_COLLABIO_XODOCUMENTS_PRESENTATION_TEMPLATE = 'application/vnd.collabio.xodocuments.presentation-template';
+    public const VND_COLLABIO_XODOCS_PRESENTATION_TPL = 'application/vnd.collabio.xodocuments.presentation-template';
 
 
     /**
@@ -6195,7 +6195,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_COLLABIO_XODOCUMENTS_SPREADSHEET = 'application/vnd.collabio.xodocuments.spreadsheet';
+    public const VND_COLLABIO_XODOCS_SPREADSHEET = 'application/vnd.collabio.xodocuments.spreadsheet';
 
 
     /**
@@ -6205,7 +6205,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_COLLABIO_XODOCUMENTS_SPREADSHEET_TEMPLATE = 'application/vnd.collabio.xodocuments.spreadsheet-template';
+    public const VND_COLLABIO_XODOCS_SPREADSHEET_TPL = 'application/vnd.collabio.xodocuments.spreadsheet-template';
 
 
     /**
@@ -6345,7 +6345,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_CRICK_CLICKER_TEMPLATE = 'application/vnd.crick.clicker.template';
+    public const VND_CRICK_CLICKER_TPL = 'application/vnd.crick.clicker.template';
 
 
     /**
@@ -6615,7 +6615,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_DEBIAN_BINARY_PACKAGE = 'application/vnd.debian.binary-package';
+    public const VND_DEBIAN_BIN_PACKAGE = 'application/vnd.debian.binary-package';
 
 
     /**
@@ -6715,7 +6715,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_DOCUMENT_JSON = 'application/vnd.document+json';
+    public const VND_DOC_JSON = 'application/vnd.document+json';
 
 
     /**
@@ -6745,7 +6745,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_DOREMIR_SCORECLOUD_BINARY_DOCUMENT = 'application/vnd.doremir.scorecloud-binary-document';
+    public const VND_DOREMIR_SCORECLOUD_BIN_DOC = 'application/vnd.doremir.scorecloud-binary-document';
 
 
     /**
@@ -7325,7 +7325,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_ETSI_IPTVCOMMAND_XML = 'application/vnd.etsi.iptvcommand+xml';
+    public const VND_ETSI_IPTVCMD_XML = 'application/vnd.etsi.iptvcommand+xml';
 
 
     /**
@@ -7605,7 +7605,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_FASTCOPY_DISK_IMAGE = 'application/vnd.fastcopy-disk-image';
+    public const VND_FASTCOPY_DISK_IMG = 'application/vnd.fastcopy-disk-image';
 
 
     /**
@@ -8277,7 +8277,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_GROOVE_TOOL_TEMPLATE = 'application/vnd.groove-tool-template';
+    public const VND_GROOVE_TOOL_TPL = 'application/vnd.groove-tool-template';
 
 
     /**
@@ -8631,7 +8631,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_IMAGEMETER_IMAGE_ZIP = 'application/vnd.imagemeter.image+zip';
+    public const VND_IMAGEMETER_IMG_ZIP = 'application/vnd.imagemeter.image+zip';
 
 
     /**
@@ -9613,7 +9613,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MICROSOFT_PORTABLE_EXECUTABLE = 'application/vnd.microsoft.portable-executable';
+    public const VND_MS_PORTABLE_EXE = 'application/vnd.microsoft.portable-executable';
 
 
     /**
@@ -9623,7 +9623,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MICROSOFT_WINDOWS_THUMBNAIL_CACHE = 'application/vnd.microsoft.windows.thumbnail-cache';
+    public const VND_MS_WINDOWS_THUMBNAIL_CACHE = 'application/vnd.microsoft.windows.thumbnail-cache';
 
 
     /**
@@ -9883,7 +9883,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_3MFDOCUMENT = 'application/vnd.ms-3mfdocument';
+    public const VND_MS_3MFDOC = 'application/vnd.ms-3mfdocument';
 
 
     /**
@@ -9903,7 +9903,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_EXCEL_ADDIN_MACROENABLED_12 = 'application/vnd.ms-excel.addin.macroEnabled.12';
+    public const VND_MS_EXCEL_ADDIN_MACRO_12 = 'application/vnd.ms-excel.addin.macroEnabled.12';
 
 
     /**
@@ -9913,7 +9913,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_EXCEL_SHEET_BINARY_MACROENABLED_12 = 'application/vnd.ms-excel.sheet.binary.macroEnabled.12';
+    public const VND_MS_EXCEL_SHEET_BIN_MACRO_12 = 'application/vnd.ms-excel.sheet.binary.macroEnabled.12';
 
 
     /**
@@ -9923,7 +9923,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_EXCEL_SHEET_MACROENABLED_12 = 'application/vnd.ms-excel.sheet.macroEnabled.12';
+    public const VND_MS_EXCEL_SHEET_MACRO_12 = 'application/vnd.ms-excel.sheet.macroEnabled.12';
 
 
     /**
@@ -9933,7 +9933,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_EXCEL_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-excel.template.macroEnabled.12';
+    public const VND_MS_EXCEL_TPL_MACRO_12 = 'application/vnd.ms-excel.template.macroEnabled.12';
 
 
     /**
@@ -10023,7 +10023,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_POWERPOINT_ADDIN_MACROENABLED_12 = 'application/vnd.ms-powerpoint.addin.macroEnabled.12';
+    public const VND_MS_POWERPOINT_ADDIN_MACRO_12 = 'application/vnd.ms-powerpoint.addin.macroEnabled.12';
 
 
     /**
@@ -10033,7 +10033,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_POWERPOINT_PRESENTATION_MACROENABLED_12 = 'application/vnd.ms-powerpoint.presentation.macroEnabled.12';
+    public const VND_MS_POWERPOINT_PRESENTATION_MACRO_12 = 'application/vnd.ms-powerpoint.presentation.macroEnabled.12';
 
 
     /**
@@ -10043,7 +10043,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_POWERPOINT_SLIDE_MACROENABLED_12 = 'application/vnd.ms-powerpoint.slide.macroEnabled.12';
+    public const VND_MS_POWERPOINT_SLIDE_MACRO_12 = 'application/vnd.ms-powerpoint.slide.macroEnabled.12';
 
 
     /**
@@ -10053,7 +10053,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_POWERPOINT_SLIDESHOW_MACROENABLED_12 = 'application/vnd.ms-powerpoint.slideshow.macroEnabled.12';
+    public const VND_MS_POWERPOINT_SLIDESHOW_MACRO_12 = 'application/vnd.ms-powerpoint.slideshow.macroEnabled.12';
 
 
     /**
@@ -10063,7 +10063,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_POWERPOINT_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-powerpoint.template.macroEnabled.12';
+    public const VND_MS_POWERPOINT_TPL_MACRO_12 = 'application/vnd.ms-powerpoint.template.macroEnabled.12';
 
 
     /**
@@ -10193,7 +10193,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_WORD_DOCUMENT_MACROENABLED_12 = 'application/vnd.ms-word.document.macroEnabled.12';
+    public const VND_MS_WORD_DOC_MACRO_12 = 'application/vnd.ms-word.document.macroEnabled.12';
 
 
     /**
@@ -10203,7 +10203,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_WORD_TEMPLATE_MACROENABLED_12 = 'application/vnd.ms-word.template.macroEnabled.12';
+    public const VND_MS_WORD_TPL_MACRO_12 = 'application/vnd.ms-word.template.macroEnabled.12';
 
 
     /**
@@ -10233,7 +10233,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MS_XPSDOCUMENT = 'application/vnd.ms-xpsdocument';
+    public const VND_MS_XPSDOC = 'application/vnd.ms-xpsdocument';
 
 
     /**
@@ -10243,7 +10243,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_MSA_DISK_IMAGE = 'application/vnd.msa-disk-image';
+    public const VND_MSA_DISK_IMG = 'application/vnd.msa-disk-image';
 
 
     /**
@@ -10725,7 +10725,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_CHART = 'application/vnd.oasis.opendocument.chart';
+    public const VND_OASIS_OPENDOC_CHART = 'application/vnd.oasis.opendocument.chart';
 
 
     /**
@@ -10735,7 +10735,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_CHART_TEMPLATE = 'application/vnd.oasis.opendocument.chart-template';
+    public const VND_OASIS_OPENDOC_CHART_TPL = 'application/vnd.oasis.opendocument.chart-template';
 
 
     /**
@@ -10745,7 +10745,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_DATABASE = 'application/vnd.oasis.opendocument.database';
+    public const VND_OASIS_OPENDOC_DATABASE = 'application/vnd.oasis.opendocument.database';
 
 
     /**
@@ -10755,7 +10755,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_FORMULA = 'application/vnd.oasis.opendocument.formula';
+    public const VND_OASIS_OPENDOC_FORMULA = 'application/vnd.oasis.opendocument.formula';
 
 
     /**
@@ -10765,7 +10765,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_FORMULA_TEMPLATE = 'application/vnd.oasis.opendocument.formula-template';
+    public const VND_OASIS_OPENDOC_FORMULA_TPL = 'application/vnd.oasis.opendocument.formula-template';
 
 
     /**
@@ -10775,7 +10775,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_GRAPHICS = 'application/vnd.oasis.opendocument.graphics';
+    public const VND_OASIS_OPENDOC_GRAPHICS = 'application/vnd.oasis.opendocument.graphics';
 
 
     /**
@@ -10785,7 +10785,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_GRAPHICS_TEMPLATE = 'application/vnd.oasis.opendocument.graphics-template';
+    public const VND_OASIS_OPENDOC_GRAPHICS_TPL = 'application/vnd.oasis.opendocument.graphics-template';
 
 
     /**
@@ -10795,7 +10795,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_IMAGE = 'application/vnd.oasis.opendocument.image';
+    public const VND_OASIS_OPENDOC_IMG = 'application/vnd.oasis.opendocument.image';
 
 
     /**
@@ -10805,7 +10805,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_IMAGE_TEMPLATE = 'application/vnd.oasis.opendocument.image-template';
+    public const VND_OASIS_OPENDOC_IMG_TPL = 'application/vnd.oasis.opendocument.image-template';
 
 
     /**
@@ -10815,7 +10815,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_PRESENTATION = 'application/vnd.oasis.opendocument.presentation';
+    public const VND_OASIS_OPENDOC_PRESENTATION = 'application/vnd.oasis.opendocument.presentation';
 
 
     /**
@@ -10825,7 +10825,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_PRESENTATION_TEMPLATE = 'application/vnd.oasis.opendocument.presentation-template';
+    public const VND_OASIS_OPENDOC_PRESENTATION_TPL = 'application/vnd.oasis.opendocument.presentation-template';
 
 
     /**
@@ -10835,7 +10835,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_SPREADSHEET = 'application/vnd.oasis.opendocument.spreadsheet';
+    public const VND_OASIS_OPENDOC_SPREADSHEET = 'application/vnd.oasis.opendocument.spreadsheet';
 
 
     /**
@@ -10845,7 +10845,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_SPREADSHEET_TEMPLATE = 'application/vnd.oasis.opendocument.spreadsheet-template';
+    public const VND_OASIS_OPENDOC_SPREADSHEET_TPL = 'application/vnd.oasis.opendocument.spreadsheet-template';
 
 
     /**
@@ -10855,7 +10855,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_TEXT = 'application/vnd.oasis.opendocument.text';
+    public const VND_OASIS_OPENDOC_TXT = 'application/vnd.oasis.opendocument.text';
 
 
     /**
@@ -10865,7 +10865,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_TEXT_MASTER = 'application/vnd.oasis.opendocument.text-master';
+    public const VND_OASIS_OPENDOC_TXT_MASTER = 'application/vnd.oasis.opendocument.text-master';
 
 
     /**
@@ -10875,7 +10875,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_TEXT_TEMPLATE = 'application/vnd.oasis.opendocument.text-template';
+    public const VND_OASIS_OPENDOC_TXT_TPL = 'application/vnd.oasis.opendocument.text-template';
 
 
     /**
@@ -10885,7 +10885,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OASIS_OPENDOCUMENT_TEXT_WEB = 'application/vnd.oasis.opendocument.text-web';
+    public const VND_OASIS_OPENDOC_TXT_WEB = 'application/vnd.oasis.opendocument.text-web';
 
 
     /**
@@ -10915,7 +10915,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OCI_IMAGE_MANIFEST_V1_JSON = 'application/vnd.oci.image.manifest.v1+json';
+    public const VND_OCI_IMG_MANIFEST_V1_JSON = 'application/vnd.oci.image.manifest.v1+json';
 
 
     /**
@@ -10955,7 +10955,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OIPF_CSPG_HEXBINARY = 'application/vnd.oipf.cspg-hexbinary';
+    public const VND_OIPF_CSPG_HEXBIN = 'application/vnd.oipf.cspg-hexbinary';
 
 
     /**
@@ -11055,7 +11055,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OMA_BCAST_ASSOCIATED_PROCEDURE_PARAMETER_XML = 'application/vnd.oma.bcast.associated-procedure-parameter+xml';
+    public const VND_OMA_BCAST_ASSOCIATED_PROC_PARAM_XML = 'application/vnd.oma.bcast.associated-procedure-parameter+xml';
 
 
     /**
@@ -11535,7 +11535,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENBLOX_GAME_BINARY = 'application/vnd.openblox.game-binary';
+    public const VND_OPENBLOX_GAME_BIN = 'application/vnd.openblox.game-binary';
 
 
     /**
@@ -11585,7 +11585,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_CUSTOM_PROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.custom-properties+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_CUSTOM_PROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.custom-properties+xml';
 
 
     /**
@@ -11595,7 +11595,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_CUSTOMXMLPROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.customXmlProperties+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_CUSTOMXMLPROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.customXmlProperties+xml';
 
 
     /**
@@ -11605,7 +11605,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWING_XML = 'application/vnd.openxmlformats-officedocument.drawing+xml';
+    public const VND_OPENXML_OFFICEDOC_DRAWING_XML = 'application/vnd.openxmlformats-officedocument.drawing+xml';
 
 
     /**
@@ -11615,7 +11615,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_CHART_XML = 'application/vnd.openxmlformats-officedocument.drawingml.chart+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_DRAWINGML_CHART_XML = 'application/vnd.openxmlformats-officedocument.drawingml.chart+xml';
 
 
     /**
@@ -11625,7 +11625,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_CHARTSHAPES_XML = 'application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_DRAWINGML_CHARTSHAPES_XML = 'application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11635,7 +11635,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMCOLORS_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramColors+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_DRAWINGML_DIAGRAMCOLORS_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramColors+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11645,7 +11645,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMDATA_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_DRAWINGML_DIAGRAMDATA_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11655,7 +11655,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMLAYOUT_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_DRAWINGML_DIAGRAMLAYOUT_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11665,7 +11665,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_DRAWINGML_DIAGRAMSTYLE_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_DRAWINGML_DIAGRAMSTYLE_XML = 'application/vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11675,7 +11675,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_EXTENDED_PROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.extended-properties+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_EXTENDED_PROPERTIES_XML = 'application/vnd.openxmlformats-officedocument.extended-properties+xml';
 
 
     /**
@@ -11685,7 +11685,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_COMMENTAUTHORS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_COMMENTAUTHORS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11695,7 +11695,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.comments+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.comments+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11705,7 +11705,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_HANDOUTMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_HANDOUTMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11715,7 +11715,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_NOTESMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_NOTESMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11725,7 +11725,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_NOTESSLIDE_XML = 'application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_NOTESSLIDE_XML = 'application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11735,7 +11735,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_PRESENTATION = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'; // NOSONAR - php:S103
 
 
     /**
@@ -11745,7 +11745,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESENTATION_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_PRESENTATION_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11755,7 +11755,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_PRESPROPS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.presProps+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_PRESPROPS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.presProps+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11765,7 +11765,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE = 'application/vnd.openxmlformats-officedocument.presentationml.slide'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDE = 'application/vnd.openxmlformats-officedocument.presentationml.slide';
 
 
     /**
@@ -11775,7 +11775,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDE_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slide+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDE_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slide+xml';
 
 
     /**
@@ -11785,7 +11785,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDELAYOUT_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDELAYOUT_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11795,7 +11795,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDEMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDEMASTER_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11805,7 +11805,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDESHOW = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow';
 
 
     /**
@@ -11815,7 +11815,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDESHOW_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDESHOW_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11825,7 +11825,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_SLIDEUPDATEINFO_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_SLIDEUPDATEINFO_XML = 'application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11835,7 +11835,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TABLESTYLES_XML = 'application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_TABLESTYLES_XML = 'application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11845,7 +11845,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TAGS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.tags+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_TAGS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.tags+xml';
 
 
     /**
@@ -11855,7 +11855,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE = 'application/vnd.openxmlformats-officedocument.presentationml.template'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_TPL = 'application/vnd.openxmlformats-officedocument.presentationml.template';
 
 
     /**
@@ -11865,7 +11865,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_TEMPLATE_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.template.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_TPL_MAIN_XML = 'application/vnd.openxmlformats-officedocument.presentationml.template.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11875,7 +11875,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_PRESENTATIONML_VIEWPROPS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_PRESENTATIONML_VIEWPROPS_XML = 'application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11885,7 +11885,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CALCCHAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_CALCCHAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11895,7 +11895,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CHARTSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_CHARTSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11905,7 +11905,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11915,7 +11915,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_CONNECTIONS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_CONNECTIONS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11925,7 +11925,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_DIALOGSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_DIALOGSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11935,7 +11935,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_EXTERNALLINK_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_EXTERNALLINK_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11945,7 +11945,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTCACHEDEFINITION_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_PIVOTCACHEDEFINITION_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11955,7 +11955,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTCACHERECORDS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_PIVOTCACHERECORDS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11965,7 +11965,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_PIVOTTABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_PIVOTTABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11975,7 +11975,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_QUERYTABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_QUERYTABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11985,7 +11985,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_REVISIONHEADERS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_REVISIONHEADERS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -11995,7 +11995,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_REVISIONLOG_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_REVISIONLOG_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12005,7 +12005,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHAREDSTRINGS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_SHAREDSTRINGS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12015,7 +12015,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_SHEET = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 
 
     /**
@@ -12025,7 +12025,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEET_MAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_SHEET_MAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12035,7 +12035,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_SHEETMETADATA_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_SHEETMETADATA_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12045,7 +12045,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_STYLES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_STYLES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml';
 
 
     /**
@@ -12055,7 +12055,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_TABLE_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml';
 
 
     /**
@@ -12065,7 +12065,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TABLESINGLECELLS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_TABLESINGLECELLS_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12075,7 +12075,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_TPL = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template';
 
 
     /**
@@ -12085,7 +12085,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_TEMPLATE_MAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_TPL_MAIN_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12095,7 +12095,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_USERNAMES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_USERNAMES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12105,7 +12105,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_VOLATILEDEPENDENCIES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_VOLATILEDEPENDENCIES_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12115,7 +12115,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_SPREADSHEETML_WORKSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_SPREADSHEETML_WORKSHEET_XML = 'application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12125,7 +12125,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_THEME_XML = 'application/vnd.openxmlformats-officedocument.theme+xml';
+    public const VND_OPENXML_OFFICEDOC_THEME_XML = 'application/vnd.openxmlformats-officedocument.theme+xml';
 
 
     /**
@@ -12135,7 +12135,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_THEMEOVERRIDE_XML = 'application/vnd.openxmlformats-officedocument.themeOverride+xml';
+    public const VND_OPENXML_OFFICEDOC_THEMEOVERRIDE_XML = 'application/vnd.openxmlformats-officedocument.themeOverride+xml';
 
 
     /**
@@ -12145,7 +12145,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_VMLDRAWING = 'application/vnd.openxmlformats-officedocument.vmlDrawing';
+    public const VND_OPENXML_OFFICEDOC_VMLDRAWING = 'application/vnd.openxmlformats-officedocument.vmlDrawing';
 
 
     /**
@@ -12155,7 +12155,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_COMMENTS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12165,7 +12165,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_DOC = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
 
 
     /**
@@ -12175,7 +12175,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT_GLOSSARY_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_DOC_GLOSSARY_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12185,7 +12185,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_DOCUMENT_MAIN_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_DOC_MAIN_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12195,7 +12195,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_ENDNOTES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_ENDNOTES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12205,7 +12205,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FONTTABLE_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_FONTTABLE_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12215,7 +12215,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FOOTER_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_FOOTER_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12225,7 +12225,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_FOOTNOTES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_FOOTNOTES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12235,7 +12235,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_NUMBERING_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_NUMBERING_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12245,7 +12245,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_SETTINGS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_SETTINGS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12255,7 +12255,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_STYLES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_STYLES_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12265,7 +12265,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_TPL = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template';
 
 
     /**
@@ -12275,7 +12275,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_TEMPLATE_MAIN_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_TPL_MAIN_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12285,7 +12285,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_OFFICEDOCUMENT_WORDPROCESSINGML_WEBSETTINGS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_OFFICEDOC_WORDPROCESSINGML_WEBSETTINGS_XML = 'application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12295,7 +12295,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_PACKAGE_CORE_PROPERTIES_XML = 'application/vnd.openxmlformats-package.core-properties+xml';
+    public const VND_OPENXML_PACKAGE_CORE_PROPERTIES_XML = 'application/vnd.openxmlformats-package.core-properties+xml';
 
 
     /**
@@ -12305,7 +12305,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_PACKAGE_DIGITAL_SIGNATURE_XMLSIGNATURE_XML = 'application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml'; // NOSONAR - php:S103
+    public const VND_OPENXML_PACKAGE_DIGITAL_SIGNATURE_XMLSIGNATURE_XML = 'application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml'; // NOSONAR - php:S103
 
 
     /**
@@ -12315,7 +12315,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_OPENXMLFORMATS_PACKAGE_RELATIONSHIPS_XML = 'application/vnd.openxmlformats-package.relationships+xml';
+    public const VND_OPENXML_PACKAGE_RELATIONSHIPS_XML = 'application/vnd.openxmlformats-package.relationships+xml';
 
 
     /**
@@ -12736,7 +12736,7 @@ class MimeTypeApplication
      *
      * @var string
      */
-    public const VND_QUOBJECT_QUOXDOCUMENT = 'application/vnd.quobject-quoxdocument';
+    public const VND_QUOBJECT_QUOXDOC = 'application/vnd.quobject-quoxdocument';
 
 
     /**

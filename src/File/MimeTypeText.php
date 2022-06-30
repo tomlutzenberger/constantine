@@ -827,7 +827,7 @@ class MimeTypeText
      *
      * @var string
      */
-    public const VND_NET2PHONE_COMMCENTER_COMMAND = 'text/vnd.net2phone.commcenter.command';
+    public const VND_NET2PHONE_COMMCENTER_CMD = 'text/vnd.net2phone.commcenter.command';
 
 
     /**
