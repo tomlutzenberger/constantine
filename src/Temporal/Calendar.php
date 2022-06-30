@@ -13,7 +13,7 @@ namespace TomLutzenberger\Constantine\Temporal;
  * @see       https://en.wikipedia.org/wiki/Gregorian_calendar
  *
  * @package   TomLutzenberger\Constantine\Temporal
- * @copyright 2021 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de

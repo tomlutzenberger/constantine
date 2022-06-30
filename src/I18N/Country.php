@@ -13,7 +13,7 @@ namespace TomLutzenberger\Constantine\I18N;
  * @see       https://en.wikipedia.org/wiki/ISO_3166-1
  *
  * @package   TomLutzenberger\Constantine\I18N
- * @copyright 2021 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */

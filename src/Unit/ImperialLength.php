@@ -13,7 +13,7 @@ namespace TomLutzenberger\Constantine\Unit;
  * @see       https://en.wikipedia.org/wiki/Imperial_units
  *
  * @package   TomLutzenberger\Constantine\Unit
- * @copyright 2021 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de

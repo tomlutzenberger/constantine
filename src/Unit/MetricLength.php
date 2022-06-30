@@ -14,7 +14,7 @@ namespace TomLutzenberger\Constantine\Unit;
  * @see       https://en.wikipedia.org/wiki/Orders_of_magnitude_(length)
  *
  * @package   TomLutzenberger\Constantine\Unit
- * @copyright 2021 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de

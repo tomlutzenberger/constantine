@@ -14,7 +14,7 @@ namespace TomLutzenberger\Constantine\Geography;
  * @see       https://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf
  *
  * @package   TomLutzenberger\Constantine\Geography
- * @copyright 2021 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */

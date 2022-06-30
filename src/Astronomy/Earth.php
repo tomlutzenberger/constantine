@@ -13,7 +13,7 @@ namespace TomLutzenberger\Constantine\Astronomy;
  * @see       https://en.wikipedia.org/wiki/Earth
  *
  * @package   TomLutzenberger\Constantine\Astronomy
- * @copyright 2021 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  */

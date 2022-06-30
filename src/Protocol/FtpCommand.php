@@ -25,7 +25,7 @@ namespace TomLutzenberger\Constantine\Protocol;
  * @see       https://en.wikipedia.org/wiki/List_of_FTP_commands
  *
  * @package   TomLutzenberger\Constantine\Protocol
- * @copyright 2022 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de

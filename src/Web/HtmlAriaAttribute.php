@@ -14,7 +14,7 @@ namespace TomLutzenberger\Constantine\Web;
  * @see       https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes
  *
  * @package   TomLutzenberger\Constantine\Web
- * @copyright 2022 Tom Lutzenberger
+ * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
  * @link      https://tomlutzenberger.de
