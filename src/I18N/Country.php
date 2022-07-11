@@ -5014,21 +5014,21 @@ class Country
 
 
     /**
-     * ISO 3166-1 Alpha-2 code of Turkey
+     * ISO 3166-1 Alpha-2 code of Türkiye
      *
      * @var string
      */
     public const ALPHA_2_CODE_TR = 'TR';
 
     /**
-     * ISO 3166-1 Alpha-3 code of Turkey
+     * ISO 3166-1 Alpha-3 code of Türkiye
      *
      * @var string
      */
     public const ALPHA_3_CODE_TR = 'TUR';
 
     /**
-     * ISO 3166-1 numeric code of Turkey
+     * ISO 3166-1 numeric code of Türkiye
      *
      * @var int
      */
