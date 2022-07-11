@@ -9928,7 +9928,7 @@ class Currency
      * ISO-4217 Code for the Turkish lira
      *
      * Countries:
-     * - Turkey
+     * - Türkiye
      *
      * @var string
      */
