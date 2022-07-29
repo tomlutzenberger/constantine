@@ -25,63 +25,64 @@ class MimeTypeFont
      *
      * Standards: RFC8081
      *
-     * @var string
      * @see https://www.iana.org/go/rfc8081
+     *
+     * @var string
      */
     public const COLLECTION = 'font/collection';
-
 
     /**
      * MIME type 'otf'
      *
      * Standards: RFC8081
      *
-     * @var string
      * @see https://www.iana.org/go/rfc8081
+     *
+     * @var string
      */
     public const OTF = 'font/otf';
-
 
     /**
      * MIME type 'sfnt'
      *
      * Standards: RFC8081
      *
-     * @var string
      * @see https://www.iana.org/go/rfc8081
+     *
+     * @var string
      */
     public const SFNT = 'font/sfnt';
-
 
     /**
      * MIME type 'ttf'
      *
      * Standards: RFC8081
      *
-     * @var string
      * @see https://www.iana.org/go/rfc8081
+     *
+     * @var string
      */
     public const TTF = 'font/ttf';
-
 
     /**
      * MIME type 'woff'
      *
      * Standards: RFC8081
      *
-     * @var string
      * @see https://www.iana.org/go/rfc8081
+     *
+     * @var string
      */
     public const WOFF = 'font/woff';
-
 
     /**
      * MIME type 'woff2'
      *
      * Standards: RFC8081
      *
-     * @var string
      * @see https://www.iana.org/go/rfc8081
+     *
+     * @var string
      */
     public const WOFF2 = 'font/woff2';
 }

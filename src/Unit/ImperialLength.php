@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\Unit;
 /**
  * Collection of ratios and symbols for imperial lengths
  *
- * @see       https://en.wikipedia.org/wiki/Imperial_units
+ * @see https://en.wikipedia.org/wiki/Imperial_units
  *
  * @package   TomLutzenberger\Constantine\Unit
  * @copyright 2021-2022 Tom Lutzenberger
@@ -25,7 +25,10 @@ class ImperialLength
      *
      * Symbol: ft or '
      *
+     * Symbol: ft or '
+     *
      * @see https://en.wikipedia.org/wiki/Foot_(unit)
+     *
      * @var float
      */
     public const METER_PER_FOOT = 0.3048;
@@ -35,7 +38,10 @@ class ImperialLength
      *
      * Symbol: ft or ′
      *
+     * Symbol: ft or ′
+     *
      * @see https://en.wikipedia.org/wiki/Foot_(unit)
+     *
      * @var float
      */
     public const FOOT_PER_METER = 1 / 0.3048;
@@ -44,6 +50,7 @@ class ImperialLength
      * Foot unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Foot_(unit)
+     *
      * @var string
      */
     public const SYMBOL_FOOT = 'ft';
@@ -52,17 +59,20 @@ class ImperialLength
      * Foot unit short symbol
      *
      * @see https://en.wikipedia.org/wiki/Foot_(unit)
+     *
      * @var string
      */
     public const SYMBOL_FOOT_SHORT = '′';
-
 
     /**
      * Twip to Foot ratio
      *
      * Symbol: -
      *
+     * Symbol: -
+     *
      * @see https://en.wikipedia.org/wiki/Twip
+     *
      * @var int
      */
     public const TWIP_PER_FOOT = 17280;
@@ -72,18 +82,23 @@ class ImperialLength
      *
      * Symbol: -
      *
+     * Symbol: -
+     *
      * @see https://en.wikipedia.org/wiki/Twip
+     *
      * @var float
      */
     public const FOOT_PER_TWIP = 1 / 17280;
-
 
     /**
      * Thou to Foot ratio
      *
      * Symbol: th
      *
+     * Symbol: th
+     *
      * @see https://en.wikipedia.org/wiki/Thousandth_of_an_inch
+     *
      * @var int
      */
     public const THOU_PER_FOOT = 12000;
@@ -93,7 +108,10 @@ class ImperialLength
      *
      * Symbol: th
      *
+     * Symbol: th
+     *
      * @see https://en.wikipedia.org/wiki/Thousandth_of_an_inch
+     *
      * @var float
      */
     public const FOOT_PER_THOU = 1 / 12000;
@@ -102,17 +120,20 @@ class ImperialLength
      * Thou unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Thousandth_of_an_inch
+     *
      * @var string
      */
     public const SYMBOL_THOU = 'th';
-
 
     /**
      * Barleycorn to Foot ratio
      *
      * Symbol: Bc
      *
+     * Symbol: Bc
+     *
      * @see https://en.wikipedia.org/wiki/Barleycorn_(unit)
+     *
      * @var int
      */
     public const BARLEYCORN_PER_FOOT = 36;
@@ -122,7 +143,10 @@ class ImperialLength
      *
      * Symbol: Bc
      *
+     * Symbol: Bc
+     *
      * @see https://en.wikipedia.org/wiki/Barleycorn_(unit)
+     *
      * @var float
      */
     public const FOOT_PER_BARLEYCORN = 1 / 36;
@@ -131,17 +155,20 @@ class ImperialLength
      * Barleycorn unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Barleycorn_(unit)
+     *
      * @var string
      */
     public const SYMBOL_BARLEYCORN = 'Bc';
-
 
     /**
      * Inch to Foot ratio
      *
      * Symbol: in or ″
      *
+     * Symbol: in or ″
+     *
      * @see https://en.wikipedia.org/wiki/Inch
+     *
      * @var int
      */
     public const INCH_PER_FOOT = 12;
@@ -151,7 +178,10 @@ class ImperialLength
      *
      * Symbol: in or ″
      *
+     * Symbol: in or ″
+     *
      * @see https://en.wikipedia.org/wiki/Inch
+     *
      * @var float
      */
     public const FOOT_PER_INCH = 1 / 12;
@@ -160,6 +190,7 @@ class ImperialLength
      * Inch unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Inch
+     *
      * @var string
      */
     public const SYMBOL_INCH = 'in';
@@ -168,17 +199,20 @@ class ImperialLength
      * Inch unit short symbol
      *
      * @see https://en.wikipedia.org/wiki/Inch
+     *
      * @var string
      */
     public const SYMBOL_INCH_SHORT = '″';
-
 
     /**
      * Hand to Foot ratio
      *
      * Symbol: h
      *
+     * Symbol: h
+     *
      * @see https://en.wikipedia.org/wiki/Hand_(unit)
+     *
      * @var int
      */
     public const HAND_PER_FOOT = 3;
@@ -188,7 +222,10 @@ class ImperialLength
      *
      * Symbol: h
      *
+     * Symbol: h
+     *
      * @see https://en.wikipedia.org/wiki/Hand_(unit)
+     *
      * @var float
      */
     public const FOOT_PER_HAND = 1 / 3;
@@ -197,17 +234,20 @@ class ImperialLength
      * Hand unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Hand_(unit)
+     *
      * @var string
      */
     public const SYMBOL_HAND = 'h';
-
 
     /**
      * Link to Foot ratio
      *
      * Symbol: lnk or li
      *
+     * Symbol: lnk or li
+     *
      * @see https://en.wikipedia.org/wiki/Link_(unit)
+     *
      * @var float
      */
     public const LINK_PER_FOOT = 50 / 33;
@@ -217,7 +257,10 @@ class ImperialLength
      *
      * Symbol: lnk or li
      *
+     * Symbol: lnk or li
+     *
      * @see https://en.wikipedia.org/wiki/Link_(unit)
+     *
      * @var float
      */
     public const FOOT_PER_LINK = 33 / 50;
@@ -226,6 +269,7 @@ class ImperialLength
      * Link unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Link_(unit)
+     *
      * @var string
      */
     public const SYMBOL_LINK = 'lnk';
@@ -234,17 +278,20 @@ class ImperialLength
      * Link unit short symbol
      *
      * @see https://en.wikipedia.org/wiki/Link_(unit)
+     *
      * @var string
      */
     public const SYMBOL_LINK_SHORT = 'li';
-
 
     /**
      * Yard to Foot ratio
      *
      * Symbol: yd
      *
+     * Symbol: yd
+     *
      * @see https://en.wikipedia.org/wiki/Yard
+     *
      * @var float
      */
     public const YARD_PER_FOOT = 1 / 3;
@@ -254,7 +301,10 @@ class ImperialLength
      *
      * Symbol: yd
      *
+     * Symbol: yd
+     *
      * @see https://en.wikipedia.org/wiki/Yard
+     *
      * @var int
      */
     public const FOOT_PER_YARD = 3;
@@ -263,17 +313,20 @@ class ImperialLength
      * Yard unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Yard
+     *
      * @var string
      */
     public const SYMBOL_YARD = 'yd';
-
 
     /**
      * Rod to Foot ratio
      *
      * Symbol: rd
      *
+     * Symbol: rd
+     *
      * @see https://en.wikipedia.org/wiki/Rod_(unit)
+     *
      * @var float
      */
     public const ROD_PER_FOOT = 2 / 33;
@@ -283,7 +336,10 @@ class ImperialLength
      *
      * Symbol: rd
      *
+     * Symbol: rd
+     *
      * @see https://en.wikipedia.org/wiki/Rod_(unit)
+     *
      * @var float
      */
     public const FOOT_PER_ROD = 16.5;
@@ -292,17 +348,20 @@ class ImperialLength
      * Rod unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Rod_(unit)
+     *
      * @var string
      */
     public const SYMBOL_ROD = 'rd';
-
 
     /**
      * Chain to Foot ratio
      *
      * Symbol: ch
      *
+     * Symbol: ch
+     *
      * @see https://en.wikipedia.org/wiki/Chain_(unit)
+     *
      * @var float
      */
     public const CHAIN_PER_FOOT = 1 / 66;
@@ -312,7 +371,10 @@ class ImperialLength
      *
      * Symbol: ch
      *
+     * Symbol: ch
+     *
      * @see https://en.wikipedia.org/wiki/Chain_(unit)
+     *
      * @var int
      */
     public const FOOT_PER_CHAIN = 66;
@@ -321,17 +383,20 @@ class ImperialLength
      * Chain unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Chain_(unit)
+     *
      * @var string
      */
     public const SYMBOL_CHAIN = 'ch';
-
 
     /**
      * Furlong to Foot ratio
      *
      * Symbol: fur
      *
+     * Symbol: fur
+     *
      * @see https://en.wikipedia.org/wiki/Furlong
+     *
      * @var float
      */
     public const FURLONG_PER_FOOT = 1 / 660;
@@ -341,7 +406,10 @@ class ImperialLength
      *
      * Symbol: fur
      *
+     * Symbol: fur
+     *
      * @see https://en.wikipedia.org/wiki/Furlong
+     *
      * @var int
      */
     public const FOOT_PER_FURLONG = 660;
@@ -350,17 +418,20 @@ class ImperialLength
      * Furlong unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Furlong
+     *
      * @var string
      */
     public const SYMBOL_FURLONG = 'fur';
-
 
     /**
      * Mile to Foot ratio
      *
      * Symbol: mi
      *
+     * Symbol: mi
+     *
      * @see https://en.wikipedia.org/wiki/Mile
+     *
      * @var float
      */
     public const MILE_PER_FOOT = 1 / 5280;
@@ -370,7 +441,10 @@ class ImperialLength
      *
      * Symbol: mi
      *
+     * Symbol: mi
+     *
      * @see https://en.wikipedia.org/wiki/Mile
+     *
      * @var int
      */
     public const FOOT_PER_MILE = 5280;
@@ -379,17 +453,20 @@ class ImperialLength
      * Mile unit symbol
      *
      * @see https://en.wikipedia.org/wiki/Mile
+     *
      * @var string
      */
     public const SYMBOL_MILE = 'mi';
-
 
     /**
      * League to Foot ratio
      *
      * Symbol: lea
      *
+     * Symbol: lea
+     *
      * @see https://en.wikipedia.org/wiki/League_(unit)
+     *
      * @var float
      */
     public const LEAGUE_PER_FOOT = 1 / 15840;
@@ -399,7 +476,10 @@ class ImperialLength
      *
      * Symbol: lea
      *
+     * Symbol: lea
+     *
      * @see https://en.wikipedia.org/wiki/League_(unit)
+     *
      * @var int
      */
     public const FOOT_PER_LEAGUE = 15840;
@@ -408,18 +488,20 @@ class ImperialLength
      * League unit symbol
      *
      * @see https://en.wikipedia.org/wiki/League_(unit)
+     *
      * @var string
      */
     public const SYMBOL_LEAGUE = 'lea';
-
 
     /**
      * Fathom to Foot ratio
      *
      * Nautical unit for measuring the depth of water.
+     *
      * Symbol: ftm
      *
      * @see https://en.wikipedia.org/wiki/Fathom
+     *
      * @var float
      */
     public const FATHOM_PER_FOOT = 1 / 6.0761;
@@ -428,9 +510,11 @@ class ImperialLength
      * Foot to Fathom ratio
      *
      * Nautical unit for measuring the depth of water.
+     *
      * Symbol: ftm
      *
      * @see https://en.wikipedia.org/wiki/Fathom
+     *
      * @var float
      */
     public const FOOT_PER_FATHOM = 6.0761;
@@ -441,18 +525,20 @@ class ImperialLength
      * Nautical unit for measuring the depth of water.
      *
      * @see https://en.wikipedia.org/wiki/Fathom
+     *
      * @var string
      */
     public const SYMBOL_FATHOM = 'ftm';
-
 
     /**
      * Cable to Foot ratio
      *
      * Nautical unit.
+     *
      * Symbol: -
      *
      * @see https://en.wikipedia.org/wiki/Cable_length
+     *
      * @var float
      */
     public const CABLE_PER_FOOT = 1 / 607.61;
@@ -461,21 +547,24 @@ class ImperialLength
      * Foot to Cable ratio
      *
      * Nautical unit.
+     *
      * Symbol: -
      *
      * @see https://en.wikipedia.org/wiki/Cable_length
+     *
      * @var float
      */
     public const FOOT_PER_CABLE = 607.61;
-
 
     /**
      * Nautical mile to Foot ratio
      *
      * Nautical unit.
+     *
      * Symbol: nmi
      *
      * @see https://en.wikipedia.org/wiki/Nautical_mile
+     *
      * @var float
      */
     public const NAUTICAL_MILE_PER_FOOT = 1 / 6076.1;
@@ -484,9 +573,11 @@ class ImperialLength
      * Foot to Nautical mile ratio
      *
      * Nautical unit.
+     *
      * Symbol: nmi
      *
      * @see https://en.wikipedia.org/wiki/Nautical_mile
+     *
      * @var float
      */
     public const FOOT_PER_NAUTICAL_MILE = 6076.1;
@@ -497,6 +588,7 @@ class ImperialLength
      * Nautical unit.
      *
      * @see https://en.wikipedia.org/wiki/Nautical_mile
+     *
      * @var string
      */
     public const SYMBOL_NAUTICAL_MILE = 'nmi';

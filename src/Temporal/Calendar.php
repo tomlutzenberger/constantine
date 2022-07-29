@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\Temporal;
 /**
  * Collection of calendar-related constants
  *
- * @see       https://en.wikipedia.org/wiki/Gregorian_calendar
+ * @see https://en.wikipedia.org/wiki/Gregorian_calendar
  *
  * @package   TomLutzenberger\Constantine\Temporal
  * @copyright 2021-2022 Tom Lutzenberger
@@ -111,9 +111,9 @@ class Calendar
      */
     public const DAYS_IN_DECEMBER = 31;
 
-
     /**
      * Numeric representation of Sunday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -124,6 +124,7 @@ class Calendar
 
     /**
      * Numeric representation of Monday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -134,6 +135,7 @@ class Calendar
 
     /**
      * Numeric representation of Tuesday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -144,6 +146,7 @@ class Calendar
 
     /**
      * Numeric representation of Wednesday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -154,6 +157,7 @@ class Calendar
 
     /**
      * Numeric representation of Thursday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -164,6 +168,7 @@ class Calendar
 
     /**
      * Numeric representation of Friday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -174,6 +179,7 @@ class Calendar
 
     /**
      * Numeric representation of Saturday
+     *
      * Corresponds with {@example DateTime::format('w')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -182,9 +188,9 @@ class Calendar
      */
     public const INDEX_SATURDAY = 6;
 
-
     /**
      * Numeric representation of January
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -195,6 +201,7 @@ class Calendar
 
     /**
      * Numeric representation of February
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -205,6 +212,7 @@ class Calendar
 
     /**
      * Numeric representation of March
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -215,6 +223,7 @@ class Calendar
 
     /**
      * Numeric representation of April
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -225,6 +234,7 @@ class Calendar
 
     /**
      * Numeric representation of May
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -235,6 +245,7 @@ class Calendar
 
     /**
      * Numeric representation of June
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -245,6 +256,7 @@ class Calendar
 
     /**
      * Numeric representation of July
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -255,6 +267,7 @@ class Calendar
 
     /**
      * Numeric representation of August
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -265,6 +278,7 @@ class Calendar
 
     /**
      * Numeric representation of September
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -275,6 +289,7 @@ class Calendar
 
     /**
      * Numeric representation of October
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -285,6 +300,7 @@ class Calendar
 
     /**
      * Numeric representation of November
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php
@@ -295,6 +311,7 @@ class Calendar
 
     /**
      * Numeric representation of December
+     *
      * Corresponds with {@example DateTime::format('n')}
      *
      * @see https://www.php.net/manual/en/datetime.format.php

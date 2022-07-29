@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\I18N;
 /**
  * Collection of official ISO 4217 currencies and their units
  *
- * @see       https://en.wikipedia.org/wiki/ISO_4217
+ * @see https://en.wikipedia.org/wiki/ISO_4217
  *
  * @package   TomLutzenberger\Constantine\I18N
  * @copyright 2021-2022 Tom Lutzenberger
@@ -50,10 +50,12 @@ class Currency
      * @var int
      */
     public const DIGITS_AED = 2;
+
     /**
      * Short name for currency AED
      *
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AED = 'Dirham';
@@ -62,6 +64,7 @@ class Currency
      * Short name of minor unit for currency AED
      *
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AED = 'Fils';
@@ -70,6 +73,7 @@ class Currency
      * Symbol for currency AED
      *
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AED = 'د.إ';
@@ -78,6 +82,7 @@ class Currency
      * Symbol of minor unit for currency AED
      *
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_AED = 'فلس';
@@ -86,10 +91,10 @@ class Currency
      * Symbol of minor unit for currency AED
      *
      * @see https://en.wikipedia.org/wiki/United_Arab_Emirates_dirham
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AED = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Afghan afghani
@@ -126,6 +131,7 @@ class Currency
      * Short name for currency AFN
      *
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AFN = 'Afghani';
@@ -135,6 +141,7 @@ class Currency
      *
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
      * @see https://en.wikipedia.org/wiki/Afghan_pul
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AFN = 'Pul';
@@ -143,6 +150,7 @@ class Currency
      * Symbol for currency AFN
      *
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AFN = '؋';
@@ -152,8 +160,8 @@ class Currency
      *
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
      * @see https://en.wikipedia.org/wiki/Afghan_pul
+     *
      * @var string
-     * TODO: To be figured out
      */
     public const MINOR_UNIT_SYMBOL_AFN = '';
 
@@ -161,10 +169,10 @@ class Currency
      * Symbol of minor unit for currency AFN
      *
      * @see https://en.wikipedia.org/wiki/Afghan_afghani
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AFN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Albanian lek
@@ -201,6 +209,7 @@ class Currency
      * Short name for currency ALL
      *
      * @see https://en.wikipedia.org/wiki/Albanian_lek
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ALL = 'lek';
@@ -209,6 +218,7 @@ class Currency
      * Short name of minor unit for currency ALL
      *
      * @see https://en.wikipedia.org/wiki/Albanian_lek
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ALL = 'qindarkë';
@@ -217,6 +227,7 @@ class Currency
      * Symbol for currency ALL
      *
      * @see https://en.wikipedia.org/wiki/Albanian_lek
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ALL = 'L';
@@ -225,8 +236,8 @@ class Currency
      * Symbol of minor unit for currency ALL
      *
      * @see https://en.wikipedia.org/wiki/Albanian_lek
+     *
      * @var string
-     * TODO
      */
     public const MINOR_UNIT_SYMBOL_ALL = '';
 
@@ -234,10 +245,10 @@ class Currency
      * Symbol of minor unit for currency ALL
      *
      * @see https://en.wikipedia.org/wiki/Albanian_lek
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ALL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Armenian dram
@@ -274,6 +285,7 @@ class Currency
      * Short name for currency AMD
      *
      * @see https://en.wikipedia.org/wiki/Armenian_dram
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AMD = 'dram';
@@ -282,6 +294,7 @@ class Currency
      * Short name of minor unit for currency AMD
      *
      * @see https://en.wikipedia.org/wiki/Armenian_dram
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AMD = 'luma';
@@ -290,6 +303,7 @@ class Currency
      * Symbol for currency AMD
      *
      * @see https://en.wikipedia.org/wiki/Armenian_dram
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AMD = '֏';
@@ -298,8 +312,8 @@ class Currency
      * Symbol of minor unit for currency AMD
      *
      * @see https://en.wikipedia.org/wiki/Armenian_dram
+     *
      * @var string
-     * TODO
      */
     public const MINOR_UNIT_SYMBOL_AMD = '';
 
@@ -307,10 +321,10 @@ class Currency
      * Symbol of minor unit for currency AMD
      *
      * @see https://en.wikipedia.org/wiki/Armenian_dram
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AMD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Netherlands Antillean guilder
@@ -348,6 +362,7 @@ class Currency
      * Short name for currency ANG
      *
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ANG = 'guilder';
@@ -356,6 +371,7 @@ class Currency
      * Short name of minor unit for currency ANG
      *
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ANG = 'cent';
@@ -364,6 +380,7 @@ class Currency
      * Symbol for currency ANG
      *
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ANG = 'ƒ';
@@ -372,8 +389,8 @@ class Currency
      * Symbol of minor unit for currency ANG
      *
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
+     *
      * @var string
-     * TODO
      */
     public const MINOR_UNIT_SYMBOL_ANG = '';
 
@@ -381,10 +398,10 @@ class Currency
      * Symbol of minor unit for currency ANG
      *
      * @see https://en.wikipedia.org/wiki/Netherlands_Antillean_guilder
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ANG = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Angolan kwanza
@@ -421,6 +438,7 @@ class Currency
      * Short name for currency AOA
      *
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AOA = 'kwanza';
@@ -429,6 +447,7 @@ class Currency
      * Short name of minor unit for currency AOA
      *
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AOA = 'cêntimo';
@@ -437,6 +456,7 @@ class Currency
      * Symbol for currency AOA
      *
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AOA = 'Kz';
@@ -445,8 +465,8 @@ class Currency
      * Symbol of minor unit for currency AOA
      *
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
+     *
      * @var string
-     * TODO
      */
     public const MINOR_UNIT_SYMBOL_AOA = '';
 
@@ -454,10 +474,10 @@ class Currency
      * Symbol of minor unit for currency AOA
      *
      * @see https://en.wikipedia.org/wiki/Angolan_kwanza
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AOA = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Argentine peso
@@ -494,6 +514,7 @@ class Currency
      * Short name for currency ARS
      *
      * @see https://en.wikipedia.org/wiki/Argentine_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ARS = 'peso';
@@ -502,6 +523,7 @@ class Currency
      * Short name of minor unit for currency ARS
      *
      * @see https://en.wikipedia.org/wiki/Argentine_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ARS = 'centavo';
@@ -510,6 +532,7 @@ class Currency
      * Symbol for currency ARS
      *
      * @see https://en.wikipedia.org/wiki/Argentine_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ARS = '$';
@@ -518,6 +541,7 @@ class Currency
      * Symbol of minor unit for currency ARS
      *
      * @see https://en.wikipedia.org/wiki/Argentine_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ARS = '';
@@ -526,10 +550,10 @@ class Currency
      * Symbol of minor unit for currency ARS
      *
      * @see https://en.wikipedia.org/wiki/Argentine_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ARS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Australian dollar
@@ -573,6 +597,7 @@ class Currency
      * Short name for currency AUD
      *
      * @see https://en.wikipedia.org/wiki/Australian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AUD = 'Australian dollar';
@@ -581,6 +606,7 @@ class Currency
      * Short name of minor unit for currency AUD
      *
      * @see https://en.wikipedia.org/wiki/Australian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AUD = 'cent';
@@ -589,6 +615,7 @@ class Currency
      * Symbol for currency AUD
      *
      * @see https://en.wikipedia.org/wiki/Australian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AUD = '$';
@@ -597,6 +624,7 @@ class Currency
      * Symbol of minor unit for currency AUD
      *
      * @see https://en.wikipedia.org/wiki/Australian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_AUD = 'c';
@@ -605,10 +633,10 @@ class Currency
      * Symbol of minor unit for currency AUD
      *
      * @see https://en.wikipedia.org/wiki/Australian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AUD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Aruban florin
@@ -645,6 +673,7 @@ class Currency
      * Short name for currency AWG
      *
      * @see https://en.wikipedia.org/wiki/Aruban_florin
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AWG = 'florin';
@@ -653,6 +682,7 @@ class Currency
      * Short name of minor unit for currency AWG
      *
      * @see https://en.wikipedia.org/wiki/Aruban_florin
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AWG = 'cent';
@@ -661,6 +691,7 @@ class Currency
      * Symbol for currency AWG
      *
      * @see https://en.wikipedia.org/wiki/Aruban_florin
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AWG = 'ƒ';
@@ -669,6 +700,7 @@ class Currency
      * Symbol of minor unit for currency AWG
      *
      * @see https://en.wikipedia.org/wiki/Aruban_florin
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_AWG = '';
@@ -677,10 +709,10 @@ class Currency
      * Symbol of minor unit for currency AWG
      *
      * @see https://en.wikipedia.org/wiki/Aruban_florin
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AWG = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Azerbaijani manat
@@ -717,6 +749,7 @@ class Currency
      * Short name for currency AZN
      *
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_AZN = 'manat';
@@ -725,6 +758,7 @@ class Currency
      * Short name of minor unit for currency AZN
      *
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_AZN = 'qəpik';
@@ -733,6 +767,7 @@ class Currency
      * Symbol for currency AZN
      *
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_AZN = '₼';
@@ -741,6 +776,7 @@ class Currency
      * Symbol of minor unit for currency AZN
      *
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_AZN = '';
@@ -749,10 +785,10 @@ class Currency
      * Symbol of minor unit for currency AZN
      *
      * @see https://en.wikipedia.org/wiki/Azerbaijani_manat
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_AZN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bosnia and Herzegovina convertible mark
@@ -789,6 +825,7 @@ class Currency
      * Short name for currency BAM
      *
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BAM = 'mark';
@@ -797,6 +834,7 @@ class Currency
      * Short name of minor unit for currency BAM
      *
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BAM = 'pfenig';
@@ -805,6 +843,7 @@ class Currency
      * Symbol for currency BAM
      *
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BAM = 'KM';
@@ -813,6 +852,7 @@ class Currency
      * Symbol of minor unit for currency BAM
      *
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BAM = 'pf';
@@ -821,10 +861,10 @@ class Currency
      * Symbol of minor unit for currency BAM
      *
      * @see https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_convertible_mark
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BAM = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Barbados dollar
@@ -861,6 +901,7 @@ class Currency
      * Short name for currency BBD
      *
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BBD = 'dollar';
@@ -869,6 +910,7 @@ class Currency
      * Short name of minor unit for currency BBD
      *
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BBD = 'cent';
@@ -877,6 +919,7 @@ class Currency
      * Symbol for currency BBD
      *
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BBD = '$';
@@ -885,6 +928,7 @@ class Currency
      * Symbol of minor unit for currency BBD
      *
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BBD = 'c';
@@ -893,10 +937,10 @@ class Currency
      * Symbol of minor unit for currency BBD
      *
      * @see https://en.wikipedia.org/wiki/Barbadian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BBD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bangladeshi taka
@@ -933,6 +977,7 @@ class Currency
      * Short name for currency BDT
      *
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BDT = 'taka';
@@ -941,6 +986,7 @@ class Currency
      * Short name of minor unit for currency BDT
      *
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BDT = 'poysha';
@@ -949,6 +995,7 @@ class Currency
      * Symbol for currency BDT
      *
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BDT = '৳';
@@ -957,6 +1004,7 @@ class Currency
      * Symbol of minor unit for currency BDT
      *
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BDT = 'p';
@@ -965,10 +1013,10 @@ class Currency
      * Symbol of minor unit for currency BDT
      *
      * @see https://en.wikipedia.org/wiki/Bangladeshi_taka
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BDT = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bulgarian lev
@@ -1005,6 +1053,7 @@ class Currency
      * Short name for currency BGN
      *
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BGN = 'lev';
@@ -1013,6 +1062,7 @@ class Currency
      * Short name of minor unit for currency BGN
      *
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BGN = 'stotinka';
@@ -1021,6 +1071,7 @@ class Currency
      * Symbol for currency BGN
      *
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BGN = 'лв';
@@ -1029,6 +1080,7 @@ class Currency
      * Symbol of minor unit for currency BGN
      *
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BGN = '';
@@ -1037,10 +1089,10 @@ class Currency
      * Symbol of minor unit for currency BGN
      *
      * @see https://en.wikipedia.org/wiki/Bulgarian_lev
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BGN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bahraini dinar
@@ -1077,6 +1129,7 @@ class Currency
      * Short name for currency BHD
      *
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BHD = 'dinar';
@@ -1085,6 +1138,7 @@ class Currency
      * Short name of minor unit for currency BHD
      *
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BHD = 'fils';
@@ -1093,6 +1147,7 @@ class Currency
      * Symbol for currency BHD
      *
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BHD = '.د.ب';
@@ -1101,6 +1156,7 @@ class Currency
      * Symbol of minor unit for currency BHD
      *
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BHD = '';
@@ -1109,10 +1165,10 @@ class Currency
      * Symbol of minor unit for currency BHD
      *
      * @see https://en.wikipedia.org/wiki/Bahraini_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BHD = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Burundian franc
@@ -1149,6 +1205,7 @@ class Currency
      * Short name for currency BIF
      *
      * @see https://en.wikipedia.org/wiki/Burundian_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BIF = 'franc';
@@ -1157,6 +1214,7 @@ class Currency
      * Short name of minor unit for currency BIF
      *
      * @see https://en.wikipedia.org/wiki/Burundian_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BIF = 'centime';
@@ -1165,6 +1223,7 @@ class Currency
      * Symbol for currency BIF
      *
      * @see https://en.wikipedia.org/wiki/Burundian_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BIF = 'FBu';
@@ -1173,6 +1232,7 @@ class Currency
      * Symbol of minor unit for currency BIF
      *
      * @see https://en.wikipedia.org/wiki/Burundian_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BIF = '';
@@ -1181,10 +1241,10 @@ class Currency
      * Symbol of minor unit for currency BIF
      *
      * @see https://en.wikipedia.org/wiki/Burundian_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BIF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bermudian dollar
@@ -1221,6 +1281,7 @@ class Currency
      * Short name for currency BMD
      *
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BMD = 'Bermudian dollar';
@@ -1229,6 +1290,7 @@ class Currency
      * Short name of minor unit for currency BMD
      *
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BMD = 'cent';
@@ -1237,6 +1299,7 @@ class Currency
      * Symbol for currency BMD
      *
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BMD = '$';
@@ -1245,6 +1308,7 @@ class Currency
      * Symbol of minor unit for currency BMD
      *
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BMD = 'cent';
@@ -1253,10 +1317,10 @@ class Currency
      * Symbol of minor unit for currency BMD
      *
      * @see https://en.wikipedia.org/wiki/Bermudian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BMD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Brunei dollar
@@ -1293,6 +1357,7 @@ class Currency
      * Short name for currency BND
      *
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BND = 'Brunei dollar';
@@ -1301,6 +1366,7 @@ class Currency
      * Short name of minor unit for currency BND
      *
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BND = 'sen';
@@ -1309,6 +1375,7 @@ class Currency
      * Symbol for currency BND
      *
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BND = 'B$';
@@ -1317,6 +1384,7 @@ class Currency
      * Symbol of minor unit for currency BND
      *
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BND = '';
@@ -1325,10 +1393,10 @@ class Currency
      * Symbol of minor unit for currency BND
      *
      * @see https://en.wikipedia.org/wiki/Brunei_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BND = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Boliviano
@@ -1365,6 +1433,7 @@ class Currency
      * Short name for currency BOB
      *
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BOB = 'boliviano';
@@ -1373,6 +1442,7 @@ class Currency
      * Short name of minor unit for currency BOB
      *
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BOB = 'centavo';
@@ -1381,6 +1451,7 @@ class Currency
      * Symbol for currency BOB
      *
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BOB = 'Bs';
@@ -1389,6 +1460,7 @@ class Currency
      * Symbol of minor unit for currency BOB
      *
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BOB = 'c.';
@@ -1397,10 +1469,10 @@ class Currency
      * Symbol of minor unit for currency BOB
      *
      * @see https://en.wikipedia.org/wiki/Bolivian_boliviano
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BOB = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Brazilian real
@@ -1437,6 +1509,7 @@ class Currency
      * Short name for currency BRL
      *
      * @see https://en.wikipedia.org/wiki/Brazilian_real
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BRL = 'real';
@@ -1445,6 +1518,7 @@ class Currency
      * Short name of minor unit for currency BRL
      *
      * @see https://en.wikipedia.org/wiki/Brazilian_real
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BRL = 'centavo';
@@ -1453,6 +1527,7 @@ class Currency
      * Symbol for currency BRL
      *
      * @see https://en.wikipedia.org/wiki/Brazilian_real
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BRL = 'R$';
@@ -1461,6 +1536,7 @@ class Currency
      * Symbol of minor unit for currency BRL
      *
      * @see https://en.wikipedia.org/wiki/Brazilian_real
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BRL = '';
@@ -1469,10 +1545,10 @@ class Currency
      * Symbol of minor unit for currency BRL
      *
      * @see https://en.wikipedia.org/wiki/Brazilian_real
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BRL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bahamian dollar
@@ -1509,6 +1585,7 @@ class Currency
      * Short name for currency BSD
      *
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BSD = 'dollar';
@@ -1517,6 +1594,7 @@ class Currency
      * Short name of minor unit for currency BSD
      *
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BSD = 'cent';
@@ -1525,6 +1603,7 @@ class Currency
      * Symbol for currency BSD
      *
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BSD = 'B$';
@@ -1533,6 +1612,7 @@ class Currency
      * Symbol of minor unit for currency BSD
      *
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BSD = '';
@@ -1541,10 +1621,10 @@ class Currency
      * Symbol of minor unit for currency BSD
      *
      * @see https://en.wikipedia.org/wiki/Bahamian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BSD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Bhutanese ngultrum
@@ -1581,6 +1661,7 @@ class Currency
      * Short name for currency BTN
      *
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BTN = 'ngultrum';
@@ -1589,6 +1670,7 @@ class Currency
      * Short name of minor unit for currency BTN
      *
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BTN = 'chhertum';
@@ -1597,6 +1679,7 @@ class Currency
      * Symbol for currency BTN
      *
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BTN = 'Nu.';
@@ -1605,6 +1688,7 @@ class Currency
      * Symbol of minor unit for currency BTN
      *
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BTN = 'Ch.';
@@ -1613,10 +1697,10 @@ class Currency
      * Symbol of minor unit for currency BTN
      *
      * @see https://en.wikipedia.org/wiki/Bhutanese_ngultrum
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BTN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Botswana pula
@@ -1653,6 +1737,7 @@ class Currency
      * Short name for currency BWP
      *
      * @see https://en.wikipedia.org/wiki/Botswana_pula
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BWP = 'pula';
@@ -1661,6 +1746,7 @@ class Currency
      * Short name of minor unit for currency BWP
      *
      * @see https://en.wikipedia.org/wiki/Botswana_pula
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BWP = 'thebe';
@@ -1669,6 +1755,7 @@ class Currency
      * Symbol for currency BWP
      *
      * @see https://en.wikipedia.org/wiki/Botswana_pula
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BWP = 'P';
@@ -1677,6 +1764,7 @@ class Currency
      * Symbol of minor unit for currency BWP
      *
      * @see https://en.wikipedia.org/wiki/Botswana_pula
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BWP = '';
@@ -1685,10 +1773,10 @@ class Currency
      * Symbol of minor unit for currency BWP
      *
      * @see https://en.wikipedia.org/wiki/Botswana_pula
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BWP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Belarusian ruble
@@ -1725,6 +1813,7 @@ class Currency
      * Short name for currency BYN
      *
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BYN = 'ruble';
@@ -1733,6 +1822,7 @@ class Currency
      * Short name of minor unit for currency BYN
      *
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BYN = 'kapiejka';
@@ -1741,6 +1831,7 @@ class Currency
      * Symbol for currency BYN
      *
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BYN = 'Br';
@@ -1749,6 +1840,7 @@ class Currency
      * Symbol of minor unit for currency BYN
      *
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BYN = '';
@@ -1757,10 +1849,10 @@ class Currency
      * Symbol of minor unit for currency BYN
      *
      * @see https://en.wikipedia.org/wiki/Belarusian_ruble
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BYN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Belize dollar
@@ -1797,6 +1889,7 @@ class Currency
      * Short name for currency BZD
      *
      * @see https://en.wikipedia.org/wiki/Belize_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_BZD = 'Belize dollar';
@@ -1805,6 +1898,7 @@ class Currency
      * Short name of minor unit for currency BZD
      *
      * @see https://en.wikipedia.org/wiki/Belize_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_BZD = 'cent';
@@ -1813,6 +1907,7 @@ class Currency
      * Symbol for currency BZD
      *
      * @see https://en.wikipedia.org/wiki/Belize_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_BZD = '$';
@@ -1821,6 +1916,7 @@ class Currency
      * Symbol of minor unit for currency BZD
      *
      * @see https://en.wikipedia.org/wiki/Belize_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_BZD = '';
@@ -1829,10 +1925,10 @@ class Currency
      * Symbol of minor unit for currency BZD
      *
      * @see https://en.wikipedia.org/wiki/Belize_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_BZD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Canadian dollar
@@ -1869,6 +1965,7 @@ class Currency
      * Short name for currency CAD
      *
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CAD = 'Canadian dollar';
@@ -1877,6 +1974,7 @@ class Currency
      * Short name of minor unit for currency CAD
      *
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CAD = 'Cent';
@@ -1885,6 +1983,7 @@ class Currency
      * Symbol for currency CAD
      *
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CAD = '$';
@@ -1893,6 +1992,7 @@ class Currency
      * Symbol of minor unit for currency CAD
      *
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CAD = '¢';
@@ -1901,10 +2001,10 @@ class Currency
      * Symbol of minor unit for currency CAD
      *
      * @see https://en.wikipedia.org/wiki/Canadian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CAD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Congolese franc
@@ -1941,6 +2041,7 @@ class Currency
      * Short name for currency CDF
      *
      * @see https://en.wikipedia.org/wiki/Congolese_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CDF = 'Congolese franc';
@@ -1949,6 +2050,7 @@ class Currency
      * Short name of minor unit for currency CDF
      *
      * @see https://en.wikipedia.org/wiki/Congolese_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CDF = 'centime';
@@ -1957,6 +2059,7 @@ class Currency
      * Symbol for currency CDF
      *
      * @see https://en.wikipedia.org/wiki/Congolese_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CDF = 'FC';
@@ -1965,6 +2068,7 @@ class Currency
      * Symbol of minor unit for currency CDF
      *
      * @see https://en.wikipedia.org/wiki/Congolese_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CDF = '';
@@ -1973,10 +2077,10 @@ class Currency
      * Symbol of minor unit for currency CDF
      *
      * @see https://en.wikipedia.org/wiki/Congolese_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CDF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Swiss franc
@@ -2014,6 +2118,7 @@ class Currency
      * Short name for currency CHF
      *
      * @see https://en.wikipedia.org/wiki/Swiss_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CHF = 'Franken';
@@ -2022,6 +2127,7 @@ class Currency
      * Short name of minor unit for currency CHF
      *
      * @see https://en.wikipedia.org/wiki/Swiss_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CHF = 'Rappen';
@@ -2030,6 +2136,7 @@ class Currency
      * Symbol for currency CHF
      *
      * @see https://en.wikipedia.org/wiki/Swiss_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CHF = 'Fr.';
@@ -2038,6 +2145,7 @@ class Currency
      * Symbol of minor unit for currency CHF
      *
      * @see https://en.wikipedia.org/wiki/Swiss_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CHF = 'Rp.';
@@ -2046,10 +2154,10 @@ class Currency
      * Symbol of minor unit for currency CHF
      *
      * @see https://en.wikipedia.org/wiki/Swiss_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CHF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Chilean peso
@@ -2086,6 +2194,7 @@ class Currency
      * Short name for currency CLP
      *
      * @see https://en.wikipedia.org/wiki/Chilean_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CLP = 'peso';
@@ -2094,6 +2203,7 @@ class Currency
      * Short name of minor unit for currency CLP
      *
      * @see https://en.wikipedia.org/wiki/Chilean_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CLP = 'centavo';
@@ -2102,6 +2212,7 @@ class Currency
      * Symbol for currency CLP
      *
      * @see https://en.wikipedia.org/wiki/Chilean_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CLP = '$';
@@ -2110,6 +2221,7 @@ class Currency
      * Symbol of minor unit for currency CLP
      *
      * @see https://en.wikipedia.org/wiki/Chilean_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CLP = '';
@@ -2118,10 +2230,10 @@ class Currency
      * Symbol of minor unit for currency CLP
      *
      * @see https://en.wikipedia.org/wiki/Chilean_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CLP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Chinese yuan
@@ -2158,6 +2270,7 @@ class Currency
      * Short name for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CNY = 'yuán';
@@ -2166,6 +2279,7 @@ class Currency
      * Short name of minor unit for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CNY = 'jiǎo';
@@ -2174,6 +2288,7 @@ class Currency
      * Short name of sub-minor unit for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var string
      */
     public const SUB_MINOR_UNIT_NAME_CNY = 'fēn';
@@ -2182,6 +2297,7 @@ class Currency
      * Symbol for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CNY = '元';
@@ -2190,6 +2306,7 @@ class Currency
      * Symbol of minor unit for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CNY = '角';
@@ -2198,6 +2315,7 @@ class Currency
      * Symbol of sub-minor unit for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var string
      */
     public const SUB_MINOR_UNIT_SYMBOL_CNY = '分';
@@ -2206,6 +2324,7 @@ class Currency
      * Symbol of minor unit for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CNY = 1 / 10;
@@ -2214,10 +2333,10 @@ class Currency
      * Symbol of sub-minor unit for currency CNY
      *
      * @see https://en.wikipedia.org/wiki/Renminbi
+     *
      * @var float
      */
     public const SUB_MINOR_UNIT_RATIO_CNY = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Colombian peso
@@ -2254,6 +2373,7 @@ class Currency
      * Short name for currency COP
      *
      * @see https://en.wikipedia.org/wiki/Colombian_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_COP = 'peso';
@@ -2262,6 +2382,7 @@ class Currency
      * Short name of minor unit for currency COP
      *
      * @see https://en.wikipedia.org/wiki/Colombian_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_COP = 'centavo';
@@ -2270,6 +2391,7 @@ class Currency
      * Symbol for currency COP
      *
      * @see https://en.wikipedia.org/wiki/Colombian_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_COP = '$';
@@ -2278,6 +2400,7 @@ class Currency
      * Symbol of minor unit for currency COP
      *
      * @see https://en.wikipedia.org/wiki/Colombian_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_COP = '';
@@ -2286,10 +2409,10 @@ class Currency
      * Symbol of minor unit for currency COP
      *
      * @see https://en.wikipedia.org/wiki/Colombian_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_COP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Costa Rican colon
@@ -2326,6 +2449,7 @@ class Currency
      * Short name for currency CRC
      *
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CRC = 'colón';
@@ -2334,6 +2458,7 @@ class Currency
      * Short name of minor unit for currency CRC
      *
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CRC = 'céntimo'; // NOSONAR - php:S1192
@@ -2342,6 +2467,7 @@ class Currency
      * Symbol for currency CRC
      *
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CRC = '₡';
@@ -2350,6 +2476,7 @@ class Currency
      * Symbol of minor unit for currency CRC
      *
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CRC = '';
@@ -2358,10 +2485,10 @@ class Currency
      * Symbol of minor unit for currency CRC
      *
      * @see https://en.wikipedia.org/wiki/Costa_Rican_col%C3%B3n
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CRC = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Cuban convertible peso
@@ -2398,6 +2525,7 @@ class Currency
      * Short name for currency CUC
      *
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CUC = 'convertible peso';
@@ -2406,6 +2534,7 @@ class Currency
      * Short name of minor unit for currency CUC
      *
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CUC = 'centavo convertible';
@@ -2414,6 +2543,7 @@ class Currency
      * Symbol for currency CUC
      *
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CUC = '$';
@@ -2422,6 +2552,7 @@ class Currency
      * Symbol of minor unit for currency CUC
      *
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CUC = '¢';
@@ -2430,10 +2561,10 @@ class Currency
      * Symbol of minor unit for currency CUC
      *
      * @see https://en.wikipedia.org/wiki/Cuban_convertible_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CUC = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Cuban peso
@@ -2470,6 +2601,7 @@ class Currency
      * Short name for currency CUP
      *
      * @see https://en.wikipedia.org/wiki/Cuban_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CUP = 'Cuban Peso';
@@ -2478,6 +2610,7 @@ class Currency
      * Short name of minor unit for currency CUP
      *
      * @see https://en.wikipedia.org/wiki/Cuban_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CUP = 'centavo';
@@ -2486,6 +2619,7 @@ class Currency
      * Symbol for currency CUP
      *
      * @see https://en.wikipedia.org/wiki/Cuban_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CUP = '₱';
@@ -2494,6 +2628,7 @@ class Currency
      * Symbol of minor unit for currency CUP
      *
      * @see https://en.wikipedia.org/wiki/Cuban_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CUP = '¢';
@@ -2502,10 +2637,10 @@ class Currency
      * Symbol of minor unit for currency CUP
      *
      * @see https://en.wikipedia.org/wiki/Cuban_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CUP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Cape Verdean escudo
@@ -2542,6 +2677,7 @@ class Currency
      * Short name for currency CVE
      *
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CVE = 'escudo';
@@ -2550,6 +2686,7 @@ class Currency
      * Short name of minor unit for currency CVE
      *
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CVE = 'centavo';
@@ -2558,6 +2695,7 @@ class Currency
      * Symbol for currency CVE
      *
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CVE = '$';
@@ -2566,6 +2704,7 @@ class Currency
      * Symbol of minor unit for currency CVE
      *
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CVE = '';
@@ -2574,10 +2713,10 @@ class Currency
      * Symbol of minor unit for currency CVE
      *
      * @see https://en.wikipedia.org/wiki/Cape_Verdean_escudo
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CVE = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Czech koruna
@@ -2614,6 +2753,7 @@ class Currency
      * Short name for currency CZK
      *
      * @see https://en.wikipedia.org/wiki/Czech_koruna
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_CZK = 'koruna';
@@ -2622,6 +2762,7 @@ class Currency
      * Short name of minor unit for currency CZK
      *
      * @see https://en.wikipedia.org/wiki/Czech_koruna
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_CZK = 'haléř';
@@ -2630,6 +2771,7 @@ class Currency
      * Symbol for currency CZK
      *
      * @see https://en.wikipedia.org/wiki/Czech_koruna
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_CZK = 'Kč';
@@ -2638,6 +2780,7 @@ class Currency
      * Symbol of minor unit for currency CZK
      *
      * @see https://en.wikipedia.org/wiki/Czech_koruna
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_CZK = 'h';
@@ -2646,10 +2789,10 @@ class Currency
      * Symbol of minor unit for currency CZK
      *
      * @see https://en.wikipedia.org/wiki/Czech_koruna
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_CZK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Djiboutian franc
@@ -2686,6 +2829,7 @@ class Currency
      * Short name for currency DJF
      *
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_DJF = 'Djiboutian franc';
@@ -2694,6 +2838,7 @@ class Currency
      * Short name of minor unit for currency DJF
      *
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_DJF = 'centime';
@@ -2702,6 +2847,7 @@ class Currency
      * Symbol for currency DJF
      *
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_DJF = 'Fdj';
@@ -2710,6 +2856,7 @@ class Currency
      * Symbol of minor unit for currency DJF
      *
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_DJF = '';
@@ -2718,10 +2865,10 @@ class Currency
      * Symbol of minor unit for currency DJF
      *
      * @see https://en.wikipedia.org/wiki/Djiboutian_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_DJF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Danish krone
@@ -2760,6 +2907,7 @@ class Currency
      * Short name for currency DKK
      *
      * @see https://en.wikipedia.org/wiki/Danish_krone
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_DKK = 'krone';
@@ -2768,6 +2916,7 @@ class Currency
      * Short name of minor unit for currency DKK
      *
      * @see https://en.wikipedia.org/wiki/Danish_krone
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_DKK = 'øre';
@@ -2776,6 +2925,7 @@ class Currency
      * Symbol for currency DKK
      *
      * @see https://en.wikipedia.org/wiki/Danish_krone
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_DKK = 'kr.';
@@ -2784,6 +2934,7 @@ class Currency
      * Symbol of minor unit for currency DKK
      *
      * @see https://en.wikipedia.org/wiki/Danish_krone
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_DKK = '';
@@ -2792,10 +2943,10 @@ class Currency
      * Symbol of minor unit for currency DKK
      *
      * @see https://en.wikipedia.org/wiki/Danish_krone
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_DKK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Dominican peso
@@ -2832,6 +2983,7 @@ class Currency
      * Short name for currency DOP
      *
      * @see https://en.wikipedia.org/wiki/Dominican_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_DOP = 'Peso dominicano';
@@ -2840,6 +2992,7 @@ class Currency
      * Short name of minor unit for currency DOP
      *
      * @see https://en.wikipedia.org/wiki/Dominican_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_DOP = 'centavo';
@@ -2848,6 +3001,7 @@ class Currency
      * Symbol for currency DOP
      *
      * @see https://en.wikipedia.org/wiki/Dominican_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_DOP = '$';
@@ -2856,6 +3010,7 @@ class Currency
      * Symbol of minor unit for currency DOP
      *
      * @see https://en.wikipedia.org/wiki/Dominican_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_DOP = '';
@@ -2864,10 +3019,10 @@ class Currency
      * Symbol of minor unit for currency DOP
      *
      * @see https://en.wikipedia.org/wiki/Dominican_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_DOP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Algerian dinar
@@ -2904,6 +3059,7 @@ class Currency
      * Short name for currency DZD
      *
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_DZD = 'dinar';
@@ -2912,6 +3068,7 @@ class Currency
      * Short name of minor unit for currency DZD
      *
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_DZD = 'centime';
@@ -2920,6 +3077,7 @@ class Currency
      * Symbol for currency DZD
      *
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_DZD = 'دج';
@@ -2928,6 +3086,7 @@ class Currency
      * Symbol of minor unit for currency DZD
      *
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_DZD = '';
@@ -2936,10 +3095,10 @@ class Currency
      * Symbol of minor unit for currency DZD
      *
      * @see https://en.wikipedia.org/wiki/Algerian_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_DZD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Egyptian pound
@@ -2976,6 +3135,7 @@ class Currency
      * Short name for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_EGP = 'Pound';
@@ -2984,6 +3144,7 @@ class Currency
      * Short name of minor unit for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_EGP = 'Piastre';
@@ -2992,6 +3153,7 @@ class Currency
      * Short name of sub-minor unit for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var string
      */
     public const SUB_MINOR_UNIT_NAME_EGP = 'Millieme';
@@ -3000,6 +3162,7 @@ class Currency
      * Symbol for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_EGP = '£';
@@ -3008,6 +3171,7 @@ class Currency
      * Symbol of minor unit for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_EGP = 'pt.';
@@ -3016,6 +3180,7 @@ class Currency
      * Symbol of sub-minor unit for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var string
      */
     public const SUB_MINOR_UNIT_SYMBOL_EGP = '';
@@ -3024,6 +3189,7 @@ class Currency
      * Symbol of minor unit for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_EGP = 1 / 100;
@@ -3032,10 +3198,10 @@ class Currency
      * Symbol of sub-minor unit for currency EGP
      *
      * @see https://en.wikipedia.org/wiki/Egyptian_pound
+     *
      * @var float
      */
     public const SUB_MINOR_UNIT_RATIO_EGP = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Eritrean nakfa
@@ -3072,6 +3238,7 @@ class Currency
      * Short name for currency ERN
      *
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ERN = 'nakfa';
@@ -3080,6 +3247,7 @@ class Currency
      * Short name of minor unit for currency ERN
      *
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ERN = 'cent';
@@ -3088,6 +3256,7 @@ class Currency
      * Symbol for currency ERN
      *
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ERN = 'Nkf';
@@ -3096,6 +3265,7 @@ class Currency
      * Symbol of minor unit for currency ERN
      *
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ERN = '';
@@ -3104,10 +3274,10 @@ class Currency
      * Symbol of minor unit for currency ERN
      *
      * @see https://en.wikipedia.org/wiki/Eritrean_nakfa
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ERN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Ethiopian birr
@@ -3144,6 +3314,7 @@ class Currency
      * Short name for currency ETB
      *
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ETB = 'birr';
@@ -3152,6 +3323,7 @@ class Currency
      * Short name of minor unit for currency ETB
      *
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ETB = 'santim';
@@ -3160,6 +3332,7 @@ class Currency
      * Symbol for currency ETB
      *
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ETB = 'Br';
@@ -3168,6 +3341,7 @@ class Currency
      * Symbol of minor unit for currency ETB
      *
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ETB = '';
@@ -3176,10 +3350,10 @@ class Currency
      * Symbol of minor unit for currency ETB
      *
      * @see https://en.wikipedia.org/wiki/Ethiopian_birr
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ETB = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Euro
@@ -3245,10 +3419,12 @@ class Currency
      * @var int
      */
     public const DIGITS_EUR = 2;
+
     /**
      * Short name for currency EUR
      *
      * @see https://en.wikipedia.org/wiki/Euro
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_EUR = 'Euro';
@@ -3257,6 +3433,7 @@ class Currency
      * Short name of minor unit for currency EUR
      *
      * @see https://en.wikipedia.org/wiki/Euro
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_EUR = 'cent';
@@ -3265,6 +3442,7 @@ class Currency
      * Symbol for currency EUR
      *
      * @see https://en.wikipedia.org/wiki/Euro
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_EUR = '€';
@@ -3273,6 +3451,7 @@ class Currency
      * Symbol of minor unit for currency EUR
      *
      * @see https://en.wikipedia.org/wiki/Euro
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_EUR = 'c';
@@ -3281,10 +3460,10 @@ class Currency
      * Symbol of minor unit for currency EUR
      *
      * @see https://en.wikipedia.org/wiki/Euro
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_EUR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Fiji dollar
@@ -3321,6 +3500,7 @@ class Currency
      * Short name for currency FJD
      *
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_FJD = 'Fijian dollar';
@@ -3329,6 +3509,7 @@ class Currency
      * Short name of minor unit for currency FJD
      *
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_FJD = 'cent';
@@ -3337,6 +3518,7 @@ class Currency
      * Symbol for currency FJD
      *
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_FJD = 'FJ$';
@@ -3345,6 +3527,7 @@ class Currency
      * Symbol of minor unit for currency FJD
      *
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_FJD = 'c';
@@ -3353,10 +3536,10 @@ class Currency
      * Symbol of minor unit for currency FJD
      *
      * @see https://en.wikipedia.org/wiki/Fijian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_FJD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Falkland Islands pound
@@ -3393,6 +3576,7 @@ class Currency
      * Short name for currency FKP
      *
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_FKP = 'Pound';
@@ -3401,6 +3585,7 @@ class Currency
      * Short name of minor unit for currency FKP
      *
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_FKP = 'penny';
@@ -3409,6 +3594,7 @@ class Currency
      * Symbol for currency FKP
      *
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_FKP = '£';
@@ -3417,6 +3603,7 @@ class Currency
      * Symbol of minor unit for currency FKP
      *
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_FKP = 'p';
@@ -3425,10 +3612,10 @@ class Currency
      * Symbol of minor unit for currency FKP
      *
      * @see https://en.wikipedia.org/wiki/Falkland_Islands_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_FKP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Pound sterling
@@ -3469,6 +3656,7 @@ class Currency
      * Short name for currency GBP
      *
      * @see https://en.wikipedia.org/wiki/Pound_sterling
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GBP = 'Pound';
@@ -3477,6 +3665,7 @@ class Currency
      * Short name of minor unit for currency GBP
      *
      * @see https://en.wikipedia.org/wiki/Pound_sterling
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GBP = 'Penny';
@@ -3485,6 +3674,7 @@ class Currency
      * Symbol for currency GBP
      *
      * @see https://en.wikipedia.org/wiki/Pound_sterling
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GBP = '£';
@@ -3493,6 +3683,7 @@ class Currency
      * Symbol of minor unit for currency GBP
      *
      * @see https://en.wikipedia.org/wiki/Pound_sterling
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GBP = 'p';
@@ -3501,10 +3692,10 @@ class Currency
      * Symbol of minor unit for currency GBP
      *
      * @see https://en.wikipedia.org/wiki/Pound_sterling
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GBP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Georgian lari
@@ -3541,6 +3732,7 @@ class Currency
      * Short name for currency GEL
      *
      * @see https://en.wikipedia.org/wiki/Georgian_lari
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GEL = 'Lari';
@@ -3549,6 +3741,7 @@ class Currency
      * Short name of minor unit for currency GEL
      *
      * @see https://en.wikipedia.org/wiki/Georgian_lari
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GEL = 'Tetri';
@@ -3557,6 +3750,7 @@ class Currency
      * Symbol for currency GEL
      *
      * @see https://en.wikipedia.org/wiki/Georgian_lari
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GEL = '₾';
@@ -3565,6 +3759,7 @@ class Currency
      * Symbol of minor unit for currency GEL
      *
      * @see https://en.wikipedia.org/wiki/Georgian_lari
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GEL = '';
@@ -3573,10 +3768,10 @@ class Currency
      * Symbol of minor unit for currency GEL
      *
      * @see https://en.wikipedia.org/wiki/Georgian_lari
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GEL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Ghanaian cedi
@@ -3613,6 +3808,7 @@ class Currency
      * Short name for currency GHS
      *
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GHS = 'Cedi';
@@ -3621,6 +3817,7 @@ class Currency
      * Short name of minor unit for currency GHS
      *
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GHS = 'pesewa';
@@ -3629,6 +3826,7 @@ class Currency
      * Symbol for currency GHS
      *
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GHS = 'GH₵';
@@ -3637,6 +3835,7 @@ class Currency
      * Symbol of minor unit for currency GHS
      *
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GHS = 'Gp';
@@ -3645,10 +3844,10 @@ class Currency
      * Symbol of minor unit for currency GHS
      *
      * @see https://en.wikipedia.org/wiki/Ghanaian_cedi
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GHS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Gibraltar pound
@@ -3685,6 +3884,7 @@ class Currency
      * Short name for currency GIP
      *
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GIP = 'Pound';
@@ -3693,6 +3893,7 @@ class Currency
      * Short name of minor unit for currency GIP
      *
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GIP = 'Penny';
@@ -3701,6 +3902,7 @@ class Currency
      * Symbol for currency GIP
      *
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GIP = '£';
@@ -3709,6 +3911,7 @@ class Currency
      * Symbol of minor unit for currency GIP
      *
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GIP = 'p';
@@ -3717,10 +3920,10 @@ class Currency
      * Symbol of minor unit for currency GIP
      *
      * @see https://en.wikipedia.org/wiki/Gibraltar_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GIP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Gambian dalasi
@@ -3757,6 +3960,7 @@ class Currency
      * Short name for currency GMD
      *
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GMD = 'Dalasi';
@@ -3765,6 +3969,7 @@ class Currency
      * Short name of minor unit for currency GMD
      *
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GMD = 'butut';
@@ -3773,6 +3978,7 @@ class Currency
      * Symbol for currency GMD
      *
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GMD = 'D';
@@ -3781,6 +3987,7 @@ class Currency
      * Symbol of minor unit for currency GMD
      *
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GMD = '';
@@ -3789,10 +3996,10 @@ class Currency
      * Symbol of minor unit for currency GMD
      *
      * @see https://en.wikipedia.org/wiki/Gambian_dalasi
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GMD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Guinean franc
@@ -3829,6 +4036,7 @@ class Currency
      * Short name for currency GNF
      *
      * @see https://en.wikipedia.org/wiki/Guinean_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GNF = 'Franc';
@@ -3837,6 +4045,7 @@ class Currency
      * Short name of minor unit for currency GNF
      *
      * @see https://en.wikipedia.org/wiki/Guinean_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GNF = 'centime';
@@ -3845,6 +4054,7 @@ class Currency
      * Symbol for currency GNF
      *
      * @see https://en.wikipedia.org/wiki/Guinean_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GNF = 'FG';
@@ -3853,6 +4063,7 @@ class Currency
      * Symbol of minor unit for currency GNF
      *
      * @see https://en.wikipedia.org/wiki/Guinean_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GNF = '';
@@ -3861,10 +4072,10 @@ class Currency
      * Symbol of minor unit for currency GNF
      *
      * @see https://en.wikipedia.org/wiki/Guinean_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GNF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Guatemalan quetzal
@@ -3901,6 +4112,7 @@ class Currency
      * Short name for currency GTQ
      *
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GTQ = 'Quetzal';
@@ -3909,6 +4121,7 @@ class Currency
      * Short name of minor unit for currency GTQ
      *
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GTQ = 'centavo';
@@ -3917,6 +4130,7 @@ class Currency
      * Symbol for currency GTQ
      *
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GTQ = 'Q';
@@ -3925,6 +4139,7 @@ class Currency
      * Symbol of minor unit for currency GTQ
      *
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GTQ = '';
@@ -3933,10 +4148,10 @@ class Currency
      * Symbol of minor unit for currency GTQ
      *
      * @see https://en.wikipedia.org/wiki/Guatemalan_quetzal
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GTQ = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Guyanese dollar
@@ -3973,6 +4188,7 @@ class Currency
      * Short name for currency GYD
      *
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_GYD = 'Dollar';
@@ -3981,6 +4197,7 @@ class Currency
      * Short name of minor unit for currency GYD
      *
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_GYD = 'cent';
@@ -3989,6 +4206,7 @@ class Currency
      * Symbol for currency GYD
      *
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_GYD = '$';
@@ -3997,6 +4215,7 @@ class Currency
      * Symbol of minor unit for currency GYD
      *
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_GYD = '';
@@ -4005,10 +4224,10 @@ class Currency
      * Symbol of minor unit for currency GYD
      *
      * @see https://en.wikipedia.org/wiki/Guyanese_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_GYD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Hong Kong dollar
@@ -4045,6 +4264,7 @@ class Currency
      * Short name for currency HKD
      *
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_HKD = 'Dollar';
@@ -4053,6 +4273,7 @@ class Currency
      * Short name of minor unit for currency HKD
      *
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_HKD = 'sīn';
@@ -4061,6 +4282,7 @@ class Currency
      * Symbol for currency HKD
      *
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_HKD = '$';
@@ -4069,6 +4291,7 @@ class Currency
      * Symbol of minor unit for currency HKD
      *
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_HKD = '¢';
@@ -4077,10 +4300,10 @@ class Currency
      * Symbol of minor unit for currency HKD
      *
      * @see https://en.wikipedia.org/wiki/Hong_Kong_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_HKD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Honduran lempira
@@ -4117,6 +4340,7 @@ class Currency
      * Short name for currency HNL
      *
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_HNL = 'Lempira';
@@ -4125,6 +4349,7 @@ class Currency
      * Short name of minor unit for currency HNL
      *
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_HNL = 'centavo';
@@ -4133,6 +4358,7 @@ class Currency
      * Symbol for currency HNL
      *
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_HNL = 'L';
@@ -4141,6 +4367,7 @@ class Currency
      * Symbol of minor unit for currency HNL
      *
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_HNL = '';
@@ -4149,10 +4376,10 @@ class Currency
      * Symbol of minor unit for currency HNL
      *
      * @see https://en.wikipedia.org/wiki/Honduran_lempira
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_HNL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Croatian kuna
@@ -4189,6 +4416,7 @@ class Currency
      * Short name for currency HRK
      *
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_HRK = 'Kuna';
@@ -4197,6 +4425,7 @@ class Currency
      * Short name of minor unit for currency HRK
      *
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_HRK = 'lipa';
@@ -4205,6 +4434,7 @@ class Currency
      * Symbol for currency HRK
      *
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_HRK = 'kn';
@@ -4213,6 +4443,7 @@ class Currency
      * Symbol of minor unit for currency HRK
      *
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_HRK = 'lp';
@@ -4221,10 +4452,10 @@ class Currency
      * Symbol of minor unit for currency HRK
      *
      * @see https://en.wikipedia.org/wiki/Croatian_kuna
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_HRK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Haitian gourde
@@ -4261,6 +4492,7 @@ class Currency
      * Short name for currency HTG
      *
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_HTG = 'Gourde';
@@ -4269,6 +4501,7 @@ class Currency
      * Short name of minor unit for currency HTG
      *
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_HTG = 'santim';
@@ -4277,6 +4510,7 @@ class Currency
      * Symbol for currency HTG
      *
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_HTG = 'G';
@@ -4285,6 +4519,7 @@ class Currency
      * Symbol of minor unit for currency HTG
      *
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_HTG = '¢';
@@ -4293,10 +4528,10 @@ class Currency
      * Symbol of minor unit for currency HTG
      *
      * @see https://en.wikipedia.org/wiki/Haitian_gourde
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_HTG = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Hungarian forint
@@ -4333,6 +4568,7 @@ class Currency
      * Short name for currency HUF
      *
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_HUF = 'Forint';
@@ -4341,6 +4577,7 @@ class Currency
      * Short name of minor unit for currency HUF
      *
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_HUF = 'fillér';
@@ -4349,6 +4586,7 @@ class Currency
      * Symbol for currency HUF
      *
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_HUF = 'Ft';
@@ -4357,6 +4595,7 @@ class Currency
      * Symbol of minor unit for currency HUF
      *
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_HUF = '';
@@ -4365,10 +4604,10 @@ class Currency
      * Symbol of minor unit for currency HUF
      *
      * @see https://en.wikipedia.org/wiki/Hungarian_forint
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_HUF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Indonesian rupiah
@@ -4405,6 +4644,7 @@ class Currency
      * Short name for currency IDR
      *
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_IDR = 'Rupiah';
@@ -4413,6 +4653,7 @@ class Currency
      * Short name of minor unit for currency IDR
      *
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_IDR = 'sen';
@@ -4421,6 +4662,7 @@ class Currency
      * Symbol for currency IDR
      *
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_IDR = 'Rp';
@@ -4429,6 +4671,7 @@ class Currency
      * Symbol of minor unit for currency IDR
      *
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_IDR = '';
@@ -4437,10 +4680,10 @@ class Currency
      * Symbol of minor unit for currency IDR
      *
      * @see https://en.wikipedia.org/wiki/Indonesian_rupiah
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_IDR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Israeli new shekel
@@ -4477,6 +4720,7 @@ class Currency
      * Short name for currency ILS
      *
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ILS = 'Israeli shekel';
@@ -4485,6 +4729,7 @@ class Currency
      * Short name of minor unit for currency ILS
      *
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ILS = 'agora';
@@ -4493,6 +4738,7 @@ class Currency
      * Symbol for currency ILS
      *
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ILS = '₪';
@@ -4501,6 +4747,7 @@ class Currency
      * Symbol of minor unit for currency ILS
      *
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ILS = '';
@@ -4509,10 +4756,10 @@ class Currency
      * Symbol of minor unit for currency ILS
      *
      * @see https://en.wikipedia.org/wiki/Israeli_new_shekel
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ILS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Indian rupee
@@ -4550,6 +4797,7 @@ class Currency
      * Short name for currency INR
      *
      * @see https://en.wikipedia.org/wiki/Indian_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_INR = 'Rupee';
@@ -4558,6 +4806,7 @@ class Currency
      * Short name of minor unit for currency INR
      *
      * @see https://en.wikipedia.org/wiki/Indian_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_INR = 'paisa';
@@ -4566,6 +4815,7 @@ class Currency
      * Symbol for currency INR
      *
      * @see https://en.wikipedia.org/wiki/Indian_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_INR = '₹';
@@ -4574,6 +4824,7 @@ class Currency
      * Symbol of minor unit for currency INR
      *
      * @see https://en.wikipedia.org/wiki/Indian_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_INR = '';
@@ -4582,10 +4833,10 @@ class Currency
      * Symbol of minor unit for currency INR
      *
      * @see https://en.wikipedia.org/wiki/Indian_rupee
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_INR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Iraqi dinar
@@ -4622,6 +4873,7 @@ class Currency
      * Short name for currency IQD
      *
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_IQD = 'Dinar';
@@ -4630,6 +4882,7 @@ class Currency
      * Short name of minor unit for currency IQD
      *
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_IQD = 'fils';
@@ -4638,6 +4891,7 @@ class Currency
      * Symbol for currency IQD
      *
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_IQD = 'د.ع';
@@ -4646,6 +4900,7 @@ class Currency
      * Symbol of minor unit for currency IQD
      *
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_IQD = '';
@@ -4654,10 +4909,10 @@ class Currency
      * Symbol of minor unit for currency IQD
      *
      * @see https://en.wikipedia.org/wiki/Iraqi_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_IQD = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Iranian rial
@@ -4694,6 +4949,7 @@ class Currency
      * Short name for currency IRR
      *
      * @see https://en.wikipedia.org/wiki/Iranian_rial
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_IRR = 'Rial';
@@ -4702,6 +4958,7 @@ class Currency
      * Short name of minor unit for currency IRR
      *
      * @see https://en.wikipedia.org/wiki/Iranian_rial
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_IRR = '';
@@ -4710,6 +4967,7 @@ class Currency
      * Symbol for currency IRR
      *
      * @see https://en.wikipedia.org/wiki/Iranian_rial
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_IRR = '﷼';
@@ -4718,6 +4976,7 @@ class Currency
      * Symbol of minor unit for currency IRR
      *
      * @see https://en.wikipedia.org/wiki/Iranian_rial
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_IRR = '';
@@ -4726,10 +4985,10 @@ class Currency
      * Symbol of minor unit for currency IRR
      *
      * @see https://en.wikipedia.org/wiki/Iranian_rial
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_IRR = 1.0;
-
 
     /**
      * ISO-4217 Code for the Icelandic króna
@@ -4766,6 +5025,7 @@ class Currency
      * Short name for currency ISK
      *
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ISK = 'Króna';
@@ -4774,6 +5034,7 @@ class Currency
      * Short name of minor unit for currency ISK
      *
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ISK = 'eyrir';
@@ -4782,6 +5043,7 @@ class Currency
      * Symbol for currency ISK
      *
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ISK = 'kr';
@@ -4790,6 +5052,7 @@ class Currency
      * Symbol of minor unit for currency ISK
      *
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ISK = 'a';
@@ -4798,10 +5061,10 @@ class Currency
      * Symbol of minor unit for currency ISK
      *
      * @see https://en.wikipedia.org/wiki/Icelandic_kr%C3%B3na
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ISK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Jamaican dollar
@@ -4838,6 +5101,7 @@ class Currency
      * Short name for currency JMD
      *
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_JMD = 'Dollar';
@@ -4846,6 +5110,7 @@ class Currency
      * Short name of minor unit for currency JMD
      *
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_JMD = 'cent';
@@ -4854,6 +5119,7 @@ class Currency
      * Symbol for currency JMD
      *
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_JMD = '$';
@@ -4862,6 +5128,7 @@ class Currency
      * Symbol of minor unit for currency JMD
      *
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_JMD = '';
@@ -4870,10 +5137,10 @@ class Currency
      * Symbol of minor unit for currency JMD
      *
      * @see https://en.wikipedia.org/wiki/Jamaican_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_JMD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Jordanian dinar
@@ -4910,6 +5177,7 @@ class Currency
      * Short name for currency JOD
      *
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_JOD = 'Dinar';
@@ -4918,6 +5186,7 @@ class Currency
      * Short name of minor unit for currency JOD
      *
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_JOD = 'fils';
@@ -4926,6 +5195,7 @@ class Currency
      * Symbol for currency JOD
      *
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_JOD = 'د.أ';
@@ -4934,6 +5204,7 @@ class Currency
      * Symbol of minor unit for currency JOD
      *
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_JOD = '';
@@ -4942,10 +5213,10 @@ class Currency
      * Symbol of minor unit for currency JOD
      *
      * @see https://en.wikipedia.org/wiki/Jordanian_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_JOD = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Japanese yen
@@ -4982,6 +5253,7 @@ class Currency
      * Short name for currency JPY
      *
      * @see https://en.wikipedia.org/wiki/Japanese_yen
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_JPY = 'Yen';
@@ -4990,6 +5262,7 @@ class Currency
      * Short name of minor unit for currency JPY
      *
      * @see https://en.wikipedia.org/wiki/Japanese_yen
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_JPY = '';
@@ -4998,6 +5271,7 @@ class Currency
      * Symbol for currency JPY
      *
      * @see https://en.wikipedia.org/wiki/Japanese_yen
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_JPY = '¥';
@@ -5006,6 +5280,7 @@ class Currency
      * Symbol of minor unit for currency JPY
      *
      * @see https://en.wikipedia.org/wiki/Japanese_yen
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_JPY = '';
@@ -5014,10 +5289,10 @@ class Currency
      * Symbol of minor unit for currency JPY
      *
      * @see https://en.wikipedia.org/wiki/Japanese_yen
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_JPY = 1.0;
-
 
     /**
      * ISO-4217 Code for the Kenyan shilling
@@ -5054,6 +5329,7 @@ class Currency
      * Short name for currency KES
      *
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KES = 'Shilling';
@@ -5062,6 +5338,7 @@ class Currency
      * Short name of minor unit for currency KES
      *
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KES = 'cent';
@@ -5070,6 +5347,7 @@ class Currency
      * Symbol for currency KES
      *
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KES = 'KSh';
@@ -5078,6 +5356,7 @@ class Currency
      * Symbol of minor unit for currency KES
      *
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KES = '';
@@ -5086,10 +5365,10 @@ class Currency
      * Symbol of minor unit for currency KES
      *
      * @see https://en.wikipedia.org/wiki/Kenyan_shilling
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KES = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Kyrgyzstani som
@@ -5126,6 +5405,7 @@ class Currency
      * Short name for currency KGS
      *
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KGS = 'Som';
@@ -5134,6 +5414,7 @@ class Currency
      * Short name of minor unit for currency KGS
      *
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KGS = 'tyiyn';
@@ -5142,6 +5423,7 @@ class Currency
      * Symbol for currency KGS
      *
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KGS = '⃀';
@@ -5150,6 +5432,7 @@ class Currency
      * Symbol of minor unit for currency KGS
      *
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KGS = '';
@@ -5158,10 +5441,10 @@ class Currency
      * Symbol of minor unit for currency KGS
      *
      * @see https://en.wikipedia.org/wiki/Kyrgyzstani_som
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KGS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Cambodian riel
@@ -5198,6 +5481,7 @@ class Currency
      * Short name for currency KHR
      *
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KHR = 'Riel';
@@ -5206,6 +5490,7 @@ class Currency
      * Short name of minor unit for currency KHR
      *
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KHR = 'sen';
@@ -5214,6 +5499,7 @@ class Currency
      * Symbol for currency KHR
      *
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KHR = '៛';
@@ -5222,6 +5508,7 @@ class Currency
      * Symbol of minor unit for currency KHR
      *
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KHR = '';
@@ -5230,10 +5517,10 @@ class Currency
      * Symbol of minor unit for currency KHR
      *
      * @see https://en.wikipedia.org/wiki/Cambodian_riel
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KHR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Comoro franc
@@ -5270,6 +5557,7 @@ class Currency
      * Short name for currency KMF
      *
      * @see https://en.wikipedia.org/wiki/Comorian_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KMF = 'Franc';
@@ -5278,6 +5566,7 @@ class Currency
      * Short name of minor unit for currency KMF
      *
      * @see https://en.wikipedia.org/wiki/Comorian_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KMF = 'centime';
@@ -5286,6 +5575,7 @@ class Currency
      * Symbol for currency KMF
      *
      * @see https://en.wikipedia.org/wiki/Comorian_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KMF = 'CF';
@@ -5294,6 +5584,7 @@ class Currency
      * Symbol of minor unit for currency KMF
      *
      * @see https://en.wikipedia.org/wiki/Comorian_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KMF = '';
@@ -5302,10 +5593,10 @@ class Currency
      * Symbol of minor unit for currency KMF
      *
      * @see https://en.wikipedia.org/wiki/Comorian_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KMF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the North Korean won
@@ -5342,6 +5633,7 @@ class Currency
      * Short name for currency KPW
      *
      * @see https://en.wikipedia.org/wiki/North_Korean_won
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KPW = 'Won';
@@ -5350,6 +5642,7 @@ class Currency
      * Short name of minor unit for currency KPW
      *
      * @see https://en.wikipedia.org/wiki/North_Korean_won
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KPW = 'chon';
@@ -5358,6 +5651,7 @@ class Currency
      * Symbol for currency KPW
      *
      * @see https://en.wikipedia.org/wiki/North_Korean_won
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KPW = '₩';
@@ -5366,6 +5660,7 @@ class Currency
      * Symbol of minor unit for currency KPW
      *
      * @see https://en.wikipedia.org/wiki/North_Korean_won
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KPW = '';
@@ -5374,10 +5669,10 @@ class Currency
      * Symbol of minor unit for currency KPW
      *
      * @see https://en.wikipedia.org/wiki/North_Korean_won
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KPW = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the South Korean won
@@ -5414,6 +5709,7 @@ class Currency
      * Short name for currency KRW
      *
      * @see https://en.wikipedia.org/wiki/South_Korean_won
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KRW = 'Won';
@@ -5422,6 +5718,7 @@ class Currency
      * Short name of minor unit for currency KRW
      *
      * @see https://en.wikipedia.org/wiki/South_Korean_won
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KRW = 'jeon';
@@ -5430,6 +5727,7 @@ class Currency
      * Symbol for currency KRW
      *
      * @see https://en.wikipedia.org/wiki/South_Korean_won
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KRW = '₩';
@@ -5438,6 +5736,7 @@ class Currency
      * Symbol of minor unit for currency KRW
      *
      * @see https://en.wikipedia.org/wiki/South_Korean_won
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KRW = '';
@@ -5446,10 +5745,10 @@ class Currency
      * Symbol of minor unit for currency KRW
      *
      * @see https://en.wikipedia.org/wiki/South_Korean_won
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KRW = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Kuwaiti dinar
@@ -5486,6 +5785,7 @@ class Currency
      * Short name for currency KWD
      *
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KWD = 'Dinar';
@@ -5494,6 +5794,7 @@ class Currency
      * Short name of minor unit for currency KWD
      *
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KWD = 'fils';
@@ -5502,6 +5803,7 @@ class Currency
      * Symbol for currency KWD
      *
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KWD = 'د.ك';
@@ -5510,6 +5812,7 @@ class Currency
      * Symbol of minor unit for currency KWD
      *
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KWD = '';
@@ -5518,10 +5821,10 @@ class Currency
      * Symbol of minor unit for currency KWD
      *
      * @see https://en.wikipedia.org/wiki/Kuwaiti_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KWD = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Cayman Islands dollar
@@ -5558,6 +5861,7 @@ class Currency
      * Short name for currency KYD
      *
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KYD = 'Dollar';
@@ -5566,6 +5870,7 @@ class Currency
      * Short name of minor unit for currency KYD
      *
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KYD = 'cent';
@@ -5574,6 +5879,7 @@ class Currency
      * Symbol for currency KYD
      *
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KYD = '$';
@@ -5582,6 +5888,7 @@ class Currency
      * Symbol of minor unit for currency KYD
      *
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KYD = '';
@@ -5590,10 +5897,10 @@ class Currency
      * Symbol of minor unit for currency KYD
      *
      * @see https://en.wikipedia.org/wiki/Cayman_Islands_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KYD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Kazakhstani tenge
@@ -5630,6 +5937,7 @@ class Currency
      * Short name for currency KZT
      *
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_KZT = 'Tenge';
@@ -5638,6 +5946,7 @@ class Currency
      * Short name of minor unit for currency KZT
      *
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_KZT = 'tiyn';
@@ -5646,6 +5955,7 @@ class Currency
      * Symbol for currency KZT
      *
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_KZT = '₸';
@@ -5654,6 +5964,7 @@ class Currency
      * Symbol of minor unit for currency KZT
      *
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_KZT = '';
@@ -5662,10 +5973,10 @@ class Currency
      * Symbol of minor unit for currency KZT
      *
      * @see https://en.wikipedia.org/wiki/Kazakhstani_tenge
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_KZT = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Lao kip
@@ -5702,6 +6013,7 @@ class Currency
      * Short name for currency LAK
      *
      * @see https://en.wikipedia.org/wiki/Lao_kip
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_LAK = 'Kip';
@@ -5710,6 +6022,7 @@ class Currency
      * Short name of minor unit for currency LAK
      *
      * @see https://en.wikipedia.org/wiki/Lao_kip
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_LAK = 'att';
@@ -5718,6 +6031,7 @@ class Currency
      * Symbol for currency LAK
      *
      * @see https://en.wikipedia.org/wiki/Lao_kip
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_LAK = '₭';
@@ -5726,6 +6040,7 @@ class Currency
      * Symbol of minor unit for currency LAK
      *
      * @see https://en.wikipedia.org/wiki/Lao_kip
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_LAK = '';
@@ -5734,10 +6049,10 @@ class Currency
      * Symbol of minor unit for currency LAK
      *
      * @see https://en.wikipedia.org/wiki/Lao_kip
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_LAK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Lebanese pound
@@ -5774,6 +6089,7 @@ class Currency
      * Short name for currency LBP
      *
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_LBP = 'Pound';
@@ -5782,6 +6098,7 @@ class Currency
      * Short name of minor unit for currency LBP
      *
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_LBP = 'piastre';
@@ -5790,6 +6107,7 @@ class Currency
      * Symbol for currency LBP
      *
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_LBP = 'ل.ل.';
@@ -5798,6 +6116,7 @@ class Currency
      * Symbol of minor unit for currency LBP
      *
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_LBP = '';
@@ -5806,10 +6125,10 @@ class Currency
      * Symbol of minor unit for currency LBP
      *
      * @see https://en.wikipedia.org/wiki/Lebanese_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_LBP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Sri Lankan rupee
@@ -5846,6 +6165,7 @@ class Currency
      * Short name for currency LKR
      *
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_LKR = 'Rupee';
@@ -5854,6 +6174,7 @@ class Currency
      * Short name of minor unit for currency LKR
      *
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_LKR = 'cent';
@@ -5862,6 +6183,7 @@ class Currency
      * Symbol for currency LKR
      *
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_LKR = '₨';
@@ -5870,6 +6192,7 @@ class Currency
      * Symbol of minor unit for currency LKR
      *
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_LKR = '¢';
@@ -5878,10 +6201,10 @@ class Currency
      * Symbol of minor unit for currency LKR
      *
      * @see https://en.wikipedia.org/wiki/Sri_Lankan_rupee
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_LKR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Liberian dollar
@@ -5918,6 +6241,7 @@ class Currency
      * Short name for currency LRD
      *
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_LRD = 'Dollar';
@@ -5926,6 +6250,7 @@ class Currency
      * Short name of minor unit for currency LRD
      *
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_LRD = 'cent';
@@ -5934,6 +6259,7 @@ class Currency
      * Symbol for currency LRD
      *
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_LRD = '$';
@@ -5942,6 +6268,7 @@ class Currency
      * Symbol of minor unit for currency LRD
      *
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_LRD = '¢';
@@ -5950,10 +6277,10 @@ class Currency
      * Symbol of minor unit for currency LRD
      *
      * @see https://en.wikipedia.org/wiki/Liberian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_LRD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Lesotho loti
@@ -5990,6 +6317,7 @@ class Currency
      * Short name for currency LSL
      *
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_LSL = 'Loti';
@@ -5998,6 +6326,7 @@ class Currency
      * Short name of minor unit for currency LSL
      *
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_LSL = 'sente';
@@ -6006,6 +6335,7 @@ class Currency
      * Symbol for currency LSL
      *
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_LSL = 'L';
@@ -6014,6 +6344,7 @@ class Currency
      * Symbol of minor unit for currency LSL
      *
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_LSL = '';
@@ -6022,10 +6353,10 @@ class Currency
      * Symbol of minor unit for currency LSL
      *
      * @see https://en.wikipedia.org/wiki/Lesotho_loti
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_LSL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Libyan dinar
@@ -6062,6 +6393,7 @@ class Currency
      * Short name for currency LYD
      *
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_LYD = 'Dinar';
@@ -6070,6 +6402,7 @@ class Currency
      * Short name of minor unit for currency LYD
      *
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_LYD = 'dirham';
@@ -6078,6 +6411,7 @@ class Currency
      * Symbol for currency LYD
      *
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_LYD = 'ل.';
@@ -6086,6 +6420,7 @@ class Currency
      * Symbol of minor unit for currency LYD
      *
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_LYD = '';
@@ -6094,10 +6429,10 @@ class Currency
      * Symbol of minor unit for currency LYD
      *
      * @see https://en.wikipedia.org/wiki/Libyan_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_LYD = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Moroccan dirham
@@ -6135,6 +6470,7 @@ class Currency
      * Short name for currency MAD
      *
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MAD = 'Dirham';
@@ -6143,6 +6479,7 @@ class Currency
      * Short name of minor unit for currency MAD
      *
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MAD = 'centime';
@@ -6151,6 +6488,7 @@ class Currency
      * Symbol for currency MAD
      *
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MAD = 'DH';
@@ -6159,6 +6497,7 @@ class Currency
      * Symbol of minor unit for currency MAD
      *
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MAD = '';
@@ -6167,10 +6506,10 @@ class Currency
      * Symbol of minor unit for currency MAD
      *
      * @see https://en.wikipedia.org/wiki/Moroccan_dirham
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MAD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Moldovan leu
@@ -6207,6 +6546,7 @@ class Currency
      * Short name for currency MDL
      *
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MDL = 'Leu';
@@ -6215,6 +6555,7 @@ class Currency
      * Short name of minor unit for currency MDL
      *
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MDL = 'ban';
@@ -6223,6 +6564,7 @@ class Currency
      * Symbol for currency MDL
      *
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MDL = 'L';
@@ -6231,6 +6573,7 @@ class Currency
      * Symbol of minor unit for currency MDL
      *
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MDL = '';
@@ -6239,10 +6582,10 @@ class Currency
      * Symbol of minor unit for currency MDL
      *
      * @see https://en.wikipedia.org/wiki/Moldovan_leu
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MDL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Malagasy ariary
@@ -6279,6 +6622,7 @@ class Currency
      * Short name for currency MGA
      *
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MGA = 'Ariary';
@@ -6287,6 +6631,7 @@ class Currency
      * Short name of minor unit for currency MGA
      *
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MGA = 'iraimbilanja';
@@ -6295,6 +6640,7 @@ class Currency
      * Symbol for currency MGA
      *
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MGA = 'Ar';
@@ -6303,6 +6649,7 @@ class Currency
      * Symbol of minor unit for currency MGA
      *
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MGA = '';
@@ -6311,10 +6658,10 @@ class Currency
      * Symbol of minor unit for currency MGA
      *
      * @see https://en.wikipedia.org/wiki/Malagasy_ariary
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MGA = 1 / 5;
-
 
     /**
      * ISO-4217 Code for the Macedonian denar
@@ -6351,6 +6698,7 @@ class Currency
      * Short name for currency MKD
      *
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MKD = 'Denar';
@@ -6359,6 +6707,7 @@ class Currency
      * Short name of minor unit for currency MKD
      *
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MKD = 'deni';
@@ -6367,6 +6716,7 @@ class Currency
      * Symbol for currency MKD
      *
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MKD = 'den';
@@ -6375,6 +6725,7 @@ class Currency
      * Symbol of minor unit for currency MKD
      *
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MKD = '';
@@ -6383,10 +6734,10 @@ class Currency
      * Symbol of minor unit for currency MKD
      *
      * @see https://en.wikipedia.org/wiki/Macedonian_denar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MKD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Myanmar kyat
@@ -6423,6 +6774,7 @@ class Currency
      * Short name for currency MMK
      *
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MMK = 'Kyat';
@@ -6431,6 +6783,7 @@ class Currency
      * Short name of minor unit for currency MMK
      *
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MMK = 'pya';
@@ -6439,6 +6792,7 @@ class Currency
      * Symbol for currency MMK
      *
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MMK = 'K';
@@ -6447,6 +6801,7 @@ class Currency
      * Symbol of minor unit for currency MMK
      *
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MMK = '';
@@ -6455,10 +6810,10 @@ class Currency
      * Symbol of minor unit for currency MMK
      *
      * @see https://en.wikipedia.org/wiki/Myanmar_kyat
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MMK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Mongolian tögrög
@@ -6495,6 +6850,7 @@ class Currency
      * Short name for currency MNT
      *
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MNT = 'Tögrög';
@@ -6503,6 +6859,7 @@ class Currency
      * Short name of minor unit for currency MNT
      *
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MNT = 'möngö';
@@ -6511,6 +6868,7 @@ class Currency
      * Symbol for currency MNT
      *
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MNT = '₮';
@@ -6519,6 +6877,7 @@ class Currency
      * Symbol of minor unit for currency MNT
      *
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MNT = '';
@@ -6527,10 +6886,10 @@ class Currency
      * Symbol of minor unit for currency MNT
      *
      * @see https://en.wikipedia.org/wiki/Mongolian_t%C3%B6gr%C3%B6g
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MNT = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Macanese pataca
@@ -6567,6 +6926,7 @@ class Currency
      * Short name for currency MOP
      *
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MOP = 'Pataca';
@@ -6575,6 +6935,7 @@ class Currency
      * Short name of minor unit for currency MOP
      *
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MOP = 'avos';
@@ -6583,6 +6944,7 @@ class Currency
      * Symbol for currency MOP
      *
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MOP = 'MOP$';
@@ -6591,6 +6953,7 @@ class Currency
      * Symbol of minor unit for currency MOP
      *
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MOP = '';
@@ -6599,10 +6962,10 @@ class Currency
      * Symbol of minor unit for currency MOP
      *
      * @see https://en.wikipedia.org/wiki/Macanese_pataca
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MOP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Mauritanian ouguiya
@@ -6639,6 +7002,7 @@ class Currency
      * Short name for currency MRU
      *
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MRU = 'Ouguiya';
@@ -6647,6 +7011,7 @@ class Currency
      * Short name of minor unit for currency MRU
      *
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MRU = 'khoums';
@@ -6655,6 +7020,7 @@ class Currency
      * Symbol for currency MRU
      *
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MRU = 'UM';
@@ -6663,6 +7029,7 @@ class Currency
      * Symbol of minor unit for currency MRU
      *
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MRU = '';
@@ -6671,10 +7038,10 @@ class Currency
      * Symbol of minor unit for currency MRU
      *
      * @see https://en.wikipedia.org/wiki/Mauritanian_ouguiya
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MRU = 1 / 5;
-
 
     /**
      * ISO-4217 Code for the Mauritian rupee
@@ -6711,6 +7078,7 @@ class Currency
      * Short name for currency MUR
      *
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MUR = 'Rupee';
@@ -6719,6 +7087,7 @@ class Currency
      * Short name of minor unit for currency MUR
      *
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MUR = 'cent';
@@ -6727,6 +7096,7 @@ class Currency
      * Symbol for currency MUR
      *
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MUR = 'Rs';
@@ -6735,6 +7105,7 @@ class Currency
      * Symbol of minor unit for currency MUR
      *
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MUR = '¢';
@@ -6743,10 +7114,10 @@ class Currency
      * Symbol of minor unit for currency MUR
      *
      * @see https://en.wikipedia.org/wiki/Mauritian_rupee
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MUR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Maldivian rufiyaa
@@ -6783,6 +7154,7 @@ class Currency
      * Short name for currency MVR
      *
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MVR = 'Rufiyaa';
@@ -6791,6 +7163,7 @@ class Currency
      * Short name of minor unit for currency MVR
      *
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MVR = 'laari';
@@ -6799,6 +7172,7 @@ class Currency
      * Symbol for currency MVR
      *
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MVR = 'Rf';
@@ -6807,6 +7181,7 @@ class Currency
      * Symbol of minor unit for currency MVR
      *
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MVR = '';
@@ -6815,10 +7190,10 @@ class Currency
      * Symbol of minor unit for currency MVR
      *
      * @see https://en.wikipedia.org/wiki/Maldivian_rufiyaa
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MVR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Malawian kwacha
@@ -6855,6 +7230,7 @@ class Currency
      * Short name for currency MWK
      *
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MWK = 'Kwacha';
@@ -6863,6 +7239,7 @@ class Currency
      * Short name of minor unit for currency MWK
      *
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MWK = 'tambala';
@@ -6871,6 +7248,7 @@ class Currency
      * Symbol for currency MWK
      *
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MWK = 'K';
@@ -6879,6 +7257,7 @@ class Currency
      * Symbol of minor unit for currency MWK
      *
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MWK = '';
@@ -6887,10 +7266,10 @@ class Currency
      * Symbol of minor unit for currency MWK
      *
      * @see https://en.wikipedia.org/wiki/Malawian_kwacha
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MWK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Mexican peso
@@ -6927,6 +7306,7 @@ class Currency
      * Short name for currency MXN
      *
      * @see https://en.wikipedia.org/wiki/Mexican_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MXN = '';
@@ -6935,6 +7315,7 @@ class Currency
      * Short name of minor unit for currency MXN
      *
      * @see https://en.wikipedia.org/wiki/Mexican_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MXN = 'centavo';
@@ -6943,6 +7324,7 @@ class Currency
      * Symbol for currency MXN
      *
      * @see https://en.wikipedia.org/wiki/Mexican_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MXN = '$';
@@ -6951,6 +7333,7 @@ class Currency
      * Symbol of minor unit for currency MXN
      *
      * @see https://en.wikipedia.org/wiki/Mexican_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MXN = '¢';
@@ -6959,10 +7342,10 @@ class Currency
      * Symbol of minor unit for currency MXN
      *
      * @see https://en.wikipedia.org/wiki/Mexican_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MXN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Malaysian ringgit
@@ -6999,6 +7382,7 @@ class Currency
      * Short name for currency MYR
      *
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MYR = 'Ringgit';
@@ -7007,6 +7391,7 @@ class Currency
      * Short name of minor unit for currency MYR
      *
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MYR = 'sen';
@@ -7015,6 +7400,7 @@ class Currency
      * Symbol for currency MYR
      *
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MYR = 'RM';
@@ -7023,6 +7409,7 @@ class Currency
      * Symbol of minor unit for currency MYR
      *
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MYR = '';
@@ -7031,10 +7418,10 @@ class Currency
      * Symbol of minor unit for currency MYR
      *
      * @see https://en.wikipedia.org/wiki/Malaysian_ringgit
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MYR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Mozambican metical
@@ -7071,6 +7458,7 @@ class Currency
      * Short name for currency MZN
      *
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_MZN = 'Metical';
@@ -7079,6 +7467,7 @@ class Currency
      * Short name of minor unit for currency MZN
      *
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_MZN = 'centavo';
@@ -7087,6 +7476,7 @@ class Currency
      * Symbol for currency MZN
      *
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_MZN = 'MT';
@@ -7095,6 +7485,7 @@ class Currency
      * Symbol of minor unit for currency MZN
      *
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_MZN = '';
@@ -7103,10 +7494,10 @@ class Currency
      * Symbol of minor unit for currency MZN
      *
      * @see https://en.wikipedia.org/wiki/Mozambican_metical
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_MZN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Namibian dollar
@@ -7143,6 +7534,7 @@ class Currency
      * Short name for currency NAD
      *
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_NAD = 'Dollar';
@@ -7151,6 +7543,7 @@ class Currency
      * Short name of minor unit for currency NAD
      *
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_NAD = 'cent';
@@ -7159,6 +7552,7 @@ class Currency
      * Symbol for currency NAD
      *
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_NAD = '$';
@@ -7167,6 +7561,7 @@ class Currency
      * Symbol of minor unit for currency NAD
      *
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_NAD = '';
@@ -7175,10 +7570,10 @@ class Currency
      * Symbol of minor unit for currency NAD
      *
      * @see https://en.wikipedia.org/wiki/Namibian_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_NAD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Nigerian naira
@@ -7215,6 +7610,7 @@ class Currency
      * Short name for currency NGN
      *
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_NGN = 'Naira';
@@ -7223,6 +7619,7 @@ class Currency
      * Short name of minor unit for currency NGN
      *
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_NGN = 'kobo';
@@ -7231,6 +7628,7 @@ class Currency
      * Symbol for currency NGN
      *
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_NGN = '₦';
@@ -7239,6 +7637,7 @@ class Currency
      * Symbol of minor unit for currency NGN
      *
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_NGN = '';
@@ -7247,10 +7646,10 @@ class Currency
      * Symbol of minor unit for currency NGN
      *
      * @see https://en.wikipedia.org/wiki/Nigerian_naira
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_NGN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Nicaraguan córdoba
@@ -7287,6 +7686,7 @@ class Currency
      * Short name for currency NIO
      *
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_NIO = 'Córdoba';
@@ -7295,6 +7695,7 @@ class Currency
      * Short name of minor unit for currency NIO
      *
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_NIO = 'centavo';
@@ -7303,6 +7704,7 @@ class Currency
      * Symbol for currency NIO
      *
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_NIO = 'C$';
@@ -7311,6 +7713,7 @@ class Currency
      * Symbol of minor unit for currency NIO
      *
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_NIO = '';
@@ -7319,10 +7722,10 @@ class Currency
      * Symbol of minor unit for currency NIO
      *
      * @see https://en.wikipedia.org/wiki/Nicaraguan_c%C3%B3rdoba
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_NIO = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Norwegian krone
@@ -7361,6 +7764,7 @@ class Currency
      * Short name for currency NOK
      *
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_NOK = 'Krone';
@@ -7369,6 +7773,7 @@ class Currency
      * Short name of minor unit for currency NOK
      *
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_NOK = 'øre';
@@ -7377,6 +7782,7 @@ class Currency
      * Symbol for currency NOK
      *
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_NOK = 'kr';
@@ -7385,6 +7791,7 @@ class Currency
      * Symbol of minor unit for currency NOK
      *
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_NOK = '';
@@ -7393,10 +7800,10 @@ class Currency
      * Symbol of minor unit for currency NOK
      *
      * @see https://en.wikipedia.org/wiki/Norwegian_krone
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_NOK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Nepalese rupee
@@ -7433,6 +7840,7 @@ class Currency
      * Short name for currency NPR
      *
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_NPR = 'Rupee';
@@ -7441,6 +7849,7 @@ class Currency
      * Short name of minor unit for currency NPR
      *
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_NPR = 'Paisa';
@@ -7449,6 +7858,7 @@ class Currency
      * Symbol for currency NPR
      *
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_NPR = 'रु';
@@ -7457,6 +7867,7 @@ class Currency
      * Symbol of minor unit for currency NPR
      *
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_NPR = '';
@@ -7465,10 +7876,10 @@ class Currency
      * Symbol of minor unit for currency NPR
      *
      * @see https://en.wikipedia.org/wiki/Nepalese_rupee
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_NPR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the New Zealand dollar
@@ -7478,8 +7889,7 @@ class Currency
      * - Cook Islands (CK)
      * - Niue (NU)
      * - Pitcairn Islands (PN; see also Pitcairn Islands dollar)
-     * - Tokelau
-     * (TK)
+     * - Tokelau (TK)
      *
      * @var string
      */
@@ -7510,6 +7920,7 @@ class Currency
      * Short name for currency NZD
      *
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_NZD = 'Dollar';
@@ -7518,6 +7929,7 @@ class Currency
      * Short name of minor unit for currency NZD
      *
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_NZD = 'cent';
@@ -7526,6 +7938,7 @@ class Currency
      * Symbol for currency NZD
      *
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_NZD = '$';
@@ -7534,6 +7947,7 @@ class Currency
      * Symbol of minor unit for currency NZD
      *
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_NZD = 'c';
@@ -7542,10 +7956,10 @@ class Currency
      * Symbol of minor unit for currency NZD
      *
      * @see https://en.wikipedia.org/wiki/New_Zealand_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_NZD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Omani rial
@@ -7582,6 +7996,7 @@ class Currency
      * Short name for currency OMR
      *
      * @see https://en.wikipedia.org/wiki/Omani_rial
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_OMR = 'Rial';
@@ -7590,6 +8005,7 @@ class Currency
      * Short name of minor unit for currency OMR
      *
      * @see https://en.wikipedia.org/wiki/Omani_rial
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_OMR = 'baisa';
@@ -7598,6 +8014,7 @@ class Currency
      * Symbol for currency OMR
      *
      * @see https://en.wikipedia.org/wiki/Omani_rial
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_OMR = 'ر.ع.';
@@ -7606,6 +8023,7 @@ class Currency
      * Symbol of minor unit for currency OMR
      *
      * @see https://en.wikipedia.org/wiki/Omani_rial
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_OMR = '';
@@ -7614,10 +8032,10 @@ class Currency
      * Symbol of minor unit for currency OMR
      *
      * @see https://en.wikipedia.org/wiki/Omani_rial
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_OMR = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Panamanian balboa
@@ -7654,6 +8072,7 @@ class Currency
      * Short name for currency PAB
      *
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PAB = 'Balboa';
@@ -7662,6 +8081,7 @@ class Currency
      * Short name of minor unit for currency PAB
      *
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PAB = 'Centésimo';
@@ -7670,6 +8090,7 @@ class Currency
      * Symbol for currency PAB
      *
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PAB = 'B/.';
@@ -7678,6 +8099,7 @@ class Currency
      * Symbol of minor unit for currency PAB
      *
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PAB = '';
@@ -7686,10 +8108,10 @@ class Currency
      * Symbol of minor unit for currency PAB
      *
      * @see https://en.wikipedia.org/wiki/Panamanian_balboa
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PAB = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Peruvian sol
@@ -7726,6 +8148,7 @@ class Currency
      * Short name for currency PEN
      *
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PEN = 'Sol';
@@ -7734,6 +8157,7 @@ class Currency
      * Short name of minor unit for currency PEN
      *
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PEN = 'céntimo';
@@ -7742,6 +8166,7 @@ class Currency
      * Symbol for currency PEN
      *
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PEN = 'S/';
@@ -7750,6 +8175,7 @@ class Currency
      * Symbol of minor unit for currency PEN
      *
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PEN = '';
@@ -7758,10 +8184,10 @@ class Currency
      * Symbol of minor unit for currency PEN
      *
      * @see https://en.wikipedia.org/wiki/Peruvian_sol
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PEN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Papua New Guinean kina
@@ -7798,6 +8224,7 @@ class Currency
      * Short name for currency PGK
      *
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PGK = 'Kina';
@@ -7806,6 +8233,7 @@ class Currency
      * Short name of minor unit for currency PGK
      *
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PGK = 'toea';
@@ -7814,6 +8242,7 @@ class Currency
      * Symbol for currency PGK
      *
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PGK = 'K';
@@ -7822,6 +8251,7 @@ class Currency
      * Symbol of minor unit for currency PGK
      *
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PGK = 't';
@@ -7830,10 +8260,10 @@ class Currency
      * Symbol of minor unit for currency PGK
      *
      * @see https://en.wikipedia.org/wiki/Papua_New_Guinean_kina
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PGK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Philippine peso
@@ -7870,6 +8300,7 @@ class Currency
      * Short name for currency PHP
      *
      * @see https://en.wikipedia.org/wiki/Philippine_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PHP = 'Peso';
@@ -7878,6 +8309,7 @@ class Currency
      * Short name of minor unit for currency PHP
      *
      * @see https://en.wikipedia.org/wiki/Philippine_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PHP = 'Sentimo';
@@ -7886,6 +8318,7 @@ class Currency
      * Symbol for currency PHP
      *
      * @see https://en.wikipedia.org/wiki/Philippine_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PHP = '₱';
@@ -7894,6 +8327,7 @@ class Currency
      * Symbol of minor unit for currency PHP
      *
      * @see https://en.wikipedia.org/wiki/Philippine_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PHP = '¢';
@@ -7902,10 +8336,10 @@ class Currency
      * Symbol of minor unit for currency PHP
      *
      * @see https://en.wikipedia.org/wiki/Philippine_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PHP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Pakistani rupee
@@ -7942,6 +8376,7 @@ class Currency
      * Short name for currency PKR
      *
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PKR = 'Rupee';
@@ -7950,6 +8385,7 @@ class Currency
      * Short name of minor unit for currency PKR
      *
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PKR = 'Paisa';
@@ -7958,6 +8394,7 @@ class Currency
      * Symbol for currency PKR
      *
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PKR = '₨.';
@@ -7966,6 +8403,7 @@ class Currency
      * Symbol of minor unit for currency PKR
      *
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PKR = '';
@@ -7974,10 +8412,10 @@ class Currency
      * Symbol of minor unit for currency PKR
      *
      * @see https://en.wikipedia.org/wiki/Pakistani_rupee
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PKR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Polish złoty
@@ -8014,6 +8452,7 @@ class Currency
      * Short name for currency PLN
      *
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PLN = 'Złoty';
@@ -8022,6 +8461,7 @@ class Currency
      * Short name of minor unit for currency PLN
      *
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PLN = 'grosz';
@@ -8030,6 +8470,7 @@ class Currency
      * Symbol for currency PLN
      *
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PLN = 'zł';
@@ -8038,6 +8479,7 @@ class Currency
      * Symbol of minor unit for currency PLN
      *
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PLN = 'gr';
@@ -8046,10 +8488,10 @@ class Currency
      * Symbol of minor unit for currency PLN
      *
      * @see https://en.wikipedia.org/wiki/Polish_z%C5%82oty
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PLN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Paraguayan guaraní
@@ -8086,6 +8528,7 @@ class Currency
      * Short name for currency PYG
      *
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_PYG = 'Guaraní';
@@ -8094,6 +8537,7 @@ class Currency
      * Short name of minor unit for currency PYG
      *
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_PYG = 'céntimo';
@@ -8102,6 +8546,7 @@ class Currency
      * Symbol for currency PYG
      *
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_PYG = '₲';
@@ -8110,6 +8555,7 @@ class Currency
      * Symbol of minor unit for currency PYG
      *
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_PYG = '¢';
@@ -8118,10 +8564,10 @@ class Currency
      * Symbol of minor unit for currency PYG
      *
      * @see https://en.wikipedia.org/wiki/Paraguayan_guaran%C3%AD
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_PYG = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Qatari riyal
@@ -8158,6 +8604,7 @@ class Currency
      * Short name for currency QAR
      *
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_QAR = 'Riyal';
@@ -8166,6 +8613,7 @@ class Currency
      * Short name of minor unit for currency QAR
      *
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_QAR = 'dirham';
@@ -8174,6 +8622,7 @@ class Currency
      * Symbol for currency QAR
      *
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_QAR = 'ر.ق';
@@ -8182,6 +8631,7 @@ class Currency
      * Symbol of minor unit for currency QAR
      *
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_QAR = '';
@@ -8190,10 +8640,10 @@ class Currency
      * Symbol of minor unit for currency QAR
      *
      * @see https://en.wikipedia.org/wiki/Qatari_riyal
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_QAR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Romanian leu
@@ -8230,6 +8680,7 @@ class Currency
      * Short name for currency RON
      *
      * @see https://en.wikipedia.org/wiki/Romanian_leu
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_RON = 'Leu';
@@ -8238,6 +8689,7 @@ class Currency
      * Short name of minor unit for currency RON
      *
      * @see https://en.wikipedia.org/wiki/Romanian_leu
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_RON = 'ban';
@@ -8246,6 +8698,7 @@ class Currency
      * Symbol for currency RON
      *
      * @see https://en.wikipedia.org/wiki/Romanian_leu
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_RON = 'L';
@@ -8254,6 +8707,7 @@ class Currency
      * Symbol of minor unit for currency RON
      *
      * @see https://en.wikipedia.org/wiki/Romanian_leu
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_RON = '';
@@ -8262,10 +8716,10 @@ class Currency
      * Symbol of minor unit for currency RON
      *
      * @see https://en.wikipedia.org/wiki/Romanian_leu
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_RON = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Serbian dinar
@@ -8302,6 +8756,7 @@ class Currency
      * Short name for currency RSD
      *
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_RSD = 'Dinar';
@@ -8310,6 +8765,7 @@ class Currency
      * Short name of minor unit for currency RSD
      *
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_RSD = 'para';
@@ -8318,6 +8774,7 @@ class Currency
      * Symbol for currency RSD
      *
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_RSD = 'din';
@@ -8326,6 +8783,7 @@ class Currency
      * Symbol of minor unit for currency RSD
      *
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_RSD = '';
@@ -8334,10 +8792,10 @@ class Currency
      * Symbol of minor unit for currency RSD
      *
      * @see https://en.wikipedia.org/wiki/Serbian_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_RSD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Russian ruble
@@ -8374,6 +8832,7 @@ class Currency
      * Short name for currency RUB
      *
      * @see https://en.wikipedia.org/wiki/Russian_ruble
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_RUB = 'Ruble';
@@ -8382,6 +8841,7 @@ class Currency
      * Short name of minor unit for currency RUB
      *
      * @see https://en.wikipedia.org/wiki/Russian_ruble
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_RUB = 'kopeyka';
@@ -8390,6 +8850,7 @@ class Currency
      * Symbol for currency RUB
      *
      * @see https://en.wikipedia.org/wiki/Russian_ruble
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_RUB = '₽';
@@ -8398,6 +8859,7 @@ class Currency
      * Symbol of minor unit for currency RUB
      *
      * @see https://en.wikipedia.org/wiki/Russian_ruble
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_RUB = 'коп.';
@@ -8406,10 +8868,10 @@ class Currency
      * Symbol of minor unit for currency RUB
      *
      * @see https://en.wikipedia.org/wiki/Russian_ruble
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_RUB = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Rwandan franc
@@ -8446,6 +8908,7 @@ class Currency
      * Short name for currency RWF
      *
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_RWF = 'Franc';
@@ -8454,6 +8917,7 @@ class Currency
      * Short name of minor unit for currency RWF
      *
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_RWF = 'centime';
@@ -8462,6 +8926,7 @@ class Currency
      * Symbol for currency RWF
      *
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_RWF = 'FRw';
@@ -8470,6 +8935,7 @@ class Currency
      * Symbol of minor unit for currency RWF
      *
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_RWF = '';
@@ -8478,10 +8944,10 @@ class Currency
      * Symbol of minor unit for currency RWF
      *
      * @see https://en.wikipedia.org/wiki/Rwandan_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_RWF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Saudi riyal
@@ -8518,6 +8984,7 @@ class Currency
      * Short name for currency SAR
      *
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SAR = 'Riyal';
@@ -8526,6 +8993,7 @@ class Currency
      * Short name of minor unit for currency SAR
      *
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SAR = 'halalah';
@@ -8534,6 +9002,7 @@ class Currency
      * Symbol for currency SAR
      *
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SAR = 'ر.س';
@@ -8542,6 +9011,7 @@ class Currency
      * Symbol of minor unit for currency SAR
      *
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SAR = '';
@@ -8550,10 +9020,10 @@ class Currency
      * Symbol of minor unit for currency SAR
      *
      * @see https://en.wikipedia.org/wiki/Saudi_riyal
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SAR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Solomon Islands dollar
@@ -8590,6 +9060,7 @@ class Currency
      * Short name for currency SBD
      *
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SBD = 'Dollar';
@@ -8598,6 +9069,7 @@ class Currency
      * Short name of minor unit for currency SBD
      *
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SBD = 'cent';
@@ -8606,6 +9078,7 @@ class Currency
      * Symbol for currency SBD
      *
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SBD = '$';
@@ -8614,6 +9087,7 @@ class Currency
      * Symbol of minor unit for currency SBD
      *
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SBD = '';
@@ -8622,10 +9096,10 @@ class Currency
      * Symbol of minor unit for currency SBD
      *
      * @see https://en.wikipedia.org/wiki/Solomon_Islands_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SBD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Seychellois rupee
@@ -8662,6 +9136,7 @@ class Currency
      * Short name for currency SCR
      *
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SCR = 'Rupee';
@@ -8670,6 +9145,7 @@ class Currency
      * Short name of minor unit for currency SCR
      *
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SCR = 'cent';
@@ -8678,6 +9154,7 @@ class Currency
      * Symbol for currency SCR
      *
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SCR = 'Rs';
@@ -8686,6 +9163,7 @@ class Currency
      * Symbol of minor unit for currency SCR
      *
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SCR = '¢';
@@ -8694,10 +9172,10 @@ class Currency
      * Symbol of minor unit for currency SCR
      *
      * @see https://en.wikipedia.org/wiki/Seychellois_rupee
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SCR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Sudanese pound
@@ -8734,6 +9212,7 @@ class Currency
      * Short name for currency SDG
      *
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SDG = 'Pound';
@@ -8742,6 +9221,7 @@ class Currency
      * Short name of minor unit for currency SDG
      *
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SDG = 'piastre';
@@ -8750,6 +9230,7 @@ class Currency
      * Symbol for currency SDG
      *
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SDG = 'ج.س';
@@ -8758,6 +9239,7 @@ class Currency
      * Symbol of minor unit for currency SDG
      *
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SDG = '';
@@ -8766,10 +9248,10 @@ class Currency
      * Symbol of minor unit for currency SDG
      *
      * @see https://en.wikipedia.org/wiki/Sudanese_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SDG = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Swedish krona
@@ -8806,6 +9288,7 @@ class Currency
      * Short name for currency SEK
      *
      * @see https://en.wikipedia.org/wiki/Swedish_krona
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SEK = 'Krona';
@@ -8814,6 +9297,7 @@ class Currency
      * Short name of minor unit for currency SEK
      *
      * @see https://en.wikipedia.org/wiki/Swedish_krona
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SEK = 'öre';
@@ -8822,6 +9306,7 @@ class Currency
      * Symbol for currency SEK
      *
      * @see https://en.wikipedia.org/wiki/Swedish_krona
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SEK = 'kr';
@@ -8830,6 +9315,7 @@ class Currency
      * Symbol of minor unit for currency SEK
      *
      * @see https://en.wikipedia.org/wiki/Swedish_krona
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SEK = '';
@@ -8838,10 +9324,10 @@ class Currency
      * Symbol of minor unit for currency SEK
      *
      * @see https://en.wikipedia.org/wiki/Swedish_krona
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SEK = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Singapore dollar
@@ -8878,6 +9364,7 @@ class Currency
      * Short name for currency SGD
      *
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SGD = 'Dollar';
@@ -8886,6 +9373,7 @@ class Currency
      * Short name of minor unit for currency SGD
      *
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SGD = 'cent';
@@ -8894,6 +9382,7 @@ class Currency
      * Symbol for currency SGD
      *
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SGD = '$';
@@ -8902,6 +9391,7 @@ class Currency
      * Symbol of minor unit for currency SGD
      *
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SGD = 'c';
@@ -8910,10 +9400,10 @@ class Currency
      * Symbol of minor unit for currency SGD
      *
      * @see https://en.wikipedia.org/wiki/Singapore_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SGD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Saint Helena pound
@@ -8951,6 +9441,7 @@ class Currency
      * Short name for currency SHP
      *
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SHP = 'Pound';
@@ -8959,6 +9450,7 @@ class Currency
      * Short name of minor unit for currency SHP
      *
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SHP = 'penny';
@@ -8967,6 +9459,7 @@ class Currency
      * Symbol for currency SHP
      *
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SHP = '£';
@@ -8975,6 +9468,7 @@ class Currency
      * Symbol of minor unit for currency SHP
      *
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SHP = '';
@@ -8983,10 +9477,10 @@ class Currency
      * Symbol of minor unit for currency SHP
      *
      * @see https://en.wikipedia.org/wiki/Saint_Helena_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SHP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Sierra Leonean leone
@@ -9023,6 +9517,7 @@ class Currency
      * Short name for currency SLL
      *
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SLL = 'Leone';
@@ -9031,6 +9526,7 @@ class Currency
      * Short name of minor unit for currency SLL
      *
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SLL = 'cent';
@@ -9039,6 +9535,7 @@ class Currency
      * Symbol for currency SLL
      *
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SLL = 'Le';
@@ -9047,6 +9544,7 @@ class Currency
      * Symbol of minor unit for currency SLL
      *
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SLL = '';
@@ -9055,10 +9553,10 @@ class Currency
      * Symbol of minor unit for currency SLL
      *
      * @see https://en.wikipedia.org/wiki/Sierra_Leonean_leone
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SLL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Somali shilling
@@ -9095,6 +9593,7 @@ class Currency
      * Short name for currency SOS
      *
      * @see https://en.wikipedia.org/wiki/Somali_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SOS = 'Shilling';
@@ -9103,6 +9602,7 @@ class Currency
      * Short name of minor unit for currency SOS
      *
      * @see https://en.wikipedia.org/wiki/Somali_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SOS = 'Senti';
@@ -9111,6 +9611,7 @@ class Currency
      * Symbol for currency SOS
      *
      * @see https://en.wikipedia.org/wiki/Somali_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SOS = 'Sh.So.';
@@ -9119,6 +9620,7 @@ class Currency
      * Symbol of minor unit for currency SOS
      *
      * @see https://en.wikipedia.org/wiki/Somali_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SOS = '';
@@ -9127,10 +9629,10 @@ class Currency
      * Symbol of minor unit for currency SOS
      *
      * @see https://en.wikipedia.org/wiki/Somali_shilling
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SOS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Surinamese dollar
@@ -9167,6 +9669,7 @@ class Currency
      * Short name for currency SRD
      *
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SRD = 'Dollar';
@@ -9175,6 +9678,7 @@ class Currency
      * Short name of minor unit for currency SRD
      *
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SRD = 'cent';
@@ -9183,6 +9687,7 @@ class Currency
      * Symbol for currency SRD
      *
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SRD = '$';
@@ -9191,6 +9696,7 @@ class Currency
      * Symbol of minor unit for currency SRD
      *
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SRD = '';
@@ -9199,10 +9705,10 @@ class Currency
      * Symbol of minor unit for currency SRD
      *
      * @see https://en.wikipedia.org/wiki/Surinamese_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SRD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the South Sudanese pound
@@ -9239,6 +9745,7 @@ class Currency
      * Short name for currency SSP
      *
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SSP = 'Pound';
@@ -9247,6 +9754,7 @@ class Currency
      * Short name of minor unit for currency SSP
      *
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SSP = 'Piaster';
@@ -9255,6 +9763,7 @@ class Currency
      * Symbol for currency SSP
      *
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SSP = 'SS£';
@@ -9263,6 +9772,7 @@ class Currency
      * Symbol of minor unit for currency SSP
      *
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SSP = 'pt';
@@ -9271,10 +9781,10 @@ class Currency
      * Symbol of minor unit for currency SSP
      *
      * @see https://en.wikipedia.org/wiki/South_Sudanese_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SSP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the São Tomé and Príncipe dobra
@@ -9311,6 +9821,7 @@ class Currency
      * Short name for currency STN
      *
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_STN = 'Dobra';
@@ -9319,6 +9830,7 @@ class Currency
      * Short name of minor unit for currency STN
      *
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_STN = 'cêntimo';
@@ -9327,6 +9839,7 @@ class Currency
      * Symbol for currency STN
      *
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_STN = 'Db';
@@ -9335,6 +9848,7 @@ class Currency
      * Symbol of minor unit for currency STN
      *
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_STN = '';
@@ -9343,10 +9857,10 @@ class Currency
      * Symbol of minor unit for currency STN
      *
      * @see https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_dobra
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_STN = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Salvadoran colón
@@ -9383,6 +9897,7 @@ class Currency
      * Short name for currency SVC
      *
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SVC = 'Colón';
@@ -9391,6 +9906,7 @@ class Currency
      * Short name of minor unit for currency SVC
      *
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SVC = 'centavo';
@@ -9399,6 +9915,7 @@ class Currency
      * Symbol for currency SVC
      *
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SVC = '₡';
@@ -9407,6 +9924,7 @@ class Currency
      * Symbol of minor unit for currency SVC
      *
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SVC = '';
@@ -9415,10 +9933,10 @@ class Currency
      * Symbol of minor unit for currency SVC
      *
      * @see https://en.wikipedia.org/wiki/Salvadoran_col%C3%B3n
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SVC = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Syrian pound
@@ -9455,6 +9973,7 @@ class Currency
      * Short name for currency SYP
      *
      * @see https://en.wikipedia.org/wiki/Syrian_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SYP = 'Pound';
@@ -9463,6 +9982,7 @@ class Currency
      * Short name of minor unit for currency SYP
      *
      * @see https://en.wikipedia.org/wiki/Syrian_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SYP = 'piastre';
@@ -9471,6 +9991,7 @@ class Currency
      * Symbol for currency SYP
      *
      * @see https://en.wikipedia.org/wiki/Syrian_pound
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SYP = '£S';
@@ -9479,6 +10000,7 @@ class Currency
      * Symbol of minor unit for currency SYP
      *
      * @see https://en.wikipedia.org/wiki/Syrian_pound
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SYP = '';
@@ -9487,10 +10009,10 @@ class Currency
      * Symbol of minor unit for currency SYP
      *
      * @see https://en.wikipedia.org/wiki/Syrian_pound
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SYP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Swazi lilangeni
@@ -9527,6 +10049,7 @@ class Currency
      * Short name for currency SZL
      *
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_SZL = 'Lilangeni';
@@ -9535,6 +10058,7 @@ class Currency
      * Short name of minor unit for currency SZL
      *
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_SZL = 'cent';
@@ -9543,6 +10067,7 @@ class Currency
      * Symbol for currency SZL
      *
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_SZL = 'L';
@@ -9551,6 +10076,7 @@ class Currency
      * Symbol of minor unit for currency SZL
      *
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_SZL = '';
@@ -9559,10 +10085,10 @@ class Currency
      * Symbol of minor unit for currency SZL
      *
      * @see https://en.wikipedia.org/wiki/Swazi_lilangeni
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_SZL = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Thai baht
@@ -9599,6 +10125,7 @@ class Currency
      * Short name for currency THB
      *
      * @see https://en.wikipedia.org/wiki/Thai_baht
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_THB = 'Baht';
@@ -9607,6 +10134,7 @@ class Currency
      * Short name of minor unit for currency THB
      *
      * @see https://en.wikipedia.org/wiki/Thai_baht
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_THB = 'satang';
@@ -9615,6 +10143,7 @@ class Currency
      * Symbol for currency THB
      *
      * @see https://en.wikipedia.org/wiki/Thai_baht
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_THB = '฿';
@@ -9623,6 +10152,7 @@ class Currency
      * Symbol of minor unit for currency THB
      *
      * @see https://en.wikipedia.org/wiki/Thai_baht
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_THB = '';
@@ -9631,10 +10161,10 @@ class Currency
      * Symbol of minor unit for currency THB
      *
      * @see https://en.wikipedia.org/wiki/Thai_baht
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_THB = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Tajikistani somoni
@@ -9671,6 +10201,7 @@ class Currency
      * Short name for currency TJS
      *
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TJS = 'Somoni';
@@ -9679,6 +10210,7 @@ class Currency
      * Short name of minor unit for currency TJS
      *
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TJS = 'diram';
@@ -9687,6 +10219,7 @@ class Currency
      * Symbol for currency TJS
      *
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TJS = 'SM';
@@ -9695,6 +10228,7 @@ class Currency
      * Symbol of minor unit for currency TJS
      *
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TJS = '';
@@ -9703,10 +10237,10 @@ class Currency
      * Symbol of minor unit for currency TJS
      *
      * @see https://en.wikipedia.org/wiki/Tajikistani_somoni
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TJS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Turkmenistan manat
@@ -9743,6 +10277,7 @@ class Currency
      * Short name for currency TMT
      *
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TMT = 'Manat';
@@ -9751,6 +10286,7 @@ class Currency
      * Short name of minor unit for currency TMT
      *
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TMT = 'tenge';
@@ -9759,6 +10295,7 @@ class Currency
      * Symbol for currency TMT
      *
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TMT = 'm';
@@ -9767,6 +10304,7 @@ class Currency
      * Symbol of minor unit for currency TMT
      *
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TMT = 'T';
@@ -9775,10 +10313,10 @@ class Currency
      * Symbol of minor unit for currency TMT
      *
      * @see https://en.wikipedia.org/wiki/Turkmenistani_manat
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TMT = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Tunisian dinar
@@ -9815,6 +10353,7 @@ class Currency
      * Short name for currency TND
      *
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TND = 'Dinar';
@@ -9823,6 +10362,7 @@ class Currency
      * Short name of minor unit for currency TND
      *
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TND = 'milim';
@@ -9831,6 +10371,7 @@ class Currency
      * Symbol for currency TND
      *
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TND = 'د.ت';
@@ -9839,6 +10380,7 @@ class Currency
      * Symbol of minor unit for currency TND
      *
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TND = '';
@@ -9847,10 +10389,10 @@ class Currency
      * Symbol of minor unit for currency TND
      *
      * @see https://en.wikipedia.org/wiki/Tunisian_dinar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TND = 1 / 1000;
-
 
     /**
      * ISO-4217 Code for the Tongan paʻanga
@@ -9887,6 +10429,7 @@ class Currency
      * Short name for currency TOP
      *
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TOP = 'Paʻanga';
@@ -9895,6 +10438,7 @@ class Currency
      * Short name of minor unit for currency TOP
      *
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TOP = 'seniti';
@@ -9903,6 +10447,7 @@ class Currency
      * Symbol for currency TOP
      *
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TOP = 'T$';
@@ -9911,6 +10456,7 @@ class Currency
      * Symbol of minor unit for currency TOP
      *
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TOP = '¢';
@@ -9919,10 +10465,10 @@ class Currency
      * Symbol of minor unit for currency TOP
      *
      * @see https://en.wikipedia.org/wiki/Tongan_pa%CA%BBanga
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TOP = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Turkish lira
@@ -9959,6 +10505,7 @@ class Currency
      * Short name for currency TRY
      *
      * @see https://en.wikipedia.org/wiki/Turkish_lira
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TRY = 'Lira';
@@ -9967,6 +10514,7 @@ class Currency
      * Short name of minor unit for currency TRY
      *
      * @see https://en.wikipedia.org/wiki/Turkish_lira
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TRY = 'Kuruş';
@@ -9975,6 +10523,7 @@ class Currency
      * Symbol for currency TRY
      *
      * @see https://en.wikipedia.org/wiki/Turkish_lira
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TRY = '₺';
@@ -9983,6 +10532,7 @@ class Currency
      * Symbol of minor unit for currency TRY
      *
      * @see https://en.wikipedia.org/wiki/Turkish_lira
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TRY = 'kr';
@@ -9991,10 +10541,10 @@ class Currency
      * Symbol of minor unit for currency TRY
      *
      * @see https://en.wikipedia.org/wiki/Turkish_lira
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TRY = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Trinidad and Tobago dollar
@@ -10031,6 +10581,7 @@ class Currency
      * Short name for currency TTD
      *
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TTD = 'Dollar';
@@ -10039,6 +10590,7 @@ class Currency
      * Short name of minor unit for currency TTD
      *
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TTD = 'cent';
@@ -10047,6 +10599,7 @@ class Currency
      * Symbol for currency TTD
      *
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TTD = '$';
@@ -10055,6 +10608,7 @@ class Currency
      * Symbol of minor unit for currency TTD
      *
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TTD = '¢';
@@ -10063,10 +10617,10 @@ class Currency
      * Symbol of minor unit for currency TTD
      *
      * @see https://en.wikipedia.org/wiki/Trinidad_and_Tobago_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TTD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the New Taiwan dollar
@@ -10103,6 +10657,7 @@ class Currency
      * Short name for currency TWD
      *
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TWD = 'Dollar';
@@ -10111,6 +10666,7 @@ class Currency
      * Short name of minor unit for currency TWD
      *
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TWD = 'jiao';
@@ -10119,6 +10675,7 @@ class Currency
      * Symbol for currency TWD
      *
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TWD = '圓';
@@ -10127,6 +10684,7 @@ class Currency
      * Symbol of minor unit for currency TWD
      *
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TWD = '';
@@ -10135,10 +10693,10 @@ class Currency
      * Symbol of minor unit for currency TWD
      *
      * @see https://en.wikipedia.org/wiki/New_Taiwan_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TWD = 1 / 10;
-
 
     /**
      * ISO-4217 Code for the Tanzanian shilling
@@ -10175,6 +10733,7 @@ class Currency
      * Short name for currency TZS
      *
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_TZS = 'Shilingi';
@@ -10183,6 +10742,7 @@ class Currency
      * Short name of minor unit for currency TZS
      *
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_TZS = 'senti';
@@ -10191,6 +10751,7 @@ class Currency
      * Symbol for currency TZS
      *
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_TZS = 'TSh';
@@ -10199,6 +10760,7 @@ class Currency
      * Symbol of minor unit for currency TZS
      *
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_TZS = '';
@@ -10207,10 +10769,10 @@ class Currency
      * Symbol of minor unit for currency TZS
      *
      * @see https://en.wikipedia.org/wiki/Tanzanian_shilling
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_TZS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Ukrainian hryvnia
@@ -10247,6 +10809,7 @@ class Currency
      * Short name for currency UAH
      *
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_UAH = 'Hryvnia';
@@ -10255,6 +10818,7 @@ class Currency
      * Short name of minor unit for currency UAH
      *
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_UAH = 'kopiyka';
@@ -10263,6 +10827,7 @@ class Currency
      * Symbol for currency UAH
      *
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_UAH = '₴';
@@ -10271,6 +10836,7 @@ class Currency
      * Symbol of minor unit for currency UAH
      *
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_UAH = '';
@@ -10279,10 +10845,10 @@ class Currency
      * Symbol of minor unit for currency UAH
      *
      * @see https://en.wikipedia.org/wiki/Ukrainian_hryvnia
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_UAH = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Ugandan shilling
@@ -10319,6 +10885,7 @@ class Currency
      * Short name for currency UGX
      *
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_UGX = 'Shilling';
@@ -10327,6 +10894,7 @@ class Currency
      * Short name of minor unit for currency UGX
      *
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_UGX = '';
@@ -10335,6 +10903,7 @@ class Currency
      * Symbol for currency UGX
      *
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_UGX = '';
@@ -10343,6 +10912,7 @@ class Currency
      * Symbol of minor unit for currency UGX
      *
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_UGX = '';
@@ -10351,10 +10921,10 @@ class Currency
      * Symbol of minor unit for currency UGX
      *
      * @see https://en.wikipedia.org/wiki/Ugandan_shilling
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_UGX = 1.0;
-
 
     /**
      * ISO-4217 Code for the United States dollar
@@ -10408,6 +10978,7 @@ class Currency
      * Short name for currency USD
      *
      * @see https://en.wikipedia.org/wiki/United_States_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_USD = 'Dollar';
@@ -10416,6 +10987,7 @@ class Currency
      * Short name of minor unit for currency USD
      *
      * @see https://en.wikipedia.org/wiki/United_States_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_USD = 'cent';
@@ -10424,6 +10996,7 @@ class Currency
      * Symbol for currency USD
      *
      * @see https://en.wikipedia.org/wiki/United_States_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_USD = '$';
@@ -10432,6 +11005,7 @@ class Currency
      * Symbol of minor unit for currency USD
      *
      * @see https://en.wikipedia.org/wiki/United_States_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_USD = '¢';
@@ -10440,10 +11014,10 @@ class Currency
      * Symbol of minor unit for currency USD
      *
      * @see https://en.wikipedia.org/wiki/United_States_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_USD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Uruguayan peso
@@ -10480,6 +11054,7 @@ class Currency
      * Short name for currency UYU
      *
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_UYU = 'Peso';
@@ -10488,6 +11063,7 @@ class Currency
      * Short name of minor unit for currency UYU
      *
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_UYU = 'centésimo';
@@ -10496,6 +11072,7 @@ class Currency
      * Symbol for currency UYU
      *
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_UYU = '$';
@@ -10504,6 +11081,7 @@ class Currency
      * Symbol of minor unit for currency UYU
      *
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_UYU = '';
@@ -10512,10 +11090,10 @@ class Currency
      * Symbol of minor unit for currency UYU
      *
      * @see https://en.wikipedia.org/wiki/Uruguayan_peso
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_UYU = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Uzbekistan som
@@ -10552,6 +11130,7 @@ class Currency
      * Short name for currency UZS
      *
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_UZS = 'Soʻm';
@@ -10560,6 +11139,7 @@ class Currency
      * Short name of minor unit for currency UZS
      *
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_UZS = 'Tiyin';
@@ -10568,6 +11148,7 @@ class Currency
      * Symbol for currency UZS
      *
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_UZS = 'сум';
@@ -10576,6 +11157,7 @@ class Currency
      * Symbol of minor unit for currency UZS
      *
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_UZS = '';
@@ -10584,10 +11166,10 @@ class Currency
      * Symbol of minor unit for currency UZS
      *
      * @see https://en.wikipedia.org/wiki/Uzbekistani_so%CA%BBm
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_UZS = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Venezuelan bolívar digital
@@ -10624,6 +11206,7 @@ class Currency
      * Short name for currency VED
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_VED = 'Bolívar digital';
@@ -10632,6 +11215,7 @@ class Currency
      * Short name of minor unit for currency VED
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_VED = 'céntimo';
@@ -10640,6 +11224,7 @@ class Currency
      * Symbol for currency VED
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_VED = 'Bs. D';
@@ -10648,6 +11233,7 @@ class Currency
      * Symbol of minor unit for currency VED
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_VED = '';
@@ -10656,10 +11242,10 @@ class Currency
      * Symbol of minor unit for currency VED
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_VED = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Venezuelan bolívar soberano
@@ -10696,6 +11282,7 @@ class Currency
      * Short name for currency VES
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_VES = 'Bolívar soberano';
@@ -10704,6 +11291,7 @@ class Currency
      * Short name of minor unit for currency VES
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_VES = 'céntimo';
@@ -10712,6 +11300,7 @@ class Currency
      * Symbol for currency VES
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_VES = 'Bs.';
@@ -10720,6 +11309,7 @@ class Currency
      * Symbol of minor unit for currency VES
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_VES = '';
@@ -10728,10 +11318,10 @@ class Currency
      * Symbol of minor unit for currency VES
      *
      * @see https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_VES = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Vietnamese đồng
@@ -10768,6 +11358,7 @@ class Currency
      * Short name for currency VND
      *
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_VND = 'Đồng';
@@ -10776,6 +11367,7 @@ class Currency
      * Short name of minor unit for currency VND
      *
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_VND = 'hào';
@@ -10784,6 +11376,7 @@ class Currency
      * Symbol for currency VND
      *
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_VND = '₫';
@@ -10792,6 +11385,7 @@ class Currency
      * Symbol of minor unit for currency VND
      *
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_VND = '';
@@ -10800,10 +11394,10 @@ class Currency
      * Symbol of minor unit for currency VND
      *
      * @see https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_VND = 1 / 10;
-
 
     /**
      * ISO-4217 Code for the Vanuatu vatu
@@ -10840,6 +11434,7 @@ class Currency
      * Short name for currency VUV
      *
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_VUV = 'Vatu';
@@ -10848,6 +11443,7 @@ class Currency
      * Short name of minor unit for currency VUV
      *
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_VUV = '';
@@ -10856,6 +11452,7 @@ class Currency
      * Symbol for currency VUV
      *
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_VUV = 'VT';
@@ -10864,6 +11461,7 @@ class Currency
      * Symbol of minor unit for currency VUV
      *
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_VUV = '';
@@ -10872,10 +11470,10 @@ class Currency
      * Symbol of minor unit for currency VUV
      *
      * @see https://en.wikipedia.org/wiki/Vanuatu_vatu
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_VUV = 1.0;
-
 
     /**
      * ISO-4217 Code for the Samoan tala
@@ -10912,6 +11510,7 @@ class Currency
      * Short name for currency WST
      *
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_WST = 'Tālā';
@@ -10920,6 +11519,7 @@ class Currency
      * Short name of minor unit for currency WST
      *
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_WST = 'sene';
@@ -10928,6 +11528,7 @@ class Currency
      * Symbol for currency WST
      *
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_WST = '$';
@@ -10936,6 +11537,7 @@ class Currency
      * Symbol of minor unit for currency WST
      *
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_WST = '';
@@ -10944,10 +11546,10 @@ class Currency
      * Symbol of minor unit for currency WST
      *
      * @see https://en.wikipedia.org/wiki/Samoan_t%C4%81l%C4%81
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_WST = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the CFA franc BEAC
@@ -10989,6 +11591,7 @@ class Currency
      * Short name for currency XAF
      *
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_XAF = 'Franc';
@@ -10997,6 +11600,7 @@ class Currency
      * Short name of minor unit for currency XAF
      *
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_XAF = 'centime';
@@ -11005,6 +11609,7 @@ class Currency
      * Symbol for currency XAF
      *
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_XAF = 'FCFA';
@@ -11013,6 +11618,7 @@ class Currency
      * Symbol of minor unit for currency XAF
      *
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_XAF = 'c';
@@ -11021,10 +11627,10 @@ class Currency
      * Symbol of minor unit for currency XAF
      *
      * @see https://en.wikipedia.org/wiki/Central_African_CFA_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_XAF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the East Caribbean dollar
@@ -11068,6 +11674,7 @@ class Currency
      * Short name for currency XCD
      *
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_XCD = 'Dollar';
@@ -11076,6 +11683,7 @@ class Currency
      * Short name of minor unit for currency XCD
      *
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_XCD = 'cent';
@@ -11084,6 +11692,7 @@ class Currency
      * Symbol for currency XCD
      *
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_XCD = 'EC$';
@@ -11092,6 +11701,7 @@ class Currency
      * Symbol of minor unit for currency XCD
      *
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_XCD = '';
@@ -11100,10 +11710,10 @@ class Currency
      * Symbol of minor unit for currency XCD
      *
      * @see https://en.wikipedia.org/wiki/Eastern_Caribbean_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_XCD = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the CFA franc BCEAO
@@ -11147,6 +11757,7 @@ class Currency
      * Short name for currency XOF
      *
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_XOF = 'Franc';
@@ -11155,6 +11766,7 @@ class Currency
      * Short name of minor unit for currency XOF
      *
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_XOF = 'centime';
@@ -11163,6 +11775,7 @@ class Currency
      * Symbol for currency XOF
      *
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_XOF = 'CFA';
@@ -11171,6 +11784,7 @@ class Currency
      * Symbol of minor unit for currency XOF
      *
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_XOF = 'c';
@@ -11179,10 +11793,10 @@ class Currency
      * Symbol of minor unit for currency XOF
      *
      * @see https://en.wikipedia.org/wiki/West_African_CFA_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_XOF = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the CFP franc (franc Pacifique)
@@ -11221,6 +11835,7 @@ class Currency
      * Short name for currency XPF
      *
      * @see https://en.wikipedia.org/wiki/CFP_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_XPF = 'Franc';
@@ -11229,6 +11844,7 @@ class Currency
      * Short name of minor unit for currency XPF
      *
      * @see https://en.wikipedia.org/wiki/CFP_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_XPF = '';
@@ -11237,6 +11853,7 @@ class Currency
      * Symbol for currency XPF
      *
      * @see https://en.wikipedia.org/wiki/CFP_franc
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_XPF = '₣';
@@ -11245,6 +11862,7 @@ class Currency
      * Symbol of minor unit for currency XPF
      *
      * @see https://en.wikipedia.org/wiki/CFP_franc
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_XPF = '';
@@ -11253,10 +11871,10 @@ class Currency
      * Symbol of minor unit for currency XPF
      *
      * @see https://en.wikipedia.org/wiki/CFP_franc
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_XPF = 1.0;
-
 
     /**
      * ISO-4217 Code for the Yemeni rial
@@ -11293,6 +11911,7 @@ class Currency
      * Short name for currency YER
      *
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_YER = 'Rial';
@@ -11301,6 +11920,7 @@ class Currency
      * Short name of minor unit for currency YER
      *
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_YER = 'fils';
@@ -11309,6 +11929,7 @@ class Currency
      * Symbol for currency YER
      *
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_YER = '﷼';
@@ -11317,6 +11938,7 @@ class Currency
      * Symbol of minor unit for currency YER
      *
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_YER = '';
@@ -11325,10 +11947,10 @@ class Currency
      * Symbol of minor unit for currency YER
      *
      * @see https://en.wikipedia.org/wiki/Yemeni_rial
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_YER = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the South African rand
@@ -11368,6 +11990,7 @@ class Currency
      * Short name for currency ZAR
      *
      * @see https://en.wikipedia.org/wiki/South_African_rand
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ZAR = 'Rand';
@@ -11376,6 +11999,7 @@ class Currency
      * Short name of minor unit for currency ZAR
      *
      * @see https://en.wikipedia.org/wiki/South_African_rand
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ZAR = 'cent';
@@ -11384,6 +12008,7 @@ class Currency
      * Symbol for currency ZAR
      *
      * @see https://en.wikipedia.org/wiki/South_African_rand
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ZAR = 'R';
@@ -11392,6 +12017,7 @@ class Currency
      * Symbol of minor unit for currency ZAR
      *
      * @see https://en.wikipedia.org/wiki/South_African_rand
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ZAR = 'c';
@@ -11400,10 +12026,10 @@ class Currency
      * Symbol of minor unit for currency ZAR
      *
      * @see https://en.wikipedia.org/wiki/South_African_rand
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ZAR = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Zambian kwacha
@@ -11440,6 +12066,7 @@ class Currency
      * Short name for currency ZMW
      *
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ZMW = 'Kwacha';
@@ -11448,6 +12075,7 @@ class Currency
      * Short name of minor unit for currency ZMW
      *
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ZMW = 'ngwee';
@@ -11456,6 +12084,7 @@ class Currency
      * Symbol for currency ZMW
      *
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ZMW = 'K';
@@ -11464,6 +12093,7 @@ class Currency
      * Symbol of minor unit for currency ZMW
      *
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ZMW = '';
@@ -11472,10 +12102,10 @@ class Currency
      * Symbol of minor unit for currency ZMW
      *
      * @see https://en.wikipedia.org/wiki/Zambian_kwacha
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ZMW = 1 / 100;
-
 
     /**
      * ISO-4217 Code for the Zimbabwean dollar
@@ -11512,6 +12142,7 @@ class Currency
      * Short name for currency ZWL
      *
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_NAME_ZWL = 'Dollar';
@@ -11520,6 +12151,7 @@ class Currency
      * Short name of minor unit for currency ZWL
      *
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_NAME_ZWL = 'cent';
@@ -11528,6 +12160,7 @@ class Currency
      * Symbol for currency ZWL
      *
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
+     *
      * @var string
      */
     public const MAJOR_UNIT_SYMBOL_ZWL = '$';
@@ -11536,6 +12169,7 @@ class Currency
      * Symbol of minor unit for currency ZWL
      *
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
+     *
      * @var string
      */
     public const MINOR_UNIT_SYMBOL_ZWL = '';
@@ -11544,6 +12178,7 @@ class Currency
      * Symbol of minor unit for currency ZWL
      *
      * @see https://en.wikipedia.org/wiki/Zimbabwean_dollar
+     *
      * @var float
      */
     public const MAJOR_MINOR_RATIO_ZWL = 1 / 100;

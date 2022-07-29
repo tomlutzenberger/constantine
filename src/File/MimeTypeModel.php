@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\File;
 /**
  * Collection of official IANA model MIME types
  *
- * @see       https://www.iana.org/assignments/media-types/media-types.xhtml
+ * @see https://www.iana.org/assignments/media-types/media-types.xhtml
  *
  * @package   TomLutzenberger\Constantine\File
  * @copyright 2021-2022 Tom Lutzenberger
@@ -25,11 +25,11 @@ class MimeTypeModel
      *
      * Standards: -
      *
-     * @var string
      * @see http://www.3mf.io/specification
+     *
+     * @var string
      */
     public const X_3MF = 'model/3mf';
-
 
     /**
      * MIME type 'e57'
@@ -40,17 +40,16 @@ class MimeTypeModel
      */
     public const E57 = 'model/e57';
 
-
     /**
      * MIME type 'example'
      *
      * Standards: RFC4735
      *
-     * @var string
      * @see https://www.iana.org/go/rfc4735
+     *
+     * @var string
      */
     public const EXAMPLE = 'model/example';
-
 
     /**
      * MIME type 'gltf-binary'
@@ -61,7 +60,6 @@ class MimeTypeModel
      */
     public const GLTF_BINARY = 'model/gltf-binary';
 
-
     /**
      * MIME type 'gltf+json'
      *
@@ -70,7 +68,6 @@ class MimeTypeModel
      * @var string
      */
     public const GLTF_JSON = 'model/gltf+json';
-
 
     /**
      * MIME type 'iges'
@@ -81,17 +78,16 @@ class MimeTypeModel
      */
     public const IGES = 'model/iges';
 
-
     /**
      * MIME type 'mesh'
      *
      * Standards: RFC2077
      *
-     * @var string
      * @see https://www.iana.org/go/rfc2077
+     *
+     * @var string
      */
     public const MESH = 'model/mesh';
-
 
     /**
      * MIME type 'mtl'
@@ -102,7 +98,6 @@ class MimeTypeModel
      */
     public const MTL = 'model/mtl';
 
-
     /**
      * MIME type 'obj'
      *
@@ -111,7 +106,6 @@ class MimeTypeModel
      * @var string
      */
     public const OBJ = 'model/obj';
-
 
     /**
      * MIME type 'prc'
@@ -122,7 +116,6 @@ class MimeTypeModel
      */
     public const PRC = 'model/prc';
 
-
     /**
      * MIME type 'step'
      *
@@ -131,7 +124,6 @@ class MimeTypeModel
      * @var string
      */
     public const STEP = 'model/step';
-
 
     /**
      * MIME type 'step+xml'
@@ -142,7 +134,6 @@ class MimeTypeModel
      */
     public const STEP_XML = 'model/step+xml';
 
-
     /**
      * MIME type 'step+zip'
      *
@@ -151,7 +142,6 @@ class MimeTypeModel
      * @var string
      */
     public const STEP_ZIP = 'model/step+zip';
-
 
     /**
      * MIME type 'step-xml+zip'
@@ -162,7 +152,6 @@ class MimeTypeModel
      */
     public const STEP_XML_ZIP = 'model/step-xml+zip';
 
-
     /**
      * MIME type 'stl'
      *
@@ -171,7 +160,6 @@ class MimeTypeModel
      * @var string
      */
     public const STL = 'model/stl';
-
 
     /**
      * MIME type 'u3d'
@@ -182,7 +170,6 @@ class MimeTypeModel
      */
     public const U3D = 'model/u3d';
 
-
     /**
      * MIME type 'vnd.collada+xml'
      *
@@ -191,7 +178,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_COLLADA_XML = 'model/vnd.collada+xml';
-
 
     /**
      * MIME type 'vnd.dwf'
@@ -202,7 +188,6 @@ class MimeTypeModel
      */
     public const VND_DWF = 'model/vnd.dwf';
 
-
     /**
      * MIME type 'vnd.flatland.3dml'
      *
@@ -211,7 +196,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_FLATLAND_3DML = 'model/vnd.flatland.3dml';
-
 
     /**
      * MIME type 'vnd.gdl'
@@ -222,7 +206,6 @@ class MimeTypeModel
      */
     public const VND_GDL = 'model/vnd.gdl';
 
-
     /**
      * MIME type 'vnd.gs-gdl'
      *
@@ -231,7 +214,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_GS_GDL = 'model/vnd.gs-gdl';
-
 
     /**
      * MIME type 'vnd.gtw'
@@ -242,7 +224,6 @@ class MimeTypeModel
      */
     public const VND_GTW = 'model/vnd.gtw';
 
-
     /**
      * MIME type 'vnd.moml+xml'
      *
@@ -251,7 +232,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_MOML_XML = 'model/vnd.moml+xml';
-
 
     /**
      * MIME type 'vnd.mts'
@@ -262,7 +242,6 @@ class MimeTypeModel
      */
     public const VND_MTS = 'model/vnd.mts';
 
-
     /**
      * MIME type 'vnd.opengex'
      *
@@ -271,7 +250,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_OPENGEX = 'model/vnd.opengex';
-
 
     /**
      * MIME type 'vnd.parasolid.transmit.binary'
@@ -282,7 +260,6 @@ class MimeTypeModel
      */
     public const VND_PARASOLID_TRANSMIT_BINARY = 'model/vnd.parasolid.transmit.binary';
 
-
     /**
      * MIME type 'vnd.parasolid.transmit.text'
      *
@@ -291,7 +268,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_PARASOLID_TRANSMIT_TEXT = 'model/vnd.parasolid.transmit.text';
-
 
     /**
      * MIME type 'vnd.pytha.pyox'
@@ -302,7 +278,6 @@ class MimeTypeModel
      */
     public const VND_PYTHA_PYOX = 'model/vnd.pytha.pyox';
 
-
     /**
      * MIME type 'vnd.rosette.annotated-data-model'
      *
@@ -311,7 +286,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_ROSETTE_ANNOTATED_DATA_MODEL = 'model/vnd.rosette.annotated-data-model';
-
 
     /**
      * MIME type 'vnd.sap.vds'
@@ -322,7 +296,6 @@ class MimeTypeModel
      */
     public const VND_SAP_VDS = 'model/vnd.sap.vds';
 
-
     /**
      * MIME type 'vnd.usdz+zip'
      *
@@ -331,7 +304,6 @@ class MimeTypeModel
      * @var string
      */
     public const VND_USDZ_ZIP = 'model/vnd.usdz+zip';
-
 
     /**
      * MIME type 'vnd.valve.source.compiled-map'
@@ -342,7 +314,6 @@ class MimeTypeModel
      */
     public const VND_VALVE_SOURCE_COMPILED_MAP = 'model/vnd.valve.source.compiled-map';
 
-
     /**
      * MIME type 'vnd.vtu'
      *
@@ -352,17 +323,16 @@ class MimeTypeModel
      */
     public const VND_VTU = 'model/vnd.vtu';
 
-
     /**
      * MIME type 'vrml'
      *
      * Standards: RFC2077
      *
-     * @var string
      * @see https://www.iana.org/go/rfc2077
+     *
+     * @var string
      */
     public const VRML = 'model/vrml';
-
 
     /**
      * MIME type 'x3d-vrml'
@@ -373,7 +343,6 @@ class MimeTypeModel
      */
     public const X3D_VRML = 'model/x3d-vrml';
 
-
     /**
      * MIME type 'x3d+fastinfoset'
      *
@@ -382,7 +351,6 @@ class MimeTypeModel
      * @var string
      */
     public const X3D_FASTINFOSET = 'model/x3d+fastinfoset';
-
 
     /**
      * MIME type 'x3d+xml'

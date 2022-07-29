@@ -10,7 +10,7 @@ namespace TomLutzenberger\Constantine\Protocol;
 /**
  * Collection of FTP reply codes
  *
- * @see       https://datatracker.ietf.org/doc/html/rfc959
+ * @see https://datatracker.ietf.org/doc/html/rfc959
  *
  * @package   TomLutzenberger\Constantine\Protocol
  * @copyright 2021-2022 Tom Lutzenberger
@@ -23,9 +23,10 @@ class FtpReplyCode
     /**
      * Reply Code: Restart marker reply
      *
-     * In this case, the text is exact and not left to the particular implementation; it must read: MARK yyyy = mmmm
-     * Where yyyy is User-process data stream marker, and mmmm server's equivalent marker (note the spaces between
-     * markers and "=").
+     * In this case, the text is exact and not left to the particular
+     * implementation; it must read: MARK yyyy = mmmm Where yyyy is User-process
+     * data stream marker, and mmmm server's equivalent marker (note the spaces
+     * between markers and "=").
      *
      * @var int
      */
@@ -90,8 +91,8 @@ class FtpReplyCode
     /**
      * Reply Code: Help message.
      *
-     * On how to use the server or the meaning of a particular non-standard command.
-     * This reply is useful only to the human user.
+     * On how to use the server or the meaning of a particular non-standard
+     * command. This reply is useful only to the human user.
      *
      * @var int
      */
@@ -100,7 +101,8 @@ class FtpReplyCode
     /**
      * Reply Code: NAME system type.
      *
-     * Where NAME is an official system name from the list in the Assigned Numbers document.
+     * Where NAME is an official system name from the list in the Assigned
+     * Numbers document.
      *
      * @var int
      */
@@ -132,7 +134,8 @@ class FtpReplyCode
     /**
      * Reply Code: Closing data connection.
      *
-     * Requested file action successful (for example, file transfer or file abort).
+     * Requested file action successful (for example, file transfer or file
+     * abort).
      *
      * @var int
      */
@@ -190,7 +193,8 @@ class FtpReplyCode
     /**
      * Reply Code: Service not available, closing control connection.
      *
-     * This may be a reply to any command if the service knows it must shut down.
+     * This may be a reply to any command if the service knows it must shut
+     * down.
      *
      * @var int
      */

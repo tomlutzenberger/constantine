@@ -10,12 +10,13 @@ namespace TomLutzenberger\Constantine\I18N;
 /**
  * Collection of official ISO 3166-1 country codes
  *
- * @see       https://en.wikipedia.org/wiki/ISO_3166-1
+ * @see https://en.wikipedia.org/wiki/ISO_3166-1
  *
  * @package   TomLutzenberger\Constantine\I18N
  * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
+ * @link      https://tomlutzenberger.de
  */
 class Country
 {
@@ -40,7 +41,6 @@ class Country
      */
     public const NUMERIC_CODE_AF = 4;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Åland Islands
      *
@@ -61,7 +61,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AX = 248;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Albania
@@ -84,7 +83,6 @@ class Country
      */
     public const NUMERIC_CODE_AL = 8;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Algeria
      *
@@ -105,7 +103,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_DZ = 12;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of American Samoa
@@ -128,7 +125,6 @@ class Country
      */
     public const NUMERIC_CODE_AS = 16;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Andorra
      *
@@ -149,7 +145,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AD = 20;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Angola
@@ -172,7 +167,6 @@ class Country
      */
     public const NUMERIC_CODE_AO = 24;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Anguilla
      *
@@ -193,7 +187,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AI = 660;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Antarctica
@@ -216,7 +209,6 @@ class Country
      */
     public const NUMERIC_CODE_AQ = 10;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Antigua and Barbuda
      *
@@ -237,7 +229,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AG = 28;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Argentina
@@ -260,7 +251,6 @@ class Country
      */
     public const NUMERIC_CODE_AR = 32;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Armenia
      *
@@ -281,7 +271,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AM = 51;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Aruba
@@ -304,7 +293,6 @@ class Country
      */
     public const NUMERIC_CODE_AW = 533;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Australia
      *
@@ -325,7 +313,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AU = 36;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Austria
@@ -348,7 +335,6 @@ class Country
      */
     public const NUMERIC_CODE_AT = 40;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Azerbaijan
      *
@@ -369,7 +355,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AZ = 31;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bahamas
@@ -392,7 +377,6 @@ class Country
      */
     public const NUMERIC_CODE_BS = 44;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Bahrain
      *
@@ -413,7 +397,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BH = 48;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bangladesh
@@ -436,7 +419,6 @@ class Country
      */
     public const NUMERIC_CODE_BD = 50;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Barbados
      *
@@ -457,7 +439,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BB = 52;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Belarus
@@ -480,7 +461,6 @@ class Country
      */
     public const NUMERIC_CODE_BY = 112;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Belgium
      *
@@ -501,7 +481,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BE = 56;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Belize
@@ -524,7 +503,6 @@ class Country
      */
     public const NUMERIC_CODE_BZ = 84;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Benin
      *
@@ -545,7 +523,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BJ = 204;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bermuda
@@ -568,7 +545,6 @@ class Country
      */
     public const NUMERIC_CODE_BM = 60;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Bhutan
      *
@@ -589,7 +565,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BT = 64;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bolivia
@@ -612,7 +587,6 @@ class Country
      */
     public const NUMERIC_CODE_BO = 68;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Bonaire, Sint Eustatius and Saba
      *
@@ -633,7 +607,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BQ = 535;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bosnia and Herzegovina
@@ -656,7 +629,6 @@ class Country
      */
     public const NUMERIC_CODE_BA = 70;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Botswana
      *
@@ -677,7 +649,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BW = 72;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bouvet Island
@@ -700,7 +671,6 @@ class Country
      */
     public const NUMERIC_CODE_BV = 74;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Brazil
      *
@@ -721,7 +691,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BR = 76;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of British Indian Ocean Territory
@@ -744,7 +713,6 @@ class Country
      */
     public const NUMERIC_CODE_IO = 86;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Brunei Darussalam
      *
@@ -765,7 +733,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BN = 96;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Bulgaria
@@ -788,7 +755,6 @@ class Country
      */
     public const NUMERIC_CODE_BG = 100;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Burkina Faso
      *
@@ -809,7 +775,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BF = 854;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Burundi
@@ -832,7 +797,6 @@ class Country
      */
     public const NUMERIC_CODE_BI = 108;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Cabo Verde
      *
@@ -853,7 +817,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CV = 132;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Cambodia
@@ -876,7 +839,6 @@ class Country
      */
     public const NUMERIC_CODE_KH = 116;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Cameroon
      *
@@ -897,7 +859,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CM = 120;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Canada
@@ -920,7 +881,6 @@ class Country
      */
     public const NUMERIC_CODE_CA = 124;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Cayman Islands
      *
@@ -941,7 +901,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KY = 136;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Central African Republic
@@ -964,7 +923,6 @@ class Country
      */
     public const NUMERIC_CODE_CF = 140;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Chad
      *
@@ -985,7 +943,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TD = 148;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Chile
@@ -1008,7 +965,6 @@ class Country
      */
     public const NUMERIC_CODE_CL = 152;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of China
      *
@@ -1029,7 +985,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CN = 156;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Christmas Island
@@ -1052,7 +1007,6 @@ class Country
      */
     public const NUMERIC_CODE_CX = 162;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Cocos Islands
      *
@@ -1073,7 +1027,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CC = 166;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Colombia
@@ -1096,7 +1049,6 @@ class Country
      */
     public const NUMERIC_CODE_CO = 170;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Comoros
      *
@@ -1117,7 +1069,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KM = 174;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Congo
@@ -1140,7 +1091,6 @@ class Country
      */
     public const NUMERIC_CODE_CG = 178;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Democratic Republic of Congo
      *
@@ -1161,7 +1111,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CD = 180;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Cook Islands
@@ -1184,7 +1133,6 @@ class Country
      */
     public const NUMERIC_CODE_CK = 184;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Costa Rica
      *
@@ -1205,7 +1153,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CR = 188;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Côte d'Ivoire
@@ -1228,7 +1175,6 @@ class Country
      */
     public const NUMERIC_CODE_CI = 384;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Croatia
      *
@@ -1249,7 +1195,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_HR = 191;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Cuba
@@ -1272,7 +1217,6 @@ class Country
      */
     public const NUMERIC_CODE_CU = 192;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Curaçao
      *
@@ -1293,7 +1237,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CW = 531;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Cyprus
@@ -1316,7 +1259,6 @@ class Country
      */
     public const NUMERIC_CODE_CY = 196;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Czechia
      *
@@ -1337,7 +1279,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CZ = 203;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Denmark
@@ -1360,7 +1301,6 @@ class Country
      */
     public const NUMERIC_CODE_DK = 208;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Djibouti
      *
@@ -1381,7 +1321,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_DJ = 262;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Dominica
@@ -1404,7 +1343,6 @@ class Country
      */
     public const NUMERIC_CODE_DM = 212;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Dominican Republic
      *
@@ -1425,7 +1363,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_DO = 214;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Ecuador
@@ -1448,7 +1385,6 @@ class Country
      */
     public const NUMERIC_CODE_EC = 218;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Egypt
      *
@@ -1469,7 +1405,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_EG = 818;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of El Salvador
@@ -1492,7 +1427,6 @@ class Country
      */
     public const NUMERIC_CODE_SV = 222;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Equatorial Guinea
      *
@@ -1513,7 +1447,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GQ = 226;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Eritrea
@@ -1536,7 +1469,6 @@ class Country
      */
     public const NUMERIC_CODE_ER = 232;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Estonia
      *
@@ -1557,7 +1489,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_EE = 233;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Eswatini
@@ -1580,7 +1511,6 @@ class Country
      */
     public const NUMERIC_CODE_SZ = 748;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Ethiopia
      *
@@ -1601,7 +1531,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_ET = 231;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Falkland Islands
@@ -1624,7 +1553,6 @@ class Country
      */
     public const NUMERIC_CODE_FK = 238;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Faroe Islands
      *
@@ -1645,7 +1573,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_FO = 234;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Fiji
@@ -1668,7 +1595,6 @@ class Country
      */
     public const NUMERIC_CODE_FJ = 242;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Finland
      *
@@ -1689,7 +1615,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_FI = 246;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of France
@@ -1712,7 +1637,6 @@ class Country
      */
     public const NUMERIC_CODE_FR = 250;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of French Guiana
      *
@@ -1733,7 +1657,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GF = 254;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of French Polynesia
@@ -1756,7 +1679,6 @@ class Country
      */
     public const NUMERIC_CODE_PF = 258;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of French Southern Territories
      *
@@ -1777,7 +1699,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TF = 260;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Gabon
@@ -1800,7 +1721,6 @@ class Country
      */
     public const NUMERIC_CODE_GA = 266;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Gambia
      *
@@ -1821,7 +1741,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GM = 270;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Georgia
@@ -1844,7 +1763,6 @@ class Country
      */
     public const NUMERIC_CODE_GE = 268;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Germany
      *
@@ -1865,7 +1783,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_DE = 276;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Ghana
@@ -1888,7 +1805,6 @@ class Country
      */
     public const NUMERIC_CODE_GH = 288;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Gibraltar
      *
@@ -1909,7 +1825,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GI = 292;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Greece
@@ -1932,7 +1847,6 @@ class Country
      */
     public const NUMERIC_CODE_GR = 300;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Greenland
      *
@@ -1953,7 +1867,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GL = 304;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Grenada
@@ -1976,7 +1889,6 @@ class Country
      */
     public const NUMERIC_CODE_GD = 308;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Guadeloupe
      *
@@ -1997,7 +1909,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GP = 312;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Guam
@@ -2020,7 +1931,6 @@ class Country
      */
     public const NUMERIC_CODE_GU = 316;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Guatemala
      *
@@ -2041,7 +1951,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GT = 320;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Guernsey
@@ -2064,7 +1973,6 @@ class Country
      */
     public const NUMERIC_CODE_GG = 831;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Guinea
      *
@@ -2085,7 +1993,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GN = 324;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Guinea-Bissau
@@ -2108,7 +2015,6 @@ class Country
      */
     public const NUMERIC_CODE_GW = 624;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Guyana
      *
@@ -2129,7 +2035,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GY = 328;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Haiti
@@ -2152,7 +2057,6 @@ class Country
      */
     public const NUMERIC_CODE_HT = 332;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Heard Island and McDonald Islands
      *
@@ -2173,7 +2077,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_HM = 334;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Holy See
@@ -2196,7 +2099,6 @@ class Country
      */
     public const NUMERIC_CODE_VA = 336;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Honduras
      *
@@ -2217,7 +2119,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_HN = 340;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Hong Kong
@@ -2240,7 +2141,6 @@ class Country
      */
     public const NUMERIC_CODE_HK = 344;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Hungary
      *
@@ -2261,7 +2161,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_HU = 348;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Iceland
@@ -2284,7 +2183,6 @@ class Country
      */
     public const NUMERIC_CODE_IS = 352;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of India
      *
@@ -2305,7 +2203,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_IN = 356;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Indonesia
@@ -2328,7 +2225,6 @@ class Country
      */
     public const NUMERIC_CODE_ID = 360;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Iran
      *
@@ -2349,7 +2245,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_IR = 364;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Iraq
@@ -2372,7 +2267,6 @@ class Country
      */
     public const NUMERIC_CODE_IQ = 368;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Ireland
      *
@@ -2393,7 +2287,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_IE = 372;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Isle of Man
@@ -2416,7 +2309,6 @@ class Country
      */
     public const NUMERIC_CODE_IM = 833;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Israel
      *
@@ -2437,7 +2329,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_IL = 376;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Italy
@@ -2460,7 +2351,6 @@ class Country
      */
     public const NUMERIC_CODE_IT = 380;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Jamaica
      *
@@ -2481,7 +2371,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_JM = 388;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Japan
@@ -2504,7 +2393,6 @@ class Country
      */
     public const NUMERIC_CODE_JP = 392;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Jersey
      *
@@ -2525,7 +2413,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_JE = 832;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Jordan
@@ -2548,7 +2435,6 @@ class Country
      */
     public const NUMERIC_CODE_JO = 400;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Kazakhstan
      *
@@ -2569,7 +2455,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KZ = 398;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Kenya
@@ -2592,7 +2477,6 @@ class Country
      */
     public const NUMERIC_CODE_KE = 404;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Kiribati
      *
@@ -2613,7 +2497,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KI = 296;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of North Korea
@@ -2636,7 +2519,6 @@ class Country
      */
     public const NUMERIC_CODE_KP = 408;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of South Korea
      *
@@ -2657,7 +2539,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KR = 410;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Kuwait
@@ -2680,7 +2561,6 @@ class Country
      */
     public const NUMERIC_CODE_KW = 414;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Kyrgyzstan
      *
@@ -2701,7 +2581,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KG = 417;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Laos
@@ -2724,7 +2603,6 @@ class Country
      */
     public const NUMERIC_CODE_LA = 418;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Latvia
      *
@@ -2745,7 +2623,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_LV = 428;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Lebanon
@@ -2768,7 +2645,6 @@ class Country
      */
     public const NUMERIC_CODE_LB = 422;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Lesotho
      *
@@ -2789,7 +2665,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_LS = 426;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Liberia
@@ -2812,7 +2687,6 @@ class Country
      */
     public const NUMERIC_CODE_LR = 430;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Libya
      *
@@ -2833,7 +2707,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_LY = 434;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Liechtenstein
@@ -2856,7 +2729,6 @@ class Country
      */
     public const NUMERIC_CODE_LI = 438;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Lithuania
      *
@@ -2877,7 +2749,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_LT = 440;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Luxembourg
@@ -2900,7 +2771,6 @@ class Country
      */
     public const NUMERIC_CODE_LU = 442;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Macao
      *
@@ -2921,7 +2791,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MO = 446;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Madagascar
@@ -2944,7 +2813,6 @@ class Country
      */
     public const NUMERIC_CODE_MG = 450;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Malawi
      *
@@ -2965,7 +2833,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MW = 454;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Malaysia
@@ -2988,7 +2855,6 @@ class Country
      */
     public const NUMERIC_CODE_MY = 458;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Maldives
      *
@@ -3009,7 +2875,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MV = 462;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Mali
@@ -3032,7 +2897,6 @@ class Country
      */
     public const NUMERIC_CODE_ML = 466;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Malta
      *
@@ -3053,7 +2917,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MT = 470;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Marshall Islands
@@ -3076,7 +2939,6 @@ class Country
      */
     public const NUMERIC_CODE_MH = 584;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Martinique
      *
@@ -3097,7 +2959,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MQ = 474;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Mauritania
@@ -3120,7 +2981,6 @@ class Country
      */
     public const NUMERIC_CODE_MR = 478;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Mauritius
      *
@@ -3141,7 +3001,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MU = 480;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Mayotte
@@ -3164,7 +3023,6 @@ class Country
      */
     public const NUMERIC_CODE_YT = 175;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Mexico
      *
@@ -3185,7 +3043,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MX = 484;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Micronesia
@@ -3208,7 +3065,6 @@ class Country
      */
     public const NUMERIC_CODE_FM = 583;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Moldova
      *
@@ -3229,7 +3085,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MD = 498;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Monaco
@@ -3252,7 +3107,6 @@ class Country
      */
     public const NUMERIC_CODE_MC = 492;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Mongolia
      *
@@ -3273,7 +3127,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MN = 496;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Montenegro
@@ -3296,7 +3149,6 @@ class Country
      */
     public const NUMERIC_CODE_ME = 499;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Montserrat
      *
@@ -3317,7 +3169,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MS = 500;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Morocco
@@ -3340,7 +3191,6 @@ class Country
      */
     public const NUMERIC_CODE_MA = 504;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Mozambique
      *
@@ -3361,7 +3211,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MZ = 508;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Myanmar
@@ -3384,7 +3233,6 @@ class Country
      */
     public const NUMERIC_CODE_MM = 104;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Namibia
      *
@@ -3405,7 +3253,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_NA = 516;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Nauru
@@ -3428,7 +3275,6 @@ class Country
      */
     public const NUMERIC_CODE_NR = 520;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Nepal
      *
@@ -3449,7 +3295,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_NP = 524;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Netherlands
@@ -3472,7 +3317,6 @@ class Country
      */
     public const NUMERIC_CODE_NL = 528;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of New Caledonia
      *
@@ -3493,7 +3337,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_NC = 540;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of New Zealand
@@ -3516,7 +3359,6 @@ class Country
      */
     public const NUMERIC_CODE_NZ = 554;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Nicaragua
      *
@@ -3537,7 +3379,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_NI = 558;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Niger
@@ -3560,7 +3401,6 @@ class Country
      */
     public const NUMERIC_CODE_NE = 562;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Nigeria
      *
@@ -3581,7 +3421,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_NG = 566;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Niue
@@ -3604,7 +3443,6 @@ class Country
      */
     public const NUMERIC_CODE_NU = 570;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Norfolk Island
      *
@@ -3625,7 +3463,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_NF = 574;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of North Macedonia
@@ -3648,7 +3485,6 @@ class Country
      */
     public const NUMERIC_CODE_MK = 807;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Northern Mariana Islands
      *
@@ -3669,7 +3505,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MP = 580;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Norway
@@ -3692,7 +3527,6 @@ class Country
      */
     public const NUMERIC_CODE_NO = 578;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Oman
      *
@@ -3713,7 +3547,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_OM = 512;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Pakistan
@@ -3736,7 +3569,6 @@ class Country
      */
     public const NUMERIC_CODE_PK = 586;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Palau
      *
@@ -3757,7 +3589,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_PW = 585;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Palestine
@@ -3780,7 +3611,6 @@ class Country
      */
     public const NUMERIC_CODE_PS = 275;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Panama
      *
@@ -3801,7 +3631,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_PA = 591;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Papua New Guinea
@@ -3824,7 +3653,6 @@ class Country
      */
     public const NUMERIC_CODE_PG = 598;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Paraguay
      *
@@ -3845,7 +3673,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_PY = 600;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Peru
@@ -3868,7 +3695,6 @@ class Country
      */
     public const NUMERIC_CODE_PE = 604;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Philippines
      *
@@ -3889,7 +3715,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_PH = 608;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Pitcairn
@@ -3912,7 +3737,6 @@ class Country
      */
     public const NUMERIC_CODE_PN = 612;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Poland
      *
@@ -3933,7 +3757,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_PL = 616;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Portugal
@@ -3956,7 +3779,6 @@ class Country
      */
     public const NUMERIC_CODE_PT = 620;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Puerto Rico
      *
@@ -3977,7 +3799,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_PR = 630;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Qatar
@@ -4000,7 +3821,6 @@ class Country
      */
     public const NUMERIC_CODE_QA = 634;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Réunion
      *
@@ -4021,7 +3841,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_RE = 638;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Romania
@@ -4044,7 +3863,6 @@ class Country
      */
     public const NUMERIC_CODE_RO = 642;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Russia
      *
@@ -4065,7 +3883,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_RU = 643;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Rwanda
@@ -4088,7 +3905,6 @@ class Country
      */
     public const NUMERIC_CODE_RW = 646;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Saint Barthélemy
      *
@@ -4109,7 +3925,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_BL = 652;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Saint Helena, Ascension and Tristan da Cunha
@@ -4132,7 +3947,6 @@ class Country
      */
     public const NUMERIC_CODE_SH = 654;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Saint Kitts and Nevis
      *
@@ -4153,7 +3967,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_KN = 659;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Saint Lucia
@@ -4176,7 +3989,6 @@ class Country
      */
     public const NUMERIC_CODE_LC = 662;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Saint Martin (French part)
      *
@@ -4197,7 +4009,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_MF = 663;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Saint Pierre and Miquelon
@@ -4220,7 +4031,6 @@ class Country
      */
     public const NUMERIC_CODE_PM = 666;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Saint Vincent and the Grenadines
      *
@@ -4241,7 +4051,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_VC = 670;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Samoa
@@ -4264,7 +4073,6 @@ class Country
      */
     public const NUMERIC_CODE_WS = 882;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of San Marino
      *
@@ -4285,7 +4093,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SM = 674;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of São Tomé and Príncipe
@@ -4308,7 +4115,6 @@ class Country
      */
     public const NUMERIC_CODE_ST = 678;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Saudi Arabia
      *
@@ -4329,7 +4135,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SA = 682;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Senegal
@@ -4352,7 +4157,6 @@ class Country
      */
     public const NUMERIC_CODE_SN = 686;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Serbia
      *
@@ -4373,7 +4177,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_RS = 688;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Seychelles
@@ -4396,7 +4199,6 @@ class Country
      */
     public const NUMERIC_CODE_SC = 690;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Sierra Leone
      *
@@ -4417,7 +4219,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SL = 694;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Singapore
@@ -4440,7 +4241,6 @@ class Country
      */
     public const NUMERIC_CODE_SG = 702;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Sint Maarten (Dutch part)
      *
@@ -4461,7 +4261,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SX = 534;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Slovakia
@@ -4484,7 +4283,6 @@ class Country
      */
     public const NUMERIC_CODE_SK = 703;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Slovenia
      *
@@ -4505,7 +4303,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SI = 705;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Solomon Islands
@@ -4528,7 +4325,6 @@ class Country
      */
     public const NUMERIC_CODE_SB = 90;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Somalia
      *
@@ -4549,7 +4345,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SO = 706;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of South Africa
@@ -4572,7 +4367,6 @@ class Country
      */
     public const NUMERIC_CODE_ZA = 710;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of South Georgia and the South Sandwich Islands
      *
@@ -4593,7 +4387,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_GS = 239;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of South Sudan
@@ -4616,7 +4409,6 @@ class Country
      */
     public const NUMERIC_CODE_SS = 728;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Spain
      *
@@ -4637,7 +4429,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_ES = 724;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Sri Lanka
@@ -4660,7 +4451,6 @@ class Country
      */
     public const NUMERIC_CODE_LK = 144;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Sudan
      *
@@ -4681,7 +4471,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SD = 729;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Suriname
@@ -4704,7 +4493,6 @@ class Country
      */
     public const NUMERIC_CODE_SR = 740;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Svalbard and Jan Mayen
      *
@@ -4725,7 +4513,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_SJ = 744;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Sweden
@@ -4748,7 +4535,6 @@ class Country
      */
     public const NUMERIC_CODE_SE = 752;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Switzerland
      *
@@ -4769,7 +4555,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_CH = 756;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Syrian Arab Republic
@@ -4792,7 +4577,6 @@ class Country
      */
     public const NUMERIC_CODE_SY = 760;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Taiwan
      *
@@ -4813,7 +4597,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TW = 158;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Tajikistan
@@ -4836,7 +4619,6 @@ class Country
      */
     public const NUMERIC_CODE_TJ = 762;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Tanzania
      *
@@ -4857,7 +4639,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TZ = 834;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Thailand
@@ -4880,7 +4661,6 @@ class Country
      */
     public const NUMERIC_CODE_TH = 764;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Timor-Leste
      *
@@ -4901,7 +4681,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TL = 626;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Togo
@@ -4924,7 +4703,6 @@ class Country
      */
     public const NUMERIC_CODE_TG = 768;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Tokelau
      *
@@ -4945,7 +4723,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TK = 772;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Tonga
@@ -4968,7 +4745,6 @@ class Country
      */
     public const NUMERIC_CODE_TO = 776;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Trinidad and Tobago
      *
@@ -4989,7 +4765,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TT = 780;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Tunisia
@@ -5012,7 +4787,6 @@ class Country
      */
     public const NUMERIC_CODE_TN = 788;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Türkiye
      *
@@ -5033,7 +4807,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TR = 792;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Turkmenistan
@@ -5056,7 +4829,6 @@ class Country
      */
     public const NUMERIC_CODE_TM = 795;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Turks and Caicos Islands
      *
@@ -5077,7 +4849,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_TC = 796;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Tuvalu
@@ -5100,7 +4871,6 @@ class Country
      */
     public const NUMERIC_CODE_TV = 798;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Uganda
      *
@@ -5121,7 +4891,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_UG = 800;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Ukraine
@@ -5144,7 +4913,6 @@ class Country
      */
     public const NUMERIC_CODE_UA = 804;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of the United Arab Emirates
      *
@@ -5165,7 +4933,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_AE = 784;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of the United Kingdom of Great Britain and Northern Ireland
@@ -5188,7 +4955,6 @@ class Country
      */
     public const NUMERIC_CODE_GB = 826;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of the United States of America
      *
@@ -5209,7 +4975,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_US = 840;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of United States Minor Outlying Islands
@@ -5232,7 +4997,6 @@ class Country
      */
     public const NUMERIC_CODE_UM = 581;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Uruguay
      *
@@ -5253,7 +5017,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_UY = 858;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Uzbekistan
@@ -5276,7 +5039,6 @@ class Country
      */
     public const NUMERIC_CODE_UZ = 860;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Vanuatu
      *
@@ -5297,7 +5059,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_VU = 548;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Venezuela
@@ -5320,7 +5081,6 @@ class Country
      */
     public const NUMERIC_CODE_VE = 862;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Viet Nam
      *
@@ -5341,7 +5101,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_VN = 704;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of the Virgin Islands (British)
@@ -5364,7 +5123,6 @@ class Country
      */
     public const NUMERIC_CODE_VG = 92;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of the Virgin Islands (U.S.)
      *
@@ -5385,7 +5143,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_VI = 850;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Wallis and Futuna
@@ -5408,7 +5165,6 @@ class Country
      */
     public const NUMERIC_CODE_WF = 876;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Western Sahara
      *
@@ -5429,7 +5185,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_EH = 732;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Yemen
@@ -5452,7 +5207,6 @@ class Country
      */
     public const NUMERIC_CODE_YE = 887;
 
-
     /**
      * ISO 3166-1 Alpha-2 code of Zambia
      *
@@ -5473,7 +5227,6 @@ class Country
      * @var int
      */
     public const NUMERIC_CODE_ZM = 894;
-
 
     /**
      * ISO 3166-1 Alpha-2 code of Zimbabwe

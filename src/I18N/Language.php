@@ -10,15 +10,16 @@ namespace TomLutzenberger\Constantine\I18N;
 /**
  * Collection of official ISO 639-1/-2/-3/-5 language codes
  *
- * @see       https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
- * @see       https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes
- * @see       https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes
- * @see       https://en.wikipedia.org/wiki/List_of_ISO_639-5_codes
+ * @see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ * @see https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes
+ * @see https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes
+ * @see https://en.wikipedia.org/wiki/List_of_ISO_639-5_codes
  *
  * @package   TomLutzenberger\Constantine\I18N
  * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
+ * @link      https://tomlutzenberger.de
  */
 class Language
 {
@@ -1303,8 +1304,6 @@ class Language
      */
     public const ALPHA_2_CODE_ZU = 'zu';
 
-
-
     /**
      * ISO-639-3 Code of Ghotuo
      *
@@ -2060,7 +2059,6 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_AEZ = 'aez';
-
 
     /**
      * ISO-639-2/-5 Code of Afro-Asiatic languages
@@ -7456,6 +7454,7 @@ class Language
      * ISO-639-2/B Code of Tibetan
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_TIB = 'tib';
@@ -10082,6 +10081,7 @@ class Language
      * ISO-639-2/B Code of Czech
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_CZE = 'cze';
@@ -11826,6 +11826,7 @@ class Language
      * ISO-639-2/B Code of Welsh
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_WEL = 'wel';
@@ -12011,7 +12012,6 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_DAX = 'dax';
-
 
     /**
      * ISO-639-2/-5 Code of Land Dayak languages
@@ -12374,6 +12374,7 @@ class Language
      * ISO-639-2/B Code of German
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_GER = 'ger';
@@ -13344,7 +13345,6 @@ class Language
      */
     public const ALPHA_3_CODE_DPP = 'dpp';
 
-
     /**
      * ISO-639-2/-5 Code of Dravidian languages
      *
@@ -14238,6 +14238,7 @@ class Language
      * ISO-639-2/B Code of Greek, Modern (1453–)
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_GRE = 'gre';
@@ -14778,6 +14779,7 @@ class Language
      * ISO-639-2/B Code of Basque
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_BAQ = 'baq';
@@ -14968,6 +14970,7 @@ class Language
      * ISO-639-2/B Code of Persian
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_PER = 'per';
@@ -15291,6 +15294,7 @@ class Language
      * ISO-639-2/B Code of French
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_FRE = 'fre';
@@ -19282,6 +19286,7 @@ class Language
      * ISO-639-2/B Code of Armenian
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_ARM = 'arm';
@@ -20277,6 +20282,7 @@ class Language
      * ISO-639-2/B Code of Icelandic
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_ICE = 'ice';
@@ -21657,6 +21663,7 @@ class Language
      * ISO-639-2/B Code of Georgian
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_GEO = 'geo';
@@ -28570,7 +28577,6 @@ class Language
      */
     public const ALPHA_3_CODE_MAN = 'man';
 
-
     /**
      * ISO-639-2/-5 Code of Austronesian languages
      *
@@ -30241,6 +30247,7 @@ class Language
      * ISO-639-2/B Code of Macedonian
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_MAC = 'mac';
@@ -30839,7 +30846,6 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_MNN = 'mnn';
-
 
     /**
      * ISO-639-2/-5 Code of Manobo languages
@@ -31496,6 +31502,7 @@ class Language
      * ISO-639-2/B Code of Māori
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_MAO = 'mao';
@@ -31630,6 +31637,7 @@ class Language
      * ISO-639-2/B Code of Malay
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_MAY = 'may';
@@ -32660,6 +32668,7 @@ class Language
      * ISO-639-2/B Code of Burmese
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_BUR = 'bur';
@@ -32747,7 +32756,6 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_MYM = 'mym';
-
 
     /**
      * ISO-639-2/-5 Code of Mayan languages
@@ -33043,14 +33051,12 @@ class Language
      */
     public const ALPHA_3_CODE_NAG = 'nag';
 
-
     /**
      * ISO-639-2/-5 Code of Nahuatl languages
      *
      * @var string
      */
     public const ALPHA_3_CODE_NAH = 'nah';
-
 
     /**
      * ISO-639-2/-5 Code of North American Indian languages
@@ -34715,6 +34721,7 @@ class Language
      * ISO-639-2/B Code of Dutch; Flemish
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_DUT = 'dut';
@@ -41366,6 +41373,7 @@ class Language
      * ISO-639-2/B Code of Romanian; Moldavian; Moldovan
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_RUM = 'rum';
@@ -43383,6 +43391,7 @@ class Language
      * ISO-639-2/B Code of Slovak
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_SLO = 'slo';
@@ -44189,6 +44198,7 @@ class Language
      * ISO-639-2/B Code of Albanian
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_ALB = 'alb';
@@ -56335,6 +56345,7 @@ class Language
      * ISO-639-2/B Code of Chinese
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
+     *
      * @var string
      */
     public const ALPHA_3_CODE_CHI = 'chi';
@@ -57297,8 +57308,6 @@ class Language
      * @var string
      */
     public const ALPHA_3_CODE_ZZJ = 'zzj';
-
-
 
     /**
      * ISO-639-5 Hierarchy code for Austro-Asiatic languages

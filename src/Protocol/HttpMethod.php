@@ -10,8 +10,8 @@ namespace TomLutzenberger\Constantine\Protocol;
 /**
  * Collection of HTTP methods
  *
- * @see       https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
- * @see       https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
+ * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+ * @see https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
  *
  * @package   TomLutzenberger\Constantine\Protocol
  * @copyright 2021-2022 Tom Lutzenberger
@@ -28,6 +28,7 @@ class HttpMethod
      * Requests using GET should only retrieve data.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET
+     *
      * @var string
      */
     public const GET = 'GET';
@@ -39,6 +40,7 @@ class HttpMethod
      * without the response body.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD
+     *
      * @var string
      */
     public const HEAD = 'HEAD';
@@ -46,10 +48,11 @@ class HttpMethod
     /**
      * Method: POST
      *
-     * The POST method submits an entity to the specified resource, often causing
-     * a change in state or side effects on the server.
+     * The POST method submits an entity to the specified resource, often
+     * causing a change in state or side effects on the server.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
+     *
      * @var string
      */
     public const POST = 'POST';
@@ -57,10 +60,11 @@ class HttpMethod
     /**
      * Method: PUT
      *
-     * The PUT method replaces all current representations of the target resource
-     * with the request payload.
+     * The PUT method replaces all current representations of the target
+     * resource with the request payload.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT
+     *
      * @var string
      */
     public const PUT = 'PUT';
@@ -71,6 +75,7 @@ class HttpMethod
      * The DELETE method deletes the specified resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE
+     *
      * @var string
      */
     public const DELETE = 'DELETE';
@@ -82,6 +87,7 @@ class HttpMethod
      * target resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/CONNECT
+     *
      * @var string
      */
     public const CONNECT = 'CONNECT';
@@ -89,9 +95,11 @@ class HttpMethod
     /**
      * Method: OPTIONS
      *
-     * The OPTIONS method describes the communication options for the target resource.
+     * The OPTIONS method describes the communication options for the target
+     * resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS
+     *
      * @var string
      */
     public const OPTIONS = 'OPTIONS';
@@ -103,6 +111,7 @@ class HttpMethod
      * target resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/TRACE
+     *
      * @var string
      */
     public const TRACE = 'TRACE';
@@ -113,6 +122,7 @@ class HttpMethod
      * The PATCH method applies partial modifications to a resource.
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH
+     *
      * @var string
      */
     public const PATCH = 'PATCH';

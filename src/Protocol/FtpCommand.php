@@ -10,19 +10,19 @@ namespace TomLutzenberger\Constantine\Protocol;
 /**
  * Collection of FTP commands
  *
- * @see       https://datatracker.ietf.org/doc/html/rfc697
- * @see       https://datatracker.ietf.org/doc/html/rfc737
- * @see       https://datatracker.ietf.org/doc/html/rfc743
- * @see       https://datatracker.ietf.org/doc/html/rfc775
- * @see       https://datatracker.ietf.org/doc/html/rfc959
- * @see       https://datatracker.ietf.org/doc/html/rfc1639
- * @see       https://datatracker.ietf.org/doc/html/rfc2228
- * @see       https://datatracker.ietf.org/doc/html/rfc2389
- * @see       https://datatracker.ietf.org/doc/html/rfc2428
- * @see       https://datatracker.ietf.org/doc/html/rfc2640
- * @see       https://datatracker.ietf.org/doc/html/rfc3659
- * @see       https://datatracker.ietf.org/doc/html/rfc7151
- * @see       https://en.wikipedia.org/wiki/List_of_FTP_commands
+ * @see https://datatracker.ietf.org/doc/html/rfc697
+ * @see https://datatracker.ietf.org/doc/html/rfc737
+ * @see https://datatracker.ietf.org/doc/html/rfc743
+ * @see https://datatracker.ietf.org/doc/html/rfc775
+ * @see https://datatracker.ietf.org/doc/html/rfc959
+ * @see https://datatracker.ietf.org/doc/html/rfc1639
+ * @see https://datatracker.ietf.org/doc/html/rfc2228
+ * @see https://datatracker.ietf.org/doc/html/rfc2389
+ * @see https://datatracker.ietf.org/doc/html/rfc2428
+ * @see https://datatracker.ietf.org/doc/html/rfc2640
+ * @see https://datatracker.ietf.org/doc/html/rfc3659
+ * @see https://datatracker.ietf.org/doc/html/rfc7151
+ * @see https://en.wikipedia.org/wiki/List_of_FTP_commands
  *
  * @package   TomLutzenberger\Constantine\Protocol
  * @copyright 2021-2022 Tom Lutzenberger
@@ -43,7 +43,6 @@ class FtpCommand
      */
     public const ABORT = 'ABOR';
 
-
     /**
      * FTP command ACCT
      *
@@ -53,8 +52,7 @@ class FtpCommand
      *
      * @var string
      */
-    public const ACCOUNT  = 'ACCT';
-
+    public const ACCOUNT = 'ACCT';
 
     /**
      * FTP command HOST
@@ -67,7 +65,6 @@ class FtpCommand
      */
     public const ADDR_HOST = 'HOST';
 
-
     /**
      * FTP command LPRT
      *
@@ -78,7 +75,6 @@ class FtpCommand
      * @var string
      */
     public const ADDR_HOST_PORT_LONG = 'LPRT';
-
 
     /**
      * FTP command PORT
@@ -91,7 +87,6 @@ class FtpCommand
      */
     public const ADDR_PORT = 'PORT';
 
-
     /**
      * FTP command ALLO
      *
@@ -101,8 +96,7 @@ class FtpCommand
      *
      * @var string
      */
-    public const ALLOCATE  = 'ALLO';
-
+    public const ALLOCATE = 'ALLO';
 
     /**
      * FTP command APPE
@@ -113,8 +107,7 @@ class FtpCommand
      *
      * @var string
      */
-    public const APPEND  = 'APPE';
-
+    public const APPEND = 'APPE';
 
     /**
      * FTP command AUTH
@@ -127,7 +120,6 @@ class FtpCommand
      */
     public const AUTH = 'AUTH';
 
-
     /**
      * FTP command ADAT
      *
@@ -138,7 +130,6 @@ class FtpCommand
      * @var string
      */
     public const AUTH_SEC_DATA = 'ADAT';
-
 
     /**
      * FTP command PASS
@@ -151,7 +142,6 @@ class FtpCommand
      */
     public const AUTH_PASS = 'PASS';
 
-
     /**
      * FTP command USER
      *
@@ -163,7 +153,6 @@ class FtpCommand
      */
     public const AUTH_USER = 'USER';
 
-
     /**
      * FTP command AVBL
      *
@@ -171,11 +160,11 @@ class FtpCommand
      *
      * Standards: Expired draft of "Streamlined FTP Command Extensions"
      *
-     * @var string
      * @see https://datatracker.ietf.org/doc/draft-peterson-streamlined-ftp-command-extensions/
+     *
+     * @var string
      */
     public const AVAILABLE = 'AVBL';
-
 
     /**
      * FTP command PBSZ
@@ -188,7 +177,6 @@ class FtpCommand
      */
     public const BUFFER_SIZE = 'PBSZ';
 
-
     /**
      * FTP command CDUP
      *
@@ -199,7 +187,6 @@ class FtpCommand
      * @var string
      */
     public const CD_UP = 'CDUP';
-
 
     /**
      * FTP command CCC
@@ -212,7 +199,6 @@ class FtpCommand
      */
     public const CLEAR_CMD_CHANNEL = 'CCC';
 
-
     /**
      * FTP command CSID
      *
@@ -220,11 +206,11 @@ class FtpCommand
      *
      * Standards: Expired draft of "Streamlined FTP Command Extensions"
      *
-     * @var string
      * @see https://datatracker.ietf.org/doc/draft-peterson-streamlined-ftp-command-extensions/
+     *
+     * @var string
      */
     public const CLIENT_SERVER_ID = 'CSID';
-
 
     /**
      * FTP command CWD
@@ -237,7 +223,6 @@ class FtpCommand
      */
     public const CWD = 'CWD';
 
-
     /**
      * FTP command DSIZ
      *
@@ -245,11 +230,11 @@ class FtpCommand
      *
      * Standards: Expired draft of "Streamlined FTP Command Extensions"
      *
-     * @var string
      * @see https://datatracker.ietf.org/doc/draft-peterson-streamlined-ftp-command-extensions/
+     *
+     * @var string
      */
     public const DIR_SIZE = 'DSIZ';
-
 
     /**
      * FTP command RETR
@@ -262,7 +247,6 @@ class FtpCommand
      */
     public const FILE_COPY = 'RETR';
 
-
     /**
      * FTP command MDTM
      *
@@ -273,7 +257,6 @@ class FtpCommand
      * @var string
      */
     public const FILE_MTIME = 'MDTM';
-
 
     /**
      * FTP command MFCT
@@ -286,19 +269,17 @@ class FtpCommand
      */
     public const FILE_MOD_CTIME = 'MFCT';
 
-
     /**
      * FTP command MFF
      *
-     * Modify fact (the last modification time, creation time,
-     * UNIX group/owner/mode of a file).
+     * Modify fact (the last modification time, creation time, UNIX
+     * group/owner/mode of a file).
      *
      * Standards: Expired draft of "'MFMT', 'MFCT', and 'MFF' Command Extensions for FTP"
      *
      * @var string
      */
     public const FILE_MOD_FACT = 'MFF';
-
 
     /**
      * FTP command MFMT
@@ -311,7 +292,6 @@ class FtpCommand
      */
     public const FILE_MOD_MTIME = 'MFMT';
 
-
     /**
      * FTP command SIZE
      *
@@ -322,7 +302,6 @@ class FtpCommand
      * @var string
      */
     public const FILE_SIZE = 'SIZE';
-
 
     /**
      * FTP command STOR
@@ -335,7 +314,6 @@ class FtpCommand
      */
     public const FILE_STORE = 'STOR';
 
-
     /**
      * FTP command STOU
      *
@@ -347,18 +325,17 @@ class FtpCommand
      */
     public const FILE_STORE_UNIQUE = 'STOU';
 
-
     /**
      * FTP command HELP
      *
-     * Returns usage documentation on a command if specified, else a general help document is returned.
+     * Returns usage documentation on a command if specified, else a general
+     * help document is returned.
      *
      * Standards: RFC959
      *
      * @var string
      */
     public const HELP = 'HELP';
-
 
     /**
      * FTP command LANG
@@ -370,7 +347,6 @@ class FtpCommand
      * @var string
      */
     public const LANG = 'LANG';
-
 
     /**
      * FTP command LIST
@@ -384,7 +360,6 @@ class FtpCommand
      */
     public const LIST = 'LIST';
 
-
     /**
      * FTP command FEAT
      *
@@ -395,7 +370,6 @@ class FtpCommand
      * @var string
      */
     public const LIST_FEATURE = 'FEAT';
-
 
     /**
      * FTP command NLST
@@ -408,7 +382,6 @@ class FtpCommand
      */
     public const LIST_FILE = 'NLST';
 
-
     /**
      * FTP command MKD
      *
@@ -420,18 +393,17 @@ class FtpCommand
      */
     public const MAKE_DIR = 'MKD';
 
-
     /**
      * FTP command MLSD
      *
-     * Lists the contents of a directory in a standardized machine-readable format.
+     * Lists the contents of a directory in a standardized machine-readable
+     * format.
      *
      * Standards: RFC3659
      *
      * @var string
      */
     public const MLIST_DIR = 'MLSD';
-
 
     /**
      * FTP command MLST
@@ -445,7 +417,6 @@ class FtpCommand
      */
     public const MLIST_OBJ_DATA = 'MLST';
 
-
     /**
      * FTP command MODE
      *
@@ -456,7 +427,6 @@ class FtpCommand
      * @var string
      */
     public const MODE = 'MODE';
-
 
     /**
      * FTP command PASV
@@ -469,7 +439,6 @@ class FtpCommand
      */
     public const MODE_PASSIVE = 'PASV';
 
-
     /**
      * FTP command EPSV
      *
@@ -481,7 +450,6 @@ class FtpCommand
      */
     public const MODE_PASSIVE_EXT = 'EPSV';
 
-
     /**
      * FTP command LPSV
      *
@@ -492,7 +460,6 @@ class FtpCommand
      * @var string
      */
     public const MODE_PASSIVE_LONG = 'LPSV';
-
 
     /**
      * FTP command SPSV
@@ -506,7 +473,6 @@ class FtpCommand
      */
     public const MODE_PASSIVE_SINGLE = 'SPSV';
 
-
     /**
      * FTP command SMNT
      *
@@ -517,7 +483,6 @@ class FtpCommand
      * @var string
      */
     public const MOUNT = 'SMNT';
-
 
     /**
      * FTP command NOOP
@@ -530,7 +495,6 @@ class FtpCommand
      */
     public const NOOP = 'NOOP';
 
-
     /**
      * FTP command OPTS
      *
@@ -541,7 +505,6 @@ class FtpCommand
      * @var string
      */
     public const OPTIONS = 'OPTS';
-
 
     /**
      * FTP command CONF
@@ -554,7 +517,6 @@ class FtpCommand
      */
     public const PROT_CONFIDENTIAL = 'CONF';
 
-
     /**
      * FTP command MIC
      *
@@ -565,7 +527,6 @@ class FtpCommand
      * @var string
      */
     public const PROT_INTEGRITY = 'MIC';
-
 
     /**
      * FTP command PROT
@@ -578,7 +539,6 @@ class FtpCommand
      */
     public const PROT_LEVEL = 'PROT';
 
-
     /**
      * FTP command ENC
      *
@@ -590,18 +550,17 @@ class FtpCommand
      */
     public const PROT_PRIVACY = 'ENC';
 
-
     /**
      * FTP command EPRT
      *
-     * Specifies an extended address and port to which the server should connect.
+     * Specifies an extended address and port to which the server should
+     * connect.
      *
      * Standards: RFC2428
      *
      * @var string
      */
     public const PROTOCOL_EXT = 'EPRT';
-
 
     /**
      * FTP command PWD
@@ -614,7 +573,6 @@ class FtpCommand
      */
     public const PWD = 'PWD';
 
-
     /**
      * FTP command QUIT
      *
@@ -625,7 +583,6 @@ class FtpCommand
      * @var string
      */
     public const QUIT = 'QUIT';
-
 
     /**
      * FTP command REIN
@@ -638,7 +595,6 @@ class FtpCommand
      */
     public const RE_INIT = 'REIN';
 
-
     /**
      * FTP command RNFR
      *
@@ -649,7 +605,6 @@ class FtpCommand
      * @var string
      */
     public const RENAME_FROM = 'RNFR';
-
 
     /**
      * FTP command RNTO
@@ -662,7 +617,6 @@ class FtpCommand
      */
     public const RENAME_TO = 'RNTO';
 
-
     /**
      * FTP command REST
      *
@@ -673,7 +627,6 @@ class FtpCommand
      * @var string
      */
     public const RESTART = 'REST';
-
 
     /**
      * FTP command RMD
@@ -686,7 +639,6 @@ class FtpCommand
      */
     public const RM_DIR = 'RMD';
 
-
     /**
      * FTP command RMDA
      *
@@ -694,11 +646,11 @@ class FtpCommand
      *
      * Standards: Expired draft of "Streamlined FTP Command Extensions"
      *
-     * @var string
      * @see https://datatracker.ietf.org/doc/draft-peterson-streamlined-ftp-command-extensions/
+     *
+     * @var string
      */
     public const RM_DIR_TREE = 'RMDA';
-
 
     /**
      * FTP command DELETE
@@ -711,7 +663,6 @@ class FtpCommand
      */
     public const RM_FILE = 'DELE';
 
-
     /**
      * FTP command XSEN
      *
@@ -722,7 +673,6 @@ class FtpCommand
      * @var string
      */
     public const SEND = 'XSEN';
-
 
     /**
      * FTP command XSEM
@@ -735,12 +685,12 @@ class FtpCommand
      */
     public const SEND_MAIL = 'XSEM';
 
-
     /**
      * FTP command SITE
      *
-     * Sends site specific commands to remote server (like SITE IDLE 60 or
-     * SITE UMASK 002). Inspect SITE HELP output for complete list of supported commands.
+     * Sends site specific commands to remote server (like SITE IDLE 60 or SITE
+     * UMASK 002). Inspect SITE HELP output for complete list of supported
+     * commands.
      *
      * Standards: RFC959
      *
@@ -748,18 +698,17 @@ class FtpCommand
      */
     public const SITE = 'SITE';
 
-
     /**
      * FTP command STAT
      *
-     * Returns information on the server status, including the status of the current connection
+     * Returns information on the server status, including the status of the
+     * current connection
      *
      * Standards: RFC959
      *
      * @var string
      */
     public const STATUS = 'STAT';
-
 
     /**
      * FTP command STRU
@@ -772,7 +721,6 @@ class FtpCommand
      */
     public const STRUCTURE = 'STRU';
 
-
     /**
      * FTP command SYST
      *
@@ -784,7 +732,6 @@ class FtpCommand
      */
     public const SYSTEM_TYPE = 'SYST';
 
-
     /**
      * FTP command THMB
      *
@@ -792,11 +739,11 @@ class FtpCommand
      *
      * Standards: Expired draft of "Streamlined FTP Command Extensions"
      *
-     * @var string
      * @see https://datatracker.ietf.org/doc/draft-peterson-streamlined-ftp-command-extensions/
+     *
+     * @var string
      */
     public const THUMBNAIL = 'THMB';
-
 
     /**
      * FTP command TYPE
@@ -809,7 +756,6 @@ class FtpCommand
      */
     public const TYPE = 'TYPE';
 
-
     /**
      * FTP command XCUP
      *
@@ -820,7 +766,6 @@ class FtpCommand
      * @var string
      */
     public const X_CD_UP = 'XCUP';
-
 
     /**
      * FTP command XMKD
@@ -833,7 +778,6 @@ class FtpCommand
      */
     public const X_MAKE_DIR = 'XMKD';
 
-
     /**
      * FTP command XPWD
      *
@@ -845,7 +789,6 @@ class FtpCommand
      */
     public const X_PWD = 'XPWD';
 
-
     /**
      * FTP command XRCP
      *
@@ -854,7 +797,6 @@ class FtpCommand
      * @var string
      */
     public const X_RECIPIENTS = 'XRCP';
-
 
     /**
      * FTP command XRMD
@@ -866,7 +808,6 @@ class FtpCommand
      * @var string
      */
     public const X_RM_DIR = 'XRMD';
-
 
     /**
      * FTP command XRSQ

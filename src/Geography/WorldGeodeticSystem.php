@@ -10,13 +10,14 @@ namespace TomLutzenberger\Constantine\Geography;
 /**
  * Collection of Geodetic constants (currently WGS84)
  *
- * @see       https://en.wikipedia.org/wiki/World_Geodetic_System
- * @see       https://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf
+ * @see https://en.wikipedia.org/wiki/World_Geodetic_System
+ * @see https://www.unoosa.org/pdf/icg/2012/template/WGS_84.pdf
  *
  * @package   TomLutzenberger\Constantine\Geography
  * @copyright 2021-2022 Tom Lutzenberger
  * @author    Tom Lutzenberger <lutzenbergerthomas@gmail.com>
  * @license   MIT
+ * @link      https://tomlutzenberger.de
  */
 class WorldGeodeticSystem
 {
@@ -24,14 +25,14 @@ class WorldGeodeticSystem
      * Semi-major Axis
      *
      * Symbol: a
-     * Unit:  m (meters)
+     * Unit: m (meters)
      *
      * @var float
      */
     public const SEMI_MAJOR_AXIS = 6378137.0;
 
     /**
-     *Semi-minor axis
+     * Semi-minor axis
      *
      * Symbol: b
      * Unit: m (meters)
@@ -44,7 +45,7 @@ class WorldGeodeticSystem
      * Flattening Factor of the Earth
      *
      * Symbol: 1/f
-     * Unit:
+     * Unit: -
      *
      * @var float
      */
@@ -54,7 +55,7 @@ class WorldGeodeticSystem
      * Nominal Mean Angular Velocity of the Earth
      *
      * Symbol: ω
-     * Unit:  radians/second
+     * Unit: radians/second
      *
      * @var float
      */
@@ -64,7 +65,7 @@ class WorldGeodeticSystem
      * Geocentric Gravitational Constant (Mass of Earth’s Atmosphere Included)
      *
      * Symbol: GM
-     * Unit:  meter³/second²
+     * Unit: meter³/second²
      *
      * @var float
      */
