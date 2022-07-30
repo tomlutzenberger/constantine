@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\Math;
@@ -61,7 +60,7 @@ class Math
     /**
      * Brun's constant for prime quadruplets
      *
-     * Symbol: B4
+     * Symbol: B₄
      *
      * @see https://en.wikipedia.org/wiki/Brun%27s_theorem#Numerical_estimates
      * @see https://oeis.org/A213007
@@ -73,7 +72,7 @@ class Math
     /**
      * Brun's constant for twin primes
      *
-     * Symbol: B2
+     * Symbol: B₂
      *
      * @see https://en.wikipedia.org/wiki/Brun%27s_theorem#Asymptotic_bounds_on_twin_primes
      * @see https://oeis.org/A065421
@@ -119,7 +118,7 @@ class Math
     public const CONWAY_CONSTANT = 1.30357726903429639125;
 
     /**
-     * Embree–Trefethen constant
+     * Embree-Trefethen constant
      *
      * Symbol: β* (Beta)
      *
@@ -131,7 +130,7 @@ class Math
     public const EMBREE_TREFETHEN_CONSTANT = 0.70258;
 
     /**
-     * Erdős–Borwein constant
+     * Erdős-Borwein constant
      *
      * Symbol: E
      *
@@ -167,7 +166,7 @@ class Math
     public const FEIGENBAUM_ALPHA_CONSTANT = 2.50290787509589282228;
 
     /**
-     * Fransén–Robinson constant
+     * Fransén-Robinson constant
      *
      * Symbol: F
      *
@@ -191,7 +190,7 @@ class Math
     public const GAUSS_CONSTANT = 0.83462684167407318628;
 
     /**
-     * Gauss–Kuzmin–Wirsing constant
+     * Gauss-Kuzmin-Wirsing constant
      *
      * Symbol: λ (Lambda)
      *
@@ -203,7 +202,7 @@ class Math
     public const GAUSS_KUZMIN_WIRSING_CONSTANT = 0.30366300289873265859;
 
     /**
-     * Glaisher–Kinkelin constant
+     * Glaisher-Kinkelin constant
      *
      * Symbol: A
      *
@@ -217,8 +216,8 @@ class Math
     /**
      * Golden ratio
      *
+     * Formula: (1 + √5) / 2
      * Symbol: φ (Phi)
-     * Formula: (1 + sqrt(5)) / 2
      *
      * @see https://en.wikipedia.org/wiki/Golden_ratio
      * @see https://oeis.org/A001622
@@ -228,7 +227,7 @@ class Math
     public const GOLDEN_RATIO = 1.61803398874989484820;
 
     /**
-     * Golomb–Dickman constant
+     * Golomb-Dickman constant
      *
      * Symbol: λ (Lambda), μ (Mu)
      *
@@ -240,7 +239,7 @@ class Math
     public const GOLOMB_DICKMAN_CONSTANT = 0.62432998854355087099;
 
     /**
-     * Hafner–Sarnak–McCurley constant
+     * Hafner-Sarnak-McCurley constant
      *
      * Symbol: σ (Sigma)
      *
@@ -276,7 +275,7 @@ class Math
     public const LANDAU_CONSTANT = 0.5;
 
     /**
-     * Landau–Ramanujan constant
+     * Landau-Ramanujan constant
      *
      * Symbol: K
      *
@@ -348,7 +347,7 @@ class Math
     public const LIEB_SQUARE_ICE_CONSTANT = 1.5396007178;
 
     /**
-     * Meissel–Mertens constant
+     * Meissel-Mertens constant
      *
      * Symbol: M1
      *
@@ -420,7 +419,7 @@ class Math
     public const PORTER_CONSTANT = 1.4670780794;
 
     /**
-     * Ramanujan–Soldner constant
+     * Ramanujan-Soldner constant
      *
      * Symbol: μ (Mu)
      *
@@ -482,7 +481,7 @@ class Math
     /**
      * Twin prime constant
      *
-     * Symbol: C2
+     * Symbol: C₂
      *
      * @see https://en.wikipedia.org/wiki/Twin_prime#Twin_prime_conjecture
      * @see https://oeis.org/A005597
@@ -494,7 +493,7 @@ class Math
     /**
      * Universal parabolic constant
      *
-     * Symbol: P2
+     * Symbol: P
      *
      * @see https://en.wikipedia.org/wiki/Universal_parabolic_constant
      * @see https://oeis.org/A103710

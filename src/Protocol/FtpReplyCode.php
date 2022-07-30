@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\Protocol;
@@ -170,7 +169,7 @@ class FtpReplyCode
     public const PATHNAME_CREATED = 257;
 
     /**
-     * Reply Code: User name okay, need password.
+     * Reply Code: Username okay, need password.
      *
      * @var int
      */

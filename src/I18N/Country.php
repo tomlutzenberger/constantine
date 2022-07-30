@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\I18N;
@@ -5082,21 +5081,21 @@ class Country
     public const NUMERIC_CODE_VE = 862;
 
     /**
-     * ISO 3166-1 Alpha-2 code of Viet Nam
+     * ISO 3166-1 Alpha-2 code of Vietnam
      *
      * @var string
      */
     public const ALPHA_2_CODE_VN = 'VN';
 
     /**
-     * ISO 3166-1 Alpha-3 code of Viet Nam
+     * ISO 3166-1 Alpha-3 code of Vietnam
      *
      * @var string
      */
     public const ALPHA_3_CODE_VN = 'VNM';
 
     /**
-     * ISO 3166-1 numeric code of Viet Nam
+     * ISO 3166-1 numeric code of Vietnam
      *
      * @var int
      */

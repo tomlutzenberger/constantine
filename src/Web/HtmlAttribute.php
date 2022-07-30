@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  * @noinspection PhpConstantNamingConventionInspection
  */
 
@@ -26,8 +25,8 @@ class HtmlAttribute
      *
      * List of types the server accepts, typically a file type.
      *
-     * Status: Official
      * Elements: <form>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -38,8 +37,8 @@ class HtmlAttribute
      *
      * List of supported charsets.
      *
-     * Status: Official
      * Elements: <form>
+     * Status: Official
      *
      * @var string
      */
@@ -50,8 +49,8 @@ class HtmlAttribute
      *
      * Keyboard shortcut to activate or add focus to the element.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -63,8 +62,8 @@ class HtmlAttribute
      * The URI of a program that processes the information submitted via the
      * form.
      *
-     * Status: Official
      * Elements: <form>
+     * Status: Official
      *
      * @var string
      */
@@ -75,8 +74,8 @@ class HtmlAttribute
      *
      * Specifies the horizontal alignment of the element.
      *
-     * Status: Official
      * Elements: <applet>, <caption>, <col>, <colgroup>, <hr>, <iframe>, <img>, <table>, <tbody>, <td>, <tfoot> , <th>, <thead>, <tr>
+     * Status: Official
      *
      * @var string
      */
@@ -87,8 +86,8 @@ class HtmlAttribute
      *
      * Specifies a feature-policy for the iframe.
      *
-     * Status: Official
      * Elements: <iframe>
+     * Status: Official
      *
      * @var string
      */
@@ -99,8 +98,8 @@ class HtmlAttribute
      *
      * Alternative text in case an image can't be displayed.
      *
-     * Status: Official
      * Elements: <applet>, <area>, <img>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -111,8 +110,8 @@ class HtmlAttribute
      *
      * Executes the script asynchronously.
      *
-     * Status: Official
      * Elements: <script>
+     * Status: Official
      *
      * @var string
      */
@@ -123,8 +122,8 @@ class HtmlAttribute
      *
      * Sets whether input is automatically capitalized when entered by user
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -136,8 +135,8 @@ class HtmlAttribute
      * Indicates whether controls in this form can by default have their values
      * automatically completed by the browser.
      *
-     * Status: Official
      * Elements: <form>, <input>, <select>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -148,8 +147,8 @@ class HtmlAttribute
      *
      * The element should be automatically focused after the page loaded.
      *
-     * Status: Official
      * Elements: <button>, <input>, <keygen>, <select>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -160,8 +159,8 @@ class HtmlAttribute
      *
      * The audio or video should play as soon as possible.
      *
-     * Status: Official
      * Elements: <audio>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -172,8 +171,8 @@ class HtmlAttribute
      *
      * Specifies the URL of an image file.
      *
-     * Status: Official
      * Elements: <body>, <table>, <td>, <th>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -185,8 +184,8 @@ class HtmlAttribute
      *
      * Background color of the element.
      *
-     * Status: Official
      * Elements: <body>, <col>, <colgroup>, <marquee>, <table>, <tbody>, <tfoot>, <td>, <th>, <tr>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -198,8 +197,8 @@ class HtmlAttribute
      *
      * The border width.
      *
-     * Status: Official
      * Elements: <img>, <object>, <table>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -211,8 +210,8 @@ class HtmlAttribute
      *
      * Contains the time range of already buffered media.
      *
-     * Status: Official
      * Elements: <audio>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -224,8 +223,8 @@ class HtmlAttribute
      * From the Media Capture specification, specifies a new file can be
      * captured.
      *
-     * Status: Official
      * Elements: <input>
+     * Status: Official
      *
      * @var string
      */
@@ -236,8 +235,8 @@ class HtmlAttribute
      *
      * A challenge string that is submitted along with the public key.
      *
-     * Status: Official
      * Elements: <keygen>
+     * Status: Official
      *
      * @var string
      */
@@ -248,8 +247,8 @@ class HtmlAttribute
      *
      * Declares the character encoding of the page or script.
      *
-     * Status: Official
      * Elements: <meta>, <script>
+     * Status: Official
      *
      * @var string
      */
@@ -260,8 +259,8 @@ class HtmlAttribute
      *
      * Indicates whether the element should be checked on page load.
      *
-     * Status: Official
      * Elements: <command>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -272,8 +271,8 @@ class HtmlAttribute
      *
      * Contains a URI which points to the source of the quote or change.
      *
-     * Status: Official
      * Elements: <blockquote>, <del>, <ins>, <q>
+     * Status: Official
      *
      * @var string
      */
@@ -284,8 +283,8 @@ class HtmlAttribute
      *
      * Often used with CSS to style elements with common properties.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -296,8 +295,8 @@ class HtmlAttribute
      *
      * Specifies the URL of the applet's class file to be loaded and executed.
      *
-     * Status: Official
      * Elements: <applet>
+     * Status: Official
      *
      * @var string
      */
@@ -309,8 +308,8 @@ class HtmlAttribute
      * This attribute gives the absolute or relative URL of the directory where
      * applets' .class files referenced by the code attribute are stored.
      *
-     * Status: Official
      * Elements: <applet>
+     * Status: Official
      *
      * @var string
      */
@@ -322,8 +321,8 @@ class HtmlAttribute
      * This attribute sets the text color using either a named color or a color
      * specified in the hexadecimal #RRGGBB format.
      *
-     * Status: Official
      * Elements: <basefont>, <font>, <hr>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -335,8 +334,8 @@ class HtmlAttribute
      *
      * Defines the number of columns in a textarea.
      *
-     * Status: Official
      * Elements: <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -347,8 +346,8 @@ class HtmlAttribute
      *
      * The colspan attribute defines the number of columns a cell should span.
      *
-     * Status: Official
      * Elements: <td>, <th>
+     * Status: Official
      *
      * @var string
      */
@@ -359,8 +358,8 @@ class HtmlAttribute
      *
      * A value associated with http-equiv or name depending on the context.
      *
-     * Status: Official
      * Elements: <meta>
+     * Status: Official
      *
      * @var string
      */
@@ -371,8 +370,8 @@ class HtmlAttribute
      *
      * Indicates whether the element's content is editable.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -384,8 +383,8 @@ class HtmlAttribute
      * Defines the ID of a <menu> element which will serve as the element's
      * context menu.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -397,8 +396,8 @@ class HtmlAttribute
      *
      * Indicates whether the browser should show playback controls to the user.
      *
-     * Status: Official
      * Elements: <audio>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -409,8 +408,8 @@ class HtmlAttribute
      *
      * A set of values specifying the coordinates of the hot-spot region.
      *
-     * Status: Official
      * Elements: <area>
+     * Status: Official
      *
      * @var string
      */
@@ -421,8 +420,8 @@ class HtmlAttribute
      *
      * How the element handles cross-origin requests
      *
-     * Status: Official
      * Elements: <audio>, <img>, <link>, <script>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -434,8 +433,8 @@ class HtmlAttribute
      * Specifies the Content Security Policy that an embedded document must
      * agree to enforce upon itself.
      *
-     * Status: Experimental
      * Elements: <iframe>
+     * Status: Experimental
      *
      * @var string
      */
@@ -446,8 +445,8 @@ class HtmlAttribute
      *
      * Specifies the URL of the resource.
      *
-     * Status: Official
      * Elements: <object>
+     * Status: Official
      *
      * @var string
      */
@@ -458,8 +457,8 @@ class HtmlAttribute
      *
      * Lets you attach custom attributes to an HTML element.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -470,8 +469,8 @@ class HtmlAttribute
      *
      * Indicates the date and time associated with the element.
      *
-     * Status: Official
      * Elements: <del>, <ins>, <time>
+     * Status: Official
      *
      * @var string
      */
@@ -482,8 +481,8 @@ class HtmlAttribute
      *
      * Indicates the preferred method to decode the image.
      *
-     * Status: Official
      * Elements: <img>
+     * Status: Official
      *
      * @var string
      */
@@ -495,8 +494,8 @@ class HtmlAttribute
      * Indicates that the track should be enabled unless the user's preferences
      * indicate something different.
      *
-     * Status: Official
      * Elements: <track>
+     * Status: Official
      *
      * @var string
      */
@@ -508,8 +507,8 @@ class HtmlAttribute
      * Indicates that the script should be executed after the page has been
      * parsed.
      *
-     * Status: Official
      * Elements: <script>
+     * Status: Official
      *
      * @var string
      */
@@ -521,8 +520,8 @@ class HtmlAttribute
      * Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl
      * (Right-To-Left)
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -531,8 +530,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'dirname'
      *
-     * Status: Official
      * Elements: <input>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -543,8 +542,8 @@ class HtmlAttribute
      *
      * Indicates whether the user can interact with the element.
      *
-     * Status: Official
      * Elements: <button>, <command>, <fieldset>, <input>, <keygen>, <optgroup>, <option>, <select>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -555,8 +554,8 @@ class HtmlAttribute
      *
      * Indicates that the hyperlink is to be used for downloading a resource.
      *
-     * Status: Official
      * Elements: <a>, <area>
+     * Status: Official
      *
      * @var string
      */
@@ -567,8 +566,8 @@ class HtmlAttribute
      *
      * Defines whether the element can be dragged.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -579,8 +578,8 @@ class HtmlAttribute
      *
      * Defines the content type of the form data when the method is POST.
      *
-     * Status: Official
      * Elements: <form>
+     * Status: Official
      *
      * @var string
      */
@@ -591,11 +590,11 @@ class HtmlAttribute
      *
      * The enterkeyhint specifies what action label (or icon) to present for the
      * enter key on virtual keyboards. The attribute can be used with form
-     * controls (such as the value of textarea elements), or in elements in an
+     * controls (such as the value of <textarea> elements), or in elements in an
      * editing host (e.g., using contenteditable attribute).
      *
-     * Status: Experimental
      * Elements: <textarea>, contenteditable
+     * Status: Experimental
      *
      * @var string
      */
@@ -606,8 +605,8 @@ class HtmlAttribute
      *
      * Describes elements which belongs to this one.
      *
-     * Status: Official
      * Elements: <label>, <output>
+     * Status: Official
      *
      * @var string
      */
@@ -618,8 +617,8 @@ class HtmlAttribute
      *
      * Indicates the form that is the owner of the element.
      *
-     * Status: Official
      * Elements: <button>, <fieldset>, <input>, <keygen>, <label>, <meter>, <object>, <output>, <progress>, <select>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -631,8 +630,8 @@ class HtmlAttribute
      * Indicates the action of the element, overriding the action defined in the
      * <form>.
      *
-     * Status: Official
      * Elements: <input>, <button>
+     * Status: Official
      *
      * @var string
      */
@@ -646,8 +645,8 @@ class HtmlAttribute
      * is specified, it overrides the enctype attribute of the button's form
      * owner.
      *
-     * Status: Official
      * Elements: <button>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -661,8 +660,8 @@ class HtmlAttribute
      * etc.). If this attribute is specified, it overrides the method attribute
      * of the button's form owner.
      *
-     * Status: Official
      * Elements: <button>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -676,8 +675,8 @@ class HtmlAttribute
      * submitted. If this attribute is specified, it overrides the novalidate
      * attribute of the button's form owner.
      *
-     * Status: Official
      * Elements: <button>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -692,8 +691,8 @@ class HtmlAttribute
      * the form. If this attribute is specified, it overrides the target
      * attribute of the button's form owner.
      *
-     * Status: Official
      * Elements: <button>, <input>
+     * Status: Official
      *
      * @var string
      */
@@ -704,8 +703,8 @@ class HtmlAttribute
      *
      * IDs of the <th> elements which applies to this element.
      *
-     * Status: Official
      * Elements: <td>, <th>
+     * Status: Official
      *
      * @var string
      */
@@ -717,8 +716,8 @@ class HtmlAttribute
      * Specifies the height of elements listed here. For all other elements, use
      * the CSS height property.
      *
-     * Status: Official
      * Elements: <canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -729,10 +728,10 @@ class HtmlAttribute
      * HTML tag attribute 'hidden'
      *
      * Prevents rendering of given element, while keeping child elements, e.g.
-     * script elements, active.
+     * <script> elements, active.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -743,8 +742,8 @@ class HtmlAttribute
      *
      * Indicates the lower bound of the upper range.
      *
-     * Status: Official
      * Elements: <meter>
+     * Status: Official
      *
      * @var string
      */
@@ -755,8 +754,8 @@ class HtmlAttribute
      *
      * The URL of a linked resource.
      *
-     * Status: Official
      * Elements: <a>, <area>, <base>, <link>
+     * Status: Official
      *
      * @var string
      */
@@ -767,8 +766,8 @@ class HtmlAttribute
      *
      * Specifies the language of the linked resource.
      *
-     * Status: Official
      * Elements: <a>, <area>, <link>
+     * Status: Official
      *
      * @var string
      */
@@ -779,8 +778,8 @@ class HtmlAttribute
      *
      * Defines a pragma directive.
      *
-     * Status: Official
      * Elements: <meta>
+     * Status: Official
      *
      * @var string
      */
@@ -791,8 +790,8 @@ class HtmlAttribute
      *
      * Specifies a picture which represents the command.
      *
-     * Status: Official
      * Elements: <command>
+     * Status: Official
      *
      * @var string
      */
@@ -804,8 +803,8 @@ class HtmlAttribute
      * Often used with CSS to style a specific element. The value of this
      * attribute must be unique.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -816,8 +815,8 @@ class HtmlAttribute
      *
      * Indicates the relative fetch priority for the resource.
      *
-     * Status: Experimental
      * Elements: <iframe>, <img>, <link>, <script>
+     * Status: Experimental
      *
      * @var string
      */
@@ -829,8 +828,8 @@ class HtmlAttribute
      * Specifies a Subresource Integrity value that allows browsers to verify
      * what they fetch.
      *
-     * Status: Official
      * Elements: <link>, <script>
+     * Status: Official
      *
      * @var string
      */
@@ -842,8 +841,8 @@ class HtmlAttribute
      * This attribute tells the browser to ignore the actual intrinsic size of
      * the image and pretend it's the size specified in the attribute.
      *
-     * Status: Official
      * Elements: <img>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -858,8 +857,8 @@ class HtmlAttribute
      * form controls (such as the value of textarea elements), or in elements in
      * an editing host (e.g., using contenteditable attribute).
      *
-     * Status: Official
      * Elements: <textarea>, contenteditable
+     * Status: Official
      *
      * @var string
      */
@@ -870,8 +869,8 @@ class HtmlAttribute
      *
      * Indicates that the image is part of a server-side image map.
      *
-     * Status: Official
      * Elements: <img>
+     * Status: Official
      *
      * @var string
      */
@@ -880,8 +879,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'itemprop'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -892,8 +891,8 @@ class HtmlAttribute
      *
      * Specifies the type of key generated.
      *
-     * Status: Official
      * Elements: <keygen>
+     * Status: Official
      *
      * @var string
      */
@@ -904,8 +903,8 @@ class HtmlAttribute
      *
      * Specifies the kind of text track.
      *
-     * Status: Official
      * Elements: <track>
+     * Status: Official
      *
      * @var string
      */
@@ -916,8 +915,8 @@ class HtmlAttribute
      *
      * Specifies a user-readable title of the element.
      *
-     * Status: Official
      * Elements: <optgroup>, <option>, <track>
+     * Status: Official
      *
      * @var string
      */
@@ -928,8 +927,8 @@ class HtmlAttribute
      *
      * Defines the language used in the element.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -940,8 +939,8 @@ class HtmlAttribute
      *
      * Defines the script language used in the element.
      *
-     * Status: Official
      * Elements: <script>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -954,8 +953,8 @@ class HtmlAttribute
      * Indicates if the element should be loaded lazily (loading="lazy") or
      * loaded immediately (loading="eager").
      *
-     * Status: Experimental
      * Elements: <img>, <iframe>
+     * Status: Experimental
      *
      * @var string
      */
@@ -966,8 +965,8 @@ class HtmlAttribute
      *
      * Identifies a list of pre-defined options to suggest to the user.
      *
-     * Status: Official
      * Elements: <input>
+     * Status: Official
      *
      * @var string
      */
@@ -979,8 +978,8 @@ class HtmlAttribute
      * Indicates whether the media should start playing from the start when it's
      * finished.
      *
-     * Status: Official
      * Elements: <audio>, <bgsound>, <marquee>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -991,8 +990,8 @@ class HtmlAttribute
      *
      * Indicates the upper bound of the lower range.
      *
-     * Status: Official
      * Elements: <meter>
+     * Status: Official
      *
      * @var string
      */
@@ -1003,8 +1002,8 @@ class HtmlAttribute
      *
      * Specifies the URL of the document's cache manifest.
      *
-     * Status: Official
      * Elements: <html>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -1016,8 +1015,8 @@ class HtmlAttribute
      *
      * Indicates the maximum value allowed.
      *
-     * Status: Official
      * Elements: <input>, <meter>, <progress>
+     * Status: Official
      *
      * @var string
      */
@@ -1028,8 +1027,8 @@ class HtmlAttribute
      *
      * Defines the maximum number of characters allowed in the element.
      *
-     * Status: Official
      * Elements: <input>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -1040,8 +1039,8 @@ class HtmlAttribute
      *
      * Defines the minimum number of characters allowed in the element.
      *
-     * Status: Official
      * Elements: <input>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -1052,8 +1051,8 @@ class HtmlAttribute
      *
      * Specifies a hint of the media for which the linked resource was designed.
      *
-     * Status: Official
      * Elements: <a>, <area>, <link>, <source>, <style>
+     * Status: Official
      *
      * @var string
      */
@@ -1065,8 +1064,8 @@ class HtmlAttribute
      * Defines which HTTP method to use when submitting the form. Can be GET
      * (default) or POST.
      *
-     * Status: Official
      * Elements: <form>
+     * Status: Official
      *
      * @var string
      */
@@ -1077,8 +1076,8 @@ class HtmlAttribute
      *
      * Indicates the minimum value allowed.
      *
-     * Status: Official
      * Elements: <input>, <meter>
+     * Status: Official
      *
      * @var string
      */
@@ -1090,8 +1089,8 @@ class HtmlAttribute
      * Indicates whether multiple values can be entered in an input of the type
      * email or file.
      *
-     * Status: Official
      * Elements: <input>, <select>
+     * Status: Official
      *
      * @var string
      */
@@ -1102,8 +1101,8 @@ class HtmlAttribute
      *
      * Indicates whether the audio will be initially silenced on page load.
      *
-     * Status: Official
      * Elements: <audio>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -1115,8 +1114,8 @@ class HtmlAttribute
      * Name of the element. For example used by the server to identify the
      * fields in form submits.
      *
-     * Status: Official
      * Elements: <button>, <form>, <fieldset>, <iframe>, <input>, <keygen>, <object>, <output>, <select>, <textarea>, <map>, <meta>, <param>
+     * Status: Official
      *
      * @var string
      */
@@ -1128,8 +1127,8 @@ class HtmlAttribute
      * This attribute indicates that the form shouldn't be validated when
      * submitted.
      *
-     * Status: Official
      * Elements: <form>
+     * Status: Official
      *
      * @var string
      */
@@ -1138,8 +1137,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onabort'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1148,8 +1147,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onautocomplete'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1158,8 +1157,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onautocompleteerror'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1168,8 +1167,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onblur'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1178,8 +1177,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oncancel'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1188,8 +1187,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oncanplay'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1198,8 +1197,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oncanplaythrough'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1208,8 +1207,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onchange'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1218,8 +1217,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onclick'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1228,8 +1227,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onclose'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1238,8 +1237,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oncontextmenu'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1248,8 +1247,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oncuechange'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1258,8 +1257,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondblclick'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1268,8 +1267,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondrag'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1278,8 +1277,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondragend'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1288,8 +1287,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondragenter'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1298,8 +1297,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondragleave'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1308,8 +1307,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondragover'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1318,8 +1317,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondragstart'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1328,8 +1327,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondrop'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1338,8 +1337,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ondurationchange'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1348,8 +1347,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onemptied'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1358,8 +1357,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onended'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1368,8 +1367,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onerror'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1378,8 +1377,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onfocus'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1388,8 +1387,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oninput'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1398,8 +1397,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'oninvalid'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1408,8 +1407,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onkeydown'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1418,8 +1417,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onkeypress'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1428,8 +1427,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onkeyup'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1438,8 +1437,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onload'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1448,8 +1447,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onloadeddata'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1458,8 +1457,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onloadedmetadata'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1468,8 +1467,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onloadstart'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1478,8 +1477,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmousedown'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1488,8 +1487,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmouseenter'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1498,8 +1497,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmouseleave'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1508,8 +1507,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmousemove'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1518,8 +1517,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmouseout'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1528,8 +1527,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmouseover'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1538,8 +1537,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmouseup'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1548,8 +1547,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onmousewheel'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1558,8 +1557,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onpause'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1568,8 +1567,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onplay'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1578,8 +1577,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onplaying'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1588,8 +1587,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onprogress'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1598,8 +1597,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onratechange'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1608,8 +1607,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onreset'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1618,8 +1617,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onresize'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1628,8 +1627,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onscroll'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1638,8 +1637,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onseeked'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1648,8 +1647,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onseeking'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1658,8 +1657,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onselect'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1668,8 +1667,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onshow'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1678,8 +1677,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onsort'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1688,8 +1687,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onstalled'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1698,8 +1697,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onsubmit'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1708,8 +1707,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onsuspend'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1718,8 +1717,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ontimeupdate'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1728,8 +1727,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'ontoggle'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1738,8 +1737,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onvolumechange'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1748,8 +1747,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'onwaiting'
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -1762,8 +1761,8 @@ class HtmlAttribute
      * <details> element) or whether the dialog is active and can be interacted
      * with (in the case of a <dialog> element).
      *
-     * Status: Official
      * Elements: <details>, <dialog>
+     * Status: Official
      *
      * @var string
      */
@@ -1774,8 +1773,8 @@ class HtmlAttribute
      *
      * Indicates the optimal numeric value.
      *
-     * Status: Official
      * Elements: <meter>
+     * Status: Official
      *
      * @var string
      */
@@ -1787,8 +1786,8 @@ class HtmlAttribute
      * Defines a regular expression which the element's value will be validated
      * against.
      *
-     * Status: Official
      * Elements: <input>
+     * Status: Official
      *
      * @var string
      */
@@ -1800,8 +1799,8 @@ class HtmlAttribute
      * The ping attribute specifies a space-separated list of URLs to be
      * notified if a user follows the hyperlink.
      *
-     * Status: Official
      * Elements: <a>, <area>
+     * Status: Official
      *
      * @var string
      */
@@ -1812,8 +1811,8 @@ class HtmlAttribute
      *
      * Provides a hint to the user of what can be entered in the field.
      *
-     * Status: Official
      * Elements: <input>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -1824,8 +1823,8 @@ class HtmlAttribute
      *
      * A URL indicating a poster frame to show until the user plays or seeks.
      *
-     * Status: Official
      * Elements: <video>
+     * Status: Official
      *
      * @var string
      */
@@ -1837,8 +1836,8 @@ class HtmlAttribute
      * Indicates whether the whole resource, parts of it or nothing should be
      * preloaded.
      *
-     * Status: Official
      * Elements: <audio>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -1847,8 +1846,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'radiogroup'
      *
-     * Status: Official
      * Elements: <command>
+     * Status: Official
      *
      * @var string
      */
@@ -1859,8 +1858,8 @@ class HtmlAttribute
      *
      * Indicates whether the element can be edited.
      *
-     * Status: Official
      * Elements: <input>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -1871,8 +1870,8 @@ class HtmlAttribute
      *
      * Specifies which referrer is sent when fetching the resource.
      *
-     * Status: Official
      * Elements: <a>, <area>, <iframe>, <img>, <link>, <script>
+     * Status: Official
      *
      * @var string
      */
@@ -1883,8 +1882,8 @@ class HtmlAttribute
      *
      * Specifies the relationship of the target object to the link object.
      *
-     * Status: Official
      * Elements: <a>, <area>, <link>
+     * Status: Official
      *
      * @var string
      */
@@ -1895,8 +1894,8 @@ class HtmlAttribute
      *
      * Indicates whether this element is required to fill out or not.
      *
-     * Status: Official
      * Elements: <input>, <select>, <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -1908,8 +1907,8 @@ class HtmlAttribute
      * Indicates whether the list should be displayed in descending order
      * instead of an ascending order.
      *
-     * Status: Official
      * Elements: <ol>
+     * Status: Official
      *
      * @var string
      */
@@ -1920,8 +1919,8 @@ class HtmlAttribute
      *
      * Defines the number of rows in a text area.
      *
-     * Status: Official
      * Elements: <textarea>
+     * Status: Official
      *
      * @var string
      */
@@ -1932,8 +1931,8 @@ class HtmlAttribute
      *
      * Defines the number of rows a table cell should span over.
      *
-     * Status: Official
      * Elements: <td>, <th>
+     * Status: Official
      *
      * @var string
      */
@@ -1945,8 +1944,8 @@ class HtmlAttribute
      * Stops a document loaded in an iframe from using certain features (such as
      * submitting forms or opening new windows).
      *
-     * Status: Official
      * Elements: <iframe>
+     * Status: Official
      *
      * @var string
      */
@@ -1955,11 +1954,11 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'scope'
      *
-     * Defines the cells that the header test (defined in the th element)
+     * Defines the cells that the header test (defined in the <th> element)
      * relates to.
      *
-     * Status: Official
      * Elements: <th>
+     * Status: Official
      *
      * @var string
      */
@@ -1968,8 +1967,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'scoped'
      *
-     * Status: Non-standard
      * Elements: <style>
+     * Status: Non-standard
      *
      * @var string
      * @deprecated
@@ -1981,8 +1980,8 @@ class HtmlAttribute
      *
      * Defines a value which will be selected on page load.
      *
-     * Status: Official
      * Elements: <option>
+     * Status: Official
      *
      * @var string
      */
@@ -1991,8 +1990,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'shape'
      *
-     * Status: Official
      * Elements: <a>, <area>
+     * Status: Official
      *
      * @var string
      */
@@ -2004,8 +2003,8 @@ class HtmlAttribute
      * Defines the width of the element (in pixels). If the element's type
      * attribute is text or password then it's the number of characters.
      *
-     * Status: Official
      * Elements: <input>, <select>
+     * Status: Official
      *
      * @var string
      */
@@ -2014,8 +2013,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'sizes'
      *
-     * Status: Official
      * Elements: <link>, <img>, <source>
+     * Status: Official
      *
      * @var string
      */
@@ -2026,8 +2025,8 @@ class HtmlAttribute
      *
      * Assigns a slot in a shadow DOM shadow tree to an element.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -2036,8 +2035,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'span'
      *
-     * Status: Official
      * Elements: <col>, <colgroup>
+     * Status: Official
      *
      * @var string
      */
@@ -2048,8 +2047,8 @@ class HtmlAttribute
      *
      * Indicates whether spell checking is allowed for the element.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -2060,8 +2059,8 @@ class HtmlAttribute
      *
      * The URL of the embeddable content.
      *
-     * Status: Official
      * Elements: <audio>, <embed>, <iframe>, <img>, <input>, <script>, <source>, <track>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -2070,8 +2069,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'srcdoc'
      *
-     * Status: Official
      * Elements: <iframe>
+     * Status: Official
      *
      * @var string
      */
@@ -2080,8 +2079,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'srclang'
      *
-     * Status: Official
      * Elements: <track>
+     * Status: Official
      *
      * @var string
      */
@@ -2092,8 +2091,8 @@ class HtmlAttribute
      *
      * One or more responsive image candidates.
      *
-     * Status: Official
      * Elements: <img>, <source>
+     * Status: Official
      *
      * @var string
      */
@@ -2104,8 +2103,8 @@ class HtmlAttribute
      *
      * Defines the first number if other than 1.
      *
-     * Status: Official
      * Elements: <ol>
+     * Status: Official
      *
      * @var string
      */
@@ -2114,8 +2113,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'step'
      *
-     * Status: Official
      * Elements: <input>
+     * Status: Official
      *
      * @var string
      */
@@ -2126,8 +2125,8 @@ class HtmlAttribute
      *
      * Defines CSS styles which will override styles previously set.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -2136,8 +2135,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'summary'
      *
-     * Status: Official
      * Elements: <table>
+     * Status: Official
      *
      * @var string
      * @deprecated
@@ -2150,8 +2149,8 @@ class HtmlAttribute
      * Overrides the browser's default tab order and follows the one specified
      * instead.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -2164,8 +2163,8 @@ class HtmlAttribute
      * element) or where to display the response received (in the case of a
      * <form> element)
      *
-     * Status: Official
      * Elements: <a>, <area>, <base>, <form>
+     * Status: Official
      *
      * @var string
      */
@@ -2176,8 +2175,8 @@ class HtmlAttribute
      *
      * Text to be displayed in a tooltip when hovering over the element.
      *
-     * Status: Official
      * Elements: global
+     * Status: Official
      *
      * @var string
      */
@@ -2190,8 +2189,8 @@ class HtmlAttribute
      * node children are to be translated when the page is localized, or whether
      * to leave them unchanged.
      *
-     * Status: Experimental
      * Elements: global
+     * Status: Experimental
      *
      * @var string
      */
@@ -2202,8 +2201,8 @@ class HtmlAttribute
      *
      * Defines the type of the element.
      *
-     * Status: Official
      * Elements: <button>, <input>, <command>, <embed>, <object>, <script>, <source>, <style>, <menu>, <link>
+     * Status: Official
      *
      * @var string
      */
@@ -2212,8 +2211,8 @@ class HtmlAttribute
     /**
      * HTML tag attribute 'usemap'
      *
-     * Status: Official
      * Elements: <img>, <input>, <object>
+     * Status: Official
      *
      * @var string
      */
@@ -2225,8 +2224,8 @@ class HtmlAttribute
      * Defines a default value which will be displayed in the element on page
      * load.
      *
-     * Status: Official
      * Elements: <button>, <data>, <input>, <li>, <meter>, <option>, <progress>, <param>
+     * Status: Official
      *
      * @var string
      */
@@ -2237,8 +2236,8 @@ class HtmlAttribute
      *
      * For the elements listed here, this establishes the element's width.
      *
-     * Status: Official
      * Elements: <canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>
+     * Status: Official
      *
      * @var string
      */
@@ -2249,8 +2248,8 @@ class HtmlAttribute
      *
      * Indicates whether the text should be wrapped.
      *
-     * Status: Official
      * Elements: <textarea>
+     * Status: Official
      *
      * @var string
      */

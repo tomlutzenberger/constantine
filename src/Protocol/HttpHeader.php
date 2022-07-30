@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\Protocol;
@@ -28,7 +27,7 @@ class HttpHeader
      * resource.
      *
      * Category: Authentication
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/WWW-Authenticate
@@ -43,7 +42,7 @@ class HttpHeader
      * Contains the credentials to authenticate a user-agent with a server.
      *
      * Category: Authentication
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
@@ -59,7 +58,7 @@ class HttpHeader
      * resource behind a proxy server.
      *
      * Category: Authentication
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Proxy-Authenticate
@@ -75,7 +74,7 @@ class HttpHeader
      * server.
      *
      * Category: Authentication
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Proxy-Authorization
@@ -90,7 +89,7 @@ class HttpHeader
      * The time, in seconds, that the object has been in a proxy cache.
      *
      * Category: Caching
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Age
@@ -105,7 +104,7 @@ class HttpHeader
      * Directives for caching mechanisms in both requests and responses.
      *
      * Category: Caching
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
@@ -121,7 +120,7 @@ class HttpHeader
      * requesting website.
      *
      * Category: Caching
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data
@@ -136,7 +135,7 @@ class HttpHeader
      * The date/time after which the response is considered stale.
      *
      * Category: Caching
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires
@@ -153,7 +152,7 @@ class HttpHeader
      * HTTP/1.0 caches where the Cache-Control header is not yet present.
      *
      * Category: Caching
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Pragma
@@ -168,7 +167,7 @@ class HttpHeader
      * General warning information about possible problems.
      *
      * Category: Caching
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Warning
@@ -185,7 +184,7 @@ class HttpHeader
      * field or an equivalent HTML <meta> element with http-equiv attribute.
      *
      * Category: Client hints
-     * Standard: RFC8942
+     * Standards: RFC8942
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH
@@ -202,7 +201,7 @@ class HttpHeader
      * Client Hints on subsequent requests to the server’s origin.
      *
      * Category: Client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH-Lifetime
@@ -218,7 +217,7 @@ class HttpHeader
      * User agent's branding and version.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA
@@ -233,7 +232,7 @@ class HttpHeader
      * User agent's underlying platform architecture.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch
@@ -248,7 +247,7 @@ class HttpHeader
      * User agent's underlying CPU architecture bitness (for example "64" bit).
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness
@@ -263,7 +262,7 @@ class HttpHeader
      * User agent's full semantic version string.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version
@@ -279,7 +278,7 @@ class HttpHeader
      * Full version for each brand in the user agent's brand list.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List
@@ -295,7 +294,7 @@ class HttpHeader
      * "mobile" user experience.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile
@@ -310,7 +309,7 @@ class HttpHeader
      * User agent's device model.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model
@@ -325,7 +324,7 @@ class HttpHeader
      * User agent's underlying operating system/platform.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform
@@ -340,7 +339,7 @@ class HttpHeader
      * User agent's underlying operating system version.
      *
      * Category: User agent client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version
@@ -356,7 +355,7 @@ class HttpHeader
      * requests where the DPR client hint was used to select an image resource.
      *
      * Category: Device client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-DPR
@@ -373,7 +372,7 @@ class HttpHeader
      * Device Memory API.
      *
      * Category: Device client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory
@@ -390,7 +389,7 @@ class HttpHeader
      * pixels corresponding to every CSS pixel.
      *
      * Category: Device client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/DPR
@@ -408,7 +407,7 @@ class HttpHeader
      * integer (i.e. ceiling value).
      *
      * Category: Device client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Viewport-Width
@@ -425,7 +424,7 @@ class HttpHeader
      * (i.e. intrinsic size of an image).
      *
      * Category: Device client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Width
@@ -442,7 +441,7 @@ class HttpHeader
      * This is part of the Network Information API.
      *
      * Category: Network client hints
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Downlink
@@ -459,7 +458,7 @@ class HttpHeader
      * Information API.
      *
      * Category: Network client hints
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ECT
@@ -475,7 +474,7 @@ class HttpHeader
      * the server processing time. This is part of the Network Information API.
      *
      * Category: Network client hints
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/RTT
@@ -491,7 +490,7 @@ class HttpHeader
      * usage.
      *
      * Category: Network client hints
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Save-Data
@@ -510,7 +509,7 @@ class HttpHeader
      * behavior of the request.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified
@@ -527,7 +526,7 @@ class HttpHeader
      * behavior of the request.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
@@ -543,7 +542,7 @@ class HttpHeader
      * resource matches one of the given ETags.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match
@@ -561,7 +560,7 @@ class HttpHeader
      * one already exists.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match
@@ -578,7 +577,7 @@ class HttpHeader
      * transmit data only when the cache is out of date.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since
@@ -597,7 +596,7 @@ class HttpHeader
      * existing documents.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since
@@ -614,7 +613,7 @@ class HttpHeader
      * server.
      *
      * Category: Conditionals
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary
@@ -630,7 +629,7 @@ class HttpHeader
      * transaction finishes.
      *
      * Category: Connection management
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Connection
@@ -645,7 +644,7 @@ class HttpHeader
      * Controls how long a persistent connection should stay open.
      *
      * Category: Connection management
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Keep-Alive
@@ -660,7 +659,7 @@ class HttpHeader
      * Informs the server about the types of data that can be sent back.
      *
      * Category: Content negotiation
-     * Standard: RFC2616, RFC7231
+     * Standards: RFC2616, RFC7231
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept
@@ -676,7 +675,7 @@ class HttpHeader
      * client's supported character encodings. It is no longer widely used.
      *
      * Category: Content negotiation
-     * Standard: RFC2616
+     * Standards: RFC2616
      * Status: Provisional
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Charset
@@ -692,7 +691,7 @@ class HttpHeader
      * on the resource sent back.
      *
      * Category: Content negotiation
-     * Standard: RFC2616, RFC7231
+     * Standards: RFC2616, RFC7231
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding
@@ -710,7 +709,7 @@ class HttpHeader
      * explicit user choice (like selecting a language from a dropdown).
      *
      * Category: Content negotiation
-     * Standard: RFC2616, RFC7231
+     * Standards: RFC2616, RFC7231
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language
@@ -726,7 +725,7 @@ class HttpHeader
      * properly handle the request.
      *
      * Category: Controls
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect
@@ -741,7 +740,7 @@ class HttpHeader
      * TBD
      *
      * Category: Controls
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Max-Forwards
@@ -757,7 +756,7 @@ class HttpHeader
      * Set-Cookie header.
      *
      * Category: Cookies
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie
@@ -772,7 +771,7 @@ class HttpHeader
      * Send cookies from the server to the user-agent.
      *
      * Category: Cookies
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
@@ -788,7 +787,7 @@ class HttpHeader
      * Set-Cookie2 header, but has been obsoleted. Use Cookie instead.
      *
      * Category: Cookies
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie2
@@ -805,7 +804,7 @@ class HttpHeader
      * Use Set-Cookie instead.
      *
      * Category: Cookies
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie2
@@ -821,7 +820,7 @@ class HttpHeader
      * Indicates whether the response can be shared.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
@@ -837,7 +836,7 @@ class HttpHeader
      * credentials flag is true.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials
@@ -853,7 +852,7 @@ class HttpHeader
      * can be used when making the actual request.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Headers
@@ -869,7 +868,7 @@ class HttpHeader
      * a preflight request.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods
@@ -885,7 +884,7 @@ class HttpHeader
      * their names.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Expose-Headers
@@ -900,7 +899,7 @@ class HttpHeader
      * Indicates how long the results of a preflight request can be cached.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Max-Age
@@ -916,7 +915,7 @@ class HttpHeader
      * headers will be used when the actual request is made.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Request-Headers
@@ -932,7 +931,7 @@ class HttpHeader
      * method will be used when the actual request is made.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Request-Method
@@ -947,7 +946,7 @@ class HttpHeader
      * Indicates where a fetch originates from.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin
@@ -964,7 +963,7 @@ class HttpHeader
      * reported as zero due to cross-origin restrictions.
      *
      * Category: CORS
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Timing-Allow-Origin
@@ -981,7 +980,7 @@ class HttpHeader
      * and the browser should present a “Save As” dialog.
      *
      * Category: Downloads
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition
@@ -996,7 +995,7 @@ class HttpHeader
      * The size of the resource, in decimal number of bytes.
      *
      * Category: Message body information
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length
@@ -1011,7 +1010,7 @@ class HttpHeader
      * Indicates the media type of the resource.
      *
      * Category: Message body information
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
@@ -1026,7 +1025,7 @@ class HttpHeader
      * Used to specify the compression algorithm.
      *
      * Category: Message body information
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
@@ -1043,7 +1042,7 @@ class HttpHeader
      * language.
      *
      * Category: Message body information
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Language
@@ -1058,7 +1057,7 @@ class HttpHeader
      * Indicates an alternate location for the returned data.
      *
      * Category: Message body information
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Location
@@ -1074,7 +1073,7 @@ class HttpHeader
      * altered or lost when a proxy is involved in the path of the request.
      *
      * Category: Proxies
-     * Standard: RFC7239
+     * Standards: RFC7239
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded
@@ -1090,7 +1089,7 @@ class HttpHeader
      * server through an HTTP proxy or a load balancer.
      *
      * Category: Proxies
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
@@ -1106,7 +1105,7 @@ class HttpHeader
      * your proxy or load balancer.
      *
      * Category: Proxies
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-Host
@@ -1122,7 +1121,7 @@ class HttpHeader
      * your proxy or load balancer.
      *
      * Category: Proxies
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-Proto
@@ -1138,7 +1137,7 @@ class HttpHeader
      * request headers and the response headers.
      *
      * Category: Proxies
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Via
@@ -1153,7 +1152,7 @@ class HttpHeader
      * Indicates the URL to redirect a page to.
      *
      * Category: Redirects
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location
@@ -1169,7 +1168,7 @@ class HttpHeader
      * requesting user agent.
      *
      * Category: Request context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/From
@@ -1185,7 +1184,7 @@ class HttpHeader
      * (optionally) the TCP port number on which the server is listening.
      *
      * Category: Request context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host
@@ -1201,7 +1200,7 @@ class HttpHeader
      * requested page was followed.
      *
      * Category: Request context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer
@@ -1217,7 +1216,7 @@ class HttpHeader
      * included with requests made.
      *
      * Category: Request context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
@@ -1235,7 +1234,7 @@ class HttpHeader
      * Firefox user agent string reference.
      *
      * Category: Request context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
@@ -1250,7 +1249,7 @@ class HttpHeader
      * Lists the set of HTTP request methods supported by a resource.
      *
      * Category: Response context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Allow
@@ -1266,7 +1265,7 @@ class HttpHeader
      * handle the request.
      *
      * Category: Response context
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server
@@ -1282,7 +1281,7 @@ class HttpHeader
      * the range can be expressed.
      *
      * Category: Range requests
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Ranges
@@ -1297,7 +1296,7 @@ class HttpHeader
      * Indicates the part of a document that the server should return.
      *
      * Category: Range requests
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range
@@ -1314,7 +1313,7 @@ class HttpHeader
      * ranges from incompatible version of the resource.
      *
      * Category: Range requests
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Range
@@ -1329,7 +1328,7 @@ class HttpHeader
      * Indicates where in a full body message a partial message belongs.
      *
      * Category: Range requests
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Range
@@ -1344,7 +1343,7 @@ class HttpHeader
      * Allows a server to declare an embedder policy for a given document.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy
@@ -1359,7 +1358,7 @@ class HttpHeader
      * Prevents other domains from opening/controlling a window.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy
@@ -1375,7 +1374,7 @@ class HttpHeader
      * which this header is applied.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy
@@ -1390,7 +1389,7 @@ class HttpHeader
      * Controls resources the user agent is allowed to load for a given page.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
@@ -1407,7 +1406,7 @@ class HttpHeader
      * documents sent via an HTTP POST request to the specified URI.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only
@@ -1426,7 +1425,7 @@ class HttpHeader
      * certificate for that site appears in public CT logs.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT
@@ -1442,7 +1441,7 @@ class HttpHeader
      * own frame, and in iframes that it embeds.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy
@@ -1457,7 +1456,7 @@ class HttpHeader
      * Provides a mechanism to allow web applications to isolate their origins.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin-Isolation
@@ -1472,7 +1471,7 @@ class HttpHeader
      * Force communication using HTTPS instead of HTTP.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
@@ -1489,7 +1488,7 @@ class HttpHeader
      * the upgrade-insecure-requests directive.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests
@@ -1505,7 +1504,7 @@ class HttpHeader
      * Content-Type.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
@@ -1524,7 +1523,7 @@ class HttpHeader
      * (Note: related MS Edge bug).
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Download-Options
@@ -1540,7 +1539,7 @@ class HttpHeader
      * <frame>, <iframe>, <embed> or <object>.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
@@ -1560,7 +1559,7 @@ class HttpHeader
      * Cross-domain Policy File Specification for more information.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Permitted-Cross-Domain-Policies
@@ -1578,7 +1577,7 @@ class HttpHeader
      * potential vulnerabilities.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Powered-By
@@ -1593,7 +1592,7 @@ class HttpHeader
      * Enables cross-site scripting filtering.
      *
      * Category: Security
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
@@ -1609,7 +1608,7 @@ class HttpHeader
      * to decrease the risk of MITM attacks with forged certificates.
      *
      * Category: HTTP Public Key Pinning (HPKP)
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Public-Key-Pins
@@ -1625,7 +1624,7 @@ class HttpHeader
      * allow clients to connect to the server even if the pinning is violated.
      *
      * Category: HTTP Public Key Pinning (HPKP)
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Public-Key-Pins-Report-Only
@@ -1643,7 +1642,7 @@ class HttpHeader
      * same-site, and none.
      *
      * Category: Fetch metadata request headers
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site
@@ -1660,7 +1659,7 @@ class HttpHeader
      * navigate, no-cors, same-origin, and websocket.
      *
      * Category: Fetch metadata request headers
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode
@@ -1677,7 +1676,7 @@ class HttpHeader
      * boolean so possible values are ?0 for false and ?1 for true.
      *
      * Category: Fetch metadata request headers
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User
@@ -1696,7 +1695,7 @@ class HttpHeader
      * sharedworker, style, track, video, worker, and xslt.
      *
      * Category: Fetch metadata request headers
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest
@@ -1711,7 +1710,7 @@ class HttpHeader
      * TBD
      *
      * Category: Server-sent events
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Event-ID
@@ -1727,7 +1726,7 @@ class HttpHeader
      * reporting policy.
      *
      * Category: Server-sent events
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/NEL
@@ -1742,7 +1741,7 @@ class HttpHeader
      * TBD
      *
      * Category: Server-sent events
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Ping-From
@@ -1757,7 +1756,7 @@ class HttpHeader
      * TBD
      *
      * Category: Server-sent events
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Ping-To
@@ -1773,7 +1772,7 @@ class HttpHeader
      * error reports to.
      *
      * Category: Server-sent events
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Report-To
@@ -1789,7 +1788,7 @@ class HttpHeader
      * the user.
      *
      * Category: Transfer coding
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding
@@ -1804,7 +1803,7 @@ class HttpHeader
      * Specifies the transfer encodings the user agent is willing to accept.
      *
      * Category: Transfer coding
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/TE
@@ -1820,7 +1819,7 @@ class HttpHeader
      * message.
      *
      * Category: Transfer coding
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Trailer
@@ -1835,7 +1834,7 @@ class HttpHeader
      * TBD
      *
      * Category: WebSockets
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Key
@@ -1850,7 +1849,7 @@ class HttpHeader
      * TBD
      *
      * Category: WebSockets
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Extensions
@@ -1865,7 +1864,7 @@ class HttpHeader
      * TBD
      *
      * Category: WebSockets
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Accept
@@ -1880,7 +1879,7 @@ class HttpHeader
      * TBD
      *
      * Category: WebSockets
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Protocol
@@ -1895,7 +1894,7 @@ class HttpHeader
      * TBD
      *
      * Category: WebSockets
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Version
@@ -1911,7 +1910,7 @@ class HttpHeader
      * Accept-Push-Policy header field in the request.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Push-Policy
@@ -1928,7 +1927,7 @@ class HttpHeader
      * of signatures it supports.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Signature
@@ -1943,7 +1942,7 @@ class HttpHeader
      * Used to list alternate ways to reach this service.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Alt-Svc
@@ -1958,7 +1957,7 @@ class HttpHeader
      * Contains the date and time at which the message was originated.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Date
@@ -1973,7 +1972,7 @@ class HttpHeader
      * Indicates that the request has been conveyed in TLS early data.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Early-Data
@@ -1989,7 +1988,7 @@ class HttpHeader
      * a large allocation.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Large-Allocation
@@ -2006,7 +2005,7 @@ class HttpHeader
      * element.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link
@@ -2022,7 +2021,7 @@ class HttpHeader
      * a request.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Push-Policy
@@ -2038,7 +2037,7 @@ class HttpHeader
      * request.
      *
      * Category: Other
-     * Standard: RFC2616, RFC7231
+     * Standards: RFC2616, RFC7231
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After
@@ -2055,7 +2054,7 @@ class HttpHeader
      * of and refresh that signature.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Signature
@@ -2071,7 +2070,7 @@ class HttpHeader
      * header fields to include in a signature.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Experimental
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Signed-Headers
@@ -2087,7 +2086,7 @@ class HttpHeader
      * request-response cycle.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server-Timing
@@ -2103,7 +2102,7 @@ class HttpHeader
      * response of the Service Worker script.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Service-Worker-Allowed
@@ -2118,7 +2117,7 @@ class HttpHeader
      * Links generated code to a source map.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/SourceMap
@@ -2134,7 +2133,7 @@ class HttpHeader
      * corresponding request.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Tk
@@ -2160,7 +2159,7 @@ class HttpHeader
      * section 6.1 of the aforementioned RFC.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade
@@ -2178,7 +2177,7 @@ class HttpHeader
      * CSS, JavaScript, and so forth.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control
@@ -2193,7 +2192,7 @@ class HttpHeader
      * TBD
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Firefox-Spdy
@@ -2209,7 +2208,7 @@ class HttpHeader
      * TBD
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Pingback
@@ -2224,7 +2223,7 @@ class HttpHeader
      * TBD
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Official
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Requested-With
@@ -2241,7 +2240,7 @@ class HttpHeader
      * equivalent to {@example <meta name="robots" content="...">}.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Robots-Tag
@@ -2256,7 +2255,7 @@ class HttpHeader
      * Used by Internet Explorer to signal which document mode to use.
      *
      * Category: Other
-     * Standard: -
+     * Standards: -
      * Status: Non-Standard
      *
      * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-UA-Compatible

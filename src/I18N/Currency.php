@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\I18N;
@@ -265,7 +264,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_AMD = 051;
+    public const NUMERIC_CODE_AMD = 51;
 
     /**
      * ISO-4271 name for currency AMD
@@ -494,7 +493,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_ARS = 032;
+    public const NUMERIC_CODE_ARS = 32;
 
     /**
      * ISO-4271 name for currency ARS
@@ -577,7 +576,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_AUD = 036;
+    public const NUMERIC_CODE_AUD = 36;
 
     /**
      * ISO-4271 name for currency AUD
@@ -881,7 +880,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_BBD = 052;
+    public const NUMERIC_CODE_BBD = 52;
 
     /**
      * ISO-4271 name for currency BBD
@@ -957,7 +956,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_BDT = 050;
+    public const NUMERIC_CODE_BDT = 50;
 
     /**
      * ISO-4271 name for currency BDT
@@ -1261,7 +1260,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_BMD = 060;
+    public const NUMERIC_CODE_BMD = 60;
 
     /**
      * ISO-4271 name for currency BMD
@@ -1565,7 +1564,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_BSD = 044;
+    public const NUMERIC_CODE_BSD = 44;
 
     /**
      * ISO-4271 name for currency BSD
@@ -1641,7 +1640,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_BTN = 064;
+    public const NUMERIC_CODE_BTN = 64;
 
     /**
      * ISO-4271 name for currency BTN
@@ -1717,7 +1716,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_BWP = 072;
+    public const NUMERIC_CODE_BWP = 72;
 
     /**
      * ISO-4271 name for currency BWP
@@ -3039,7 +3038,7 @@ class Currency
      *
      * @var int
      */
-    public const NUMERIC_CODE_DZD = 012;
+    public const NUMERIC_CODE_DZD = 12;
 
     /**
      * ISO-4271 name for currency DZD
@@ -9254,7 +9253,7 @@ class Currency
     public const MAJOR_MINOR_RATIO_SDG = 1 / 100;
 
     /**
-     * ISO-4217 Code for the Swedish krona
+     * ISO-4217 Code for the Swedish króna
      *
      * Countries:
      * - Sweden
@@ -9264,7 +9263,7 @@ class Currency
     public const ALPHA_3_CODE_SEK = 'SEK';
 
     /**
-     * ISO-4271 Number for the Swedish krona
+     * ISO-4271 Number for the Swedish króna
      *
      * @var int
      */
@@ -9275,7 +9274,7 @@ class Currency
      *
      * @var string
      */
-    public const NAME_SEK = 'Swedish krona';
+    public const NAME_SEK = 'Swedish króna';
 
     /**
      * The number of digits after the decimal separator for SEK
@@ -9291,7 +9290,7 @@ class Currency
      *
      * @var string
      */
-    public const MAJOR_UNIT_NAME_SEK = 'Krona';
+    public const MAJOR_UNIT_NAME_SEK = 'Króna';
 
     /**
      * Short name of minor unit for currency SEK
@@ -10934,7 +10933,7 @@ class Currency
      * - American Samoa (AS)
      * - British Indian Ocean Territory (IO) (also uses GBP)
      * - British Virgin Islands (VG)
-     * - Caribbean Netherlands (BQ – Bonaire, Sint Eustatius and Saba)
+     * - Caribbean Netherlands (BQ - Bonaire, Sint Eustatius and Saba)
      * - Ecuador (EC)
      * - El Salvador (SV)
      * - Guam (GU)

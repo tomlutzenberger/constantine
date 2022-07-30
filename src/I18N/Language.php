@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\I18N;
@@ -14235,7 +14234,7 @@ class Language
     public const ALPHA_3_CODE_ELL = 'ell';
 
     /**
-     * ISO-639-2/B Code of Greek, Modern (1453–)
+     * ISO-639-2/B Code of Greek, Modern (1453-)
      *
      * @see https://en.wikipedia.org/wiki/ISO_639-2#B_and_T_codes
      *
@@ -26884,7 +26883,7 @@ class Language
     public const ALPHA_3_CODE_LGZ = 'lgz';
 
     /**
-     * ISO-639-3 Code of Laha (Viet Nam)
+     * ISO-639-3 Code of Laha (Vietnam)
      *
      * @var string
      */
@@ -36022,7 +36021,7 @@ class Language
     public const ALPHA_3_CODE_NUS = 'nus';
 
     /**
-     * ISO-639-3 Code of Nung (Viet Nam)
+     * ISO-639-3 Code of Nung (Vietnam)
      *
      * @var string
      */
@@ -38213,7 +38212,7 @@ class Language
     public const ALPHA_3_CODE_PEF = 'pef';
 
     /**
-     * ISO-639-3 Code of Pengo
+     * ISO-639-3 Code of Pengö
      *
      * @var string
      */

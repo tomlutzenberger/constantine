@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  * @noinspection PhpConstantNamingConventionInspection
  */
 

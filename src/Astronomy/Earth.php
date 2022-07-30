@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  */
 
 namespace TomLutzenberger\Constantine\Astronomy;
@@ -51,7 +50,7 @@ class Earth
     /**
      * Earth's Semi-major axis
      *
-     * The longest semidiameter or one half of the major axis (longest diameter
+     * The longest semi-diameter or one half of the major axis (longest diameter
      * in an ellipse).
      *
      * Symbol: a
@@ -79,7 +78,7 @@ class Earth
     public const ECCENTRICITY = 0.0167086;
 
     /**
-     * Earth's Orbital period
+     * Earth's Orbital period (sidereal)
      *
      * The time a given astronomical object takes to complete one orbit around
      * another object.
@@ -91,7 +90,7 @@ class Earth
      *
      * @var float
      */
-    public const ORBITAL_PERIOD = 365.256363004;
+    public const ORBITAL_PERIOD_SIDEREAL = 365.256363004;
 
     /**
      * Earth's average orbital speed
@@ -157,7 +156,7 @@ class Earth
      *
      * @var float
      */
-    public const INCLINATION_TO_J_2000_ECLIPTIC = 0.00005;
+    public const INCLINATION_TO_J_2000_ECLIPTIC = 5.0E-5;
 
     /**
      * Earth's Longitude of ascending node to J2000 ecliptic
@@ -285,7 +284,7 @@ class Earth
      * Earth's Volume
      *
      * Symbol: V
-     * Unit: km3
+     * Unit: km³
      *
      * @see https://en.wikipedia.org/wiki/Volume
      *
@@ -309,7 +308,7 @@ class Earth
      * Earth's Mean density
      *
      * Symbol: ρ
-     * Unit: g/cm3
+     * Unit: g/cm³
      *
      * @see https://en.wikipedia.org/wiki/Density
      *
@@ -323,7 +322,7 @@ class Earth
      * Equals 1G
      *
      * Symbol: g
-     * Unit: m/s2
+     * Unit: m/s²
      *
      * @see https://en.wikipedia.org/wiki/Surface_gravity
      *
@@ -356,7 +355,7 @@ class Earth
     public const ESCAPE_VELOCITY = 11.186;
 
     /**
-     * Earth's rotation period
+     * Earth's synodic rotation period
      *
      * Symbol: -
      * Unit: days
@@ -365,7 +364,7 @@ class Earth
      *
      * @var float
      */
-    public const ROTATION_PERIOD = 1.0;
+    public const ROTATION_PERIOD_SYNODIC = 1.0;
 
     /**
      * Earth's sidereal rotation period
@@ -380,7 +379,7 @@ class Earth
      *
      * @var float
      */
-    public const SIDEREAL_ROTATION_PERIOD = 0.99726968;
+    public const ROTATION_PERIOD_SIDEREAL = 0.99726968;
 
     /**
      * Earth's equatorial rotation velocity
@@ -393,7 +392,7 @@ class Earth
     public const EQUATORIAL_ROTATION_VELOCITY = 0.4651;
 
     /**
-     * Earth's axial tilt
+     * Earth's axial tilt (to ecliptic)
      *
      * Symbol: -
      * Unit: ° (degree)
@@ -402,7 +401,7 @@ class Earth
      *
      * @var float
      */
-    public const AXIAL_TILT = 23.4392811;
+    public const AXIAL_TILT_ECLIPTIC = 23.4392811;
 
     /**
      * Earth's geometric albedo

@@ -2,7 +2,6 @@
 
 /**
  * @noinspection PhpUnused
- * @noinspection UnknownInspectionInspection
  * @noinspection PhpConstantNamingConventionInspection
  * @noinspection PhpClassNamingConventionInspection
  */
@@ -209,7 +208,7 @@ class HtmlTag
      *
      * Category: Content sectioning
      *
-     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
      *
      * @var string
      */
@@ -223,7 +222,7 @@ class HtmlTag
      *
      * Category: Content sectioning
      *
-     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
      *
      * @var string
      */
@@ -237,7 +236,7 @@ class HtmlTag
      *
      * Category: Content sectioning
      *
-     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
      *
      * @var string
      */
@@ -251,7 +250,7 @@ class HtmlTag
      *
      * Category: Content sectioning
      *
-     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
      *
      * @var string
      */
@@ -265,7 +264,7 @@ class HtmlTag
      *
      * Category: Content sectioning
      *
-     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
      *
      * @var string
      */
@@ -279,7 +278,7 @@ class HtmlTag
      *
      * Category: Content sectioning
      *
-     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
      *
      * @var string
      */
@@ -370,7 +369,7 @@ class HtmlTag
      * HTML Tag <dl>
      *
      * Represents a description list. The element encloses a list of groups of
-     * terms (specified using the dt element) and descriptions (provided by dd
+     * terms (specified using the <dt> element) and descriptions (provided by dd
      * elements).
      *
      * Category: Text content
@@ -385,7 +384,7 @@ class HtmlTag
      * HTML Tag <dt>
      *
      * Specifies a term in a description or definition list, and as such must be
-     * used inside a dl element.
+     * used inside a <dl> element.
      *
      * Category: Text content
      *
@@ -399,7 +398,7 @@ class HtmlTag
      * HTML Tag <figcaption>
      *
      * Represents a caption or legend describing the rest of the contents of its
-     * parent figure element.
+     * parent <figure> element.
      *
      * Category: Text content
      *
@@ -413,7 +412,7 @@ class HtmlTag
      * HTML Tag <figure>
      *
      * Represents self-contained content, potentially with an optional caption,
-     * which is specified using the figcaption element.
+     * which is specified using the <figcaption> element.
      *
      * Category: Text content
      *
@@ -440,7 +439,7 @@ class HtmlTag
      * HTML Tag <li>
      *
      * Used to represent an item in a list. It must be contained in a parent
-     * element: an ordered list (ol), an unordered list (ul), or a menu (menu).
+     * element: an ordered list <ol>, an unordered list <ul>, or a <menu>.
      *
      * Category: Text content
      *
@@ -466,7 +465,7 @@ class HtmlTag
     /**
      * HTML Tag <ol>
      *
-     * Represents an ordered list of items — typically rendered as a numbered
+     * Represents an ordered list of items - typically rendered as a numbered
      * list.
      *
      * Category: Text content
@@ -728,7 +727,7 @@ class HtmlTag
      * HTML Tag <rp>
      *
      * Used to provide fall-back parentheses for browsers that do not support
-     * display of ruby annotations using the ruby element.
+     * display of ruby annotations using the <ruby> element.
      *
      * Category: Inline text semantics
      *
@@ -963,7 +962,7 @@ class HtmlTag
     /**
      * HTML Tag <map>
      *
-     * Used with area elements to define an image map (a clickable link area).
+     * Used with <area> elements to define an image map (a clickable link area).
      *
      * Category: Multimedia
      *
@@ -976,7 +975,7 @@ class HtmlTag
     /**
      * HTML Tag <track>
      *
-     * Used as a child of the media elements, audio and video.
+     * Used as a child of the media elements, <audio> and <video>.
      *
      * Category: Multimedia
      *
@@ -1043,7 +1042,7 @@ class HtmlTag
     /**
      * HTML Tag <param>
      *
-     * Defines parameters for an object element.
+     * Defines parameters for an <object> element.
      *
      * Category: Embedded content
      *
@@ -1056,7 +1055,7 @@ class HtmlTag
     /**
      * HTML Tag <picture>
      *
-     * Contains zero or more source elements and one img element to offer
+     * Contains zero or more source elements and one <img> element to offer
      * alternative versions of an image for different display/device scenarios.
      *
      * Category: Embedded content
@@ -1084,8 +1083,8 @@ class HtmlTag
     /**
      * HTML Tag <source>
      *
-     * Specifies multiple media resources for the picture, the audio element, or
-     * the video element.
+     * Specifies multiple media resources for the picture, the <audio> element,
+     * or the <video> element.
      *
      * Category: Embedded content
      *
@@ -1098,7 +1097,7 @@ class HtmlTag
     /**
      * HTML Tag <svg>
      *
-     * The svg element is a container that defines a new coordinate system and
+     * The <svg> element is a container that defines a new coordinate system and
      * viewport.
      *
      * Category: SVG and MathML
@@ -1233,7 +1232,7 @@ class HtmlTag
     /**
      * HTML Tag <table>
      *
-     * Represents tabular data — that is, information presented in a
+     * Represents tabular data - that is, information presented in a
      * two-dimensional table comprised of rows and columns of cells containing
      * data.
      *
@@ -1248,8 +1247,8 @@ class HtmlTag
     /**
      * HTML Tag <tbody>
      *
-     * Encapsulates a set of table rows (tr elements), indicating that they
-     * comprise the body of the table (table).
+     * Encapsulates a set of table rows (<tr> elements), indicating that they
+     * comprise the body of the <table>.
      *
      * Category: Table content
      *
@@ -1438,7 +1437,7 @@ class HtmlTag
     /**
      * HTML Tag <optgroup>
      *
-     * Creates a grouping of options within a select element.
+     * Creates a grouping of options within a <select> element.
      *
      * Category: Forms
      *
@@ -1451,8 +1450,8 @@ class HtmlTag
     /**
      * HTML Tag <option>
      *
-     * Used to define an item contained in a select, an optgroup, or a datalist
-     * element.
+     * Used to define an item contained in a <select>, an <optgroup>, or a
+     * <datalist> element.
      *
      * Category: Forms
      *
@@ -1548,7 +1547,7 @@ class HtmlTag
     /**
      * HTML Tag <summary>
      *
-     * Specifies a summary, caption, or legend for a details element's
+     * Specifies a summary, caption, or legend for a <details> element's
      * disclosure box.
      *
      * Category: Interactive elements
@@ -1562,9 +1561,9 @@ class HtmlTag
     /**
      * HTML Tag <slot>
      *
-     * The <slot> HTML element—part of the Web Components technology
-     * suite—is a placeholder inside a web component that you can fill with
-     * your own markup.
+     * The <slot> HTML element - part of the Web Components technology suite -
+     * is a placeholder inside a web component that you can fill with your own
+     * markup.
      *
      * Category: Web Components
      *
@@ -1754,7 +1753,7 @@ class HtmlTag
     /**
      * HTML Tag <frameset>
      *
-     * Used to contain frame elements.
+     * Used to contain <frame> elements.
      *
      * Category: Obsolete elements
      *
@@ -1782,7 +1781,7 @@ class HtmlTag
     /**
      * HTML Tag <image>
      *
-     * Ancient and poorly supported precursor to the img element.
+     * Ancient and poorly supported precursor to the <img> element.
      *
      * Category: Obsolete elements
      *
@@ -1856,8 +1855,8 @@ class HtmlTag
      * HTML Tag <noembed>
      *
      * Non-standard way to provide alternative, or "fallback", content for
-     * browsers that do not support the embed element or do not support the type
-     * of embedded content an author wishes to use.
+     * browsers that do not support the <embed> element or do not support the
+     * type of embedded content an author wishes to use.
      *
      * Category: Obsolete elements
      *
@@ -1872,7 +1871,7 @@ class HtmlTag
      * HTML Tag <noframes>
      *
      * Provides content to be presented in browsers that don't support (or have
-     * disabled support for) the frame element.
+     * disabled support for) the <frame> element.
      *
      * Category: Obsolete elements
      *
@@ -1916,8 +1915,8 @@ class HtmlTag
     /**
      * HTML Tag <rtc>
      *
-     * Embraces semantic annotations of characters presented in a ruby of rb
-     * elements used inside of ruby element.
+     * Embraces semantic annotations of characters presented in a ruby of <rb>
+     * elements used inside <ruby> element.
      *
      * Category: Obsolete elements
      *
