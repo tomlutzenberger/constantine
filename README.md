@@ -32,7 +32,7 @@ Why should I use it?
 
 What can I expect?
 ------------------
-A growing amount of useful constants to use in your application. Right now CONSTANTINE contains **>13.4k** constants.
+A growing amount of useful constants to use in your application. Right now CONSTANTINE contains **>13.9k** constants.
 
 Requirements
 ------------
